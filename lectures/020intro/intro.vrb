@@ -1,0 +1,85 @@
+\frametitle{ Online resources }
+
+\bi\scriptsize
+\li \url{https://www.r-project.org/}
+\dotfill{\bf R home}
+\li
+{\bf Books}
+\bi\tiny
+\li
+\url{https://rbasics.netlify.app/index.html}
+\dotfill
+Getting Used to R, RStudio, and R Markdown
+
+\li
+\url{https://alexd106.github.io/intro2R/index.html}
+\dotfill
+An Introduction to R
+
+\li
+\url{https://moderndive.netlify.app/index.html}
+\dotfill
+A ModernDive into R and the Tidyverse
+
+\li
+\url{https://rstudio-education.github.io/hopr/}
+\dotfill
+Hands-On Programming with R
+
+\li
+\url{https://datasciencebook.ca/}
+\dotfill
+Data Science: a First Introduction
+
+\li
+\url{https://r4ds.had.co.nz/}
+\dotfill
+R for Data Science
+
+\li
+\url{https://ggplot2-book.org/}
+\dotfill
+ggplot2: Elegant Graphics for Data Analysis
+
+\li
+\url{https://clauswilke.com/dataviz/}
+\dotfill
+Fundamentals of Data Visualization
+
+
+\li
+\url{https://bookdown.org/yihui/rmarkdown/}
+\dotfill
+Rmarkdown: the Definitive Guide
+
+\ei
+
+\li
+ {\bf Other}
+
+\bi\tiny
+\li
+\url{https://www.w3schools.com/r/default.asp}
+R tutorial
+
+\li
+\url{https://education.rstudio.com/learn/beginner/}
+\dotfill
+R Studio Education Links
+\li
+\url{https://posit.cloud/learn/primers}
+\dotfill
+Online primers
+
+\li
+\url{https://rladiessydney.org/}
+\dotfill
+Video tutorials
+
+\li
+\url{https://rmarkdown.rstudio.com/}
+\dotfill
+Rmarkdown videos
+
+\ei
+\ei
