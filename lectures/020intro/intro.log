@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  18 APR 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  19 APR 2023 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,8 +963,7 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-)
-No file intro.aux.
+) (intro.aux)
 \openout1 = `intro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -985,6 +984,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1046,6 +1046,7 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 72.
+ (intro.out) (intro.out)
 \@outlinefile=\write7
 \openout7 = `intro.out'.
 
@@ -1127,15 +1128,14 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
-
-No file intro.nav.
-[1
+ (intro.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 \openout4 = `intro.vrb'.
 
  (intro.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1175,20 +1175,14 @@ thkerncmss.
 \openout10 = `intro.snm'.
 
  (intro.aux)
-
-Package rerunfilecheck Warning: File `intro.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `intro.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `intro.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29023 strings out of 476406
- 592875 string characters out of 2789566
+ 29042 strings out of 476406
+ 593262 string characters out of 2789566
  1869787 words of memory out of 3000000
- 48815 multiletter control sequences out of 15000+600000
+ 48826 multiletter control sequences out of 15000+600000
  521904 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,431b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1203,7 +1197,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
 ers/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pf
 b>
-Output written on intro.pdf (3 pages, 120661 bytes).
+Output written on intro.pdf (3 pages, 120479 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
