@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  19 APR 2023 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  19 APR 2023 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./intro.tex
-(intro.tex
+**./aboutme.tex
+(aboutme.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -772,218 +772,172 @@ default.sty
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
 default.sty)))
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeSinga
-pore.sty
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeCopen
+hagen.sty
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-miniframes.sty))
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
-ty
-Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count334
-\cp@tempcnt=\count335
-) (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+split.sty)
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty))
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/qtree\qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box76
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pIIe@GRAPH=\toks45
+\@arclen=\dimen294
+\@arcrad=\dimen295
+\pIIe@tempdima=\dimen296
+\pIIe@tempdimb=\dimen297
+\pIIe@tempdimc=\dimen298
+\pIIe@tempdimd=\dimen299
+\pIIe@tempdime=\dimen300
+\pIIe@tempdimf=\dimen301
 )
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
-)
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
-))
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count336
-\pgfplotmarksize=\dimen298
-)
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikz@lastmovetox=\dimen303
-\tikz@lastmovetoy=\dimen304
-\tikzleveldistance=\dimen305
-\tikzsiblingdistance=\dimen306
-\tikz@figbox=\box77
-\tikz@figbox@bg=\box78
-\tikz@tempbox=\box79
-\tikz@tempbox@bg=\box80
-\tikztreelevel=\count337
-\tikznumberofchildren=\count338
-\tikznumberofcurrentchild=\count339
-\tikz@fig@count=\count340
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count341
-\pgfmatrixcurrentcolumn=\count342
-\pgf@matrix@numberofcolumns=\count343
-)
-\tikz@expandcount=\count344
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count345
-\FV@InFile=\read3
-\FV@TabBox=\box81
-\c@FancyVerbLine=\count346
-\FV@StepNumber=\count347
-\FV@OutFile=\write5
-)
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fancybox.sty
-Package: fancybox 2010/05/15 1.4
-
-Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box82
-\shadowsize=\dimen307
-\@Sbox=\box83
-\do@VerbBox=\toks47
-\the@fancyput=\toks48
-\this@fancyput=\toks49
-\EndVerbatimTokens=\toks50
-\Verbatim@Outfile=\write6
-\Verbatim@Infile=\read4
-)
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
-Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks51
-\verbatim@line=\toks52
-\verbatim@in@stream=\read5
-)
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
-ty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box84
-\tcb@upperbox=\box85
-\tcb@lowerbox=\box86
-\tcb@phantombox=\box87
-\c@tcbbreakpart=\count348
-\c@tcblayer=\count349
-\c@tcolorbox@number=\count350
-\tcb@temp=\box88
-\tcb@temp=\box89
-\tcb@temp=\box90
-\tcb@temp=\box91
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.c
-ode.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count351
-\lst@gtempboxa=\box92
-\lst@token=\toks53
-\lst@length=\count352
-\lst@currlwidth=\dimen308
-\lst@column=\count353
-\lst@pos=\count354
-\lst@lostspace=\dimen309
-\lst@width=\dimen310
-\lst@newlines=\count355
-\lst@lineno=\count356
-\lst@maxwidth=\dimen311
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
-\lst@framebox=\box93
-)
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsco
-re.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing
-.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-))
-\c@tcblisting=\count359
-))) (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.s
-ty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
+\c@treecount=\count334
+\c@branchcount=\count335
+\parentbox=\box76
+\treebox=\box77
+\treeboxone=\box78
+\treeboxtwo=\box79
+\treeboxthree=\box80
+\treeboxfour=\box81
+\treeboxfive=\box82
+\treeboxsix=\box83
+\treeboxseven=\box84
+\treeboxeight=\box85
+\treeboxnine=\box86
+\treeboxten=\box87
+\treeboxeleven=\box88
+\treeboxtwelve=\box89
+\treeboxthirteen=\box90
+\treeboxfourteen=\box91
+\treeboxfifteen=\box92
+\treeboxsixteen=\box93
+\treeboxseventeen=\box94
+\treeboxeighteen=\box95
+\treeboxnineteen=\box96
+\treeboxtwenty=\box97
+\treeoffsetone=\skip65
+\treeoffsettwo=\skip66
+\treeoffsetthree=\skip67
+\treeoffsetfour=\skip68
+\treeoffsetfive=\skip69
+\treeoffsetsix=\skip70
+\treeoffsetseven=\skip71
+\treeoffseteight=\skip72
+\treeoffsetnine=\skip73
+\treeoffsetten=\skip74
+\treeoffseteleven=\skip75
+\treeoffsettwelve=\skip76
+\treeoffsetthirteen=\skip77
+\treeoffsetfourteen=\skip78
+\treeoffsetfifteen=\skip79
+\treeoffsetsixteen=\skip80
+\treeoffsetseventeen=\skip81
+\treeoffseteighteen=\skip82
+\treeoffsetnineteen=\skip83
+\treeoffsettwenty=\skip84
+\treeshiftone=\skip85
+\treeshifttwo=\skip86
+\treeshiftthree=\skip87
+\treeshiftfour=\skip88
+\treeshiftfive=\skip89
+\treeshiftsix=\skip90
+\treeshiftseven=\skip91
+\treeshifteight=\skip92
+\treeshiftnine=\skip93
+\treeshiftten=\skip94
+\treeshifteleven=\skip95
+\treeshifttwelve=\skip96
+\treeshiftthirteen=\skip97
+\treeshiftfourteen=\skip98
+\treeshiftfifteen=\skip99
+\treeshiftsixteen=\skip100
+\treeshiftseventeen=\skip101
+\treeshifteighteen=\skip102
+\treeshiftnineteen=\skip103
+\treeshifttwenty=\skip104
+\treewidthone=\skip105
+\treewidthtwo=\skip106
+\treewidththree=\skip107
+\treewidthfour=\skip108
+\treewidthfive=\skip109
+\treewidthsix=\skip110
+\treewidthseven=\skip111
+\treewidtheight=\skip112
+\treewidthnine=\skip113
+\treewidthten=\skip114
+\treewidtheleven=\skip115
+\treewidthtwelve=\skip116
+\treewidththirteen=\skip117
+\treewidthfourteen=\skip118
+\treewidthfifteen=\skip119
+\treewidthsixteen=\skip120
+\treewidthseventeen=\skip121
+\treewidtheighteen=\skip122
+\treewidthnineteen=\skip123
+\treewidthtwenty=\skip124
+\daughteroffsetone=\skip125
+\daughteroffsettwo=\skip126
+\daughteroffsetthree=\skip127
+\daughteroffsetfour=\skip128
+\branchwidthone=\skip129
+\branchwidthtwo=\skip130
+\branchwidththree=\skip131
+\branchwidthfour=\skip132
+\parentoffset=\skip133
+\treeoffset=\skip134
+\daughteroffset=\skip135
+\branchwidth=\skip136
+\parentwidth=\skip137
+\treewidth=\skip138
+\qta=\toks46
+\qtb=\toks47
+\nbranches=\count336
+\qroofx=\count337
+\qroofy=\count338
+\@qrscratchbox=\box98
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
-\l__pdf_internal_box=\box94
-) (intro.aux)
-\openout1 = `intro.aux'.
+\l__color_backend_stack_int=\count339
+\l__pdf_internal_box=\box99
+) (aboutme.aux)
+\openout1 = `aboutme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -993,14 +947,14 @@ LaTeX Font Info:    ... okay on input line 72.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(9.03374pt, 346.12788pt, 9.03374pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=346.12788pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-63.23625pt
+* \evensidemargin=-63.23625pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1023,17 +977,17 @@ LaTeX Font Info:    ... okay on input line 72.
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen312
-\scratchbox=\box95
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen313
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count340
+\scratchdimen=\dimen302
+\scratchbox=\box100
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen303
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks49
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1045,63 +999,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 72.
- (intro.out) (intro.out)
-\@outlinefile=\write7
-\openout7 = `intro.out'.
+Package hyperref Info: Link coloring OFF on input line 10.
+ (aboutme.out) (aboutme.out)
+\@outlinefile=\write5
+\openout5 = `aboutme.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
-\symnumbers=\mathgroup7
-\sympureletters=\mathgroup8
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 72.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 10.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 72.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 10.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 72.
+ut line 10.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1126,96 +1080,111 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-\c@lstlisting=\count367
- (intro.nav) [1
+) (aboutme.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `intro.vrb'.
+<santabarbara.jpg, id=45, 1430.34375pt x 551.05875pt>
+File: santabarbara.jpg Graphic file (type jpg)
+<use santabarbara.jpg>
+Package pdftex.def Info: santabarbara.jpg  used on input line 18.
+(pdftex.def)             Requested size: 346.12788pt x 133.3499pt.
+ [2
 
- (intro.vrb
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ <./santabarbara.jpg>]
+<arrowoftime.jpg, id=72, 963.6pt x 509.905pt>
+File: arrowoftime.jpg Graphic file (type jpg)
+<use arrowoftime.jpg>
+Package pdftex.def Info: arrowoftime.jpg  used on input line 23.
+(pdftex.def)             Requested size: 346.12788pt x 183.15329pt.
+ [3
 
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ <./arrowoftime.jpg>]
+<f15.jpg, id=99, 963.6pt x 542.025pt>
+File: f15.jpg Graphic file (type jpg)
+<use f15.jpg>
+Package pdftex.def Info: f15.jpg  used on input line 28.
+(pdftex.def)             Requested size: 346.12788pt x 194.6905pt.
+ [4
 
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+ <./f15.jpg>]
+<wwu.jpg, id=126, 2055.68pt x 752.8125pt>
+File: wwu.jpg Graphic file (type jpg)
+<use wwu.jpg>
+Package pdftex.def Info: wwu.jpg  used on input line 33.
+(pdftex.def)             Requested size: 346.12788pt x 126.74731pt.
+ [5
 
+ <./wwu.jpg>]
+<rumba.png, id=153, 1292.83pt x 899.36pt>
+File: rumba.png Graphic file (type png)
+<use rumba.png>
+Package pdftex.def Info: rumba.png  used on input line 39.
+(pdftex.def)             Requested size: 346.12788pt x 240.7857pt.
 
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 3.
+Overfull \vbox (12.71512pt too high) detected at line 39
+ []
 
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
-erncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)) [2
+[6
+
+ <./rumba.png>]
+<virginia.png, id=180, 549.55313pt x 308.65312pt>
+File: virginia.png Graphic file (type png)
+<use virginia.png>
+Package pdftex.def Info: virginia.png  used on input line 45.
+(pdftex.def)             Requested size: 346.12788pt x 194.4054pt.
+ [7
+
+ <./virginia.png>]
+<morelia.jpg, id=210, 642.4pt x 303.1325pt>
+File: morelia.jpg Graphic file (type jpg)
+<use morelia.jpg>
+Package pdftex.def Info: morelia.jpg  used on input line 51.
+(pdftex.def)             Requested size: 346.12788pt x 163.33295pt.
+ [8
+
+ <./morelia.jpg>]
+<cats.jpg, id=237, 1541.76pt x 2055.68pt>
+File: cats.jpg Graphic file (type jpg)
+<use cats.jpg>
+Package pdftex.def Info: cats.jpg  used on input line 58.
+(pdftex.def)             Requested size: 194.60155pt x 259.48pt.
+
+Overfull \vbox (39.40941pt too high) detected at line 58
+ []
+
+[9
+
+ <./cats.jpg>] [10
 
 ]
-\openout4 = `intro.vrb'.
+\tf@nav=\write6
+\openout6 = `aboutme.nav'.
 
- (intro.vrb) [3
+\tf@toc=\write7
+\openout7 = `aboutme.toc'.
 
-]
-\openout4 = `intro.vrb'.
+\tf@snm=\write8
+\openout8 = `aboutme.snm'.
 
- (intro.vrb
-<rstudioworkbenchconnect.png, id=116, 108.1641pt x 46.0119pt>
-File: rstudioworkbenchconnect.png Graphic file (type png)
-<use rstudioworkbenchconnect.png>
-Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 3.
-(pdftex.def)             Requested size: 216.32764pt x 92.02356pt.
-) [4
-
- <./rstudioworkbenchconnect.png>]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [5
-
-]
-\tf@nav=\write8
-\openout8 = `intro.nav'.
-
-\tf@toc=\write9
-\openout9 = `intro.toc'.
-
-\tf@snm=\write10
-\openout10 = `intro.snm'.
-
- (intro.aux)
-Package rerunfilecheck Info: File `intro.out' has not changed.
+ (aboutme.aux)
+Package rerunfilecheck Info: File `aboutme.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29063 strings out of 476406
- 593791 string characters out of 2789566
- 1869787 words of memory out of 3000000
- 48838 multiletter control sequences out of 15000+600000
- 521904 words of font info for 70 fonts, out of 8000000 for 9000
+ 22192 strings out of 476406
+ 438494 string characters out of 2789566
+ 1859787 words of memory out of 3000000
+ 42076 multiletter control sequences out of 15000+600000
+ 514099 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,431b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,122p,434b,562s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
-ers/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pf
-b>
-Output written on intro.pdf (5 pages, 145188 bytes).
+ublic/amsfonts/cm/cmss8.pfb>
+Output written on aboutme.pdf (10 pages, 3292263 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
