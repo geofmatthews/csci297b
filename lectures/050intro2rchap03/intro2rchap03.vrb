@@ -1,0 +1,20 @@
+\frametitle{ Merging data frames }
+\bi
+\li Can use multiple columns
+\ei
+\lsting{\tiny}
+taxa_zone <- merge(x = taxa, y = zone,
+                   by.x = c("species", "GENUS"),
+                   by.y = c("species", "genus"),
+                   all = TRUE)
+taxa_zone
+##      species        GENUS           family    zone
+## 1 balanoides  Semibalanus Archaeobalanidae    high
+## 2   digitata    Laminaria             <NA>   v_low
+## 3   littoria    Littorina     Littorinidae low_mid
+## 4    panacea Halichondria  Halichondriidae     low
+## 5  parietina    Xanthoria             <NA>  v_high
+## 6   serratus        Fucus             <NA> low_mid
+## 7    vulgata      Patella       patellidae    <NA>
+\end{lstlisting}
+
