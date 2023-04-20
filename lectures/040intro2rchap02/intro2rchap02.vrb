@@ -1,0 +1,15 @@
+\frametitle{ Saving objects }
+\bi
+\li Occasionally you want to save an object rather than recompute it.
+\li Some objects may take minutes or hours to compute.
+\ei
+\lsting{\scriptsize}
+## save a single object to a file
+save(nameOfObject, file = "name_of_file.RData")
+
+## save all the objects in your workspace in a single file
+save.image(file = "name_of_file.RData")
+
+## reload whatever you saved
+load(file = "name_of_file.RData")
+\end{lstlisting}

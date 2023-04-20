@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  20 APR 2023 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  20 APR 2023 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./intro.tex
-(intro.tex
+**./intro2rchap02.tex
+(intro2rchap02.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -787,6 +787,28 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/dirtree\dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex
+`dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen294
+\DT@width=\dimen295
+\DT@sep=\dimen296
+\DT@all=\dimen297
+\DT@rulewidth=\dimen298
+\DT@dotwidth=\dimen299
+\DTbaselineskip=\dimen300
+\DT@counti=\count336
+\DT@countii=\count337
+\DT@countiii=\count338
+\DT@countiv=\count339
+\DT@indent=\dimen301
+\DT@parskip=\dimen302
+\DT@baselineskip=\dimen303
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
+)
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
 sty
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -804,8 +826,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen304
+\pgf@nodesepend=\dimen305
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -819,8 +841,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
+\pgffor@iter=\dimen306
+\pgffor@skip=\dimen307
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
@@ -831,34 +853,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count336
-\pgfplotmarksize=\dimen298
+\pgf@plot@mark@count=\count340
+\pgfplotmarksize=\dimen308
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikz@lastmovetox=\dimen303
-\tikz@lastmovetoy=\dimen304
-\tikzleveldistance=\dimen305
-\tikzsiblingdistance=\dimen306
+\tikz@lastx=\dimen309
+\tikz@lasty=\dimen310
+\tikz@lastxsaved=\dimen311
+\tikz@lastysaved=\dimen312
+\tikz@lastmovetox=\dimen313
+\tikz@lastmovetoy=\dimen314
+\tikzleveldistance=\dimen315
+\tikzsiblingdistance=\dimen316
 \tikz@figbox=\box77
 \tikz@figbox@bg=\box78
 \tikz@tempbox=\box79
 \tikz@tempbox@bg=\box80
-\tikztreelevel=\count337
-\tikznumberofchildren=\count338
-\tikznumberofcurrentchild=\count339
-\tikz@fig@count=\count340
+\tikztreelevel=\count341
+\tikznumberofchildren=\count342
+\tikznumberofcurrentchild=\count343
+\tikz@fig@count=\count344
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count341
-\pgfmatrixcurrentcolumn=\count342
-\pgf@matrix@numberofcolumns=\count343
+\pgfmatrixcurrentrow=\count345
+\pgfmatrixcurrentcolumn=\count346
+\pgf@matrix@numberofcolumns=\count347
 )
-\tikz@expandcount=\count344
+\tikz@expandcount=\count348
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -866,11 +888,11 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count345
+\FV@CodeLineNo=\count349
 \FV@InFile=\read3
 \FV@TabBox=\box81
-\c@FancyVerbLine=\count346
-\FV@StepNumber=\count347
+\c@FancyVerbLine=\count350
+\FV@StepNumber=\count351
 \FV@OutFile=\write5
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fancybox.sty
@@ -878,7 +900,7 @@ Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box82
-\shadowsize=\dimen307
+\shadowsize=\dimen317
 \@Sbox=\box83
 \do@VerbBox=\toks47
 \the@fancyput=\toks48
@@ -906,9 +928,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box85
 \tcb@lowerbox=\box86
 \tcb@phantombox=\box87
-\c@tcbbreakpart=\count348
-\c@tcblayer=\count349
-\c@tcolorbox@number=\count350
+\c@tcbbreakpart=\count352
+\c@tcblayer=\count353
+\c@tcolorbox@number=\count354
 \tcb@temp=\box88
 \tcb@temp=\box89
 \tcb@temp=\box90
@@ -918,23 +940,23 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ode.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count351
+\lst@mode=\count355
 \lst@gtempboxa=\box92
 \lst@token=\toks53
-\lst@length=\count352
-\lst@currlwidth=\dimen308
-\lst@column=\count353
-\lst@pos=\count354
-\lst@lostspace=\dimen309
-\lst@width=\dimen310
-\lst@newlines=\count355
-\lst@lineno=\count356
-\lst@maxwidth=\dimen311
+\lst@length=\count356
+\lst@currlwidth=\dimen318
+\lst@column=\count357
+\lst@pos=\count358
+\lst@lostspace=\dimen319
+\lst@width=\dimen320
+\lst@newlines=\count359
+\lst@lineno=\count360
+\lst@maxwidth=\dimen321
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
 \lst@framebox=\box93
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -953,37 +975,214 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count359
+\c@tcblisting=\count363
 ))) (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.s
 ty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\%' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\#' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\&' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textunderscore' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\_' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\~' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textasciitilde' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 77.
+
+
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
+\l__color_backend_stack_int=\count364
 \l__pdf_internal_box=\box94
-) (intro.aux)
-\openout1 = `intro.aux'.
+) (intro2rchap02.aux)
+\openout1 = `intro2rchap02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1023,16 +1222,16 @@ LaTeX Font Info:    ... okay on input line 72.
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen312
+\scratchcounter=\count365
+\scratchdimen=\dimen322
 \scratchbox=\box95
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\nofMPsegments=\count366
+\nofMParguments=\count367
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen313
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen323
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
 \everyMPtoPDFconversion=\toks55
 )
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1045,63 +1244,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 72.
- (intro.out) (intro.out)
+Package hyperref Info: Link coloring OFF on input line 77.
+ (intro2rchap02.out) (intro2rchap02.out)
 \@outlinefile=\write7
-\openout7 = `intro.out'.
+\openout7 = `intro2rchap02.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 72.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 72.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 77.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 77.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 72.
+ut line 77.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1127,95 +1326,254 @@ Dictionary: translator-numbers-dictionary, Language: English
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count367
- (intro.nav) [1
+\c@lstlisting=\count371
+ (intro2rchap02.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
 
-{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `intro.vrb'.
-
- (intro.vrb
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
-
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 81
+.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 3.
+ut line 81.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)) [2
+) [1
+
+{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [2
 
 ]
-\openout4 = `intro.vrb'.
+\openout4 = `intro2rchap02.vrb'.
 
- (intro.vrb) [3
+ (intro2rchap02.vrb) [3
 
 ]
-\openout4 = `intro.vrb'.
+\openout4 = `intro2rchap02.vrb'.
 
- (intro.vrb
-<rstudioworkbenchconnect.png, id=118, 108.1641pt x 46.0119pt>
-File: rstudioworkbenchconnect.png Graphic file (type png)
-<use rstudioworkbenchconnect.png>
-Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 3.
-(pdftex.def)             Requested size: 216.32764pt x 92.02356pt.
-) [4
+ (intro2rchap02.vrb) [4
 
- <./rstudioworkbenchconnect.png>]
-\openout4 = `intro.vrb'.
+]
+\openout4 = `intro2rchap02.vrb'.
 
- (intro.vrb) [5
+
+(intro2rchap02.vrb
+<rs_env.png, id=124, 863.225pt x 237.88875pt>
+File: rs_env.png Graphic file (type png)
+<use rs_env.png>
+Package pdftex.def Info: rs_env.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 84.68158pt.
+) [5
+
+ <./rs_env.png>]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [6
+
+]
+(intro2rchap02.vrb) [7
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb
+LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
+4.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 4.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 4.
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+4.
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+))
+[8
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [9
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [10
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb)
+[11
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [12
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [13
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb)
+[14
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [15
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb
+Overfull \hbox (8.88795pt too wide) in paragraph at lines 12--12
+[]\OT1/cmtt/m/n/10.95 my_vec        # remind ourselves what my_vec looks like[]
+  
+ []
+
+) [16
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [17
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [18
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb)
+[19
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [20
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [21
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb)
+[22
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [23
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [24
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb)
+[25
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [26
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [27
+
+]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb
+<globaloptions.png, id=718, 169.8345pt x 178.9887pt>
+File: globaloptions.png Graphic file (type png)
+<use globaloptions.png>
+Package pdftex.def Info: globaloptions.png  used on input line 14.
+(pdftex.def)             Requested size: 153.64493pt x 161.9295pt.
+)
+[28
+
+ <./globaloptions.png>]
+\openout4 = `intro2rchap02.vrb'.
+
+ (intro2rchap02.vrb) [29
 
 ]
 \tf@nav=\write8
-\openout8 = `intro.nav'.
+\openout8 = `intro2rchap02.nav'.
 
 \tf@toc=\write9
-\openout9 = `intro.toc'.
+\openout9 = `intro2rchap02.toc'.
 
 \tf@snm=\write10
-\openout10 = `intro.snm'.
+\openout10 = `intro2rchap02.snm'.
 
- (intro.aux)
-Package rerunfilecheck Info: File `intro.out' has not changed.
+ (intro2rchap02.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `intro2rchap02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29065 strings out of 476406
- 593807 string characters out of 2789566
- 1870787 words of memory out of 3000000
- 48840 multiletter control sequences out of 15000+600000
- 521904 words of font info for 70 fonts, out of 8000000 for 9000
+ 29781 strings out of 476406
+ 603449 string characters out of 2789566
+ 2279787 words of memory out of 3000000
+ 49446 multiletter control sequences out of 15000+600000
+ 525151 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,431b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
-ers/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pf
-b>
-Output written on intro.pdf (5 pages, 145447 bytes).
+ 128i,15n,122p,451b,1414s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
+0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcss1000.pk><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/th
+atm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmtt12.pfb>
+Output written on intro2rchap02.pdf (29 pages, 364364 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 829 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
