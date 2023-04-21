@@ -7,7 +7,7 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{fancyvrb}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{fancybox}
 \usepackage[listings]{tcolorbox}
 
@@ -71,7 +71,7 @@
 \newcommand{\colc}{\end{column}\end{columns}}
 
 
-\title{\url{https://intro2r.com/} Chapter 3}
+\title{{https://intro2r.com/} Chapter 3}
 \author{CSCI 297b, Spring 2023}
 
 \begin{document}
@@ -654,6 +654,8 @@ all_data <- read_tsv(file = 'data/flower.txt')
 
 \end{frame}
 
+\bfr{Do exercise 3, part 1}
+\end{frame}
 
 \bfr{Wrangling data frames}
 \lsting{\tiny}
@@ -1308,7 +1310,593 @@ taxa_zone
 
 \end{frame}
 
+\bfr{Reshaping data frames}
+\lsting{\scriptsize}
+long_data <- data.frame(
+ subject = rep(c("A", "B", "C", "D"), each = 3),
+ sex = rep(c("M", "F", "F", "M"), each =3),
+ condition = rep(c("control", "cond1", "cond2"), times = 4),
+ measurement = c(12.9, 14.2, 8.7, 5.2, 12.6, 10.1, 8.9,
+                             12.1, 14.2, 10.5, 12.9, 11.9))
+long_data
+##    subject sex condition measurement
+## 1        A   M   control        12.9
+## 2        A   M     cond1        14.2
+## 3        A   M     cond2         8.7
+## 4        B   F   control         5.2
+## 5        B   F     cond1        12.6
+## 6        B   F     cond2        10.1
+## 7        C   F   control         8.9
+## 8        C   F     cond1        12.1
+## 9        C   F     cond2        14.2
+## 10       D   M   control        10.5
+## 11       D   M     cond1        12.9
+## 12       D   M     cond2        11.9
+\end{lstlisting}
+\end{frame}
 
+
+\bfr{Reshaping data frames}
+\lsting{\scriptsize}
+wide_data <- data.frame(subject = c("A", "B", "C", "D"),
+               sex = c("M", "F", "F", "M"),
+               control = c(12.9, 5.2, 8.9, 10.5),
+               cond1 = c(14.2, 12.6, 12.1, 12.9),
+               cond2 = c(8.7, 10.1, 14.2, 11.9))
+wide_data
+##   subject sex control cond1 cond2
+## 1       A   M    12.9  14.2   8.7
+## 2       B   F     5.2  12.6  10.1
+## 3       C   F     8.9  12.1  14.2
+## 4       D   M    10.5  12.9  11.9
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{Reshaping data frames}
+\lsting{\scriptsize}
+long_data
+##    subject sex condition measurement
+## 1        A   M   control        12.9
+## 2        A   M     cond1        14.2
+## 3        A   M     cond2         8.7
+## 4        B   F   control         5.2
+## 5        B   F     cond1        12.6
+## 6        B   F     cond2        10.1
+## 7        C   F   control         8.9
+## 8        C   F     cond1        12.1
+## 9        C   F     cond2        14.2
+## 10       D   M   control        10.5
+## 11       D   M     cond1        12.9
+## 12       D   M     cond2        11.9
+wide_data
+##   subject sex control cond1 cond2
+## 1       A   M    12.9  14.2   8.7
+## 2       B   F     5.2  12.6  10.1
+## 3       C   F     8.9  12.1  14.2
+## 4       D   M    10.5  12.9  11.9
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{Reshaping data frames}
+\bi
+\li Long data: each measurement on separate row.
+\li Wide data: each sample on separate row, multiple measurements per row.
+\ei
+\lsting{\tiny}
+long_data
+##    subject sex condition measurement
+## 1        A   M   control        12.9
+## 2        A   M     cond1        14.2
+## 3        A   M     cond2         8.7
+## 4        B   F   control         5.2
+## 5        B   F     cond1        12.6
+## 6        B   F     cond2        10.1
+## 7        C   F   control         8.9
+## 8        C   F     cond1        12.1
+## 9        C   F     cond2        14.2
+## 10       D   M   control        10.5
+## 11       D   M     cond1        12.9
+## 12       D   M     cond2        11.9
+wide_data
+##   subject sex control cond1 cond2
+## 1       A   M    12.9  14.2   8.7
+## 2       B   F     5.2  12.6  10.1
+## 3       C   F     8.9  12.1  14.2
+## 4       D   M    10.5  12.9  11.9
+\end{lstlisting}
+
+
+\end{frame}
+
+
+\bfr{{\tt melt}: convert from wide to long}
+
+\lsting{\tiny}
+library(reshape2)
+wide_data    # remind ourselves what the wide format looks like
+##   subject sex control cond1 cond2
+## 1       A   M    12.9  14.2   8.7
+## 2       B   F     5.2  12.6  10.1
+## 3       C   F     8.9  12.1  14.2
+## 4       D   M    10.5  12.9  11.9
+
+# convert wide to long
+my_long_df <- melt(data = wide_data, id.vars = c("subject", "sex"),
+                   measured.vars = c("control", "cond1", "cond2"),
+                   variable.name = "condition", value.name = "measurement")
+my_long_df
+##    subject sex condition measurement
+## 1        A   M   control        12.9
+## 2        B   F   control         5.2
+## 3        C   F   control         8.9
+## 4        D   M   control        10.5
+## 5        A   M     cond1        14.2
+## 6        B   F     cond1        12.6
+## 7        C   F     cond1        12.1
+## 8        D   M     cond1        12.9
+## 9        A   M     cond2         8.7
+## 10       B   F     cond2        10.1
+## 11       C   F     cond2        14.2
+## 12       D   M     cond2        11.9
+\end{lstlisting}
+
+
+\end{frame}
+
+\bfr{Formula notation}
+\bi
+\li Normally variables refer to the data.
+\lsting{\scriptsize}
+> x <- 1:5
+> y <- 11:15
+> x + y
+[1] 12 14 16 18 20
+\end{lstlisting}
+\li Occasionally you want to refer to the variables themselves.
+
+\lsting{\scriptsize}
+> ~ x + y
+~x + y
+> x ~ y
+x ~ y
+> x ~ y + z
+\end{lstlisting}
+\li These are used in R to express sets of variables,
+or relations between sets of variables.
+
+\ei
+\end{frame}
+
+\bfr{{\tt dcast}: convert from long to wide}
+
+\lsting{\tiny}
+long_data   # remind ourselves what the long format look like
+##    subject sex condition measurement
+## 1        A   M   control        12.9
+## 2        A   M     cond1        14.2
+## 3        A   M     cond2         8.7
+## 4        B   F   control         5.2
+## 5        B   F     cond1        12.6
+## 6        B   F     cond2        10.1
+## 7        C   F   control         8.9
+## 8        C   F     cond1        12.1
+## 9        C   F     cond2        14.2
+## 10       D   M   control        10.5
+## 11       D   M     cond1        12.9
+## 12       D   M     cond2        11.9
+
+# convert long to wide
+my_wide_df <- dcast(data = long_data, subject + sex ~ condition, 
+                    value.var = "measurement")
+my_wide_df
+##   subject sex cond1 cond2 control
+## 1       A   M  14.2   8.7    12.9
+## 2       B   F  12.6  10.1     5.2
+## 3       C   F  12.1  14.2     8.9
+## 4       D   M  12.9  11.9    10.5
+\end{lstlisting}
+
+
+\end{frame}
+
+\bfr{Do exercise 3, part 2}
+\end{frame}
+
+\bfr{Summarizing data frames}
+
+\lsting{\tiny}
+summary(flowers)
+##     treat             nitrogen      block         height           weight      
+##  Length:96          low   :32   Min.   :1.0   Min.   : 1.200   Min.   : 5.790  
+##  Class :character   medium:32   1st Qu.:1.0   1st Qu.: 4.475   1st Qu.: 9.027  
+##  Mode  :character   high  :32   Median :1.5   Median : 6.450   Median :11.395  
+##                                 Mean   :1.5   Mean   : 6.840   Mean   :12.155  
+##                                 3rd Qu.:2.0   3rd Qu.: 9.025   3rd Qu.:14.537  
+##                                 Max.   :2.0   Max.   :17.200   Max.   :23.890  
+##     leafarea       shootarea         flowers      
+##  Min.   : 5.80   Min.   :  5.80   Min.   : 1.000  
+##  1st Qu.:11.07   1st Qu.: 39.05   1st Qu.: 4.000  
+##  Median :13.45   Median : 70.05   Median : 6.000  
+##  Mean   :14.05   Mean   : 79.78   Mean   : 7.062  
+##  3rd Qu.:16.45   3rd Qu.:113.28   3rd Qu.: 9.000  
+##  Max.   :49.20   Max.   :189.60   Max.   :17.000
+\end{lstlisting}
+
+
+
+\end{frame}
+
+\bfr{Summarizing data frame subsets}
+
+\lsting{\tiny}
+summary(flowers[, 4:7])
+##      height           weight          leafarea       shootarea     
+##  Min.   : 1.200   Min.   : 5.790   Min.   : 5.80   Min.   :  5.80  
+##  1st Qu.: 4.475   1st Qu.: 9.027   1st Qu.:11.07   1st Qu.: 39.05  
+##  Median : 6.450   Median :11.395   Median :13.45   Median : 70.05  
+##  Mean   : 6.840   Mean   :12.155   Mean   :14.05   Mean   : 79.78  
+##  3rd Qu.: 9.025   3rd Qu.:14.537   3rd Qu.:16.45   3rd Qu.:113.28  
+##  Max.   :17.200   Max.   :23.890   Max.   :49.20   Max.   :189.60
+
+# or equivalently 
+# summary(flowers[, c("height", "weight", "leafarea", "shootarea")])
+\end{lstlisting}
+\end{frame}
+
+
+\bfr{Summarizing data frames subsets}
+
+\lsting{\tiny}
+summary(flowers$leafarea)
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##    5.80   11.07   13.45   14.05   16.45   49.20
+
+# or equivalently
+# summary(flowers[, 6])
+\end{lstlisting}
+
+\end{frame}
+
+
+\bfr{Summarizing data frames with {\tt table}}
+
+\lsting{\scriptsize}
+table(flowers$nitrogen)
+## 
+##    low medium   high 
+##     32     32     32
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{Summarizing data frames with 2d {\tt table}}
+
+\lsting{\scriptsize}
+table(flowers$nitrogen, flowers$treat)
+##         
+##          notip tip
+##   low       16  16
+##   medium    16  16
+##   high      16  16
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{ {\tt xtabs}: tables with formula notation}
+
+\lsting{\scriptsize}
+xtabs(~ nitrogen + treat, data = flowers)
+##         treat
+## nitrogen notip tip
+##   low       16  16
+##   medium    16  16
+##   high      16  16
+\end{lstlisting}
+\bi
+\li Don't need \$ notation
+\ei
+
+\end{frame}
+
+
+\bfr{Summarizing data frames}
+
+\lsting{\scriptsize}
+xtabs(~ nitrogen + treat + block, data = flowers)
+## , , block = 1
+## 
+##         treat
+## nitrogen notip tip
+##   low        8   8
+##   medium     8   8
+##   high       8   8
+## 
+## , , block = 2
+## 
+##         treat
+## nitrogen notip tip
+##   low        8   8
+##   medium     8   8
+##   high       8   8
+\end{lstlisting}
+\bi
+\li {\tt xtabs} automatically converted {\tt block} to a factor
+\ei
+
+\end{frame}
+\bfr{Flattening tables with {\tt ftable}}
+
+\lsting{\scriptsize}
+ftable(xtabs(~ nitrogen + treat + block, data = flowers))
+##                block 1 2
+## nitrogen treat          
+## low      notip       8 8
+##          tip         8 8
+## medium   notip       8 8
+##          tip         8 8
+## high     notip       8 8
+##          tip         8 8
+\end{lstlisting}
+
+
+\end{frame}
+
+
+\bfr{{\tt tapply}: table apply}
+\bi
+\li Separately collect rows for each value of a factor.
+\li Apply {\tt mean} to each value of a factor.
+\ei
+
+\lsting{\scriptsize}
+tapply(flowers$height, flowers$nitrogen, mean)
+##      low   medium     high 
+## 5.853125 7.012500 7.653125
+\end{lstlisting}
+
+
+\end{frame}
+
+\bfr{Apply {\tt sd} to each value of a factor}
+
+\lsting{\scriptsize}
+tapply(flowers$height, flowers$nitrogen, sd)
+##      low   medium     high 
+## 2.828425 3.005345 3.483323
+\end{lstlisting}
+
+
+\end{frame}
+
+\bfr{Apply {\tt summary} to each value of a factor}
+
+\lsting{\scriptsize}
+tapply(flowers$height, flowers$nitrogen, summary)
+## $low
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   1.800   3.600   5.550   5.853   8.000  12.300 
+## 
+## $medium
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   1.800   4.500   7.000   7.013   9.950  12.300 
+## 
+## $high
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   1.200   5.800   7.450   7.653   9.475  17.200
+\end{lstlisting}
+
+
+\end{frame}
+
+
+
+\bfr{Including {\tt na.rm} in each value}
+
+\lsting{\scriptsize}
+tapply(flowers$height, flowers$nitrogen, mean, na.rm = TRUE)
+##      low   medium     high 
+## 5.853125 7.012500 7.653125
+\end{lstlisting}
+\bi
+\li Note that {\tt mean} is the function that needs this information,
+but it is a parameter to {\tt tapply} that is automatically passed on.
+\ei
+
+\end{frame}
+
+\bfr{{\tt tapply} with multiple factors}
+\bi
+\li Make a different group for each combination of values
+of two factors
+\ei
+
+\lsting{\scriptsize}
+tapply(flowers$height,
+      list(flowers$nitrogen, flowers$treat), 
+      mean)
+##          notip    tip
+## low    3.66875 8.0375
+## medium 4.83750 9.1875
+## high   5.70625 9.6000
+\end{lstlisting}
+
+\end{frame}
+
+
+\bfr{When you get tired of writing {\tt flowers\$} all the time}
+
+
+\lsting{\scriptsize}
+with(flowers, tapply(height, list(nitrogen, treat), mean))
+##          notip    tip
+## low    3.66875 8.0375
+## medium 4.83750 9.1875
+## high   5.70625 9.6000
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{{\tt aggregate}: an alternative to {\tt tapply}}
+
+
+\lsting{\scriptsize}
+aggregate(flowers[, 4:7], 
+          by = list(nitrogen = flowers$nitrogen),
+          FUN = mean)
+##   nitrogen   height    weight leafarea shootarea
+## 1      low 5.853125  8.652812 11.14375   45.1000
+## 2   medium 7.012500 11.164062 13.83125   67.5625
+## 3     high 7.653125 16.646875 17.18125  126.6875
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{{\tt aggregate}: an alternative to {\tt tapply}}
+
+
+\lsting{\scriptsize}
+aggregate(flowers[, 4:7], 
+          by = list(nitrogen = flowers$nitrogen,
+                    treat = flowers$treat), 
+          FUN = mean)
+##   nitrogen treat  height    weight leafarea shootarea
+## 1      low notip 3.66875  8.289375 12.32500  59.89375
+## 2   medium notip 4.83750 11.316875 14.17500  94.53125
+## 3     high notip 5.70625 16.604375 18.81875 155.31875
+## 4      low   tip 8.03750  9.016250  9.96250  30.30625
+## 5   medium   tip 9.18750 11.011250 13.48750  40.59375
+## 6     high   tip 9.60000 16.689375 15.54375  98.05625
+\end{lstlisting}
+
+\end{frame}
+
+
+\bfr{{\tt aggregate} also accepts formula notation}
+
+\bi
+\li How does height depend on nitrogen and treat?
+\ei
+
+
+\lsting{\scriptsize}
+aggregate(height ~ nitrogen + treat, 
+          FUN = mean, 
+          data = flowers)
+##   nitrogen treat  height
+## 1      low notip 3.66875
+## 2   medium notip 4.83750
+## 3     high notip 5.70625
+## 4      low   tip 8.03750
+## 5   medium   tip 9.18750
+## 6     high   tip 9.60000
+\end{lstlisting}
+\bi
+\li Also allows {\tt data = flowers} to avoid {\tt flowers\$}
+\ei
+
+\end{frame}
+\bfr{{\tt aggregate} also accepts {\tt subset}}
+
+\lsting{\scriptsize}
+aggregate(height ~ nitrogen + treat, 
+          FUN = mean, 
+          subset = flowers < 7, 
+          data = flowers)
+##   nitrogen treat   height
+## 1      low notip 3.533333
+## 2   medium notip 5.316667
+## 3     high notip 3.850000
+## 4      low   tip 8.176923
+## 5   medium   tip 8.570000
+## 6     high   tip 7.900000
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{{\tt aggregate} also accepts {\tt subset}}
+
+\lsting{\scriptsize}
+aggregate(height ~ nitrogen + treat, 
+          FUN = mean, 
+          subset = block == "1", 
+          data = flowers)
+##   nitrogen treat  height
+## 1      low notip  3.3250
+## 2   medium notip  5.2375
+## 3     high notip  5.9250
+## 4      low   tip  8.7500
+## 5   medium   tip  9.5375
+## 6     high   tip 10.0375
+\end{lstlisting}
+
+\end{frame}
+
+\bfr{Change data only with scripts!}
+\bi
+\li Never edit a data file!
+\li All data changes, transforms, {\em etc.} should be in a script.
+\li This documents all changes.
+\li Allows undoing changes.
+\li Your analysis is now transparent and reproducible.
+\li Gone are the days of making undocumented changes in Excel!
+\li Data is {\bf read only}!
+\ei
+\end{frame}
+
+\bfr{But if you {\em really} want a new data file ...}
+\lsting{\scriptsize}
+write.table(flowers_df2, 
+            file = 'data/flowers_04_12.txt', 
+            col.names = TRUE,
+            row.names = FALSE, 
+            sep = "\t")
+            
+write.table(flowers_df2, 
+            file = 'data/flowers_04_12.csv', 
+            col.names = TRUE,
+            row.names = FALSE, 
+            sep = ",")
+            
+write.csv(flowers_df2, 
+          file = 'data/flowers_04_12.csv', 
+          row.names = FALSE)
+\end{lstlisting}
+\end{frame}
+
+
+\bfr{Other export functions: {\tt fwrite}}
+\bi
+\li {\tt fwrite} is faster for large data frames
+\ei
+\lsting{\scriptsize}
+library(read.table)
+fwrite(flowers_df2, 
+       file = 'data/flowers_04_12.txt', 
+       sep = "\t")
+
+fwrite(flowers_df2, 
+       file = 'data/flowers_04_12.csv')
+\end{lstlisting}
+\end{frame}
+
+
+
+\bfr{Other export functions from the {\tt tidyverse}}
+
+\lsting{\scriptsize}
+library(readr)
+write_tsv(flowers_df2, path = 'data/flowers_04_12.txt')
+
+write_csv(flowers_df2, path = 'data/flowers_04_12.csv')
+\end{lstlisting}
+\end{frame}
+
+
+
+\bfr{Do exercise 3, part 3}
+\end{frame}
 
 
 

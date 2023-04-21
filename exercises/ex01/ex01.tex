@@ -46,6 +46,10 @@
 \begin{enumerate}
 
 \item Log on to the RStudio Workbench Server. 
+
+\item Change your global options so that the {\tt .RData} save and restore is off.
+
+\item
 Create a new RStudio Project (select File\arrow New Project on the main menu). Create the Project in a new directory by selecting ‘New Directory’ and then select ‘New Project’. Give the Project and folder the name \verb|project_01_yourname| in the ‘Directory name:’ box and 
 choose where you would like to create this Project directory by clicking on the ‘Browse’ button.
 
@@ -86,15 +90,15 @@ It will look something like this:
  
 
 \item Next, let’s practice creating a variable and assigning a value to this variable. 
-Create a variable called \verb|first_num| and assign it the value 42. Click on the ‘Environment’ tab in the top right window to display the variable and value. Now create another variable called \lstinline{first_char} and assign it a value "my first character". Notice this variable is now also displayed in the ‘Environment’ along with it’s value and class (\lstinline{chr} - short for character class).
+Create a variable called \verb|first_num| and assign it the value 42. Click on the ‘Environment’ tab in the top right window to display the variable and value. Now create another variable called \verb|first_char| and assign it a value "my first character". Notice this variable is now also displayed in the ‘Environment’ along with it’s value and class (\verb|chr| - short for character class).
 
  
 
-\item Remove the variable \lstinline{first_num} from your environment using the \lstinline{rm()} function. Check out the ‘Environment’ tab to ensure the variable has been removed. Alternatively, use the \lstinline{ls()} function to list all objects in your environment.
+\item Remove the variable \verb|first_num| from your environment using the \verb|rm()| function. Check out the ‘Environment’ tab to ensure the variable has been removed. Alternatively, use the \verb|ls()| function to list all objects in your environment.
 
  
 
-\item Let’s see what happens if we assign another value to an existing variable. Assign the value "my second character" to the variable \lstinline{first_char} you created above. Notice the value has changed in the ‘Environment’. To display the value of \lstinline{first_char} enter the name of the variable in the console. Don’t to forget to save your R script periodically!
+\item Let’s see what happens if we assign another value to an existing variable. Assign the value "my second character" to the variable \verb|first_char| you created above. Notice the value has changed in the ‘Environment’. To display the value of \verb|first_char| enter the name of the variable in the console. Don’t to forget to save your R script periodically!
 
  
 
@@ -105,11 +109,11 @@ Create a variable called \verb|first_num| and assign it the value 42. Click on t
 
  
 
-\item OK, back to RStudio. Sometimes you may forget the exact name of a function you want to use so it would be useful to be able to search through all the function names. For example, you want to create a design plot but can only remember that the name of the function has the word ‘plot’ in it. Use the \lstinline{apropos()} function to list all the functions with the word plot in their name (see Section 2.5.1 of the Introduction to R book). Look through the list and once you have figured what the correct function is then bring up the help file for this function (Hint: the function name probably has the words ‘plot’ and ‘design’ in it!).
+\item OK, back to RStudio. Sometimes you may forget the exact name of a function you want to use so it would be useful to be able to search through all the function names. For example, you want to create a design plot but can only remember that the name of the function has the word ‘plot’ in it. Use the {\tt apropos()} function to list all the functions with the word plot in their name (see Section 2.5.1 of the Introduction to R book). Look through the list and once you have figured what the correct function is then bring up the help file for this function (Hint: the function name probably has the words ‘plot’ and ‘design’ in it!).
 
  
 
-\item Another strategy would be to use the \lstinline{help.search()} function to search through R’s help files. Search the R help system for instances of the character string ‘plot’. Take a look at Section 2.5.1 for more information. Also, see if you can figure out how to narrow your search by only searching for ‘plot’ in the nlme package (hint: see the help page for \lstinline{help.search()}).
+\item Another strategy would be to use the {\tt help.search()} function to search through R’s help files. Search the R help system for instances of the character string ‘plot’. Take a look at Section 2.5.1 for more information. Also, see if you can figure out how to narrow your search by only searching for ‘plot’ in the nlme package (hint: see the help page for {\tt help.search()}).
 
  
 
@@ -118,6 +122,8 @@ Create a variable called \verb|first_num| and assign it the value 42. Click on t
  
 
 \item Don’t to forget to save your R script. Close your Project by selecting File\arrow Close Project on the main menu.
+
+\item Remember to share your project with me!
 
 \end{enumerate}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  20 APR 2023 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  21 APR 2023 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,183 +980,6 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 ty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\%' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\#' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\&' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textunderscore' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\_' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\~' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textasciitilde' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 77.
-
-
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
@@ -1327,33 +1150,7 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count371
- (intro2rchap03.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
-
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
-
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 81
-.
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 81.
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
-erncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-) [1
+ (intro2rchap03.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 \openout4 = `intro2rchap03.vrb'.
@@ -1363,7 +1160,8 @@ thkerncmss.
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb
+
+(intro2rchap03.vrb
 LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
 3.
 LaTeX Font Info:    No file OMLcmss.fd. on input line 3.
@@ -1394,19 +1192,42 @@ File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 \openout4 = `intro2rchap03.vrb'.
 
  (intro2rchap03.vrb
-<scal_vec.png, id=149, 1130.2225pt x 1049.9225pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
+
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 5.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
+erncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<scal_vec.png, id=147, 1130.2225pt x 1049.9225pt>
 File: scal_vec.png Graphic file (type png)
 <use scal_vec.png>
 Package pdftex.def Info: scal_vec.png  used on input line 11.
 (pdftex.def)             Requested size: 122.91406pt x 114.17815pt.
-)
-[6
+) [6
 
  <./scal_vec.png>]
 \openout4 = `intro2rchap03.vrb'.
 
  (intro2rchap03.vrb
-<mat_array.png, id=178, 1890.06125pt x 1211.52625pt>
+<mat_array.png, id=176, 1890.06125pt x 1211.52625pt>
 File: mat_array.png Graphic file (type png)
 <use mat_array.png>
 Package pdftex.def Info: mat_array.png  used on input line 11.
@@ -1498,7 +1319,7 @@ Package pdftex.def Info: mat_array.png  used on input line 11.
 
 
 (intro2rchap03.vrb
-<libre_off.png, id=588, 935.495pt x 605.26125pt>
+<libre_off.png, id=586, 935.495pt x 605.26125pt>
 File: libre_off.png Graphic file (type png)
 <use libre_off.png>
 Package pdftex.def Info: libre_off.png  used on input line 13.
@@ -1560,16 +1381,16 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-Overfull \vbox (1.0265pt too high) detected at line 703
- []
-
-[32
+ (intro2rchap03.vrb) [32
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [33
+ (intro2rchap03.vrb)
+Overfull \vbox (1.0265pt too high) detected at line 705
+ []
+
+[33
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1579,13 +1400,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[35
+ (intro2rchap03.vrb) [35
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [36
+ (intro2rchap03.vrb)
+[36
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1595,13 +1416,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[38
+ (intro2rchap03.vrb) [38
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [39
+ (intro2rchap03.vrb)
+[39
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1611,13 +1432,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[41
+ (intro2rchap03.vrb) [41
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [42
+ (intro2rchap03.vrb)
+[42
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1627,13 +1448,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[44
+ (intro2rchap03.vrb) [44
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [45
+ (intro2rchap03.vrb)
+[45
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1643,13 +1464,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[47
+ (intro2rchap03.vrb) [47
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [48
+ (intro2rchap03.vrb)
+[48
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1659,13 +1480,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[50
+ (intro2rchap03.vrb) [50
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [51
+ (intro2rchap03.vrb)
+[51
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1675,13 +1496,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[53
+ (intro2rchap03.vrb) [53
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [54
+ (intro2rchap03.vrb)
+[54
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1691,13 +1512,13 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[56
+ (intro2rchap03.vrb) [56
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [57
+ (intro2rchap03.vrb)
+[57
 
 ]
 \openout4 = `intro2rchap03.vrb'.
@@ -1707,18 +1528,200 @@ Overfull \vbox (1.0265pt too high) detected at line 703
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb)
-[59
+ (intro2rchap03.vrb) [59
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
- (intro2rchap03.vrb) [60
+ (intro2rchap03.vrb)
+[60
 
 ]
 \openout4 = `intro2rchap03.vrb'.
 
  (intro2rchap03.vrb) [61
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [62
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[63
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [64
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [65
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[66
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [67
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [68
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[69
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [70
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [71
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[72
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [73
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [74
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[75
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [76
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [77
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[78
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [79
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [80
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[81
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [82
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [83
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+1739.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+[84
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [85
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [86
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[87
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [88
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [89
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[90
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [91
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [92
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb)
+[93
+
+]
+\openout4 = `intro2rchap03.vrb'.
+
+ (intro2rchap03.vrb) [94
 
 ]
 \tf@nav=\write8
@@ -1738,35 +1741,40 @@ Package rerunfilecheck Info: File `intro2rchap03.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30069 strings out of 476406
- 609335 string characters out of 2789566
+ 30304 strings out of 476406
+ 614609 string characters out of 2789566
  2922787 words of memory out of 3000000
- 49598 multiletter control sequences out of 15000+600000
- 527577 words of font info for 91 fonts, out of 8000000 for 9000
+ 49697 multiletter control sequences out of 15000+600000
+ 524759 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,439b,1526s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
-1440.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcss0600.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcss0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcss1000.pk><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/thatm/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/thatm/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/thatm/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/
-thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C
-:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
-bx10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/thatm/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on intro2rchap03.pdf (61 pages, 686055 bytes).
+ 128i,15n,122p,439b,1527s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
+1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tctt1440.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcss1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcss1440.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcss0600.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcss0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/thatm/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/thatm/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/thatm/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
+thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+s12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/thatm/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
+rs/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmtt12.pfb>
+Output written on intro2rchap03.pdf (94 pages, 910621 bytes).
 PDF statistics:
- 1679 PDF objects out of 1728 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
+ 2542 PDF objects out of 2984 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

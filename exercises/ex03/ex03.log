@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  19 APR 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  21 APR 2023 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -725,21 +725,21 @@ LaTeX Warning: No \author given.
 <xlsfile.png, id=34, 236.082pt x 166.4619pt>
 File: xlsfile.png Graphic file (type png)
 <use xlsfile.png>
-Package pdftex.def Info: xlsfile.png  used on input line 132.
+Package pdftex.def Info: xlsfile.png  used on input line 135.
 (pdftex.def)             Requested size: 310.04002pt x 218.62546pt.
  [2]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-77.
+80.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 177.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 180.
 
 [3 <./xlsfile.png>] [4]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-253.
+257.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -751,11 +751,11 @@ Package rerunfilecheck Info: File `ex03.out' has not changed.
 Here is how much of TeX's memory you used:
  22312 strings out of 476406
  411394 string characters out of 2789566
- 2033787 words of memory out of 3000000
+ 2057787 words of memory out of 3000000
  42267 multiletter control sequences out of 15000+600000
  519157 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,104p,1061b,2088s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,6n,104p,1038b,2097s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
 1200.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm0600.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -769,7 +769,7 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
 thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on ex03.pdf (6 pages, 162047 bytes).
+Output written on ex03.pdf (6 pages, 162839 bytes).
 PDF statistics:
  166 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)

@@ -46,6 +46,9 @@
 
 \begin{enumerate}
 
+\centerline{\bf Part 1}
+
+
 \item Log on to the RStudio Workbench Server. 
 In the same project as the previous exercise, open a new R script called 
 \verb|exercise_3|.
@@ -191,6 +194,7 @@ see a display like this:
 
 \item Also try \verb|summary(whale)| and explore what you get.
 
+\centerline{\bf Part 2}
 
 \item Summarising and manipulating dataframes is a key skill to acquire when learning R. Although there are many ways to do this, we will concentrate on using the square bracket [ ] notation which you used previously with vectors. The key thing to remember when using [ ] with dataframes is that dataframes have two dimensions (think rows and columns) so you always need to specify which rows and which columns you want inside the [ ] (see \S 3.4.1 for some additional background information and a few examples). Let's practice.
 
@@ -244,7 +248,7 @@ Use the \lst{subset()} function to extract all rows in ‘May’ with a time at 
  
 \item Now for something a little more complicated. Sort all rows in the whale dataframe by ascending order of depth within each level of water noise. The trick here is to remember that you can order by more than one variable when using the \lst{order()} function (see Section 3.4.3 again). Don’t forget to assign your sorted dataframe to a new variable with a sensible name. Repeat the previous ordering but this time order by descending order of depth within each level of water noise.
 
- 
+ \centerline{\bf Part 3}
 
 \item Often, we would like to summarise variables by, for example, calculating a mean, median or counting the number of observations. To do this for a single variable it’s fairly straight forward :
 

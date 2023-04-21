@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  19 APR 2023 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  21 APR 2023 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -586,7 +586,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (5.09969pt too wide) in paragraph at lines 57--59
+Overfull \hbox (5.09969pt too wide) in paragraph at lines 61--63
 []\OT1/cmr/m/n/12 Share this project with your in-struc-tor, [][]\OT1/cmtt/m/n/
 12 gmatthews@wlu.edu[]\OT1/cmr/m/n/12 , by click-ing the File$\OMS/cmsy/m/n/12 
 !$\OT1/cmr/m/n/12 Share
@@ -597,10 +597,10 @@ Overfull \hbox (5.09969pt too wide) in paragraph at lines 57--59
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 [3] (ex01.aux) ) 
 Here is how much of TeX's memory you used:
- 15731 strings out of 476406
- 307455 string characters out of 2789566
+ 15727 strings out of 476406
+ 307423 string characters out of 2789566
  1878787 words of memory out of 3000000
- 35851 multiletter control sequences out of 15000+600000
+ 35847 multiletter control sequences out of 15000+600000
  517697 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,6n,104p,838b,1853s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -611,7 +611,7 @@ onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/thatm/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/thatm/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on ex01.pdf (3 pages, 80321 bytes).
+Output written on ex01.pdf (3 pages, 80853 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
