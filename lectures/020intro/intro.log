@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  23 APR 2023 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  23 APR 2023 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,10 +1227,7 @@ Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
 
 (intro.vrb) [14
 
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [15
+] (intro.vrb) [15
 
 ]
 \openout4 = `intro.vrb'.
@@ -1241,6 +1238,11 @@ Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
 \openout4 = `intro.vrb'.
 
  (intro.vrb) [17
+
+]
+\openout4 = `intro.vrb'.
+
+ (intro.vrb) [18
 
 ]
 \tf@nav=\write8
@@ -1257,10 +1259,10 @@ Package rerunfilecheck Info: File `intro.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29137 strings out of 476406
- 595143 string characters out of 2789566
+ 29142 strings out of 476406
+ 595254 string characters out of 2789566
  1871787 words of memory out of 3000000
- 48864 multiletter control sequences out of 15000+600000
+ 48865 multiletter control sequences out of 15000+600000
  521904 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,431b,558s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1275,9 +1277,9 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
 ers/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pf
 b>
-Output written on intro.pdf (17 pages, 222992 bytes).
+Output written on intro.pdf (18 pages, 229042 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
