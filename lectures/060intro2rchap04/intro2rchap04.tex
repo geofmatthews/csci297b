@@ -1,0 +1,183 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\newcommand{\lsting}[1]{\begin{lstlisting}[basicstyle=#1]}
+\newcommand{\lstend}{\end{lstlisting}}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}{\begin{columns}\begin{column}{0.6\textwidth}}
+\newcommand{\colb}{\end{column}\begin{column}{0.4\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://intro2r.com/} Chapter 4}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Base, lattice, and ggplot2 graphics}
+
+\bi
+\li Base graphics:  easy, but good style takes work
+\li Lattice graphics:  best with complex multi-dimensional data using panel plots
+\li Grammar of graphics:  logical development, very good defaults
+\ei
+\end{frame}
+
+\bfr{Plot panel in RStudio}
+\fig{1}{bg_plots1}
+\end{frame}
+
+\bfr{Plot panel in RStudio, Zoom button}
+\fig{1}{bg_plots2}
+\end{frame}
+
+\bfr{Plot panel in RStudio, save button}
+\fig{1}{bg_plots3.png}
+\end{frame}
+
+\bfr{Scatterplots}
+\lsting{\scriptsize}
+flowers <- read.table(file = 'data/flower.txt', 
+                        header = TRUE, sep = "\t", 
+                        stringsAsFactors = TRUE)
+plot(flowers$weight)
+## or
+## with(flowers, plot(weight)) 
+\end{lstlisting}
+\fig{.8}{plot1-1}
+\end{frame}
+
+\bfr{Scatterplots}
+\lsting{\scriptsize}
+plot(x = flowers$weight, y = flowers$shootarea)
+## or
+## plot(flowers$shootarea ~ flowers$weight)
+\end{lstlisting}
+\fig{.8}{plot4-1.png}
+\end{frame}
+
+\bfr{Scatterplots}
+\lsting{\scriptsize}
+my_x <- 1:10
+my_y <- seq(from = 1, to = 20, by = 2)
+par(mfrow = c(2, 2))
+plot(my_x, my_y, type = "l")
+plot(my_x, my_y, type = "b")
+plot(my_x, my_y, type = "o")
+plot(my_x, my_y, type = "c")
+\end{lstlisting}
+\fig{.6}{plot6-1.png}
+\end{frame}
+
+\bfr{Plot}
+\bi
+\li {\tt plot} has many options 
+\li Can add more points, lines, text, {\em etc.}
+\li {\tt plot} is a generic function:  it can change its behavior based
+on what kind of object it is plotting
+\ei
+\end{frame}
+
+
+\bfr{Histograms}
+\lsting{\scriptsize}
+hist(flowers$height)
+\end{lstlisting}
+\fig{.8}{plot7-1.png}
+\end{frame}
+
+
+\bfr{Histograms}
+\lsting{\scriptsize}
+brk <- seq(from = 0, to = 18, by = 1)
+hist(flowers$height, breaks = brk, main = "petunia height")
+\end{lstlisting}
+\fig{.8}{plot8-1.png}
+\end{frame}
+
+\bfr{Histograms}
+\lsting{\scriptsize}
+brk <- seq(from = 0, to = 18, by = 1)
+hist(flowers$height, breaks = brk, main = "petunia height",
+      freq = FALSE)
+\end{lstlisting}
+\fig{.8}{plot9-1.png}
+\end{frame}
+
+\bfr{Histograms}
+\lsting{\scriptsize}
+dens <- density(flowers$height)
+hist(flowers$height, breaks = brk, main = "petunia height",
+      freq = FALSE)
+lines(dens)
+\end{lstlisting}
+\fig{.8}{plot10-1.png}
+\end{frame}
+
+\end{document}

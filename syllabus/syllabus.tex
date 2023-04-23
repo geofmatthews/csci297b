@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+\usepackage{alltt}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-0.5in}
+
+\newcommand{\li}{\item}
+\newcommand{\myitem}[1]{\item[#1]}
+
+\begin{document}
+
+\begin{center}
+{\Large Syllabus, CSCI297b, Scientific Visualization, Winter 2023}
+\end{center}
+
+\begin{description}
+
+\myitem{Instructor:}
+Dr. Geoffrey Matthews,
+Parmly 407A, {\tt gmatthews <at>  wlu <dot> edu}
+
+\myitem{Web page:} \url{https://github.com/geofmatthews/csci312} 
+
+\myitem{Office hours:} MTWRF 9:30 and by appointment
+
+\myitem{Lectures:} MTWRF 10:30-12:30, Parmly 405
+
+\myitem{Goals:} This course is an introduction to graphing scientific data.
+We will study the fundamentals of preparing data, graphing it, and 
+presenting these graphcs on the web.  We will also study design
+and human engineering principles to make our graphs more
+effective.  By the end of the course the student should be able to:
+\begin{itemize}
+\li Tidy up datasets from a number of sources so that they are easy
+to graph in a variety of ways.
+\li Understand various graph techniques and be able to justify 
+their use in various situations.
+\li Understand principles of communication that make some graphs
+good communicators, and other graphs confusing, misleading, or
+wrong.
+\li Be able to apply these principles to create new graphs
+in a wide variety of contexts using R and RStudio.
+\end{itemize}
+
+\myitem{Texts:}~
+
+\begin{itemize}
+
+\li
+\url{https://alexd106.github.io/intro2R/index.html}
+\dotfill
+An Introduction to R
+
+\li
+\url{https://r4ds.had.co.nz/}
+\dotfill
+R for Data Science
+
+
+\li
+\url{https://clauswilke.com/dataviz/}
+\dotfill
+Fundamentals of Data Visualization
+\end{itemize}
+
+\myitem{Software:} ~
+
+We will primarily be using the RStudio Workbench server, provided
+by the university at \url{https://rstudioworkbench.wlu.edu/}.
+
+However, if you want to install R and RStudio on your own
+computer, they are available here:
+\begin{itemize}
+\li
+\url{https://www.r-project.org/} \dotfill R
+\li
+\url{https://posit.co/download/rstudio-desktop/}\dotfill RStudio
+\end{itemize}
+
+
+\myitem{Grading:}  Grading will be based on:
+\begin{description}
+
+\item[Class exercises:]   Most days class lab exercises will be 
+interspersed with lectures on R and visualizations.  If you must miss a day,
+you are responsible for making up the work on your own time.  20\%
+
+\item[Graph of the day:] Every day one or two students will present
+a short (5 minute) report on a particularly good or bad graph found on
+the internet.   We will prepare a schedule of dates for students the
+first day.  Each student should prepare at least one day in advance
+so that if someone misses their day the next person in line can step up.
+ 20\% 
+
+\item[Report:]  A report on a dataset 
+written in Rmarkdown submitted the last day of class.  20\%
+
+\item[Oral presentation:] A brief (10-15 minute) oral presentation
+about the dataset analyzed in your written report.  20\%
+
+\item[Final exam:]  The final exam is comprehensive. It will be an
+online multiple choice exam.  It is closed book and closed notes.
+You may not consult with other people or any other resources
+during the exam.  20\%
+
+\end{description}
+\item[Letter grades:]
+A $\ge$ 90\% $>$ B $\ge$ 80\% $>$ C $\ge$ 70\% $>$ D $\ge$ 60\% $>$ F
+
+\item[Daily routine:]~
+
+\begin{tabular}{ll}
+Time & Activity \\\hline
+10:30  & Lecture  on R and in-class exercises \\
+11:40  & Break \\
+11:50  & Graph of the Day \\
+11:55  & Lecture \& Discussion on Fundamentals\\
+12:30 & Class ends
+\end{tabular}
+
+\myitem{Schedule:}~
+
+\begin{tabular}{llccc}
+&&\multicolumn{2}{c}{\hrulefill Lab\hrulefill} & Principles \\
+Date & Day & \href{https://intro2r.com/}{intro2r}
+      & \href{https://r4ds.hadley.nz/}{RfDS2e}
+       & \href{https://clauswilke.com/dataviz/index.html}{FoDV} \\\hline
+2023-04-24     &     Monday     & 1 &  &    \\
+ 2023-04-25     &        Tuesday  & 2 & & 1,2,3      \\
+ 2023-04-26    &       Wednesday  & 2 & & 4,5      \\
+ 2023-04-27    &        Thursday     & 3 & & 6,7    \\
+ 2023-04-28    &          Friday      & 3 & &  8    \\\hline
+ 2023-05-01    &          Monday   & 4&   & 9,10   \\
+ 2023-05-02    &         Tuesday    & 4 & & 11,12    \\
+ 2023-05-03    &       Wednesday & 5 &  &  13,14    \\
+ 2023-05-04    &        Thursday   & 5 &   &  15   \\
+ 2023-05-05    &          Friday      &  8&  & 16    \\\hline
+ 2023-05-08    &          Monday   & 8 &  & 17   \\
+ 2023-05-09    &         Tuesday    &  & 10 & 18,19    \\
+ 2023-05-10    &       Wednesday &   &  10  & 20,21    \\
+ 2023-05-11   &         Thursday&  &  11&  22    \\
+ 2023-05-12   &           Friday   &   & 11  &  23,24,25  \\\hline
+ 2023-05-15   &           Monday&   & 12   &   26,27    \\
+ 2023-05-16   &          Tuesday&   &   12  &   28,29   \\
+ 2023-05-17   &        Wednesday&   \multicolumn{3}{c}{Student presentations}       \\
+ 2023-05-18   &         Thursday & \multicolumn{3}{c}{Student presentations}       \\
+ 2023-05-19   &           Friday   &  \multicolumn{3}{c}{Student presentations}     \\\hline
+ \multicolumn{4}{l}{Final Exam}
+\end{tabular}
+
+\end{description}
+\end{document}

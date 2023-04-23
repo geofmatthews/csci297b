@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  23 APR 2023 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  23 APR 2023 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./intro.tex
-(intro.tex
+**./fodv03.tex
+(fodv03.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -963,8 +963,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-) (intro.aux)
-\openout1 = `intro.aux'.
+) (fodv03.aux)
+\openout1 = `fodv03.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
@@ -1046,9 +1046,9 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 72.
- (intro.out) (intro.out)
+ (fodv03.out) (fodv03.out)
 \@outlinefile=\write7
-\openout7 = `intro.out'.
+\openout7 = `fodv03.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
@@ -1128,156 +1128,212 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
- (intro.nav) [1
+ (fodv03.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `intro.vrb'.
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (fodv03.vrb
+<cartesian-coord-1.png, id=44, 1156.32pt x 924.45375pt>
+File: cartesian-coord-1.png Graphic file (type png)
+<use cartesian-coord-1.png>
+Package pdftex.def Info: cartesian-coord-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 196.52493pt.
+) [2
+
+ <./cartesian-coord-1.png>]
+\openout4 = `fodv03.vrb'.
+
+
+(fodv03.vrb
+<temperature-normals-Houston-1.png, id=72, 1376.14125pt x 1031.855pt>
+File: temperature-normals-Houston-1.png Graphic file (type png)
+<use temperature-normals-Houston-1.png>
+Package pdftex.def Info: temperature-normals-Houston-1.png  used on input line 
+2.
+(pdftex.def)             Requested size: 245.83282pt x 184.32458pt.
+) [3
+
+ <./temperature-normals-Houston-1.png>]
+\openout4 = `fodv03.vrb'.
+
+ (fodv03.vrb
+<temperature-normals-Houston-San-Diego-1.png, id=99, 1513.655pt x 756.8275pt>
+File: temperature-normals-Houston-San-Diego-1.png Graphic file (type png)
+<use temperature-normals-Houston-San-Diego-1.png>
+Package pdftex.def Info: temperature-normals-Houston-San-Diego-1.png  used on i
+nput line 2.
+(pdftex.def)             Requested size: 245.83282pt x 122.90794pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
 
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 3.
+ut line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)) [2
+)) [4
+
+ <./temperature-normals-Houston-San-Diego-1.png>]
+\openout4 = `fodv03.vrb'.
+
+ (fodv03.vrb
+<linear-log-scales-1.png, id=127, 1156.32pt x 867.24pt>
+File: linear-log-scales-1.png Graphic file (type png)
+<use linear-log-scales-1.png>
+Package pdftex.def Info: linear-log-scales-1.png  used on input line 2.
+(pdftex.def)             Requested size: 215.10196pt x 161.3235pt.
+)
+[5
+
+ <./linear-log-scales-1.png>]
+\openout4 = `fodv03.vrb'.
+
+ (fodv03.vrb
+<texas-counties-pop-ratio-log-1.png, id=158, 1376.14125pt x 825.0825pt>
+File: texas-counties-pop-ratio-log-1.png Graphic file (type png)
+<use texas-counties-pop-ratio-log-1.png>
+Package pdftex.def Info: texas-counties-pop-ratio-log-1.png  used on input line
+ 2.
+(pdftex.def)             Requested size: 307.28987pt x 184.23808pt.
+) [6
+
+ <./texas-counties-pop-ratio-log-1.png>]
+\openout4 = `fodv03.vrb'.
+
+ (fodv03.vrb
+<texas-counties-pop-ratio-lin-1.png, id=185, 1376.14125pt x 825.0825pt>
+File: texas-counties-pop-ratio-lin-1.png Graphic file (type png)
+<use texas-counties-pop-ratio-lin-1.png>
+Package pdftex.def Info: texas-counties-pop-ratio-lin-1.png  used on input line
+ 2.
+(pdftex.def)             Requested size: 307.28987pt x 184.23808pt.
+) [7
+
+ <./texas-counties-pop-ratio-lin-1.png>]
+\openout4 = `fodv03.vrb'.
+
+ (fodv03.vrb)
+[8
 
 ]
-\openout4 = `intro.vrb'.
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb) [3
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [4
+ (fodv03.vrb) [9
 
 ]
-\openout4 = `intro.vrb'.
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb
-<rstudioworkbenchconnect.png, id=145, 108.1641pt x 46.0119pt>
-File: rstudioworkbenchconnect.png Graphic file (type png)
-<use rstudioworkbenchconnect.png>
-Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
-(pdftex.def)             Requested size: 216.32764pt x 92.02356pt.
-) [5
+ (fodv03.vrb
+<sqrt-scales-1.png, id=264, 1156.32pt x 650.43pt>
+File: sqrt-scales-1.png Graphic file (type png)
+<use sqrt-scales-1.png>
+Package pdftex.def Info: sqrt-scales-1.png  used on input line 10.
+(pdftex.def)             Requested size: 215.10196pt x 120.99261pt.
+) [10
 
- <./rstudioworkbenchconnect.png>]
-\openout4 = `intro.vrb'.
+ <./sqrt-scales-1.png>]
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb) [6
+ (fodv03.vrb
+<northeast-state-areas-1.png, id=291, 1513.655pt x 605.26125pt>
+File: northeast-state-areas-1.png Graphic file (type png)
+<use northeast-state-areas-1.png>
+Package pdftex.def Info: northeast-state-areas-1.png  used on input line 6.
+(pdftex.def)             Requested size: 307.28987pt x 122.86949pt.
+)
+[11
 
-]
-\openout4 = `intro.vrb'.
+ <./northeast-state-areas-1.png>]
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb) [7
+ (fodv03.vrb
+<polar-coord-1.png, id=318, 1376.14125pt x 687.56876pt>
+File: polar-coord-1.png Graphic file (type png)
+<use polar-coord-1.png>
+Package pdftex.def Info: polar-coord-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 153.53174pt.
+) [12
 
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [8
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb)
-[9
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [10
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [11
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [12
-
-]
-\openout4 = `intro.vrb'.
-
- (intro.vrb) [13
-
-]
-\openout4 = `intro.vrb'.
+ <./polar-coord-1.png>]
+\openout4 = `fodv03.vrb'.
 
 
-(intro.vrb) [14
+(fodv03.vrb
+<temperature-normals-polar-1.png, id=345, 1156.32pt x 713.66624pt>
+File: temperature-normals-polar-1.png Graphic file (type png)
+<use temperature-normals-polar-1.png>
+Package pdftex.def Info: temperature-normals-polar-1.png  used on input line 5.
 
-]
-\openout4 = `intro.vrb'.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+) [13
 
- (intro.vrb) [15
+ <./temperature-normals-polar-1.png>]
+\openout4 = `fodv03.vrb'.
 
-]
-\openout4 = `intro.vrb'.
+ (fodv03.vrb
+<worldmap-four-projections-1.png, id=372, 1513.655pt x 935.495pt>
+File: worldmap-four-projections-1.png Graphic file (type png)
+<use worldmap-four-projections-1.png>
+Package pdftex.def Info: worldmap-four-projections-1.png  used on input line 3.
 
- (intro.vrb) [16
+(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
+) [14
 
-]
-\openout4 = `intro.vrb'.
+ <./worldmap-four-projections-1.png>]
+\openout4 = `fodv03.vrb'.
 
- (intro.vrb) [17
+ (fodv03.vrb) [15
 
 ]
 \tf@nav=\write8
-\openout8 = `intro.nav'.
+\openout8 = `fodv03.nav'.
 
 \tf@toc=\write9
-\openout9 = `intro.toc'.
+\openout9 = `fodv03.toc'.
 
 \tf@snm=\write10
-\openout10 = `intro.snm'.
+\openout10 = `fodv03.snm'.
 
- (intro.aux)
-Package rerunfilecheck Info: File `intro.out' has not changed.
+ (fodv03.aux)
+Package rerunfilecheck Info: File `fodv03.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29137 strings out of 476406
- 595143 string characters out of 2789566
- 1871787 words of memory out of 3000000
- 48864 multiletter control sequences out of 15000+600000
- 521904 words of font info for 70 fonts, out of 8000000 for 9000
+ 29207 strings out of 476406
+ 597587 string characters out of 2789566
+ 1859787 words of memory out of 3000000
+ 48936 multiletter control sequences out of 15000+600000
+ 523761 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,431b,558s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,122p,432b,622s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/thatm/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
-ers/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pf
-b>
-Output written on intro.pdf (17 pages, 222992 bytes).
+cmmi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/thatm/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tha
+tm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on fodv03.pdf (15 pages, 1215447 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

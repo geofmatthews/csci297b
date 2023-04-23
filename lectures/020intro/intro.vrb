@@ -1,6 +1,19 @@
-\frametitle{ Installing R and RStudio on your own computer }
+\frametitle{ Communication }
+\bi
+\li
+High quality infographics are 30x more likely to be read than plain text
 
-\begin{itemize}
-\item\url{https://www.r-project.org/}
-\item\url{https://posit.co/download/rstudio-desktop/}
-\end{itemize}
+\li
+People who follow directions with illustrations do 323\% better than those who follow text-only directions
+
+\li
+If a scientific claim is presented in pure words or numbers, 68\% of people will believe that the information is accurate and truthful.
+But if you put a simple graph with the claim, the number rises to 97\% \
+
+\li
+The Wharton School of Business found that while only half of an audience was convinced by a purely verbal presentation, that number jumped to over two thirds when visuals were added
+
+\ei
+
+\vfill\tiny Sources:
+\url{https://blog.csgsolutions.com/15-statistics-prove-power-data-visualization}

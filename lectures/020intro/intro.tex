@@ -61,8 +61,8 @@
 \newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
 \newcommand{\efr}{\end{frame}}
 
-\newcommand{\cola}{\begin{columns}\begin{column}{0.5\textwidth}}
-\newcommand{\colb}{\end{column}\begin{column}{0.5\textwidth}}
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
 \newcommand{\colc}{\end{column}\end{columns}}
 
 
@@ -86,6 +86,9 @@ Parmly 405
 
 \li Office hours:  9:30 MWF and by appointment
 \ei
+\end{frame}
+
+\bfr{A bit about me and you}
 \end{frame}
 
 \bfr{Online resources}
@@ -141,6 +144,10 @@ ggplot2: Elegant Graphics for Data Analysis
 \dotfill
 Fundamentals of Data Visualization
 
+\li
+\url{https://www.tmwr.org/}
+\dotfill
+Tidy Modelling with R
 
 \li
 \url{https://bookdown.org/yihui/rmarkdown/}
@@ -183,6 +190,8 @@ Rmarkdown videos
 
 \bfr{RStudio Workbench and Connect}
 
+\centerline{\url{https://rstudioworkbench.wlu.edu/}}
+
 \centerline{\includegraphics[scale=2]{rstudioworkbenchconnect}}
 
 \end{frame}
@@ -194,4 +203,196 @@ Rmarkdown videos
 \item\url{https://posit.co/download/rstudio-desktop/}
 \end{itemize}
 \end{frame}
+
+\bfr{Our textbooks}
+
+\bi
+
+\li
+\url{https://alexd106.github.io/intro2R/index.html}
+
+An Introduction to R
+
+
+\li
+\url{https://r4ds.had.co.nz/}
+
+R for Data Science
+
+\li
+\url{https://clauswilke.com/dataviz/}
+
+Fundamentals of Data Visualization
+
+
+\ei
+\end{frame}
+
+
+\bfr{Schedule}
+
+\scriptsize
+\begin{tabular}{llccc}
+&&\multicolumn{2}{c}{\hrulefill Lab\hrulefill} & Principles \\
+Date & Day & \href{https://intro2r.com/}{intro2r}
+      & \href{https://r4ds.hadley.nz/}{RfDS2e}
+       & \href{https://clauswilke.com/dataviz/index.html}{FoDV} \\\hline
+2023-04-24     &     Monday     & 1 &  &    \\
+ 2023-04-25     &        Tuesday  & 2 & & 1,2,3      \\
+ 2023-04-26    &       Wednesday  & 2 & & 4,5      \\
+ 2023-04-27    &        Thursday     & 3 & & 6,7    \\
+ 2023-04-28    &          Friday      & 3 & &  8    \\\hline
+ 2023-05-01    &          Monday   & 4&   & 9,10   \\
+ 2023-05-02    &         Tuesday    & 4 & & 11,12    \\
+ 2023-05-03    &       Wednesday & 5 &  &  13,14    \\
+ 2023-05-04    &        Thursday   & 5 &   &  15   \\
+ 2023-05-05    &          Friday      &  8&  & 16    \\\hline
+ 2023-05-08    &          Monday   & 8 &  & 17   \\
+ 2023-05-09    &         Tuesday    &  & 10 & 18,19    \\
+ 2023-05-10    &       Wednesday &   &  10  & 20,21    \\
+ 2023-05-11   &         Thursday&  &  11&  22    \\
+ 2023-05-12   &           Friday   &   & 11  &  23,24,25  \\\hline
+ 2023-05-15   &           Monday&   & 12   &   26,27    \\
+ 2023-05-16   &          Tuesday&   &   12  &   28,29   \\
+ 2023-05-17   &        Wednesday&   \multicolumn{3}{c}{Student presentations}       \\
+ 2023-05-18   &         Thursday & \multicolumn{3}{c}{Student presentations}       \\
+ 2023-05-19   &           Friday   &  \multicolumn{3}{c}{Student presentations}     \\\hline
+ \multicolumn{4}{l}{Final Exam}
+\end{tabular}
+
+\end{frame}
+
+\bfr{Student presentations}
+
+\bi
+\li Each student will prepare a presentation on a dataset that interests them.
+\li Each presentation will feature at least five graphs.
+\li Presentations will be done in Rmarkdown.
+\li There will be a class presentation by the student during the final
+days of class.
+\ei
+\end{frame}
+
+\bfr{Daily Schedule}
+
+\begin{tabular}{ll}
+Time & Activity \\\hline
+10:30  & Lecture  on R and in-class exercises \\
+11:40  & Break \\
+11:50  & Graph of the Day \\
+11:55  & Lecture \& Discussion on Fundamentals\\
+12:30 & Class ends
+\end{tabular}
+
+\end{frame}
+\bfr{Graph of the Day}
+\bi
+\li Every day we will have a student presenation of the ``Graph of the Day''
+\li You will select a graph from the internet that is particularly bad,
+good, or interesting in some way.
+
+\end{itemize}
+\end{frame}
+
+\bfr{Ugly graphs}
+
+\scriptsize
+\begin{itemize}
+\item\url{https://flowingdata.com/category/visualization/ugly-visualization/}
+\item\url{https://www.pinterest.com/simonlafosse6/ugly-dataviz/}
+\item\url{https://www.reddit.com/r/dataisugly/}
+\item\url{https://www.businessinsider.com/the-27-worst-charts-of-all-time-2013-6}
+\item\url{https://venngage.com/blog/bad-infographics/}
+\item\url{https://www.usu.edu/math/symanzik/talks/2021_SouthwestMichiganChapter.pdf}
+\item\url{https://getdolphins.com/blog/the-worst-graphs-of-2017/}
+\item\url{https://analythical.com/blog/examples-of-awful-data-visualization}
+
+\end{itemize}
+
+\end{frame}
+
+\bfr{Set up ugly graph schedule}
+
+\end{frame}
+
+\bfr{Good graphics}
+
+\bi
+\li
+{\url{https://www.youtube.com/watch?v=jbkSRLYSojo}}
+\li Hans Rosling's 200 countries, 200 years, 4 minutes
+\ei
+
+\end{frame}
+
+\bfr{Visualization vs. Statistics}
+
+\cola{0.5}
+Visualization
+\bi
+\li Exploration
+\li Communication
+\li Persuasion
+\ei
+
+
+\colb{0.5}
+Statistics
+\bi
+\li Confirmation
+\li Data transformations
+\li Data summaries
+\ei
+
+
+\colc
+\end{frame}
+
+\bfr{Your Brain}
+\bi
+\li
+90\% of the information transmitted to the brain is visual
+
+\li
+The human brain can process an image in just 13 milliseconds
+
+\li
+50\% of the brain is active in visual processing
+
+\li
+Human brains process visuals 60,000 times faster than they do text
+
+\li
+93\% of communication is nonverbal
+
+\li
+We are exposed to 5x more information today than we were in 1986
+\ei
+
+\vfill\tiny Sources:
+\url{https://blog.csgsolutions.com/15-statistics-prove-power-data-visualization}
+\end{frame}
+
+\bfr{Communication}
+\bi
+\li
+High quality infographics are 30x more likely to be read than plain text
+
+\li
+People who follow directions with illustrations do 323\% better than those who follow text-only directions
+
+\li
+If a scientific claim is presented in pure words or numbers, 68\% of people will believe that the information is accurate and truthful. 
+But if you put a simple graph with the claim, the number rises to 97\% \
+
+\li
+The Wharton School of Business found that while only half of an audience was convinced by a purely verbal presentation, that number jumped to over two thirds when visuals were added
+
+\ei
+
+\vfill\tiny Sources:
+\url{https://blog.csgsolutions.com/15-statistics-prove-power-data-visualization}
+\end{frame}
+
+
 \end{document}
