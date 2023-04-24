@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  24 APR 2023 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  24 APR 2023 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,20 +1066,21 @@ thkerncmss.
 ]
 \openout4 = `intro.vrb'.
 
- (./intro.vrb) [4
-
-]
-\openout4 = `intro.vrb'.
-
  (./intro.vrb
-<rstudioworkbenchconnect.png, id=147, 108.1641pt x 46.0119pt>
+<rstudioworkbenchconnect.png, id=99, 108.1641pt x 46.0119pt>
 File: rstudioworkbenchconnect.png Graphic file (type png)
 <use rstudioworkbenchconnect.png>
 Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
 (pdftex.def)             Requested size: 216.32764pt x 92.02356pt.
-) [5
+) [4
 
  <./rstudioworkbenchconnect.png>]
+\openout4 = `intro.vrb'.
+
+
+(./intro.vrb) [5
+
+]
 \openout4 = `intro.vrb'.
 
  (./intro.vrb) [6
@@ -1097,8 +1098,8 @@ Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
 ]
 \openout4 = `intro.vrb'.
 
- (./intro.vrb)
-[9
+
+(./intro.vrb) [9
 
 ]
 \openout4 = `intro.vrb'.
@@ -1118,27 +1119,27 @@ Package pdftex.def Info: rstudioworkbenchconnect.png  used on input line 5.
 ]
 \openout4 = `intro.vrb'.
 
- (./intro.vrb)
-[13
 
-]
-\openout4 = `intro.vrb'.
-
- (./intro.vrb
-<minard.png, id=397, 1447.5681pt x 690.1785pt>
+(./intro.vrb
+<minard.png, id=352, 1447.5681pt x 690.1785pt>
 File: minard.png Graphic file (type png)
 <use minard.png>
 Package pdftex.def Info: minard.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 146.51091pt.
-) [14
+) [13
 
  <./Minard.png>]
 \openout4 = `intro.vrb'.
 
- (./intro.vrb) [15
+ (./intro.vrb) [14
 
-] (./intro.vrb)
-[16
+] (./intro.vrb) [15
+
+]
+\openout4 = `intro.vrb'.
+
+
+(./intro.vrb) [16
 
 ]
 \openout4 = `intro.vrb'.
@@ -1165,7 +1166,8 @@ Package pdftex.def Info: minard.png  used on input line 2.
 \tf@snm=\write10
 \openout10 = `intro.snm'.
 
- (./intro.aux)
+
+(./intro.aux)
 Package rerunfilecheck Info: File `intro.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1185,7 +1187,7 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts
 blic/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on intro.pdf (19 pages, 896503 bytes).
+Output written on intro.pdf (19 pages, 896302 bytes).
 PDF statistics:
  607 PDF objects out of 1000 (max. 8388607)
  552 compressed objects within 6 object streams
