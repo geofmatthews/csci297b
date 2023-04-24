@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  24 APR 2023 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  24 APR 2023 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,9 +1144,20 @@ Package pdftex.def Info: minard.png  used on input line 2.
 ]
 \openout4 = `intro.vrb'.
 
- (./intro.vrb) [17
+ (./intro.vrb
+<princomp01.png, id=461, 519.1395pt x 522.15076pt>
+File: princomp01.png Graphic file (type png)
+<use princomp01.png>
+Package pdftex.def Info: princomp01.png  used on input line 2.
+(pdftex.def)             Requested size: 153.64493pt x 154.53508pt.
+<princomp02.png, id=462, 522.15076pt x 508.90125pt>
+File: princomp02.png Graphic file (type png)
+<use princomp02.png>
+Package pdftex.def Info: princomp02.png  used on input line 2.
+(pdftex.def)             Requested size: 153.64493pt x 149.74406pt.
+) [17
 
-]
+ <./princomp01.png (PNG copy)> <./princomp02.png (PNG copy)>]
 \openout4 = `intro.vrb'.
 
  (./intro.vrb) [18
@@ -1155,6 +1166,11 @@ Package pdftex.def Info: minard.png  used on input line 2.
 \openout4 = `intro.vrb'.
 
  (./intro.vrb) [19
+
+]
+\openout4 = `intro.vrb'.
+
+ (./intro.vrb) [20
 
 ]
 \tf@nav=\write8
@@ -1172,10 +1188,10 @@ Package rerunfilecheck Info: File `intro.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29152 strings out of 475075
- 586168 string characters out of 5782996
+ 29178 strings out of 475075
+ 586605 string characters out of 5782996
  1071648 words of memory out of 5000000
- 49913 multiletter control sequences out of 15000+600000
+ 49935 multiletter control sequences out of 15000+600000
  478876 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,429b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1187,10 +1203,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts
 blic/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on intro.pdf (19 pages, 896302 bytes).
+Output written on intro.pdf (20 pages, 1017940 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 552 compressed objects within 6 object streams
- 39 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 576 compressed objects within 6 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
