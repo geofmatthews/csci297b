@@ -1,8 +1,1 @@
-\frametitle{ Histograms }
-\lsting{\scriptsize}
-dens <- density(flowers$height)
-hist(flowers$height, breaks = brk, main = "petunia height",
-      freq = FALSE)
-lines(dens)
-\end{lstlisting}
-\fig{.8}{plot10-1.png}
+\frametitle{ Do exercise 4 part 2 }

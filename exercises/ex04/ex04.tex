@@ -85,7 +85,6 @@ Use the \lst{str()} function again to check the coding of these new variables.
 \item How many observations are there per month and year combination (hint: remember the
 {\tt table()} or {\tt xtabs()} functions?)? Don’t forget to use the factor recoded versions of these variables. Do you have data for each month in each year? Which years have the most observations?  Use a combination of the {\tt xtabs()} and {\tt ftable()} functions to create a flattened table of the number of observations for each year, maturity stage and month (aka a contingency table).
 
-\centerline{\bf Part 2}
 
  
 \item The humble cleveland dotplot is a great way of identifying if you have potential outliers in continuous variables (See Section 4.2.4. Create dotplots (using the \lst{dotchart()} function) for the following variables; DML, weight, nid.length and ovary.weight. Do these variables contain any unusually large or small observations?
@@ -103,7 +102,7 @@ One potential problem with histograms is that the distribution of data can look 
  
 \item Scatterplots are great for visualising relationships between two continuous variables (Section 4.2.1). Plot the relationship between DML on the x axis and weight on the y axis. How would you describe this relationship? Is it linear? One approach to linearising relationships is to apply a transformation on one or both variables. Try transforming the weight variable with either a natural log (log()) or square root (sqrt()) transformation. I suggest you create new variables in the squid dataframe for your transformed variables and use these variables when creating your new plots. Which transformation best linearises this relationship? 
 
-\centerline{\bf Part 3}
+\centerline{\bf Part 2}
  
 \item When visualising differences in a continuous variable between levels of a factor (categorical variable) then a boxplot is your friend (avoid using bar plots - Google ‘bar plots are evil’ for more info). Create a boxplot to visualise the differences in DML at each maturity stage (don’t forget to use the recoded version of this variable you created above) . Include x and y axes labels in your plot. Make sure you understand the anatomy of a boxplot before moving on - please ask if you’re not sure (also see Section 4.2.3 of the book). 
 

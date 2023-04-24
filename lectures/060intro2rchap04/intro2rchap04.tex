@@ -1,6 +1,7 @@
 \documentclass{beamer}
 \usetheme{Singapore}
 \usepackage{changepage}
+\usepackage[T1]{fontenc}
 
 %\usepackage{pstricks,pst-node,pst-tree}
 \usepackage{amssymb,latexsym,dirtree}
@@ -39,12 +40,9 @@
 }
 
 \lstset{style=mystyle}
+\lstset{extendedchars=\true}
 
 
-\newcommand{\lst}[1]{\lstinline{#1}}
-
-\newcommand{\lsting}[1]{\begin{lstlisting}[basicstyle=#1]}
-\newcommand{\lstend}{\end{lstlisting}}
 
 \newcommand{\bi}{\begin{itemize}}
 \newcommand{\li}{\item}
@@ -102,28 +100,33 @@
 \end{frame}
 
 \bfr{Scatterplots}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 flowers <- read.table(file = 'data/flower.txt', 
                         header = TRUE, sep = "\t", 
                         stringsAsFactors = TRUE)
 plot(flowers$weight)
 ## or
 ## with(flowers, plot(weight)) 
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot1-1}
 \end{frame}
 
 \bfr{Scatterplots}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 plot(x = flowers$weight, y = flowers$shootarea)
 ## or
 ## plot(flowers$shootarea ~ flowers$weight)
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot4-1.png}
 \end{frame}
 
 \bfr{Scatterplots}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 my_x <- 1:10
 my_y <- seq(from = 1, to = 20, by = 2)
 par(mfrow = c(2, 2))
@@ -131,7 +134,8 @@ plot(my_x, my_y, type = "l")
 plot(my_x, my_y, type = "b")
 plot(my_x, my_y, type = "o")
 plot(my_x, my_y, type = "c")
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.6}{plot6-1.png}
 \end{frame}
 
@@ -146,38 +150,491 @@ on what kind of object it is plotting
 
 
 \bfr{Histograms}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 hist(flowers$height)
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot7-1.png}
 \end{frame}
 
 
 \bfr{Histograms}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 brk <- seq(from = 0, to = 18, by = 1)
 hist(flowers$height, breaks = brk, main = "petunia height")
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot8-1.png}
 \end{frame}
 
 \bfr{Histograms}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 brk <- seq(from = 0, to = 18, by = 1)
 hist(flowers$height, breaks = brk, main = "petunia height",
       freq = FALSE)
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot9-1.png}
 \end{frame}
 
 \bfr{Histograms}
-\lsting{\scriptsize}
+{\scriptsize
+\begin{verbatim}
 dens <- density(flowers$height)
 hist(flowers$height, breaks = brk, main = "petunia height",
       freq = FALSE)
 lines(dens)
-\end{lstlisting}
+\end{verbatim}
+}
 \fig{.8}{plot10-1.png}
+\end{frame}
+
+\bfr{Do exercise 4 part 1}
+\end{frame}
+
+\bfr{Boxplots}
+{\scriptsize
+\begin{verbatim}
+boxplot(flowers$weight, ylab = "weight (g)")
+\end{verbatim}
+}
+\fig{0.8}{plot11-1.png}
+\end{frame}
+
+\bfr{Boxplots}
+{\scriptsize
+\begin{verbatim}
+boxplot(weight ~ nitrogen, data = flowers, 
+         ylab = "weight (g)", xlab = "nitrogen level")
+\end{verbatim}
+}
+\fig{0.8}{plot12-1.png}
+\end{frame}
+
+
+\bfr{Change order of factor}
+{\scriptsize
+\begin{verbatim}
+flowers$nitrogen <- factor(flowers$nitrogen, 
+                    levels = c("low", "medium", "high"))
+boxplot(weight ~ nitrogen, data = flowers, 
+          ylab = "weight (g)", xlab = "nitrogen level")
+\end{verbatim}
+}
+\fig{0.8}{plot13-1.png}
+\end{frame}
+
+\bfr{Dynamite plots must die}
+\bi
+\li\url{https://simplystatistics.org/posts/2019-02-21-dynamite-plots-must-die/}
+\li Use boxplots in combination with dotplots
+\ei
+\fig{1}{show-data-1.png}
+\end{frame}
+
+\bfr{Two factors}
+{\scriptsize
+\begin{verbatim}
+boxplot(weight ~ nitrogen * treat, data = flowers, 
+         ylab = "weight (g)", xlab = "nitrogen level")
+\end{verbatim}
+}
+\fig{.8}{plot14-1.png}
+\bi\li Some labels missing\ei
+\end{frame}
+
+\bfr{Reduce size of label}
+{\scriptsize
+\begin{verbatim}
+boxplot(weight ~ nitrogen * treat, data = flowers, 
+         ylab = "weight (g)", xlab = "nitrogen level", 
+         cex.axis = 0.7)
+\end{verbatim}
+}
+\fig{.8}{plot15-1.png}
+\end{frame}
+
+\bfr{Violin plots}
+{\scriptsize
+\begin{verbatim}
+library(vioplot)
+vioplot(weight ~ nitrogen, data = flowers, 
+         ylab = "weight (g)", xlab = "nitrogen level",
+         col = "lightblue")
+\end{verbatim}
+}
+\bi\li Kernel density estimate on its side\ei
+\fig{.8}{plot16-1.png}
+\end{frame}
+
+\bfr{Dot charts}
+{\scriptsize
+\begin{verbatim}
+dotchart(flowers$height)
+\end{verbatim}
+}
+\bi
+\li $x$ axis is height
+\li $y$ axis is order in data frame (bottom to top)
+\ei
+\fig{.8}{plot17-1.png}
+\end{frame}
+
+\bfr{Outliers}
+\fig{1}{plot18-1.png}
+\end{frame}
+
+
+\bfr{Grouping data}
+{\scriptsize
+\begin{verbatim}
+dotchart(flowers$height, groups = flowers$nitrogen)
+\end{verbatim}
+}
+\fig{1}{plot19-1.png}
+\end{frame}
+
+
+\bfr{Pairs plots}
+{\scriptsize
+\begin{verbatim}
+pairs(flowers[, c("height", "weight", "leafarea", 
+                "shootarea", "flowers")])
+# or we could use the equivalent
+# pairs(flowers[, 4:8])
+\end{verbatim}
+}
+\fig{.8}{plot20-1.png}
+\end{frame}
+
+\bfr{Pairs plots, add a LOWESS fit}
+{\scriptsize
+\begin{verbatim}
+pairs(flowers[, c("height", "weight", "leafarea", 
+                "shootarea", "flowers")], 
+                 panel = panel.smooth)
+\end{verbatim}
+}
+\fig{.8}{plot21-1.png}
+\end{frame}
+
+
+\bfr{Customized {\tt panel} function for pairs plots}
+{\scriptsize
+\begin{verbatim}
+panel.cor <- function(x, y, digits = 2, prefix = "", 
+                      cex.cor, ...)
+{
+    usr <- par("usr")
+    par(usr = c(0, 1, 0, 1))
+    r <- abs(cor(x, y))
+    txt <- format(c(r, 0.123456789), digits = digits)[1]
+    txt <- paste0(prefix, txt)
+    if(missing(cex.cor)) cex.cor <- 0.8/strwidth(txt)
+    text(0.5, 0.5, txt, cex = cex.cor * r)
+}
+\end{verbatim}
+}
+\end{frame}
+
+\bfr{Panel function in use}
+{\scriptsize
+\begin{verbatim}
+pairs(flowers[, c("height", "weight", "leafarea", 
+                "shootarea", "flowers")], 
+                 lower.panel = panel.cor)
+\end{verbatim}
+}
+\fig{.8}{plot23-1.png}
+\end{frame}
+
+\bfr{A panel function for the diagonal}
+{\scriptsize
+\begin{verbatim}
+panel.hist <- function(x, ...)
+{
+    usr <- par("usr")
+    par(usr = c(usr[1:2], 0, 1.5) )
+    h <- hist(x, plot = FALSE)
+    breaks <- h$breaks; nB <- length(breaks)
+    y <- h$counts; y <- y/max(y)
+    rect(breaks[-nB], 0, breaks[-1], y, col = "cyan", ...)
+}
+\end{verbatim}
+}
+\end{frame}
+
+\bfr{Using 3 panel functions}
+{\scriptsize
+\begin{verbatim}
+pairs(flowers[, c("height", "weight", "leafarea", 
+                "shootarea", "flowers")], 
+                 lower.panel = panel.cor,
+                 diag.panel = panel.hist,
+                 upper.panel = panel.smooth)
+\end{verbatim}
+}
+\fig{.8}{plot25-1.png}
+\end{frame}
+
+\bfr{Conditional scatterplot}
+{\scriptsize
+\begin{verbatim}
+coplot(flowers ~ weight | leafarea, data = flowers)
+\end{verbatim}
+}
+\fig{1}{plot26-1.png}
+\end{frame}
+
+\bfr{Conditional scatterplot, overlap=0}
+{\scriptsize
+\begin{verbatim}
+coplot(flowers ~ weight | leafarea, data = flowers, overlap = 0)
+\end{verbatim}
+}
+\fig{1}{plot27-1.png}
+\end{frame}
+
+\bfr{Conditional scatterplot with factors}
+{\scriptsize
+\begin{verbatim}
+coplot(flowers ~ weight | nitrogen, data = flowers)
+\end{verbatim}
+}
+\fig{1}{plot28-1.png}
+\end{frame}
+
+\bfr{Conditional scatterplot with two factors}
+{\scriptsize
+\begin{verbatim}
+coplot(flowers ~ weight | nitrogen * treat, data = flowers)
+\end{verbatim}
+}
+\fig{1}{plot29-1.png}
+\end{frame}
+
+
+\bfr{Lattice graphics}
+\bi
+\li Improved versions of basic graphics
+\li Use formula notation
+\li Must load library, {\tt library(lattice)}
+\ei
+\end{frame}
+
+\bfr{Lattice histogram}
+{\scriptsize
+\begin{verbatim}
+library(lattice)
+histogram(~ height, type = "count", data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot31-1.png}
+\end{frame}
+
+
+
+\bfr{Lattice boxplot (box and whisker plot)}
+{\scriptsize
+\begin{verbatim}
+bwplot(weight ~ nitrogen, data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot32-1.png}
+\end{frame}
+
+\bfr{Some lattice functions and their base R equivalents}
+\begin{tabular}{lll}
+Graph & Lattice & Base R \\\hline
+scatterplot	&xyplot()&	plot()\\
+frequency histogram	&histogram(type = "count")	&hist()\\
+boxplot&	bwplot()	&boxplot()\\
+Cleveland dotplot&	dotplot()&	dotchart()\\
+scatterplot matrix&	splom()&	pairs()\\
+conditioning plot	&xyplot(y $\sim$ x | z)	&coplot()
+\end{tabular}
+\end{frame}
+
+\bfr{Lattice graphics with multiple panels}
+{\scriptsize
+\begin{verbatim}
+histogram(~ height | nitrogen, type = "count", data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot33-1.png}
+
+\end{frame}
+
+\bfr{Lattice graphics with multiple panels}
+{\scriptsize
+\begin{verbatim}
+histogram(~ height | nitrogen, type = "count", 
+           layout = c(1, 3), data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot34-1.png}
+
+\end{frame}
+
+\bfr{Conditional boxplots}
+{\scriptsize
+\begin{verbatim}
+bwplot(weight ~ nitrogen | block, data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot35-1.png}
+
+\end{frame}
+
+\bfr{Conditional boxplots, block must be factor}
+{\scriptsize
+\begin{verbatim}
+bwplot(weight ~ nitrogen | factor(block), data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot36-1.png}
+
+\end{frame}
+
+
+\bfr{Conditional boxplots}
+{\scriptsize
+\begin{verbatim}
+xyplot(height ~ weight | nitrogen * treat, data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot37-1.png}
+
+\end{frame}
+
+\bfr{Conditional boxplots}
+{\scriptsize
+\begin{verbatim}
+xyplot(flowers ~ shootarea | nitrogen * treat, 
+        groups = block, auto.key = TRUE, data = flowers)
+\end{verbatim}
+}
+\fig{.8}{plot38-1.png}
+
+\end{frame}
+
+\bfr{Customizing Base R Graphics}
+
+\bi
+\li There are many customizable features.
+\li Not all customizations are available for all plots.
+\li Refer to text: \url{https://intro2r.com/custom_plot.html}
+\ei
+
+\end{frame}
+
+\bfr{Multiple plots with {\tt par(mfrow == ...)}}
+{\scriptsize
+\begin{verbatim}
+par(mfrow = c(1, 2))
+plot(flowers$weight, flowers$shootarea, xlab = "weight",
+      ylab = "shoot area")
+boxplot(shootarea ~ nitrogen, data = flowers, cex.axis = 0.6)
+\end{verbatim}
+}
+\fig{.8}{plot55-1.png}
+
+\end{frame}
+
+
+\bfr{Multiple plots with {\tt par(mfrow == ...)}}
+{\scriptsize
+\begin{verbatim}
+par(mfrow = c(2, 2))
+plot(flowers$weight, flowers$shootarea, xlab = "weight",
+      ylab = "shoot area")
+boxplot(shootarea ~ nitrogen, cex.axis = 0.8, data = flowers)
+hist(flowers$weight, main ="")
+dotchart(flowers$weight)
+\end{verbatim}
+}
+\fig{.7}{plot56-1.png}
+
+\end{frame}
+
+\bfr{Multiple plots with {\tt layout()}}
+{\scriptsize
+\begin{verbatim}
+layout_mat <- matrix(c(2, 0, 1, 3), nrow = 2, ncol = 2,
+                      byrow = TRUE)
+layout_mat
+##      [,1] [,2]
+## [1,]    2    0
+## [2,]    1    3
+\end{verbatim}
+}
+
+\bi
+\li This gives us two rows and two columns
+\li The first plot will be lower left
+\li The second plot will be upper left
+\li The third plot will be lower right
+\li Nothing will be upper right
+\ei
+
+\end{frame}
+
+
+\bfr{We can specify row and column sizes {\tt layout()}}
+{\scriptsize
+\begin{verbatim}
+my_lay <- layout(mat = layout_mat, 
+                 heights = c(1, 3),
+                 widths = c(3, 1), respect =TRUE)
+layout.show(my_lay)
+\end{verbatim}
+}
+
+\fig{0.7}{plot58-1.png}
+
+\end{frame}
+
+\bfr{Adjusting margins generally necessary}
+{\scriptsize
+\begin{verbatim}
+plot(flowers$weight, flowers$shootarea, 
+     xlab = "weight (g)", ylab = "shoot area (cm2)")
+par(mar = c(0, 4, 0, 0))
+boxplot(flowers$weight, horizontal = TRUE, frame = FALSE,
+        axes =FALSE)
+par(mar = c(4, 0, 0, 0))
+boxplot(flowers$shootarea, frame = FALSE, axes = FALSE)
+\end{verbatim}
+}
+
+\fig{0.7}{plot59-1.png}
+
+\end{frame}
+
+\bfr{Saving plots}
+\bi
+\li Can use RStudio buttons
+\li Can also save in code with {\tt pdf, png, jpeg, tiff, bmp}
+\ei
+
+{\scriptsize
+\begin{verbatim}
+pdf("output/myplot.pdf")
+plot(...)
+dev.off()
+
+png("output/myplot.png")
+plot(...)
+dev.off()
+\end{verbatim}
+}
+
+\end{frame}
+
+\bfr{Do exercise 4 part 2}
 \end{frame}
 
 \end{document}
