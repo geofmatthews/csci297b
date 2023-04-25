@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  25 APR 2023 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  25 APR 2023 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,7 +963,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-) (fodv05.aux)
+)
+No file fodv05.aux.
 \openout1 = `fodv05.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -984,7 +985,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1046,7 +1046,6 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 72.
- (fodv05.out) (fodv05.out)
 \@outlinefile=\write7
 \openout7 = `fodv05.out'.
 
@@ -1128,12 +1127,15 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
- (fodv05.nav) [1
+
+No file fodv05.nav.
+[1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 \openout4 = `fodv05.vrb'.
 
- (fodv05.vrb
+
+(fodv05.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1157,26 +1159,165 @@ ut line 4.
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-<amounts-1.png, id=43, 1376.14125pt x 343.2825pt>
+)) [2
+
+]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<amounts-1.png, id=69, 1376.14125pt x 343.2825pt>
 File: amounts-1.png Graphic file (type png)
 <use amounts-1.png>
 Package pdftex.def Info: amounts-1.png  used on input line 7.
 (pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
-) [2
+) [3
 
  <./amounts-1.png>]
 \openout4 = `fodv05.vrb'.
 
  (fodv05.vrb
-<amounts_multi-1.png, id=71, 1376.14125pt x 687.56876pt>
+<amounts_multi-1.png, id=97, 1376.14125pt x 687.56876pt>
 File: amounts_multi-1.png Graphic file (type png)
 <use amounts_multi-1.png>
 Package pdftex.def Info: amounts_multi-1.png  used on input line 8.
 (pdftex.def)             Requested size: 307.28987pt x 153.53174pt.
-) [3
+) [4
 
  <./amounts_multi-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<single-distributions-1.png, id=124, 1376.14125pt x 343.2825pt>
+File: single-distributions-1.png Graphic file (type png)
+<use single-distributions-1.png>
+Package pdftex.def Info: single-distributions-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [5
+
+ <./single-distributions-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<multiple-distributions-1.png, id=151, 1376.14125pt x 687.56876pt>
+File: multiple-distributions-1.png Graphic file (type png)
+<use multiple-distributions-1.png>
+Package pdftex.def Info: multiple-distributions-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 122.82329pt.
+)
+[6
+
+ <./multiple-distributions-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<proportions-1.png, id=178, 1376.14125pt x 343.2825pt>
+File: proportions-1.png Graphic file (type png)
+<use proportions-1.png>
+Package pdftex.def Info: proportions-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [7
+
+ <./proportions-1.png>]
+\openout4 = `fodv05.vrb'.
+
+
+(fodv05.vrb
+<proportions-comp-1.png, id=206, 1376.14125pt x 343.2825pt>
+File: proportions-comp-1.png Graphic file (type png)
+<use proportions-comp-1.png>
+Package pdftex.def Info: proportions-comp-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [8
+
+ <./proportions-comp-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<proportions-multi-1.png, id=233, 1376.14125pt x 343.2825pt>
+File: proportions-multi-1.png Graphic file (type png)
+<use proportions-multi-1.png>
+Package pdftex.def Info: proportions-multi-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [9
+
+ <./proportions-multi-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<basic-scatter-1.png, id=260, 1376.14125pt x 343.2825pt>
+File: basic-scatter-1.png Graphic file (type png)
+<use basic-scatter-1.png>
+Package pdftex.def Info: basic-scatter-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [10
+
+ <./basic-scatter-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<xy-binning-1.png, id=288, 1376.14125pt x 343.2825pt>
+File: xy-binning-1.png Graphic file (type png)
+<use xy-binning-1.png>
+Package pdftex.def Info: xy-binning-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [11
+
+ <./xy-binning-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<xy-lines-1.png, id=315, 1376.14125pt x 343.2825pt>
+File: xy-lines-1.png Graphic file (type png)
+<use xy-lines-1.png>
+Package pdftex.def Info: xy-lines-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [12
+
+ <./xy-lines-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<geospatial-1.png, id=342, 1376.14125pt x 343.2825pt>
+File: geospatial-1.png Graphic file (type png)
+<use geospatial-1.png>
+Package pdftex.def Info: geospatial-1.png  used on input line 3.
+(pdftex.def)             Requested size: 276.559pt x 68.98528pt.
+) [13
+
+ <./geospatial-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<errorbars-1.png, id=370, 1376.14125pt x 343.2825pt>
+File: errorbars-1.png Graphic file (type png)
+<use errorbars-1.png>
+Package pdftex.def Info: errorbars-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [14
+
+ <./errorbars-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<confidence-dists-1.png, id=397, 1376.14125pt x 343.2825pt>
+File: confidence-dists-1.png Graphic file (type png)
+<use confidence-dists-1.png>
+Package pdftex.def Info: confidence-dists-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [15
+
+ <./confidence-dists-1.png>]
+\openout4 = `fodv05.vrb'.
+
+ (fodv05.vrb
+<confidence-bands-1.png, id=424, 1376.14125pt x 343.2825pt>
+File: confidence-bands-1.png Graphic file (type png)
+<use confidence-bands-1.png>
+Package pdftex.def Info: confidence-bands-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 76.6538pt.
+) [16
+
+ <./confidence-bands-1.png>]
 \tf@nav=\write8
 \openout8 = `fodv05.nav'.
 
@@ -1186,26 +1327,33 @@ Package pdftex.def Info: amounts_multi-1.png  used on input line 8.
 \tf@snm=\write10
 \openout10 = `fodv05.snm'.
 
+ (fodv05.aux)
 
-(fodv05.aux)
-Package rerunfilecheck Info: File `fodv05.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Warning: File `fodv05.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `fodv05.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29001 strings out of 476406
- 592225 string characters out of 2789566
- 1858787 words of memory out of 3000000
- 48788 multiletter control sequences out of 15000+600000
- 519355 words of font info for 59 fonts, out of 8000000 for 9000
+ 29159 strings out of 476406
+ 595753 string characters out of 2789566
+ 1859787 words of memory out of 3000000
+ 48884 multiletter control sequences out of 15000+600000
+ 525223 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,432b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on fodv05.pdf (3 pages, 80745 bytes).
+ublic/amsfonts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/thatm/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on fodv05.pdf (16 pages, 590486 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

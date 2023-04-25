@@ -67,7 +67,7 @@
 
 
 \title{Fundamentals of Data Visualization}
-\author{Chapter 4}
+\author{Chapter 5}
 
 \begin{document}
 
@@ -75,94 +75,88 @@
 \maketitle
 \end{frame}
 
-\bfr{Uses of color}
+\bfr{Visualizing Amounts}
 \bi
-\li Color to distinguish one value from another
-\li Color to represent magnitude
-\li Color to highlight
+\li In many scenarios, we are interested in the magnitude of some set of numbers.
+  \bi
+  \li total sales volume of different brands of cars
+  \li total number of people living in different cities
+  \li age of olympians performing different sports
+  \ei
+\li The standard visualization is the bar plot
+\li Alternatives are the dot plot and the heatmap.
+\ei
+
+\end{frame}
+
+\bfr{Bar chart}
+\small
+\begin{center}
+\begin{tabular}{clr}
+Rank & Title & Weekend gross \\\hline
+1	&Star Wars: The Last Jedi&	\$71,565,498		\\
+2	&Jumanji: Welcome to the Jungle	&\$36,169,328		\\
+3	&Pitch Perfect 3	&\$19,928,525		\\
+4	&The Greatest Showman&	\$8,805,843		\\
+5&	Ferdinand	&\$7,316,746	
+\end{tabular}
+\end{center}
+\fig{.8}{boxoffice-vertical-1.png}
+\end{frame}
+
+\bfr{Bar chart problem: labels for each bar}
+\fig{.8}{boxoffice-rot-axis-tick-labels-1.png}
+\bi
+\li Rotated labels are ugly
 \ei
 \end{frame}
 
-\bfr{Color as a tool to distinguish}
+\bfr{Better: horizontal bars}
+\fig{1}{boxoffice-horizontal-1.png}
+\end{frame}
+
+\bfr{Order matters}
+
+\fig{.9}{boxoffice-horizontal-bad-order-1}
 \bi
-\li Discrete items that do not have an intrinsic order.
-\bi\li coutries on a map\li manufacturere of a product\ei
-\li A finite set of specific colors chosen to:
-\li \ \ look clearly distinct from each other, but
-\li \ \ not stand out from each other, and
-\li \ \ not create the impression of an order.
+\li Confusing and difficult to read
+\li  If the bars represent unordered categories, order them by ascending or descending data values.
 \ei
+\end{frame}
 
-\fig{1}{qualitative-scales-1.png}
+\bfr{Use natural orders}
+
+\fig{1}{income-by-age-1.png} 
 
 \end{frame}
 
-\begin{frame}
-\fig{.7}{popgrowth-US-1.png}
+\bfr{Sometimes sorting by bar length makes no sense}
+
+\fig{1}{income-by-age-sorted-1.png}
 \end{frame}
 
 
-\bfr{Color to represent data values}
+\bfr{Grouped bar chart}
+\fig{1}{income-by-age-race-dodged-1.png}
 \bi
-\li Sequential color scale
-\li Which values are larger or smaller
-\li How distant the values are from each other
-\bi\li scale needs to be perceived to vary uniformly\ei
-\li Can be based on single hue or multiple hues
+\li More than one category
+\li Can be confusing
+\bi\li e.g. difficult to  compare median incomes across age groups for a given racial group\ei
 \ei
-
-\fig{1}{sequential-scales-1.png}
-
 \end{frame}
 
-\begin{frame}
-\fig{1}{map-Texas-income-1.png}
-\end{frame}
+\bfr{Replotting can help}
+\fig{1}{income-by-race-age-dodged-1.png}
 
-
-\bfr{Color to represent deviation from norm}
 \bi
-\li Diverging color scale
-\li Neutral is usually a light color
-\li Two extremes are contrasting colors
-\li Extremes should be balanced in value
+\li Makes it easy to compare incomes within racial groups
 \ei
-
-\fig{1}{diverging-scales-1.png}
-
 \end{frame}
 
-\begin{frame}
-\fig{1}{map-Texas-race-1.png}
-\end{frame}
-
-\bfr{Color as a tool to highlight}
+\bfr{Use four plots instead of four colors}
+\fig{1}{income-by-age-race-faceted-1.png}
 \bi
-\li Some colors vividly stand out 
-\li Accent color scales
-\bi
-\li a set of subdued colors
-\li a matching set of stronger, darker, more saturated colors
+\li Generally easier to see position than color
 \ei
-\ei
-
-\fig{1}{accent-scales-1.png}
-
 \end{frame}
-
-\begin{frame}
-\fig{.7}{popgrowth-US-highlight-1.png}
-\end{frame}
-
-
-\bfr{Baseline colors should not compete for attention}
-\bi
-\li Pick drab colors
-\li Pick no color
-\ei
-
-\fig{1}{Aus-athletes-track-1.png}
-
-\end{frame}
-
 \end{document}

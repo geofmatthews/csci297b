@@ -1,9 +1,9 @@
-\frametitle{ Bars for more sets of categories }
+\frametitle{ Confidence bands }
+\fig{1}{confidence-bands-1.png}
+
 \bi
-\li Grouped bars
-\li Stacked bars
-\li Heat map
+\li For smooth line graphs, the equivalent of an error bar is a confidence band
+
 \ei
 
-\fig{1}{amounts_multi-1.png}
 

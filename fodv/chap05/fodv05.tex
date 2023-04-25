@@ -73,6 +73,21 @@
 
 \begin{frame}
 \maketitle
+
+\end{frame}
+
+\bfr{Taxonomy of visualizations}
+
+\bi
+\li Amounts
+\li Distributions
+\li Proportionas
+
+\li $x$-$y$ relationships
+\li Geospatial data
+\li Uncertainty
+\ei
+
 \end{frame}
 
 \bfr{Visualizing amounts}
@@ -96,5 +111,140 @@
 
 \end{frame}
 
+\bfr{Distributions}
+\fig{1}{single-distributions-1.png}
+\bi
+\li Histograms and density plots are intuitive visualizations
+\li Both require arbitrary parameter choices and can be misleading
+\li Cumulative density and Q-Q plots always represent the data faithfully
+\li CD and Q-Q can be difficult to interpret
+\ei
+\end{frame}
 
+\bfr{Multiple distributions}
+\fig{.8}{multiple-distributions-1.png}
+\small
+\bi
+\li Boxplots, violins, strip charts, and sina plots are useful for many distributions
+at once.
+\li Good at showing overall shifts among distributions.
+\li Stacked histograms and overlapping densities allow a more in-depth comparison of a smaller number of distributions.
+\li Stacked histograms are difficult to interpret and best avoided.
+\ei
+\end{frame}
+
+\bfr{Proportions}
+\fig{1}{proportions-1.png}
+\bi
+\li Pie charts emphasize that the parts add up to a whole.
+\li Pie charts are difficult to compare individual sizes.
+\li Stacked bars look awkward for a single set of proportions
+\li Can be useful when comparing multiple sets of proportions
+\ei
+\end{frame}
+
+\bfr{Multiple Proportions}
+\fig{1}{proportions-comp-1.png}
+\bi
+\li Pie charts tend to be space-inefficient and often obscure relationships.
+\li Grouped bars work well as long as the number of conditions compared is moderate
+\li Stacked bars can work for large numbers of conditions
+\li Stacked densities are appropriate when the proportions change along a continuous variable.
+\ei
+\end{frame}
+
+\bfr{Proportions with multiple grouping variables}
+
+\fig{1}{proportions-multi-1.png}
+\bi
+\li Mosaic plots, treemaps, and parallel sets can visualize
+proportions according to multiple grouping variables.
+\li Mosaic plots assume every level of one grouping variable
+can be combined with every level of anothre grouping variable.
+\li Treemaps do not make that assumption.
+\li Parallel set work better when there are more than
+two grouping variables.
+\ei
+\end{frame}
+
+\bfr{$x$-$y$ relationships}
+
+\fig{1}{basic-scatter-1.png}
+\bi
+\li Scatterplots are the archetypical visualization when we want to show one quantitative variable relative to another
+\li If we have three quantitative variables, we can map one onto the dot size, creating  the  bubble chart
+\li For paired data, where the variables along the $x$ and the $y$ axes are measured in the same units, it is generally helpful to add a line indicating $x=y$
+\li Paired data can also be shown as a slope graph of paired points connected by straight lines
+\ei
+\end{frame}
+
+\bfr{Large numbers of points}
+
+\fig{1}{xy-binning-1.png}
+\bi
+\li For large numbers of points, regular scatterplots can become uninformative due to overplotting.
+\li Contour lines, 2D bins, or hex bins may provide an alternative
+\li For more than two quantities, we may want to plot correlation
+coefficients in a correlogram
+\ei
+
+\end{frame}
+
+\bfr{Lines}
+\fig{1}{xy-lines-1.png}
+\bi
+\li When the $x$ axis represents time or a strictly increasing quantity such as a treatment dose, we commonly draw line graphs 
+\li If we have a temporal sequence of two response variables, we can draw a connected scatterplot
+\li We can use smooth lines to represent trends in a larger dataset
+\ei
+\end{frame}
+
+\bfr{Geospatial data}
+
+\fig{.9}{geospatial-1.png}
+\bi
+\li The primary mode of showing geospatial data is in the form of a map
+\li  A map takes coordinates on the globe and projects them onto a flat surface
+\li Data values in different regions are shown by different colors.
+\li Such a map is called a choropleth 
+\li In some cases, it may be helpful to distort the different regions according to some other quantity (e.g., population number) or simplify each region into a square. 
+\li Such visualizations are called cartograms.
+\ei
+\end{frame}
+
+\bfr{Uncertainty}
+
+\fig{1}{errorbars-1.png}
+
+\bi
+\li Error bars are meant to indicate the range of likely values for some estimate or measurement
+\li E.g. mean and standard deviation, or median and inter-quartile range
+\li Graded error bars show multiple ranges at the same time, where each range corresponds to a different degree of confidence. 
+\li They are in effect multiple error bars with different line thicknesses plotted on top of each other.
+\ei
+
+\end{frame}
+
+\bfr{More detail than error bars}
+\fig{1}{confidence-dists-1.png}
+
+\bi
+\li  We can visualize the actual confidence or posterior distributions 
+\li  Confidence strips provide a clear visual sense of uncertainty but are difficult to read accurately.
+\li  Eyes and half-eyes combine error bars with approaches to visualize distributions (violins and ridgelines, respectively)
+\li By showing the distribution in discrete units, the quantile dot plot is not as precise but can be easier to read than the continuous distribution shown by a violin or ridgeline plot.
+\ei
+
+\end{frame}
+
+\bfr{Confidence bands}
+\fig{1}{confidence-bands-1.png}
+
+\bi
+\li For smooth line graphs, the equivalent of an error bar is a confidence band
+
+\ei
+
+
+\end{frame}
 \end{document}

@@ -1,0 +1,5 @@
+\frametitle{ Use four plots instead of four colors }
+\fig{1}{income-by-age-race-faceted-1.png}
+\bi
+\li Generally easier to see position than color
+\ei

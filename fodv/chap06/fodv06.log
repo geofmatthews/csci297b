@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  25 APR 2023 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  25 APR 2023 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./fodv04.tex
-(fodv04.tex
+**./fodv06.tex
+(fodv06.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -963,8 +963,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-) (fodv04.aux)
-\openout1 = `fodv04.aux'.
+) (fodv06.aux)
+\openout1 = `fodv06.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
@@ -1046,9 +1046,9 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 72.
- (fodv04.out) (fodv04.out)
+ (fodv06.out) (fodv06.out)
 \@outlinefile=\write7
-\openout7 = `fodv04.out'.
+\openout7 = `fodv06.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
@@ -1128,12 +1128,12 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
- (fodv04.nav) [1
+ (fodv06.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `fodv04.vrb'.
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
+ (fodv06.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1160,131 +1160,147 @@ thkerncmss.
 )) [2
 
 ]
-\openout4 = `fodv04.vrb'.
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
-<qualitative-scales-1.png, id=70, 1376.14125pt x 578.16pt>
-File: qualitative-scales-1.png Graphic file (type png)
-<use qualitative-scales-1.png>
-Package pdftex.def Info: qualitative-scales-1.png  used on input line 11.
-(pdftex.def)             Requested size: 307.28987pt x 129.10114pt.
-) [3
+ (fodv06.vrb
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+6.
 
- <./qualitative-scales-1.png>]
-<popgrowth-US-1.png, id=98, 1156.32pt x 1387.1825pt>
-File: popgrowth-US-1.png Graphic file (type png)
-<use popgrowth-US-1.png>
-Package pdftex.def Info: popgrowth-US-1.png  used on input line 102.
-(pdftex.def)             Requested size: 215.10196pt x 258.04291pt.
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+<boxoffice-vertical-1.png, id=70, 1376.14125pt x 687.56876pt>
+File: boxoffice-vertical-1.png Graphic file (type png)
+<use boxoffice-vertical-1.png>
+Package pdftex.def Info: boxoffice-vertical-1.png  used on input line 13.
+(pdftex.def)             Requested size: 245.83282pt x 122.82329pt.
+)
+[3
 
-Overfull \vbox (2.89627pt too high) detected at line 102
- []
+ <./boxoffice-vertical-1.png>]
+\openout4 = `fodv06.vrb'.
 
-[4
+ (fodv06.vrb
+<boxoffice-rot-axis-tick-labels-1.png, id=99, 1156.32pt x 982.67125pt>
+File: boxoffice-rot-axis-tick-labels-1.png Graphic file (type png)
+<use boxoffice-rot-axis-tick-labels-1.png>
+Package pdftex.def Info: boxoffice-rot-axis-tick-labels-1.png  used on input li
+ne 2.
+(pdftex.def)             Requested size: 245.83282pt x 208.9011pt.
+) [4
 
- <./popgrowth-US-1.png>]
-\openout4 = `fodv04.vrb'.
+ <./boxoffice-rot-axis-tick-labels-1.png>]
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
-<sequential-scales-1.png, id=125, 1376.14125pt x 578.16pt>
-File: sequential-scales-1.png Graphic file (type png)
-<use sequential-scales-1.png>
-Package pdftex.def Info: sequential-scales-1.png  used on input line 10.
-(pdftex.def)             Requested size: 307.28987pt x 129.10114pt.
+ (fodv06.vrb
+<boxoffice-horizontal-1.png, id=126, 1156.32pt x 713.66624pt>
+File: boxoffice-horizontal-1.png Graphic file (type png)
+<use boxoffice-horizontal-1.png>
+Package pdftex.def Info: boxoffice-horizontal-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [5
 
- <./sequential-scales-1.png>]
-<map-Texas-income-1.png, id=152, 1156.32pt x 867.24pt>
-File: map-Texas-income-1.png Graphic file (type png)
-<use map-Texas-income-1.png>
-Package pdftex.def Info: map-Texas-income-1.png  used on input line 120.
-(pdftex.def)             Requested size: 307.28987pt x 230.46593pt.
+ <./boxoffice-horizontal-1.png>]
+\openout4 = `fodv06.vrb'.
 
+ (fodv06.vrb
+<boxoffice-horizontal-bad-order-1.png, id=153, 1156.32pt x 713.66624pt>
+File: boxoffice-horizontal-bad-order-1.png Graphic file (type png)
+<use boxoffice-horizontal-bad-order-1.png>
+Package pdftex.def Info: boxoffice-horizontal-bad-order-1.png  used on input li
+ne 3.
+(pdftex.def)             Requested size: 276.559pt x 170.68446pt.
+)
 [6
 
- <./map-Texas-income-1.png>]
-\openout4 = `fodv04.vrb'.
+ <./boxoffice-horizontal-bad-order-1.png>]
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
-<diverging-scales-1.png, id=179, 1376.14125pt x 578.16pt>
-File: diverging-scales-1.png Graphic file (type png)
-<use diverging-scales-1.png>
-Package pdftex.def Info: diverging-scales-1.png  used on input line 9.
-(pdftex.def)             Requested size: 307.28987pt x 129.10114pt.
+ (fodv06.vrb
+<income-by-age-1.png, id=180, 1156.32pt x 713.66624pt>
+File: income-by-age-1.png Graphic file (type png)
+<use income-by-age-1.png>
+Package pdftex.def Info: income-by-age-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [7
 
- <./diverging-scales-1.png>]
-<map-Texas-race-1.png, id=207, 1156.32pt x 867.24pt>
-File: map-Texas-race-1.png Graphic file (type png)
-<use map-Texas-race-1.png>
-Package pdftex.def Info: map-Texas-race-1.png  used on input line 137.
-(pdftex.def)             Requested size: 307.28987pt x 230.46593pt.
+ <./income-by-age-1.png>]
+\openout4 = `fodv06.vrb'.
 
-[8
+ (fodv06.vrb
+<income-by-age-sorted-1.png, id=208, 1156.32pt x 713.66624pt>
+File: income-by-age-sorted-1.png Graphic file (type png)
+<use income-by-age-sorted-1.png>
+Package pdftex.def Info: income-by-age-sorted-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+) [8
 
- <./map-Texas-race-1.png>]
-\openout4 = `fodv04.vrb'.
+ <./income-by-age-sorted-1.png>]
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
-<accent-scales-1.png, id=234, 1376.14125pt x 578.16pt>
-File: accent-scales-1.png Graphic file (type png)
-<use accent-scales-1.png>
-Package pdftex.def Info: accent-scales-1.png  used on input line 11.
-(pdftex.def)             Requested size: 307.28987pt x 129.10114pt.
+ (fodv06.vrb
+<income-by-age-race-dodged-1.png, id=235, 1513.655pt x 756.8275pt>
+File: income-by-age-race-dodged-1.png Graphic file (type png)
+<use income-by-age-race-dodged-1.png>
+Package pdftex.def Info: income-by-age-race-dodged-1.png  used on input line 2.
+
+(pdftex.def)             Requested size: 307.28987pt x 153.63782pt.
 ) [9
 
- <./accent-scales-1.png>]
-<popgrowth-US-highlight-1.png, id=260, 1156.32pt x 1387.1825pt>
-File: popgrowth-US-highlight-1.png Graphic file (type png)
-<use popgrowth-US-highlight-1.png>
-Package pdftex.def Info: popgrowth-US-highlight-1.png  used on input line 155.
-(pdftex.def)             Requested size: 215.10196pt x 258.04291pt.
+ <./income-by-age-race-dodged-1.png>]
+\openout4 = `fodv06.vrb'.
 
-Overfull \vbox (2.89627pt too high) detected at line 155
- []
+ (fodv06.vrb
+<income-by-race-age-dodged-1.png, id=262, 1513.655pt x 605.26125pt>
+File: income-by-race-age-dodged-1.png Graphic file (type png)
+<use income-by-race-age-dodged-1.png>
+Package pdftex.def Info: income-by-race-age-dodged-1.png  used on input line 2.
 
-[10
+(pdftex.def)             Requested size: 307.28987pt x 122.86949pt.
+) [10
 
- <./popgrowth-US-highlight-1.png>]
-\openout4 = `fodv04.vrb'.
+ <./income-by-race-age-dodged-1.png>]
+\openout4 = `fodv06.vrb'.
 
- (fodv04.vrb
-<Aus-athletes-track-1.png, id=286, 1156.32pt x 713.66624pt>
-File: Aus-athletes-track-1.png Graphic file (type png)
-<use Aus-athletes-track-1.png>
-Package pdftex.def Info: Aus-athletes-track-1.png  used on input line 7.
-(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+ (fodv06.vrb
+<income-by-age-race-faceted-1.png, id=288, 1513.655pt x 935.495pt>
+File: income-by-age-race-faceted-1.png Graphic file (type png)
+<use income-by-age-race-faceted-1.png>
+Package pdftex.def Info: income-by-age-race-faceted-1.png  used on input line 2
+.
+(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
 ) [11
 
- <./Aus-athletes-track-1.png>]
+ <./income-by-age-race-faceted-1.png>]
 \tf@nav=\write8
-\openout8 = `fodv04.nav'.
+\openout8 = `fodv06.nav'.
 
 \tf@toc=\write9
-\openout9 = `fodv04.toc'.
+\openout9 = `fodv06.toc'.
 
 \tf@snm=\write10
-\openout10 = `fodv04.snm'.
+\openout10 = `fodv06.snm'.
 
- (fodv04.aux)
-Package rerunfilecheck Info: File `fodv04.out' has not changed.
+ (fodv06.aux)
+Package rerunfilecheck Info: File `fodv06.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29138 strings out of 476406
- 595285 string characters out of 2789566
- 1859787 words of memory out of 3000000
- 48890 multiletter control sequences out of 15000+600000
- 523467 words of font info for 76 fonts, out of 8000000 for 9000
+ 29170 strings out of 476406
+ 596915 string characters out of 2789566
+ 1858787 words of memory out of 3000000
+ 48911 multiletter control sequences out of 15000+600000
+ 523808 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,432b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on fodv04.pdf (11 pages, 742103 bytes).
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss
+1000.pk><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on fodv06.pdf (11 pages, 463594 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
+ 338 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
