@@ -1,0 +1,9 @@
+\frametitle{ Bars for more sets of categories }
+\bi
+\li Grouped bars
+\li Stacked bars
+\li Heat map
+\ei
+
+\fig{1}{amounts_multi-1.png}
+

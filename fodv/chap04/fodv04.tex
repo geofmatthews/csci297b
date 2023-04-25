@@ -1,0 +1,160 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{Fundamentals of Data Visualization}
+\author{Chapter 4}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Color as a tool to distinguish}
+\bi
+\li Discrete items that do not have an intrinsic order.
+\bi\li coutries on a map\li manufacturere of a product\ei
+\li A finite set of specific colors chosen to:
+\li \ \ look clearly distinct from each other, but
+\li \ \ not stand out from each other, and
+\li \ \ not create the impression of an order.
+\ei
+
+\fig{1}{qualitative-scales-1.png}
+
+\end{frame}
+
+\begin{frame}
+\fig{.7}{popgrowth-US-1.png}
+\end{frame}
+
+
+\bfr{Color to represent data values}
+\bi
+\li Sequential color scale
+\li Which values are larger or smaller
+\li How distant the values are from each other
+\bi\li scale needs to be perceived to vary uniformly\ei
+\li Can be based on single hue or multiple hues
+\ei
+
+\fig{1}{sequential-scales-1.png}
+
+\end{frame}
+
+\begin{frame}
+\fig{1}{map-Texas-income-1.png}
+\end{frame}
+
+
+\bfr{Color to represent deviation from norm}
+\bi
+\li Diverging color scale
+\li Neutral is usually a light color
+\li Two extremes are contrasting colors
+\li Extremes should be balanced in value
+\ei
+
+\fig{1}{diverging-scales-1.png}
+
+\end{frame}
+
+\begin{frame}
+\fig{1}{map-Texas-race-1.png}
+\end{frame}
+
+\bfr{Color as a tool to highlight}
+\bi
+\li Some colors vividly stand out 
+\li Accent color scales
+\bi
+\li a set of subdued colors
+\li a matching set of stronger, darker, more saturated colors
+\ei
+\ei
+
+\fig{1}{accent-scales-1.png}
+
+\end{frame}
+
+\begin{frame}
+\fig{.7}{popgrowth-US-highlight-1.png}
+\end{frame}
+
+
+\bfr{Baseline colors should not compete for attention}
+\bi
+\li Pick drab colors
+\li Pick no color
+\ei
+
+\fig{1}{Aus-athletes-track-1.png}
+
+\end{frame}
+
+\end{document}
