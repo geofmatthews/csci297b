@@ -43,8 +43,6 @@
 
 \newcommand{\lst}[1]{\lstinline{#1}}
 
-\newcommand{\lsting}[1]{\begin{lstlisting}[basicstyle=#1]}
-\newcommand{\lstend}{\end{lstlisting}}
 
 \newcommand{\bi}{\begin{itemize}}
 \newcommand{\li}{\item}
@@ -76,6 +74,8 @@
 
 \begin{document}
 
+\small
+
 \begin{frame}
 \maketitle
 \end{frame}
@@ -92,7 +92,7 @@
 \end{frame}
 
 \bfr{Some builtin R functions}
-\begin{lstlisting}[basicstyle=\small]
+\begin{verbatim}
 log(1)              # logarithm to base e
 ## [1] 0
 log10(1)            # logarithm to base 10
@@ -105,11 +105,11 @@ sqrt(4)             # square root
 ## [1] 16
 pi                    # not a function but useful
 ## [1] 3.141593
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Objects and assignment}
-\begin{lstlisting}
+\begin{verbatim}
 > my_obj <- 1729
 > my_obj2 <- "R is cool"
 > my_obj
@@ -123,7 +123,7 @@ pi                    # not a function but useful
 > my_obj5 <- my_obj + my_obj2
 Error in my_obj + my_obj2 : non-numeric argument to binary operator
 > 
-\end{lstlisting}
+\end{verbatim}
 
 \end{frame}
 
@@ -151,13 +151,13 @@ Two often conflicting goals:
 
 \bfr{Name conventions}
 
-\begin{lstlisting}[basicstyle=\small]
+\begin{verbatim}
 output_summary <- "my analysis"     # snake case
 output.summary <- "my analysis"     # dot case
 outputSummary <- "my analysis"      # camel case
 OutputSummary <- "my analysis"      # Pascal case
 output-summary <- "my analysis"     # kebab case
-\end{lstlisting}
+\end{verbatim}
 \bi
 \li Snake case used by textbook
 \li Google style recommends Pascal for function names
@@ -170,10 +170,10 @@ output-summary <- "my analysis"     # kebab case
 
 \bfr{Don't use existing names}
 
-\begin{lstlisting}[basicstyle=\small]
+\begin{verbatim}
 data <- read.table("mydatafile", header = TRUE) 
 #data is a function!
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Do exercise 2, part 1}
@@ -182,7 +182,7 @@ data <- read.table("mydatafile", header = TRUE)
 
 \bfr{The \lst{c()} function}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec <- c(2,3,1,6,4,3,3,7)
 mean(my_vec)    # returns the mean of my_vec
 ## [1] 3.625
@@ -192,13 +192,13 @@ sd(my_vec)      # returns the standard deviation of my_vec
 ## [1] 1.995531
 length(my_vec)  # returns the number of elements in my_vec
 ## [1] 8
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 \bfr{Sequences}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_seq <- 1:10     # create regular sequence
 my_seq
 ##  [1]  1  2  3  4  5  6  7  8  9 10
@@ -214,14 +214,14 @@ my_seq3
 my_seq4 <- rep("abc", times = 3)    # repeats 'abc' 3 times 
 my_seq4
 ## [1] "abc" "abc" "abc"
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 
 \bfr{Sequences}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_seq5 <- rep(1:5, times = 3)  # repeats the series 1 to 
                                 # 5, 3 times
 my_seq5
@@ -241,13 +241,13 @@ in_vec <- c(3, 1, 10, 7)
 my_seq7 <- rep(in_vec, each = 3)   
 my_seq7
 ##  [1]  3  3  3  1  1  1 10 10 10  7  7  7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 \bfr{Positional indexing}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec        # remind ourselves what my_vec looks like
 ## [1] 2 3 1 6 4 3 3 7
 my_vec[3]     # extract the 3rd value
@@ -261,13 +261,13 @@ my_vec[c(1, 5, 6, 8)]
 ## [1] 2 4 3 7
 my_vec[3:8]
 ## [1] 1 6 4 3 3 7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 \bfr{Logical indexing}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec        # remind ourselves what my_vec looks like
 ## [1] 2 3 1 6 4 3 3 7
 my_vec[my_vec > 4]
@@ -276,12 +276,12 @@ my_vec > 4
 ## [1] FALSE FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE
 my_vec[c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE)]
 ## [1] 6 7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Logical indexing}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec        # remind ourselves what my_vec looks like
 ## [1] 2 3 1 6 4 3 3 7
 my_vec[my_vec >= 4]        # values greater or equal to 4
@@ -294,7 +294,7 @@ my_vec[my_vec == 4]        # values equal to 4
 ## [1] 4
 my_vec[my_vec != 4]        # values not equal to 4
 ## [1] 2 3 1 6 3 3 7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Boolean expressions}
@@ -314,7 +314,7 @@ val63
 
 \bfr{Replacing elements}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec        # remind ourselves what my_vec looks like
 ## [1] 2 3 1 6 4 3 3 7
 
@@ -332,7 +332,7 @@ my_vec
 my_vec[my_vec <= 4] <- 1000
 my_vec
 ## [1] 1000 1000 1000  500 1000  100  100    7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Do exercise 2, part 2}
@@ -340,7 +340,7 @@ my_vec
 
 \bfr{Sorting elements}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec
 ## [1] 1000 1000 1000  500 1000  100  100    7
 
@@ -355,12 +355,12 @@ vec_sort2
 vec_sort3 <- rev(sort(my_vec))
 vec_sort3
 ## [1] 1000 1000 1000 1000  500  100  100    7
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Ordering elements}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 height <- c(180, 155, 160, 167, 181)
 height
 ## [1] 180 155 160 167 181
@@ -379,13 +379,13 @@ height_ord
 names_ord <- p.names[height_ord]
 names_ord
 ## [1] "Charlotte" "Helen"     "Karen"     "Joanna"    "Amy"
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 \bfr{Vectorization}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 # create a vector
 my_vec2 <- c(3, 5, 7, 1, 9, 20)
 
@@ -403,25 +403,25 @@ my_vec2 + my_vec3
 # multiply both vectors
 my_vec2 * my_vec3
 ## [1] 51 75 91 19 99  0
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 \bfr{Vectorization recycling}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 my_vec2 <- c(3, 5, 7, 1, 9, 20)
 my_vec4 <- c(1, 2)
 
 # add both vectors - quiet recycling!
 my_vec2 + my_vec4
 ## [1]  4  7  8  3 10 22
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 
 \bfr{Missing data}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 temp  <- c(7.2, NA, 7.1, 6.9, 6.5, 5.8, 5.8, 5.5, NA, 5.5)
 temp
 ##  [1] 7.2  NA 7.1 6.9 6.5 5.8 5.8 5.5  NA 5.5
@@ -433,7 +433,7 @@ mean_temp
 mean_temp <- mean(temp, na.rm = TRUE)
 mean_temp
 ## [1] 6.2875
-\end{lstlisting}
+\end{verbatim}
 
 \bi
 \li Some functions may deal with NAs differently.
@@ -444,7 +444,7 @@ mean_temp
 
 \bfr{R help}
 
-\lsting{\scriptsize}
+\begin{verbatim}
 ## show the help page:
 help("mean")
 ?mean
@@ -452,7 +452,7 @@ help("mean")
 ## search all help pages:
 help.search("mean")
 ??mean
-\end{lstlisting}
+\end{verbatim}
 
 \bi
 \li Also use the Help tab in RStudio
@@ -464,13 +464,13 @@ help.search("mean")
 
 \bfr{R help}
 
-\lsting{\tiny}
+\begin{verbatim}
 apropos("mean")
 ##  [1] ".colMeans"     ".rowMeans"     "colMeans"      "kmeans"       
 ##  [5] "mean"          "mean_temp"     "mean.Date"     "mean.default" 
 ##  [9] "mean.difftime" "mean.POSIXct"  "mean.POSIXlt"  "rowMeans"     
 ## [13] "vec_mean"      "weighted.mean"
-\end{lstlisting}
+\end{verbatim}
 
 \bi
 \li Find all functions with "mean" in their name.
@@ -478,9 +478,9 @@ apropos("mean")
 
 
 
-\lsting{\scriptsize}
+\begin{verbatim}
 RSiteSearch("regression")
-\end{lstlisting}
+\end{verbatim}
 
 \bi
 \li Search  for keywords and phrases in function help pages and vignettes for all CRAN packages, and in CRAN task views.
@@ -572,7 +572,7 @@ by previous R sessions.
 \li Occasionally you want to save an object rather than recompute it.
 \li Some objects may take minutes or hours to compute.
 \ei
-\lsting{\scriptsize}
+\begin{verbatim}
 ## save a single object to a file
 save(nameOfObject, file = "name_of_file.RData")
 
@@ -581,7 +581,7 @@ save.image(file = "name_of_file.RData")
 
 ## reload whatever you saved
 load(file = "name_of_file.RData")
-\end{lstlisting}
+\end{verbatim}
 \end{frame}
 
 

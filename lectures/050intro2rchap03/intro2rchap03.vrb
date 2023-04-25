@@ -1,1 +1,16 @@
-\frametitle{ Do exercise 3, part 3 }
+\frametitle{ Places to find datasets }
+\scriptsize
+\bi
+\li Type {\tt data()} at the R console
+\li\url{https://datasetsearch.research.google.com/}
+\li\url{https://www.gapminder.org/}
+\li\url{https://cloud.google.com/datasets}
+\li \url{https://github.com/rfordatascience/tidytuesday}
+\li\url{https://www.reddit.com/r/datasets/}
+\li\url{http://www.sthda.com/english/wiki/r-built-in-data-sets}
+\li\url{https://github.com/meysubb/Sports_Data_Reference/blob/master/R/Data.md}
+\li\url{https://dataverse.harvard.edu/}
+\li\url{https://usa.ipums.org/usa/}
+\li\url{https://archive.ics.uci.edu/ml/datasets.php}
+\li\url{https://www.google.com/publicdata/directory}
+\ei
