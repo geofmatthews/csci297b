@@ -1,0 +1,10 @@
+\frametitle{ Moving {\tt color} into {\tt ggplot} colors points, too }
+\scriptsize
+\begin{verbatim}
+# Moved colour = nitrogen into the universal ggplot()
+ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+\end{verbatim}
+
+\fig{0.8}{universal-colours-1.png}

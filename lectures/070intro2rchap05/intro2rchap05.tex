@@ -1,0 +1,303 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+\lstset{extendedchars=\true}
+
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://intro2r.com/} Chapter 5}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{R graphics}
+\bi
+\li  R provides easy, quick and dirty graphics for work and exploration
+\li R also provides sophisticated, publication-ready graphics
+\li R graphics are highly customizable, feeding our creative side
+\li This enables better expression and communication
+\li Opposite of ``click scatterplot button''
+\ei
+\end{frame}
+
+\bfr{The grammar of graphics}
+\bi
+\li \url{https://link.springer.com/book/10.1007/0-387-28695-0}
+\li \url{https://www.jstatsoft.org/article/view/v017b03/v17b03.pdf}
+\li  \url{https://ggplot2-book.org/}
+\ei
+\end{frame}
+
+\bfr{The grammar of graphics}
+\bi
+\li The user should be in control of all components (i.e. layers) and produce a tailor-made figure fit for their specific needs. 
+\ei
+
+\fig{0.5}{full_connected.png}
+
+\end{frame}
+
+\bfr{ggplot2}
+\bi
+\li In 2007 ggplot2 was released by Hadley Wickham. 
+\li By 2017 the package had reportedly been downloaded 10 million times.
+\li {\tt ggplot2} is not required for publication quality graphics.
+\li Base graphics can do the job, it's just easier with {\tt ggplot2}
+\ei
+
+\end{frame}
+
+\bfr{A final figure}
+\fig{.9}{final-figure-start-1.png}
+\bi
+\li We will develop this figure step-by-step.
+\ei
+\end{frame}
+
+\bfr{{\tt ggplot2} library}
+\begin{verbatim}
+install.packages("ggplot2")
+library(ggplot2)
+\end{verbatim}
+\bi
+\li Installing the package is not necessary on RStudio Workbench
+\ei
+\end{frame}
+
+\bfr{The base {\tt ggplot}}
+\begin{verbatim}
+ggplot()
+\end{verbatim}
+\fig{.8}{pure-ggplot-1.png}
+\end{frame}
+
+
+
+\bfr{A reminder of the flower data set}
+\begin{verbatim}
+flower <- read.table("data/flower.csv", 
+                           stringsAsFactors = TRUE, 
+                           header = TRUE, sep = ",")
+str(flower)
+## 'data.frame':    96 obs. of  8 variables:
+##  $ treat    : Factor w/ 2 levels "notip","tip": 2 2 2 2 2 2 2 2 2 2 ...
+##  $ nitrogen : Factor w/ 3 levels "high","low","medium": 3 3 3 3 3 3 3 3 3 3 ...
+##  $ block    : int  1 1 1 1 1 1 1 1 2 2 ...
+##  $ height   : num  7.5 10.7 11.2 10.4 10.4 9.8 6.9 9.4 10.4 12.3 ...
+##  $ weight   : num  7.62 12.14 12.76 8.78 13.58 ...
+##  $ leafarea : num  11.7 14.1 7.1 11.9 14.5 12.2 13.2 14 10.5 16.1 ...
+##  $ shootarea: num  31.9 46 66.7 20.3 26.9 72.7 43.1 28.5 57.8 36.9 ...
+##  $ flowers  : int  1 10 10 1 4 9 7 6 5 8 ...
+\end{verbatim}
+\end{frame}
+
+\bfr{Getting started}
+\bi
+\li We want {\tt shootarea}
+on the $y$ axis and {\tt weight} on the $x$ axis.
+\li To do this we specify a {\tt mapping} which is 
+an {\tt aesthetic}.
+\ei
+\scriptsize
+\begin{verbatim}
+# Including aesthetics for x and y axes as well as specifying the dataset
+ggplot(mapping = aes(x = weight, y = shootarea), data = flower)
+\end{verbatim}
+
+
+\figg{.6}{ggplot-with-xy-axis-1.png}\hfill\figg{.2}{data_mapping.png}
+
+\end{frame}
+
+\bfr{To see something we need geometry layers}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+        geom_point()     # Adding a geom to display data as point data
+\end{verbatim}
+
+\fig{.8}{ggplot-with-geom_point-1.png}
+
+\end{frame}
+
+\bfr{ggplot is like painting in layers}
+{
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+        geom_point()     # Adding a geom to display data as point data
+\end{verbatim}
+}
+\bi
+\li There are three essential layers
+
+
+\figg{0.15}{data}\hfill\figg{0.15}{mapping}\hfill\figg{0.15}{geoms}
+
+\li Other layers are optional, defaults handle most things.
+\ei
+\end{frame}
+
+\bfr{Add line geometry layer}
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+    geom_point() +
+    geom_line()     # Adding geom_line
+\end{verbatim}
+
+\fig{0.8}{geom_line-1.png}
+\end{frame}
+
+\bfr{Add smooth geometry layer}
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+    geom_point() +
+    geom_smooth()     # Adding geom_line
+\end{verbatim}
+
+\fig{0.8}{geom_smooth-1.png}
+\end{frame}
+
+\bfr{LOESS default}
+\fig{0.8}{geom_smooth-1.png}
+\scriptsize
+\bi
+\li locally estimated scatterplot smoothing
+\li We want a simple linear fit, from a linear model
+\li Also, remove the confidence interval
+\ei
+\end{frame}
+
+\bfr{Add linear model line layer}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+    geom_point() +
+    geom_smooth(method = "lm", se = FALSE)    # method and se 
+\end{verbatim}
+
+\fig{0.8}{geom_smooth-lm-1.png}
+\end{frame}
+
+
+\bfr{Add linear models for each level of nitrogen}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+  geom_point() +
+  # Including colour argument in aes()
+  geom_smooth(aes(color = nitrogen), method = "lm", se = FALSE)
+\end{verbatim}
+
+\fig{0.8}{geom_smooth-colour-lm-1.png}
+\end{frame}
+
+\bfr{Where to put information}
+{
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+  geom_point() +
+  # Including colour argument in aes()
+  geom_smooth(aes(color = nitrogen), method = "lm", se = FALSE)
+  
+ggplot() +
+  # Moved aes() and data into geoms
+  geom_point(aes(x = weight, y = shootarea), data = flower) +
+  geom_smooth(aes(x = weight, y = shootarea, colour = nitrogen), 
+                        data = flower, method = "lm", se = FALSE)
+\end{verbatim}
+}
+\bi
+\li When we include information such as {\tt data =} and {\tt aes()} in {\tt ggplot()}
+ we are setting those as the default, universal values which all subsequent geoms use. 
+\li Whereas if we were to include that information within a geom, only that geom would use that specific information. 
+\ei
+
+\end{frame}
+
+
+
+\bfr{Moving {\tt color} into {\tt ggplot} colors points, too}
+\scriptsize
+\begin{verbatim}
+# Moved colour = nitrogen into the universal ggplot()
+ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+\end{verbatim}
+
+\fig{0.8}{universal-colours-1.png}
+\end{frame}
+
+
+\end{document}
