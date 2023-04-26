@@ -299,5 +299,293 @@ ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
 \fig{0.8}{universal-colours-1.png}
 \end{frame}
 
+\bfr{Wrapping grids}
+
+\fig{1}{final-figure-start-1.png}
+\end{frame}
+
+\bfr{Facets}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+    # Splitting the single figure into multiple depending on treatment
+  facet_wrap(~ treat)
+\end{verbatim}
+\fig{.8}{facet_wrap-1.png}
+\end{frame}
+
+\bfr{Facets}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+    # Adding "block" to formula
+  facet_wrap(~ treat + block)
+\end{verbatim}
+\fig{.8}{facet_wrap-formula-1.png}
+\end{frame}
+
+\bfr{Facets}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+    # Changing to facet_grid
+  facet_grid(~ treat + block)
+\end{verbatim}
+\fig{.8}{facet_grid-1.png}
+\end{frame}
+
+\bfr{Facets}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+    # Rearranging formula, block in relation to treatment
+  facet_grid(block ~ treat)
+\end{verbatim}
+\fig{.8}{facet-grid-formula-1.png}
+\end{frame}
+
+\bfr{Multiple figures using {\tt patchwork}}
+
+\begin{verbatim}
+library(patchwork)
+\end{verbatim}
+
+\bi
+\li Arrange figures  above and below each other with $/$
+\li Arrange figures side by side with $+$ or $\vert$
+\ei
+\end{frame}
+
+\bfr{Assign plots to objects}
+
+\begin{verbatim}
+rbook_figure <- ggplot(aes(x = weight, 
+                     y = shootarea,
+                     colour = nitrogen), data = flower) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  facet_grid(block ~ treat)
+\end{verbatim}
+\bi
+\li The figure we just constructed
+\li Nothing is plotted if we assign it to an object
+\li To see the figure, enter its name at the console
+\ei
+\end{frame}
+
+\bfr{Arrange named figures with {\tt patchwork}}
+\begin{verbatim}
+rbook_figure / final_figure
+\end{verbatim}
+\fig{.9}{side-by-side-patchwork-1.png}
+\end{frame}
+
+\bfr{Caption individual figures with {\tt patchwork}}
+\scriptsize
+\begin{verbatim}
+nested_compare <- rbook_figure / final_figure
+nested_compare +
+  plot_annotation(tag_levels = "A", tag_suffix = ")")
+\end{verbatim}
+\fig{.9}{labelled-nested-1.png}
+\end{frame}
+
+\bfr{Changing point size}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(size = 2) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat)
+\end{verbatim}
+\fig{.8}{change-size-1.png}
+\end{frame}
+
+
+\bfr{Changing point shape}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat)
+\end{verbatim}
+\fig{.8}{change-shape-1.png}
+\end{frame}
+
+
+\bfr{Changing point transparency}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat)
+\end{verbatim}
+\fig{.8}{change-alpha-1.png}
+\end{frame}
+
+
+\bfr{Changing axis labels}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat) +
+    xlab("Weight of flower (g)") +
+    ylab("Area of shoot (cm^2)")
+\end{verbatim}
+\fig{.7}{axis-labels-1.png}
+\end{frame}
+
+
+\bfr{Special character interpretation with {\tt bquote}}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat) +
+    xlab("Weight of flower (g)") +
+    ylab(bquote("Area of shoot"~(cm^2)))
+\end{verbatim}
+\fig{.7}{bquote-1.png}
+\end{frame}
+
+
+\bfr{Fix some labels}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat) +
+    xlab("Weight of flower (g)") +
+    ylab(bquote("Area of shoot"~(cm^2))) +
+    labs(shape = "Nitrogen Concentration", color = "Nitrogen Concentration", 
+             caption = "Regression assumptions are unvalidated")
+\end{verbatim}
+\fig{.6}{extra-labels-1.png}
+\end{frame}
+
+\bfr{Using {\tt \textbackslash n} for newlines}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    facet_grid(block ~ treat) +
+    xlab("Weight of flower (g)") +
+    ylab(bquote("Area of shoot"~(cm^2))) +
+    labs(shape = "Nitrogen\nConcentration", color = "Nitrogen\nConcentration", 
+             caption = "Regression assumptions are unvalidated")
+\end{verbatim}
+\fig{.6}{compact-labels-1.png}
+\end{frame}
+
+\bfr{Themes}
+\scriptsize
+\begin{verbatim}
+classic <- rbook_figure  + theme_classic()
+bw <- rbook_figure       + theme_bw()
+minimal <- rbook_figure  + theme_minimal()
+light <- rbook_figure    + theme_light()
+(classic | bw) / (minimal | light)
+\end{verbatim}
+
+\fig{.8}{testing-themes-1.png}
+\end{frame}
+
+\bfr{More themes}
+\bi
+\li Package {\tt ggthemes}
+\li Write your own theme (see text)
+\ei
+\end{frame}
+
+\bfr{Add horizontal line}
+\begin{verbatim}
+rbook_figure + 
+    geom_hline(aes(yintercept = mean(shootarea)), 
+          linewidth = 0.5, colour = "black", linetype = 3) 
+\end{verbatim}
+\fig{.8}{geom_hline-1.png}
+
+\end{frame}
+
+\bfr{Adding a second {\tt geom\_smooth}}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
+    geom_point(aes(shape = nitrogen), size = 2, alpha = 0.6) +
+    geom_smooth(method = "lm", se = FALSE) +
+    # Adding a SECOND geom_smooth :O
+    geom_smooth(method = "lm", se = FALSE, linetype = 2, alpha = 0.6, 
+                         color = "black")  # overrides the default
+    ....
+\end{verbatim}
+   
+
+\fig{.7}{geom_smooth2-1.png}
+
+\end{frame}
+\bfr{Changing colors and scale labels manually}
+\scriptsize
+\begin{verbatim}
+ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data = flower) +
+    ...
+    # Setting colour and associated labels
+    scale_colour_manual(values = c("#5C1AAE", "#AE5C1A", "#1AAE5C"),
+       labels = c("High", "Medium", "Low")) +
+    # Setting shape and associated labels
+    scale_shape_manual(values = c(15,17,19),
+       labels = c("High", "Medium", "Low"))
+\end{verbatim}
+   
+
+\fig{.7}{scale-manual-1.png}
+
+\end{frame}
+\bfr{Labels are incorrect}
+
+\fig{.7}{scale-manual-1.png}
+
+\bi
+\li High, Medium and Low were arbitrary
+\li
+Fix with:
+\ei
+\scriptsize
+\begin{verbatim}
+flower$nitrogen <- factor(flower$nitrogen, levels = c("high", "medium", "low"))
+\end{verbatim}
+
+\end{frame}
+
+\bfr{Saving ggplots}
+\begin{verbatim}
+ggsave(filename = "areashoot_weight_facet.pdf", 
+       plot = rbook_figure, 
+       device = "pdf", 
+       path = "output", 
+       width = 250, 
+       height = 150, 
+       units = "mm", 
+       dpi = 500, 
+       limitsize = TRUE)
+\end{verbatim}
+\bi
+\li If {\tt plot} is not specified, last thing plotted is saved.
+\ei
+\end{frame}
 
 \end{document}

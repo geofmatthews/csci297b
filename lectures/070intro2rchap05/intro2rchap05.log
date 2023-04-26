@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  26 APR 2023 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  26 APR 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,7 +1309,7 @@ Overfull \hbox (2.88438pt too wide) in paragraph at lines 5--5
 = flower) +[] 
  []
 
-<universal-colours-1.png, id=514, 1349.04pt x 963.6pt>
+<universal-colours-1.png, id=515, 1349.04pt x 963.6pt>
 File: universal-colours-1.png Graphic file (type png)
 <use universal-colours-1.png>
 Package pdftex.def Info: universal-colours-1.png  used on input line 10.
@@ -1317,6 +1317,358 @@ Package pdftex.def Info: universal-colours-1.png  used on input line 10.
 ) [19
 
  <./universal-colours-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: final-figure-start-1.png Graphic file (type png)
+<use final-figure-start-1.png>
+Package pdftex.def Info: final-figure-start-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 219.49135pt.
+) [20
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<facet_wrap-1.png, id=568, 1349.04pt x 963.6pt>
+File: facet_wrap-1.png Graphic file (type png)
+<use facet_wrap-1.png>
+Package pdftex.def Info: facet_wrap-1.png  used on input line 10.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+)
+Overfull \vbox (0.89392pt too high) detected at line 317
+ []
+
+[21
+
+ <./facet_wrap-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<facet_wrap-formula-1.png, id=596, 1349.04pt x 963.6pt>
+File: facet_wrap-formula-1.png Graphic file (type png)
+<use facet_wrap-formula-1.png>
+Package pdftex.def Info: facet_wrap-formula-1.png  used on input line 10.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+)
+Overfull \vbox (0.89392pt too high) detected at line 329
+ []
+
+[22
+
+ <./facet_wrap-formula-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<facet_grid-1.png, id=623, 1349.04pt x 963.6pt>
+File: facet_grid-1.png Graphic file (type png)
+<use facet_grid-1.png>
+Package pdftex.def Info: facet_grid-1.png  used on input line 10.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+)
+Overfull \vbox (0.89392pt too high) detected at line 341
+ []
+
+[23
+
+ <./facet_grid-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<facet-grid-formula-1.png, id=650, 1349.04pt x 963.6pt>
+File: facet-grid-formula-1.png Graphic file (type png)
+<use facet-grid-formula-1.png>
+Package pdftex.def Info: facet-grid-formula-1.png  used on input line 10.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+)
+Overfull \vbox (0.89392pt too high) detected at line 353
+ []
+
+[24
+
+ <./facet-grid-formula-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb) [25
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+Overfull \hbox (15.23727pt too wide) in paragraph at lines 6--6
+[]                     \T1/cmtt/m/n/10.95 colour = nitrogen), data = flower) +[
+] 
+ []
+
+) [26
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<side-by-side-patchwork-1.png, id=731, 1349.04pt x 963.6pt>
+File: side-by-side-patchwork-1.png Graphic file (type png)
+<use side-by-side-patchwork-1.png>
+Package pdftex.def Info: side-by-side-patchwork-1.png  used on input line 5.
+(pdftex.def)             Requested size: 276.559pt x 197.53928pt.
+) [27
+
+ <./side-by-side-patchwork-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+<labelled-nested-1.png, id=758, 1349.04pt x 963.6pt>
+File: labelled-nested-1.png Graphic file (type png)
+<use labelled-nested-1.png>
+Package pdftex.def Info: labelled-nested-1.png  used on input line 8.
+(pdftex.def)             Requested size: 276.559pt x 197.53928pt.
+)
+Overfull \vbox (3.846pt too high) detected at line 399
+ []
+
+[28
+
+ <./labelled-nested-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<change-size-1.png, id=785, 1349.04pt x 963.6pt>
+File: change-size-1.png Graphic file (type png)
+<use change-size-1.png>
+Package pdftex.def Info: change-size-1.png  used on input line 9.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+) [29
+
+ <./change-size-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<change-shape-1.png, id=813, 1349.04pt x 963.6pt>
+File: change-shape-1.png Graphic file (type png)
+<use change-shape-1.png>
+Package pdftex.def Info: change-shape-1.png  used on input line 9.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+) [30
+
+ <./change-shape-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<change-alpha-1.png, id=840, 1349.04pt x 963.6pt>
+File: change-alpha-1.png Graphic file (type png)
+<use change-alpha-1.png>
+Package pdftex.def Info: change-alpha-1.png  used on input line 9.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+) [31
+
+ <./change-alpha-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<axis-labels-1.png, id=868, 1349.04pt x 963.6pt>
+File: axis-labels-1.png Graphic file (type png)
+<use axis-labels-1.png>
+Package pdftex.def Info: axis-labels-1.png  used on input line 11.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [32
+
+ <./axis-labels-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<bquote-1.png, id=895, 1349.04pt x 963.6pt>
+File: bquote-1.png Graphic file (type png)
+<use bquote-1.png>
+Package pdftex.def Info: bquote-1.png  used on input line 11.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [33
+
+ <./bquote-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+
+Overfull \hbox (15.63127pt too wide) in paragraph at lines 10--10
+[]    \T1/cmtt/m/n/8 labs(shape = "Nitrogen Concentration", color = "Nitrogen C
+oncentration",[] 
+ []
+
+<extra-labels-1.png, id=923, 1349.04pt x 963.6pt>
+File: extra-labels-1.png Graphic file (type png)
+<use extra-labels-1.png>
+Package pdftex.def Info: extra-labels-1.png  used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 131.68304pt.
+) [34
+
+ <./extra-labels-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (2.88438pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, color = nitrogen), data 
+= flower) +[] 
+ []
+
+
+Overfull \hbox (24.1292pt too wide) in paragraph at lines 10--10
+[]    \T1/cmtt/m/n/8 labs(shape = "Nitrogen\nConcentration", color = "Nitrogen\
+nConcentration",[] 
+ []
+
+<compact-labels-1.png, id=950, 1349.04pt x 963.6pt>
+File: compact-labels-1.png Graphic file (type png)
+<use compact-labels-1.png>
+Package pdftex.def Info: compact-labels-1.png  used on input line 13.
+(pdftex.def)             Requested size: 184.3758pt x 131.68304pt.
+) [35
+
+ <./compact-labels-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<testing-themes-1.png, id=977, 1349.04pt x 963.6pt>
+File: testing-themes-1.png Graphic file (type png)
+<use testing-themes-1.png>
+Package pdftex.def Info: testing-themes-1.png  used on input line 11.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+)
+Overfull \vbox (0.89392pt too high) detected at line 506
+ []
+
+[36
+
+ <./testing-themes-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb) [37
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (20.89565pt too wide) in paragraph at lines 5--5
+[]          \T1/cmtt/m/n/10.95 linewidth = 0.5, colour = "black", linetype = 3)
+[] 
+ []
+
+<geom_hline-1.png, id=1030, 1349.04pt x 963.6pt>
+File: geom_hline-1.png Graphic file (type png)
+<use geom_hline-1.png>
+Package pdftex.def Info: geom_hline-1.png  used on input line 7.
+(pdftex.def)             Requested size: 245.83282pt x 175.5872pt.
+) [38
+
+ <./geom_hline-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (2.88438pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, color = nitrogen), data 
+= flower) +[] 
+ []
+
+<geom_smooth2-1.png, id=1058, 1349.04pt x 963.6pt>
+File: geom_smooth2-1.png Graphic file (type png)
+<use geom_smooth2-1.png>
+Package pdftex.def Info: geom_smooth2-1.png  used on input line 14.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [39
+
+ <./geom_smooth2-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (7.13335pt too wide) in paragraph at lines 4--4
+[]\T1/cmtt/m/n/8 ggplot(aes(x = weight, y = shootarea, colour = nitrogen), data
+ = flower) +[] 
+ []
+
+<scale-manual-1.png, id=1085, 1349.04pt x 963.6pt>
+File: scale-manual-1.png Graphic file (type png)
+<use scale-manual-1.png>
+Package pdftex.def Info: scale-manual-1.png  used on input line 15.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+)
+Overfull \vbox (7.44183pt too high) detected at line 557
+ []
+
+[40
+
+ <./scale-manual-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: scale-manual-1.png Graphic file (type png)
+<use scale-manual-1.png>
+Package pdftex.def Info: scale-manual-1.png  used on input line 3.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+
+Overfull \hbox (28.37816pt too wide) in paragraph at lines 12--12
+[]\T1/cmtt/m/n/8 flower$nitrogen <- factor(flower$nitrogen, levels = c("high", 
+"medium", "low"))[] 
+ []
+
+) [41
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb) [42
+
+]
 \tf@nav=\write8
 \openout8 = `intro2rchap05.nav'.
 
@@ -1331,26 +1683,28 @@ Package rerunfilecheck Info: File `intro2rchap05.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29498 strings out of 475075
- 591322 string characters out of 5782996
+ 29755 strings out of 475075
+ 595729 string characters out of 5782996
  1064629 words of memory out of 5000000
- 50232 multiletter control sequences out of 15000+600000
+ 50380 multiletter control sequences out of 15000+600000
  482729 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,437b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/cm-super/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/cm-super/sfss1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super
-/sfss1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.
-pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/te
-xlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on intro2rchap05.pdf (19 pages, 807053 bytes).
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-sup
+er/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss109
+5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on intro2rchap05.pdf (42 pages, 2426881 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
- 39 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1231 PDF objects out of 1440 (max. 8388607)
+ 1085 compressed objects within 11 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

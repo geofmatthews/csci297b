@@ -1,10 +1,15 @@
-\frametitle{ Moving {\tt color} into {\tt ggplot} colors points, too }
-\scriptsize
+\frametitle{ Saving ggplots }
 \begin{verbatim}
-# Moved colour = nitrogen into the universal ggplot()
-ggplot(aes(x = weight, y = shootarea, color = nitrogen), data = flower) +
-  geom_point() +
-  geom_smooth(method = "lm", se = FALSE)
+ggsave(filename = "areashoot_weight_facet.pdf",
+       plot = rbook_figure,
+       device = "pdf",
+       path = "output",
+       width = 250,
+       height = 150,
+       units = "mm",
+       dpi = 500,
+       limitsize = TRUE)
 \end{verbatim}
-
-\fig{0.8}{universal-colours-1.png}
+\bi
+\li If {\tt plot} is not specified, last thing plotted is saved.
+\ei
