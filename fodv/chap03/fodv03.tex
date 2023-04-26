@@ -1,6 +1,6 @@
 \documentclass{beamer}
 \usetheme{Singapore}
-\usepackage{changepage}
+\usepackage{changepage,amsmath}
 
 %\usepackage{pstricks,pst-node,pst-tree}
 \usepackage{amssymb,latexsym}
@@ -92,6 +92,42 @@
 
 \bi\li Linear changes in axes should not change the figure. \ei
 
+\end{frame}
+
+\bfr{Logarithms}
+
+\centerline{\shadowbox{\small Logarithms, by shortening the labors, doubled the life of an astronomer.}}
+
+\hfill  \sl-- Pierre-Simon, marquis de Laplace
+
+\cola{.5}
+\begin{align*}
+\log_b(a) &= c  \Leftrightarrow b^c = a\\\\
+\log_b(ac) &= \log_b(a) + \log_b(c)\\
+\end{align*}
+\colb{.5}
+\hfill \includegraphics[width=0.5\textwidth]{laplace}
+\colc
+\includegraphics[width=\textwidth]{sliderule}
+
+\centerline{\url{https://www.sliderules.org/}}
+\end{frame}
+
+
+\bfr{Logarithm refresher}
+\[
+\log_b(a) = c  \Leftrightarrow b^c = a
+\]
+\begin{align*}
+b^{\log_b(a)} &= a\\
+\log_b(ac) &= \log_b(a) + \log_b(c)\\
+\log_b(a) &= \frac{\log_d(a)}{\log_d(b)} & \frac{a}{b} = \frac{a/d}{b/d}\\
+\log_d(b)\log_b(a) &= \log_d(a) & \frac{b}{d}\frac{a}{b} = \frac{a}{d}\\
+\log_b(a) &= \frac{1}{\log_a(b)}\\
+\log_b(a) &= k\log_d(a) &
+\log_{10}(1203248) &\approx 6\\
+&&\log_2(1203248) &\approx 20
+\end{align*}
 \end{frame}
 
 
