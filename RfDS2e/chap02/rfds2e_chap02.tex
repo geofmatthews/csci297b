@@ -1,0 +1,152 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+\lstset{extendedchars=\true}
+
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://intro2r.com/} Chapter 5}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{The Big Picture}
+\fig{1}{whole-game.png}
+\end{frame}
+
+\bfr{}
+\begin{quotation}
+
+“The simple graph has brought more information to the data analyst’s mind than any other device.” — John Tukey
+\end{quotation}
+\end{frame}
+
+\bfr{The tidyverse}
+\begin{verbatim}
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+install.packages("ggthemes")
+
+library("tidyverse")
+library("palmerpenguins")
+library("ggthemes")
+\end{verbatim}
+\bi
+\li {\tt tidyverse} and {\tt ggthemes} already on RStudio Workbench
+\li Only have to install once.  Not needed in scripts.
+\li Instead of  {\tt library(palmerpenguins)} can use
+\begin{verbatim}
+penguins <- palmerpenguins::penguins
+\end{verbatim}
+\ei
+\end{frame}
+
+\bfr{penguins}
+\bi
+\li {\tt penguins} contains 344 observations collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER
+\ei
+\scriptsize
+\begin{verbatim}
+> str(penguins)
+tibble [344 × 8] (S3: tbl_df/tbl/data.frame)
+ $ species          : Factor w/ 3 levels "Adelie","Chinstrap",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ island           : Factor w/ 3 levels "Biscoe","Dream",..: 3 3 3 3 3 3 3 3 3 3 ...
+ $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...
+ $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...
+ $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...
+ $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...
+ $ sex              : Factor w/ 2 levels "female","male": 2 1 1 NA 1 2 1 2 NA NA ...
+ $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...
+\end{verbatim}
+\end{frame}
+
+\bfr{penguins}\scriptsize
+\begin{verbatim}
+> glimpse(penguins)
+Rows: 344
+Columns: 8
+$ species           <fct> Adelie, Adelie, Adelie, Adelie, Ade…
+$ island            <fct> Torgersen, Torgersen, Torgersen, To…
+$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 3…
+$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 1…
+$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 1…
+$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3…
+$ sex               <fct> male, female, female, NA, female, m…
+$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007,…
+
+\end{verbatim}
+\end{frame}
+
+\bfr{Ultimate goal}
+\fig{1}{unnamed-chunk-7-1}
+\end{frame}
+\end{document}
