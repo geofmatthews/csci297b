@@ -58,6 +58,8 @@
 
 \newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
 
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
 \newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
 \newcommand{\efr}{\end{frame}}
 
@@ -91,6 +93,140 @@ solve these problems.
 
 \end{frame}
 
+\bfr{100 normally distributed numbers}
+
+\figg{.42}{normalpoints}\hfill\figg{.42}{normalhistogram.png}
+
+\figg{.42}{normalsorted.png}\hfill\figg{.42}{normalecdf.png}
+
+\end{frame}
+
+\bfr{Student grades, an ecdf}
+
+\fig{.8}{student-grades-1.png}
+
+\scriptsize
+\bi
+\li Each dot is one student
+\li $x$ axis is points on exam
+\li $y$ axis is rank in class on exam
+\li $y$ is proportional to the cumulative density
+\ei
+
+\end{frame}
+\bfr{Student grades, an ecdf sorted the other way}
+
+\fig{.8}{student-grades-desc-1.png}
+
+\bi
+\li What portion of students scored above this?
+\ei
+\end{frame}
+
+\bfr{Student grades, an ecdf}
+
+\fig{.8}{student-grades-normalized-1.png}
+\scriptsize
+\bi
+\li Omit the points and scale $y$ to 1
+\li A quarter of the students (25\%) received less than 75 points.
+\li The median point value (corresponding to a cumulative frequency of 0.5) is 81.
+\li Approximately 20\% of the students received 90 points or more.
+\li Helps find cut points of minimum unhappiness.
+\ei
+\end{frame}
+
+
+\bfr{Highly skewed distributions}
+\bi
+\li The right tail decays slower than exponentially.
+\li
+Very large values are not that rare, even if the mean of the distribution is small.
+\li Examples:
+
+
+\bi
+\li  the number of people living in different cities or counties, 
+\li the number of contacts in a social network,
+\li the frequency with which individual words appear in a book,
+\li the number of academic papers written by different authors,
+\li the net worth of individuals, 
+\li the number of interaction partners of individual proteins in protein–protein interaction networks
+\ei\ei
+\end{frame}
+
+\bfr{Power law distributions}
+\bi
+\li The likelihood to observe a value that is $x$ times larger than some reference point declines as a power of $x$.
+\li Net worth in the US, which is distributed according to a power law with exponent 2.
+\li At any given level of net worth (say, \$1 million), people with half that net worth are four times as frequent, and people with twice that net worth are one-fourth as frequent.
+\li  The same relationship holds if we use \$10,000 as reference point or if we use \$100 million.
+\li Also called {\bf scale-free} distributions.
+\ei
+\end{frame}
+
+\bfr{County populations, 2010 US Census}
+\cola{0.6}
+\fig{1}{county-populations-1.png}
+\colb{0.4}
+\bi
+\li Median is 25,857
+\li Los Angeles county is 9,818,605
+\ei
+\colc
+\end{frame}
+
+\bfr{Log transformed data}
+\cola{0.6}
+\fig{1}{county-populations-log-1.png}
+\colb{0.4}
+\bi
+\li Not a power law, but a log-normal distribution.
+\ei
+\colc
+\end{frame}
+
+\bfr{Plot ecdf on log-log axes}
+
+\fig{1}{county-populations-tail-log-log-1.png}
+
+\bi 
+\li Power law would be straight line
+\li Right tail is almost a straight line
+\ei
+
+\end{frame}
+
+\bfr{log-log ecdf of word counts in {\em Moby Dick}}
+
+\fig{1}{word-counts-tail-log-log-1.png}
+\end{frame}
+
+\bfr{Quantile-quantile (q-q) plots}
+\bi
+\li Assume the actual data values have a mean of 10 and a standard deviation of 3. 
+\li Then, assuming a normal distribution, we would expect:
+\bi
+\li  a data point ranked at the 50th percentile to lie at position 10 (the mean),
+\li a data point at the 84th percentile to lie at position 13 (one standard deviation above from the mean),
+\li  and a data point at the 2.3rd percentile to lie at position 4 (two standard deviations below the mean). 
+\ei
+\li We can carry out this calculation for all points in the dataset and then plot the observed values (i.e., values in the dataset) against the theoretical values (i.e., values expected given each data point’s rank and the assumed reference distribution).
+\ei
+\end{frame}
+
+\bfr{q-q plots of a normal and uniform data}
+\figg{0.5}{qqnorm-norm}\hfill\figg{0.5}{qqnorm-unif}
+\end{frame}
+
+
+\bfr{q-q plot of student grade data}
+\fig{.7}{student-grades-qq-1.png}
+\end{frame}
+
+\bfr{Do county populations follow a log normal distribution?}
+\fig{0.7}{county-populations-qq-1.png}
+\end{frame}
 
 
 \end{document}

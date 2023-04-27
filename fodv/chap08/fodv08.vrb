@@ -1,14 +1,2 @@
-\frametitle{ Visualizing Distributions }
-
-\bi
-\li Histograms and density plots are highly intuitive and visually appealing.
-\li Both arbitrarily depend on choice of parameters.
-\bi \li bin width \li kernel function \li bandwidth \ei
-\li Empirical cumulative distribution functions (ecdfs) and quantile-quantile (q-q) plots
-solve these problems.
-\li No parameter choices involved.
-\li Less intuitive than histograms and density plots.
-\li Quite popular among statisticians.
-\li Deserve more widespread use.
-\ei
-
+\frametitle{ Do county populations follow a log normal distribution? }
+\fig{0.7}{county-populations-qq-1.png}
