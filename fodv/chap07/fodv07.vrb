@@ -1,0 +1,8 @@
+\frametitle{ Density plots for multiple distributions work well }
+\fig{1}{butterfat-densitites-1.png}
+
+\bi
+\li Distributions must be somewhat distinct.
+\li Distributions should be contiguous.
+\ei
+

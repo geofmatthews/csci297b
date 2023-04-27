@@ -1,0 +1,226 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{Fundamentals of Data Visualization}
+\author{Chapter 7}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing Distributions}
+\bi
+\li We often want to know how a variable is distributed.
+\li For example, we might want to know
+how many passengers of what ages there were on the Titanic, i.e., how many children, young adults, middle-aged people, seniors, and so on. 
+\li This is called the age {\bf distribution}.
+\li A standard visualization is either a histogram or a density plot.
+\ei
+
+\end{frame}
+
+\bfr{A single distribution}
+\cola{0.2}
+\scriptsize
+\begin{tabular}{lr}
+Age range&	Count\\\hline
+0–5	 & 36\\
+6–10	 & 	19\\
+11–15		 & 18\\
+16–20		 & 99\\
+21–25		 & 139\\
+26–30	 & 	121	\\
+31–35	 & 	76\\
+36–40	 & 	74\\
+41–45	 & 	54\\
+46–50	 & 	50\\
+51–55		 & 26\\
+56–60		 & 22	\\
+61–65	 & 	16\\
+66–70		 & 3\\
+71–75	 & 	3
+\end{tabular}
+\colb{0.8}
+\fig{1}{titanic-ages-hist1-1.png}
+\colc
+\end{frame}
+
+\bfr{Bin width is crucial}
+
+\fig{1}{titanic-ages-hist-grid-1.png}
+\bi\li When making a histogram, always explore multiple bin widths.\ei
+\end{frame}
+
+\bfr{Density plots}
+
+\fig{1}{titanic-ages-dens1-1.png}
+\scriptsize
+\bi
+\li Curve is estimated from the data using {\bf kernel density estimation}.
+\li We add up all values in a small width (the {\em bandwidth}).
+\li Usually weighted by a Gaussian kernel.
+\ei
+\end{frame}
+
+\bfr{Density curves depend upon kernel and bandwidth}
+\fig{1}{titanic-ages-dens-grid-1.png}
+\scriptsize
+
+(a) Gaussian kernel, bandwidth = 0.5; (b) Gaussian kernel, bandwidth = 2;\\ (c) Gaussian kernel, bandwidth = 5; (d) Rectangular kernel, bandwidth = 2
+\end{frame}
+
+\bfr{Density curves}
+
+\fig{.8}{titanic-ages-dens1-1.png}
+\bi
+\li Usually scaled so the area sums to one.
+\li For the Titanic data, ages range from 0 to 75.
+\li The average height should be about $1/75 \approx 0.013$
+\ei
+
+\end{frame}
+
+\bfr{Density curves produce data where there is none}
+
+\fig{1}{titanic-ages-dens-negative-1.png}
+
+\end{frame}
+
+\bfr{Histograms vs. Density plots}
+
+\bi
+\li Some people are vehemently against density plots and believe that they are arbitrary and misleading.
+\li Others realize that histograms can be just as arbitrary and misleading.
+\li Density estimates have an inherent advantage over histograms as soon as we want to visualize more than one distribution at a time.
+\li Cumulative density and q-q plots plot distributions without the
+arbitrary choices, but are difficult to interpret.
+\ei
+\end{frame}
+
+\bfr{Stacked bar charts for multiple distributions}
+\fig{.8}{titanic-age-stacked-hist-1.png}
+\scriptsize
+\bi
+\li Very difficult to interpret.  Where is the zero for women?
+\li Were men and women passengers generally of the same age, or was there an age difference between the genders?
+\li The bars for women cannot be compared; they do not have a common zero.
+\ei
+\end{frame}
+\scriptsize
+\bfr{All bars start at zero, but are transparent}
+\fig{0.8}{titanic-age-overlapping-hist-1.png}
+\bi
+\li Now it appears that there are actually three different groups, not just two.
+\li We’re still not entirely sure where each bar starts and ends.
+\li A semi-transparent bar drawn on top of another tends to not look like a semi-transparent bar but instead like a bar drawn in a different color.
+\ei
+\end{frame}
+
+
+\bfr{Transparent density plots}
+\fig{0.8}{titanic-age-overlapping-dens-1.png}
+\bi
+\li Density plots generally do better with transparency,
+because the curves usually don't line up.
+\li This dataset is bad for transparency; the curves
+are similar up to about age 17.
+\ei
+\end{frame}
+
+\bfr{Separate density plots}
+\fig{1}{titanic-age-fractional-dens-1.png}
+\bi
+\li Show each subpopulation in relation to the total.
+\li Easy to see there were many fewer women at around age 20.
+\ei
+\end{frame}
+
+\bfr{Age pyramid popular with populations}
+\fig{.8}{titanic-age-pyramid-1.png}
+
+\bi
+\li Only works for two distributions
+\ei
+
+\end{frame}
+
+\bfr{Density plots for multiple distributions work well}
+\fig{1}{butterfat-densitites-1.png}
+
+\bi
+\li Distributions must be somewhat distinct.
+\li Distributions should be contiguous.
+\ei
+
+\end{frame}
+
+
+
+\end{document}
