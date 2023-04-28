@@ -110,6 +110,34 @@ penguins <- palmerpenguins::penguins
 \ei
 \end{frame}
 
+\bfr{Questions}
+\bi
+\li Do penguins with longer flippers weigh more or less than penguins with 
+shorter flippers? 
+\li Try to make your answer precise. 
+\li What does the relationship between flipper length and body mass look like? 
+\li Is it positive? Negative? Linear? Nonlinear? 
+\li Does the relationship vary by the species of the penguin? 
+\li And how about by the island where the penguin lives? 
+\ei
+\end{frame}
+
+\bfr{Data frame vocabulary}
+\begin{description}
+\li[variable] A variable is a quantity, quality, or property that you can measure.
+
+\li[value]
+A value is the state of a variable when you measure it. The value of a variable may change from measurement to measurement.
+
+\li[observation]
+An observation is a set of measurements made under similar conditions. An observation will contain several values, each associated with a different variable. We’ll sometimes refer to an observation as a data point.
+
+\li[Tabular data]
+Tabular data is a set of values, each associated with a variable and an observation. Tabular data is tidy if each value is placed in its own “cell”, each variable in its own column, and each observation in its own row.
+\end{description}
+\end{frame}
+
+
 \bfr{penguins}
 \bi
 \li {\tt penguins} contains 344 observations collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER
@@ -149,4 +177,186 @@ $ year              <int> 2007, 2007, 2007, 2007, 2007, 2007,…
 \bfr{Ultimate goal}
 \fig{1}{unnamed-chunk-7-1}
 \end{frame}
+
+\bfr{Creating a ggplot step by step}
+\begin{verbatim}
+ggplot(data = penguins)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-8-1.png}
+
+\end{frame}
+
+\bfr{Add mappings for $x$ and $y$}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-9-1.png}
+
+\end{frame}
+
+\bfr{Specify a {\tt geom}}
+\bi
+\li How do we represent the data on our plot?
+\li {\tt geom\_point()}
+\li {\tt geom\_bar()}
+\li {\tt geom\_line()}
+\li {\tt geom\_boxplot()}
+\ei
+\end{frame}
+
+
+\bfr{\tt geom\_point()}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +  geom_point()
+#> Warning: Removed 2 rows containing missing values (`geom_point()`).
+\end{verbatim}
+\fig{.8}{unnamed-chunk-10-1.png}
+
+\end{frame}
+
+\bfr{Missing values}
+{\scriptsize
+\begin{verbatim}
+ Warning: Removed 2 rows containing missing values (`geom\_point()`).}
+\end{verbatim}
+}
+\bi
+\li Missing values in either the flipper length or body mass.
+\li Missing values are very common in real data.
+\li In remaining plots we won't print this warning.
+\ei
+\end{frame}
+
+\bfr{Checking hypotheses}\scriptsize
+\fig{.8}{unnamed-chunk-10-1.png}
+\cola{0.5}
+\bi
+\li  The relationship appears linear.
+\li The relationship appears strong.
+\ei
+\colb{0.5}
+\bi
+\li Is it true within each species?
+\li Is it mainly an effect of having different species in the same dataset?
+
+\ei
+\colc
+\end{frame}
+
+\bfr{Simpson's paradox}
+\fig{.8}{Simpson's_paradox_continuous.svg.png}
+\bi
+\li What's good for each group is bad for the whole.
+\ei
+\end{frame}
+
+\bfr{1973 UC Berkeley gender bias}
+\fig{1}{berkeley01}
+\end{frame}
+
+\bfr{1973 UC Berkeley gender bias}
+\fig{1}{berkeley02}
+\end{frame}
+
+\bfr{Kidney Stones}
+\fig{1}{stones}
+\end{frame}
+
+\bfr{Batting averages}
+\fig{1}{batting}
+\end{frame}
+
+\bfr{Simplson's paradox?}\scriptsize
+\fig{.8}{unnamed-chunk-10-1.png}
+\bi
+\li We want to color by species.
+\li {\tt geom} or {\tt aes}?
+\ei
+\end{frame}
+
+\bfr{Creating a ggplot step by step}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)
+) + geom_point()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-11-1.png}
+
+\end{frame}
+
+
+\bfr{Add a smooth curve}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-12-1.png}
+
+\end{frame}
+
+
+\bfr{Aesthetics for everything, or just for some things}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species)) +
+  geom_smooth(method = "lm")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-13-1.png}
+
+\end{frame}
+
+
+\bfr{Add shapes}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species, shape = species)) +
+  geom_smooth(method = "lm")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-14-1.png}
+
+\end{frame}
+
+
+\bfr{Add labels}\scriptsize
+\begin{verbatim}
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+\end{verbatim}
+\end{frame}
+\bfr{Add labels}
+\fig{1}{unnamed-chunk-15-1.png}
+
+\end{frame}
+
+\bfr{Do exercise 5}
+\end{frame}
+
 \end{document}
