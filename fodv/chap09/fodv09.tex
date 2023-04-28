@@ -1,0 +1,234 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 9}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing many distributions at once}
+\bi
+\li We may want to visualize how temperature varies across different months while also showing the distribution of observed temperatures within each month.
+\li This scenario requires showing twelve temperature distributions at once, one for each month.
+\li Viable approaches include boxplots, violin plots, and ridgeline plots.
+
+\ei
+\end{frame}
+\bfr{Visualizing many distributions at once}
+\bi
+\li The {\bf response variable} is the  variable whose distributions we want to show. 
+\li  The {\bf grouping variables} define subsets of the data with distinct distributions of the response variable.
+\li For example, for temperature distributions across months, the response variable is the temperature and the grouping variable is the month. 
+\li All techniques discussed in this chapter draw the response variable along one axis and the grouping variables along the other.
+\ei
+\end{frame}
+
+\bfr{Points and error bars}
+\fig{1}{lincoln-temp-points-errorbars-1.png}
+\end{frame}
+
+\bfr{What's wrong with points and error bars}
+\bi
+\li First, by representing each distribution by only one point and two error bars, we are losing a lot of information about the data. 
+\li Second, it is not immediately obvious what the points represent, even though most readers would likely guess that they represent either the mean or the median.
+\li Third, it is definitely not obvious what the error bars represent.
+\li Do they represent the standard deviation of the data, the standard error of the mean, a 95\% confidence interval, or something else altogether? 
+\li There is no commonly accepted standard. 
+\ei
+\end{frame}
+
+
+\bfr{What's wrong with points and error bars}
+\bi
+\li In the figure, they represent  twice the standard deviation of the daily mean temperatures, meant to indicate the range that contains approximately 95\% of the data.
+\li However, error bars are more commonly employed to visualize the standard error (or twice the standard error for a 95\% confidence interval), and it is easy for readers to confuse the standard error with the standard deviation. 
+\li The standard error quantifies how accurate our estimate of the mean is, whereas the standard deviation estimates how much spread there is in the data around the mean.
+\li It is possible for a dataset to have both a very small standard error of the mean and a very large standard deviation.
+\li Fourth, symmetric error bars are misleading if there is any skew in the data, which is the case here and almost always for real-world datasets.
+\ei
+\end{frame}
+
+\bfr{Boxplots}
+\fig{1}{boxplot-schematic-1.png}
+\end{frame}
+
+\bfr{Boxplots}
+\bi
+\li Shown are a cloud of points (left) and the corresponding boxplot (right).
+\li Only the y values of the points are visualized in the boxplot.
+\li The line in the middle of the boxplot represents the median, and the box encloses the middle 50\% of the data.
+\li The top and bottom whiskers extend either to the maximum and minimum of the data or to the maximum or minimum that falls within 1.5 times the height of the box, whichever yields the shorter whisker.
+\li The distances of 1.5 times the height of the box in either direction are called the upper and the lower fences.
+\li Individual data points that fall beyond the fences are referred to as outliers and are usually showns as individual dots.
+\ei
+\end{frame}
+
+\bfr{Boxplots work well plotted next to each other}
+\fig{1}{lincoln-temp-boxplots-1.png}
+\end{frame}
+
+\bfr{Boxplots}
+\bi
+\li Boxplots were invented by the statistician John Tukey in the early 1970s, and they quickly gained popularity because they were highly informative while being easy to draw by hand.
+\li Most data visualizations were drawn by hand at that time.
+\li However, with modern computing and visualization capabilities, we are not limited to what is easily drawn by hand. 
+\ei
+\end{frame}
+\bfr{Violin plots}
+\fig{1}{violin-schematic-1.png}
+\end{frame}
+\bfr{Violin plots}
+\bi
+
+\li Only the y values of the points are visualized in the violin plot.
+\li The width of the violin at a given y value represents the point density at that y value.
+\li Technically, a violin plot is a density estimate rotated by 90 degrees and then mirrored.
+\li Violins are therefore symmetric.
+\li Violins begin and end at the minimum and maximum data values, respectively.
+\li The thickest part of the violin corresponds to the highest point density in the dataset.
+\li
+Before using violins to visualize distributions, verify that you have sufficiently many data points in each group to justify showing the point densities as smooth lines.
+\ei
+\end{frame}
+
+\bfr{Violin plots}
+\fig{1}{lincoln-temp-violins-1.png}
+\end{frame}
+
+\bfr{Violin plots}
+\bi
+\li We can see several bimodal distributions.
+\li But:
+\li violin plots, like density estimates, show data where there is none.
+\ei
+\end{frame}
+
+\bfr{Showing the data itself}
+\fig{.8}{lincoln-temp-all-points-1.png}
+\bi
+\li Many points plotted on top of each other.
+\ei
+\end{frame}
+
+\bfr{Jittered data}
+\fig{.8}{lincoln-temp-jittered-1.png}
+\bi
+\li Add random noise in the $x$ direction.
+\li Whenever the dataset is too sparse to justify the violin visualization, plotting the raw data as individual points will be possible.
+\ei
+\end{frame}
+
+\bfr{Best of both worlds: sina plots}
+\fig{.8}{lincoln-temp-sina-1.png}
+\bi
+\li Jittering is proportional to the density.
+\li Sina plot drawn on top of the violins to show relation.
+\ei
+\end{frame}
+
+\bfr{Ridgeline plot}
+\fig{.8}{temp-ridgeline-1.png}
+\bi
+\li Used to show trends in distributions over time.
+\li A violin plot on its side, but frequently easier to understand.
+\li Bimodal November is easier to see than in the violin plot.
+\ei
+\end{frame}
+
+\bfr{Ridgeline plot}
+\bi
+\li Because the x axis shows the response variable and the y axis shows the grouping variable, there is no separate axis for the density estimates in a ridgeline plot. 
+\li Density estimates are shown alongside the grouping variable.
+\li This is no different from the violin plot.
+\li The purpose of the plot is  to allow for easy comparison of density shapes and relative heights across groups.
+
+\ei
+\end{frame}
+
+\bfr{Histograms don't work as well}
+\fig{.8}{temp-binline-1.png}
+\bi
+\li Because the vertical lines in these ridgeline histograms appear always at the exact same x values, the bars from different histograms align with each other in confusing ways. 
+\ei
+\end{frame}
+
+\bfr{Ridgeline plots scale to many distributions}
+\fig{.7}{movies-ridgeline-1.png}
+\end{frame}
+
+\bfr{Contrast two distributions over time}
+\fig{1}{dw-nominate-ridgeline-1.png}
+\end{frame}
+
+\end{document}
