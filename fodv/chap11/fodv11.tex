@@ -1,0 +1,236 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 10}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Nested proportions}
+\bi
+\li German parliament by party and gender.
+\li Health status by age and marital status.
+\li Solutions:
+\bi
+\li Mosaic plots
+\li Treemaps
+\li Parallel sets
+\ei
+\ei
+\end{frame}
+
+\bfr{Pittsburgh bridge dataset}
+\bi
+\li 106 bridges in Pittsburgh.
+\li  The material from which they are constructed:
+\bi
+\li steel
+\li iron
+\li wood
+\ei 
+\li The year when they were erected.
+\li Based on the year of erection, bridges are grouped into distinct categories:
+\bi
+\li  crafts bridges that were erected before 1870 
+\li  modern bridges that were erected after 1940
+\ei
+\ei
+\end{frame}
+
+\bfr{Wrong approach}
+\fig{.8}{bridges-pie-wrong-1.png}
+\bi
+\li Pie charts must add to 100\%
+\li Double counting
+\ei
+\end{frame}
+
+\bfr{Side-by-side misleading}
+\fig{.8}{bridges-bars-bad-1.png}
+\bi
+\li Does not have to add to 100\%
+\li Suggests there are five types of bridge
+\ei
+\end{frame}
+
+\bfr{Mosaic plot}
+\fig{.8}{bridges-mosaic-1.png}
+\bi
+\li Similar to stacked bar
+\li But both heights and widths matter
+\li Added {\tt emerging} and {\tt mature} categories
+\li Every categorical variable shown must cover all the observations in the dataset.
+\ei
+\end{frame}
+
+\bfr{Mosaic plot: principle of proportional ink}
+\fig{.8}{bridges-mosaic-1.png}
+\bi
+\li Start by subdividing the $x$ axis proportionally to one categorical variable.
+\li Then subdivide the $y$ axis for each category of the $x$ axis.
+\li Each rectangle is proportional to the number of cases for that combination.
+\ei
+\end{frame}
+
+\bfr{Tree map: nested rectangles}
+\fig{.8}{bridges-treemap-1.png}
+\bi
+\li Mosaic plot emphasizes the time evolution of categories
+\li Tree map emphasizes the relative proportions of categories.
+\ei
+\end{frame}
+
+\bfr{Mosaics vs. Tree maps}
+\fig{.8}{US-states-treemap-1.png}
+\bi
+\li Mosaics assume all proportions shown can be
+identified as combinations of orthogonal categorical variables.
+\li Tree maps tend to work well when the proportions cannot  be described by combining multiple categorical variables.
+\ei
+\end{frame}
+
+\bfr{Tree map}
+\fig{.7}{bridges-treemap-1.png}\scriptsize
+\bi
+\li Direct comparisons of areas is difficult.
+\li No common baseline.
+\li No common shape.
+\li For example, emerging and mature iron bridges are the same size (3).
+\li Adding numbers to the areas can help.
+\ei
+\end{frame}
+
+\bfr{Nested pies}
+\fig{.7}{bridges-nested-pie-1.png}
+\bi
+\li The inner circle shows the breakdown of the data by one variable (here, building material) and the outer circle shows the breakdown of each slice of the inner circle by the second variable (here, era of bridge construction).
+\ei
+
+\end{frame}
+\bfr{Nested pies}
+\fig{.7}{bridges-nested-pie2-1.png}
+\bi
+\li Alternatively, we can first slice the pie into pieces representing the proportions according to one variable (e.g. material) and then subdivide these slices further according to the other variable (construction era)
+\ei
+
+\end{frame}
+
+\bfr{Treemap vs. Nested pie}
+
+
+\figg{.5}{bridges-treemap-1.png}%
+\figg{.5}{bridges-nested-pie2-1.png}
+
+\bi
+\li  Treemap uses space better
+\li Permits inside labels
+\li Some pie slices are too thin
+\li But every rectangle is reasonable size
+\ei
+
+\end{frame}
+
+\bfr{Parallel sets plot}
+\fig{1}{bridges-parallel-sets1-1.png}
+\end{frame}
+
+\bfr{Parallel sets plot}
+\fig{.8}{bridges-parallel-sets1-1.png}\scriptsize
+\bi
+\li wood bridges are mostly of medium length 
+\li wood bridges primarily erected during the crafts period
+\li wood bridges span primarily the Allegheny river
+\li iron bridges are all of medium length
+\li iron bridges primarily erected during the crafts period
+\li iron bridges span the Allegheny and Monongahela rivers in approximately equal proportions.
+\ei
+\end{frame}
+
+\bfr{Parallel sets colored by river}
+\fig{1}{bridges-parallel-sets2-1.png}
+\bi
+\li Colors should start at the left
+\li Rearrange categories to minimize crossing
+\ei
+\end{frame}
+
+
+\bfr{Parallel sets colored by river}
+\fig{1}{bridges-parallel-sets3-1.png}
+\end{frame}
+
+\begin{frame}
+\fig{.7}{0d9a779082f66a35443be831b31eb600}
+\end{frame}
+\end{document}

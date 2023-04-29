@@ -1,0 +1,203 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 10}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing proportions}
+\bi
+\li Examples:
+\bi
+\li the proportions of men and women in a group of people
+\li the percentages of people voting for different political parties in an election
+\li the market shares of companies.
+\ei
+\li The archetypal such visualization is the pie chart, omnipresent in any business presentation and much maligned among data scientists.
+\li There is no single ideal visualization that always works.
+\li \bf You always need to pick the visualization that best fits your specific dataset and that highlights the key data features you want to show.
+\ei
+\end{frame}
+
+\bfr{German parliament, 1976-1980}
+\fig{1}{bundestag-pie-1.png}
+\end{frame}
+
+
+
+\bfr{German parliament, 1976-1980}
+\fig{1}{bundestag-stacked-bars-1.png}
+\end{frame}
+\bfr{German parliament, 1976-1980}
+\fig{.8}{bundestag-bars-side-by-side-1.png}
+\end{frame}
+
+\bfr{What's best?}
+\bi
+\li Many authors categorically reject pie charts.
+\li Others defend the use of pie charts in some applications. 
+\li Perhaps none of these visualizations is consistently superior to any other?
+\li  Depending on the  story you want to tell, you may want to favor one or the other approach.
+\li  In the case of the 8th German Bundestag, a pie chart shows clearly that the ruling coalition of SPD and FDP jointly had a small majority over the CDU/CSU.
+\li This fact is not visually obvious in any of the other plots.
+\ei
+\end{frame}
+
+\bfr{Tradeoffs}
+\bi
+\li Pie charts work well when the goal is to emphasize simple fractions, such as one-half, one-third, or one-quarter.
+\li They also work well when we have very small datasets.
+\li A single pie chart looks just fine, but a single column of stacked bars looks awkward.
+\li Stacked bars can work for side-by-side comparisons of multiple conditions or in a time series.
+\li Side-by-side bars work when we want to directly compare the individual fractions to each other.
+\ei
+\end{frame}
+
+\bfr{Tradeoffs}\scriptsize
+\begin{tabular}{p{1.8in}|ccc}
+&	Pie chart	&Stacked bars	&Side-by-side bars\\\hline
+Clearly visualizes the data as proportions of a whole	&$\checkmark$&$\checkmark$&$\times$\\
+Allows easy visual comparison of the relative proportions	&$\times$&$\times$&$\checkmark$\\
+Visually emphasizes simple fractions, such as 1/2, 1/3, 1/4	&$\checkmark$&$\times$&$\times$\\
+Looks visually appealing even for very small datasets	&$\checkmark$&$\times$&$\checkmark$\\
+Works well when the whole is broken into many pieces	&$\times$&$\times$&$\checkmark$\\
+Works well for the visualization of many sets of proportions or time series of proportions&$\times$&$\checkmark$&$\times$\\
+\end{tabular}
+\end{frame}
+
+\bfr{Pie chart failure}
+
+\fig{1}{marketshare-pies-1.png}
+\bi
+\li Market share of A is growing and E is shrinking.
+\li What else?
+\ei
+\end{frame}
+\bfr{Stacked bar failure}
+
+\fig{.8}{marketshare-stacked-1.png}
+\bi
+\li Market share of A is growing and E is shrinking.
+\li What else?
+\ei
+\end{frame}
+
+
+\bfr{Side by side bars}
+
+\fig{.8}{marketshare-side-by-side-1.png}
+\bi
+\li The story is clear.
+\ei
+\end{frame}
+
+\bfr{Stacked bars work when there are only two groups}
+\fig{1}{women-parliament-1.png}
+\centerline{Change in the gender composition of the Rwandan parliament}
+\end{frame}
+
+
+\bfr{Stacked densities}
+\fig{.8}{health-vs-age-1.png}
+\bi
+\li Overall health declines with age.
+\li Over half remain in good or excellent health until very old age.
+\li Obscures the {\bf amount} of people in favor of percentages.
+\ei
+\end{frame}
+
+\bfr{Side-by-side densities}
+\fig{1}{health-vs-age-facets-1.png}
+\bi
+\li Number in good and excellent declines with age.
+\li Number in fair remains constant.
+\ei
+\end{frame}
+
+\bfr{Marital status does not work so well}
+\fig{1}{marital-vs-age-1.png}
+\end{frame}
+
+\bfr{Side-by-side reveals much more}
+\fig{1}{marital-vs-age-facets-1.png}
+\end{frame}
+
+\bfr{Side-by-side proportions answer different questions}
+\fig{1}{marital-vs-age-proportions-1.png}
+\end{frame}
+
+
+
+\end{document}

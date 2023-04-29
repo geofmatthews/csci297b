@@ -129,6 +129,35 @@ Age range&	Count\\\hline
 \ei
 \end{frame}
 
+\bfr{Kernel density estimation}
+\fig{1}{Comparison_of_1D_histogram_and_KDE.png}
+\vfill
+\tiny
+\url{https://en.wikipedia.org/wiki/Kernel_density_estimation}
+\end{frame}
+
+\bfr{Bandwidth selection}
+
+\fig{0.5}{Comparison_of_1D_bandwidth_selectors.png}
+
+\begin{description}
+\li[Grey:] true density (standard normal). 
+\li[Red:] KDE with h=0.05.
+\li[Black:] KDE with h=0.337.
+\li[Green:] KDE with h=2.
+\end{description}
+\end{frame}
+
+\bfr{Silverman's rule of thumb}
+\[
+h = 0.9 \min\left(\hat{\sigma}, \frac{IQR}{1.34}\right) n^{-1/5}
+\]
+\bi
+\li Best with a single gaussian distribution
+\li May oversmooth gaussian mixtures
+\ei
+\end{frame}
+
 \bfr{Density curves depend upon kernel and bandwidth}
 \fig{1}{titanic-ages-dens-grid-1.png}
 \scriptsize

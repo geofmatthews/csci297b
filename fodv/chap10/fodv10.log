@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  29 APR 2023 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  29 APR 2023 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./fodv07.tex
-(fodv07.tex
+**./fodv10.tex
+(fodv10.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -963,27 +963,27 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-) (fodv07.aux)
-\openout1 = `fodv07.aux'.
+) (fodv10.aux)
+\openout1 = `fodv10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1045,63 +1045,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 72.
- (fodv07.out) (fodv07.out)
+Package hyperref Info: Link coloring OFF on input line 74.
+ (fodv10.out) (fodv10.out)
 \@outlinefile=\write7
-\openout7 = `fodv07.out'.
+\openout7 = `fodv10.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 74.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 72.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 74.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 72.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 74.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 74.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 72.
+ut line 74.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1128,12 +1128,12 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
- (fodv07.nav) [1
+ (fodv10.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `fodv07.vrb'.
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
+ (fodv10.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1160,220 +1160,194 @@ thkerncmss.
 )) [2
 
 ]
-\openout4 = `fodv07.vrb'.
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-Overfull \hbox (20.00214pt too wide) in paragraph at lines 2--22
-[][]  
- []
-
-<titanic-ages-hist1-1.png, id=71, 1156.32pt x 713.66624pt>
-File: titanic-ages-hist1-1.png Graphic file (type png)
-<use titanic-ages-hist1-1.png>
-Package pdftex.def Info: titanic-ages-hist1-1.png  used on input line 23.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv10.vrb
+<bundestag-pie-1.png, id=71, 1156.32pt x 713.66624pt>
+File: bundestag-pie-1.png Graphic file (type png)
+<use bundestag-pie-1.png>
+Package pdftex.def Info: bundestag-pie-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [3
 
- <./titanic-ages-hist1-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./bundestag-pie-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-ages-hist-grid-1.png, id=100, 1513.655pt x 935.495pt>
-File: titanic-ages-hist-grid-1.png Graphic file (type png)
-<use titanic-ages-hist-grid-1.png>
-Package pdftex.def Info: titanic-ages-hist-grid-1.png  used on input line 3.
+ (fodv10.vrb
+<bundestag-stacked-bars-1.png, id=99, 1513.655pt x 935.495pt>
+File: bundestag-stacked-bars-1.png Graphic file (type png)
+<use bundestag-stacked-bars-1.png>
+Package pdftex.def Info: bundestag-stacked-bars-1.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
 ) [4
 
- <./titanic-ages-hist-grid-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./bundestag-stacked-bars-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-ages-dens1-1.png, id=127, 1156.32pt x 713.66624pt>
-File: titanic-ages-dens1-1.png Graphic file (type png)
-<use titanic-ages-dens1-1.png>
-Package pdftex.def Info: titanic-ages-dens1-1.png  used on input line 3.
-(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+ (fodv10.vrb
+<bundestag-bars-side-by-side-1.png, id=126, 963.6pt x 722.7pt>
+File: bundestag-bars-side-by-side-1.png Graphic file (type png)
+<use bundestag-bars-side-by-side-1.png>
+Package pdftex.def Info: bundestag-bars-side-by-side-1.png  used on input line 
+2.
+(pdftex.def)             Requested size: 245.83282pt x 184.36876pt.
 ) [5
 
- <./titanic-ages-dens1-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./bundestag-bars-side-by-side-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<Comparison_of_1D_histogram_and_KDE.png, id=156, 752.8125pt x 376.40625pt>
-File: Comparison_of_1D_histogram_and_KDE.png Graphic file (type png)
-<use Comparison_of_1D_histogram_and_KDE.png>
-Package pdftex.def Info: Comparison_of_1D_histogram_and_KDE.png  used on input 
-line 2.
-(pdftex.def)             Requested size: 307.28987pt x 153.64983pt.
-) [6
-
- <./Comparison_of_1D_histogram_and_KDE.png>]
-\openout4 = `fodv07.vrb'.
-
- (fodv07.vrb
-<Comparison_of_1D_bandwidth_selectors.png, id=185, 1806.75pt x 1806.75pt>
-File: Comparison_of_1D_bandwidth_selectors.png Graphic file (type png)
-<use Comparison_of_1D_bandwidth_selectors.png>
-Package pdftex.def Info: Comparison_of_1D_bandwidth_selectors.png  used on inpu
-t line 3.
-(pdftex.def)             Requested size: 153.64493pt x 153.64064pt.
-) [7
-
- <./Comparison_of_1D_bandwidth_selectors.png>]
-\openout4 = `fodv07.vrb'.
-
- (fodv07.vrb) [8
+ (fodv10.vrb) [6
 
 ]
-\openout4 = `fodv07.vrb'.
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-ages-dens-grid-1.png, id=242, 1513.655pt x 935.495pt>
-File: titanic-ages-dens-grid-1.png Graphic file (type png)
-<use titanic-ages-dens-grid-1.png>
-Package pdftex.def Info: titanic-ages-dens-grid-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
+ (fodv10.vrb) [7
+
+]
+\openout4 = `fodv10.vrb'.
+
+ (fodv10.vrb)
+Overfull \hbox (7.15659pt too wide) in paragraph at lines 2--138
+[][]  
+ []
+
+[8
+
+]
+\openout4 = `fodv10.vrb'.
+
+ (fodv10.vrb
+<marketshare-pies-1.png, id=232, 1376.14125pt x 480.79625pt>
+File: marketshare-pies-1.png Graphic file (type png)
+<use marketshare-pies-1.png>
+Package pdftex.def Info: marketshare-pies-1.png  used on input line 3.
+(pdftex.def)             Requested size: 307.28987pt x 107.36014pt.
 ) [9
 
- <./titanic-ages-dens-grid-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./marketshare-pies-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-File: titanic-ages-dens1-1.png Graphic file (type png)
-<use titanic-ages-dens1-1.png>
-Package pdftex.def Info: titanic-ages-dens1-1.png  used on input line 3.
+ (fodv10.vrb
+<marketshare-stacked-1.png, id=259, 1156.32pt x 713.66624pt>
+File: marketshare-stacked-1.png Graphic file (type png)
+<use marketshare-stacked-1.png>
+Package pdftex.def Info: marketshare-stacked-1.png  used on input line 3.
 (pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
 ) [10
 
-]
-\openout4 = `fodv07.vrb'.
+ <./marketshare-stacked-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-ages-dens-negative-1.png, id=294, 1156.32pt x 713.66624pt>
-File: titanic-ages-dens-negative-1.png Graphic file (type png)
-<use titanic-ages-dens-negative-1.png>
-Package pdftex.def Info: titanic-ages-dens-negative-1.png  used on input line 3
-.
-(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+ (fodv10.vrb
+<marketshare-side-by-side-1.png, id=286, 1156.32pt x 713.66624pt>
+File: marketshare-side-by-side-1.png Graphic file (type png)
+<use marketshare-side-by-side-1.png>
+Package pdftex.def Info: marketshare-side-by-side-1.png  used on input line 3.
+(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
 ) [11
 
- <./titanic-ages-dens-negative-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./marketshare-side-by-side-1.png>]
+\openout4 = `fodv10.vrb'.
 
 
-(fodv07.vrb) [12
+(fodv10.vrb
+<women-parliament-1.png, id=313, 1156.32pt x 635.37375pt>
+File: women-parliament-1.png Graphic file (type png)
+<use women-parliament-1.png>
+Package pdftex.def Info: women-parliament-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 168.8483pt.
+) [12
 
-]
-\openout4 = `fodv07.vrb'.
+ <./women-parliament-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-age-stacked-hist-1.png, id=346, 1156.32pt x 713.66624pt>
-File: titanic-age-stacked-hist-1.png Graphic file (type png)
-<use titanic-age-stacked-hist-1.png>
-Package pdftex.def Info: titanic-age-stacked-hist-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv10.vrb
+<health-vs-age-1.png, id=340, 1156.32pt x 578.16pt>
+File: health-vs-age-1.png Graphic file (type png)
+<use health-vs-age-1.png>
+Package pdftex.def Info: health-vs-age-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 122.9081pt.
 ) [13
 
- <./titanic-age-stacked-hist-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./health-vs-age-1.png>]
+\openout4 = `fodv10.vrb'.
 
-
-(fodv07.vrb
-<titanic-age-overlapping-hist-1.png, id=374, 1156.32pt x 713.66624pt>
-File: titanic-age-overlapping-hist-1.png Graphic file (type png)
-<use titanic-age-overlapping-hist-1.png>
-Package pdftex.def Info: titanic-age-overlapping-hist-1.png  used on input line
- 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv10.vrb
+<health-vs-age-facets-1.png, id=368, 1513.655pt x 528.97626pt>
+File: health-vs-age-facets-1.png Graphic file (type png)
+<use health-vs-age-facets-1.png>
+Package pdftex.def Info: health-vs-age-facets-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 107.38345pt.
 ) [14
 
- <./titanic-age-overlapping-hist-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./health-vs-age-facets-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-age-overlapping-dens-1.png, id=401, 1156.32pt x 713.66624pt>
-File: titanic-age-overlapping-dens-1.png Graphic file (type png)
-<use titanic-age-overlapping-dens-1.png>
-Package pdftex.def Info: titanic-age-overlapping-dens-1.png  used on input line
- 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv10.vrb
+<marital-vs-age-1.png, id=395, 1156.32pt x 578.16pt>
+File: marital-vs-age-1.png Graphic file (type png)
+<use marital-vs-age-1.png>
+Package pdftex.def Info: marital-vs-age-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 153.64394pt.
 ) [15
 
- <./titanic-age-overlapping-dens-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./marital-vs-age-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-age-fractional-dens-1.png, id=428, 1513.655pt x 680.5425pt>
-File: titanic-age-fractional-dens-1.png Graphic file (type png)
-<use titanic-age-fractional-dens-1.png>
-Package pdftex.def Info: titanic-age-fractional-dens-1.png  used on input line 
-2.
-(pdftex.def)             Requested size: 307.28987pt x 138.15178pt.
+ (fodv10.vrb
+<marital-vs-age-facets-1.png, id=422, 1513.655pt x 528.97626pt>
+File: marital-vs-age-facets-1.png Graphic file (type png)
+<use marital-vs-age-facets-1.png>
+Package pdftex.def Info: marital-vs-age-facets-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 107.38345pt.
 ) [16
 
- <./titanic-age-fractional-dens-1.png>]
-\openout4 = `fodv07.vrb'.
+ <./marital-vs-age-facets-1.png>]
+\openout4 = `fodv10.vrb'.
 
- (fodv07.vrb
-<titanic-age-pyramid-1.png, id=455, 1156.32pt x 713.66624pt>
-File: titanic-age-pyramid-1.png Graphic file (type png)
-<use titanic-age-pyramid-1.png>
-Package pdftex.def Info: titanic-age-pyramid-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+
+(fodv10.vrb
+<marital-vs-age-proportions-1.png, id=448, 1513.655pt x 528.97626pt>
+File: marital-vs-age-proportions-1.png Graphic file (type png)
+<use marital-vs-age-proportions-1.png>
+Package pdftex.def Info: marital-vs-age-proportions-1.png  used on input line 2
+.
+(pdftex.def)             Requested size: 307.28987pt x 107.38345pt.
 ) [17
 
- <./titanic-age-pyramid-1.png>]
-\openout4 = `fodv07.vrb'.
-
- (fodv07.vrb
-<butterfat-densitites-1.png, id=481, 1156.32pt x 713.66624pt>
-File: butterfat-densitites-1.png Graphic file (type png)
-<use butterfat-densitites-1.png>
-Package pdftex.def Info: butterfat-densitites-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
-)
-[18
-
- <./butterfat-densitites-1.png>]
+ <./marital-vs-age-proportions-1.png>]
 \tf@nav=\write8
-\openout8 = `fodv07.nav'.
+\openout8 = `fodv10.nav'.
 
 \tf@toc=\write9
-\openout9 = `fodv07.toc'.
+\openout9 = `fodv10.toc'.
 
 \tf@snm=\write10
-\openout10 = `fodv07.snm'.
+\openout10 = `fodv10.snm'.
 
- (fodv07.aux)
-Package rerunfilecheck Info: File `fodv07.out' has not changed.
+ (fodv10.aux)
+Package rerunfilecheck Info: File `fodv10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  29221 strings out of 476406
- 597941 string characters out of 2789566
- 1860787 words of memory out of 3000000
- 48931 multiletter control sequences out of 15000+600000
- 521908 words of font info for 69 fonts, out of 8000000 for 9000
+ 597481 string characters out of 2789566
+ 1863787 words of memory out of 3000000
+ 48937 multiletter control sequences out of 15000+600000
+ 523761 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,432b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/that
-m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/
-Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8
-.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmtt8.pfb>
-Output written on fodv07.pdf (18 pages, 904684 bytes).
+cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/thatm/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on fodv10.pdf (17 pages, 652044 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
