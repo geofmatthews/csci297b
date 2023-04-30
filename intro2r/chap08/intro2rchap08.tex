@@ -1,0 +1,393 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+\usepackage[listings]{tcolorbox}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    escapechar=|,
+    frame=single
+}
+
+\lstset{style=mystyle}
+\lstset{extendedchars=\true}
+
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://intro2r.com/} Chapter 8}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Reproducible reports with R markdown}
+\bi
+\li Simple and easy plain text language.
+\bi\li {\bf way} simpler and easier than HTML\ei
+\li Includes formatting, headers, fonts, etc.
+\li Includes executable R code
+\ei
+\end{frame}
+
+\bfr{Why use R markdown?}
+\bi
+\li Transparency in experimental methodology, observation, collection of data and analytical methods.
+\li Public availability and re-usability of scientific data
+\li Public accessibility and transparency of scientific communication
+\li Using web-based tools to facilitate scientific collaboration
+\li Links all your data and your code and your writing in a single document
+\li Wide variety of output formats from a single document:\\
+{ pdf \hfill html \hfill web pages \hfill MS Word }
+\ei
+\end{frame}
+
+\bfr{Rmarkdown package}
+\begin{verbatim}
+library(rmarkdown)
+\end{verbatim}
+
+\bi
+\li You will need \LaTeX\ if you want to publish PDF
+\li Already installed on RStudio Workbench
+\ei
+\end{frame}
+
+\bfr{Create, save, and knit new Rmarkdown document}\tiny
+\begin{verbatim}
+---
+title: "demo"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+\end{verbatim}
+\end{frame}
+
+\bfr{Rmarkdown anatomy}
+\hspace{-0.25in}
+\fig{1.2}{rm_components}
+\end{frame}
+
+\bfr{YAML header}
+\begin{verbatim}
+---
+title: My first R markdown document
+author: Jane Doe
+date: March 01, 2020
+output: html_document
+---
+\end{verbatim}
+\bi
+\li YAML stands for ‘YAML Ain’t Markup Language’.
+\li It contains the metadata and options for the entire document such as the author name, date, output format, etc.
+\li The YAML header is surrounded before and after by a --- on its own line.
+\li In RStudio a minimal YAML header is automatically created for you 
+\ei
+\end{frame}
+
+\bfr{Use YAML to add table of contents}
+\begin{verbatim}
+---
+title: My first R markdown document
+author: Jane Doe
+date: March 01, 2020
+output:
+  html_document:
+    toc: yes
+---
+\end{verbatim}
+\end{frame}
+
+\bfr{Formatted text}\scriptsize
+\begin{verbatim}
+#### Benthic Biodiversity experiment
+These data were obtained from a mesocosm experiment which aimed to 
+examine the effect of benthic polychaete (*Nereis diversicolor*) biomass 
+on sediment nutrient (NH~4~, NO~3~ and PO~3~) release. At the start 
+of the experiment replicate mesocosms were filled with 20 cm^2^ of 
+**homogenised** marine sediment and assigned to one of five 
+polychaete biomass treatments (0, 0.5, 1, 1.5, 2 g per mesocosm).
+\end{verbatim}
+
+\fig{1}{rmdknitted}
+\end{frame}
+
+\bfr{Markdown cheat sheets}
+
+\bi
+\li
+\url{https://www.markdownguide.org/cheat-sheet/}
+\li
+\url{https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf}
+\ei
+\end{frame}
+
+\bfr{Headings}
+\begin{verbatim}
+# Benthic Biodiversity experiment
+## Benthic Biodiversity experiment
+### Benthic Biodiversity experiment
+#### Benthic Biodiversity experiment
+##### Benthic Biodiversity experiment
+###### Benthic Biodiversity experiment
+\end{verbatim}
+\bi\li
+Result in headings in decreasing size order.
+\ei
+\end{frame}
+
+\bfr{Comments in markdown}
+\begin{verbatim}
+<!--
+this is an example of a comment using R markdown.
+-->
+\end{verbatim}
+\bi
+\li Same as HTML
+\ei
+\end{frame}
+
+\bfr{Bullet lists}
+\begin{verbatim}
+- item 1
+- item 2
+   - sub-item 2
+   - sub-item 3
+- item 3
+- item 4
+\end{verbatim}
+\bi
+\li indent with spaces
+\li can use $+$ or $-$
+\ei
+\end{frame}
+\bfr{Numbered lists}
+\begin{verbatim}
+1. item 1
+1. item 2
+     + sub-item 2
+     + sub-item 3
+1. item 3
+1. item 4
+\end{verbatim}
+\bi
+\li will be numbered sequentially
+\li nested list can be numbered or not
+\ei
+\end{frame}
+
+
+\bfr{Images}
+\begin{verbatim}
+![Cute grey kitten](images/Cute_grey_kitten.jpg)
+\end{verbatim}
+\fig{.8}{Cute_grey_kitten.jpg}
+\end{frame}
+
+
+\bfr{Images with the {\tt knitr} package}
+\begin{verbatim}
+```{r, echo=FALSE, fig.align='center', out.width='50%'}
+library(knitr)
+include_graphics("images/Cute_grey_kitten.jpg")
+```
+\end{verbatim}
+\begin{center}
+\fig{.5}{Cute_grey_kitten}
+\end{center}
+\end{frame}
+
+
+\bfr{Links}
+\begin{verbatim}
+You can include a text for your
+clickable [link](https://www.worldwildlife.org)
+\end{verbatim}
+\end{frame}
+
+
+
+\bfr{R code chunks}
+\begin{verbatim}
+```{r}
+Any valid R code goes here
+```
+\end{verbatim}
+\end{frame}
+
+
+\bfr{Don't echo the source code}
+\begin{verbatim}
+```{r, summary-stats, echo=FALSE}
+x <- 1:10    # create an x variable
+y <- 10:1    # create a y variable
+dataf <- data.frame(x = x, y = y)
+summary(dataf)
+```
+\end{verbatim}
+\bi
+\li {\tt summary-stats} names the code chunk
+\ei
+\end{frame}
+
+
+\bfr{Show the code but hide the results}
+\begin{verbatim}
+```{r, summary-stats, results='hide'}
+x <- 1:10    # create an x variable
+y <- 10:1    # create a y variable
+dataf <- data.frame(x = x, y = y)
+summary(dataf)
+```
+\end{verbatim}
+\end{frame}
+\bfr{Run but hide both code and results}
+\begin{verbatim}
+```{r, summary-stats, include=FALSE}
+x <- 1:10    # create an x variable
+y <- 10:1    # create a y variable
+dataf <- data.frame(x = x, y = y)
+summary(dataf)
+```
+\end{verbatim}
+\end{frame}
+
+
+\bfr{plots are shown immediately after the code chunk}
+\begin{verbatim}
+```{r, simple-plot}
+x <- 1:10    # create an x variable
+y <- 10:1    # create a y variable
+dataf <- data.frame(x = x, y = y)
+plot(dataf$x, dataf$y, xlab = "x axis", ylab = "y axis")
+```
+\end{verbatim}
+\bi
+\li Can change figure dimensions with {\tt fig.width=} and {\tt fig.height=} (in inches)
+\li Can change alignment with {\tt fig.align=} ({\tt `center'} or {\tt `right'})
+\li Captions with {\tt fig.cap=}
+\li Hide with {\tt fig.show='hide'}
+\ei
+\end{frame}
+
+\bfr{Tables can be done in markdown}
+\begin{verbatim}
+    |     x      |    y       |
+    |:----------:|:----------:|
+    |  1         |   5        |   
+    |  2         |   4        |
+    |  3         |   3        |
+    |  4         |   2        |
+    |  5         |   1        |
+\end{verbatim}
+\end{frame}
+
+\bfr{Tables using {\tt kable} from {\tt knitr}}
+\begin{verbatim}
+```{r, kable-table}
+library(knitr)
+kable(iris[1:10,])
+```
+\end{verbatim}
+\end{frame}
+
+\bfr{R inline code}
+\begin{verbatim}
+The square root of 2 is `r sqrt(2)`
+\end{verbatim}
+\end{frame}
+
+\bfr{The Definitive Guide}
+\bi
+\li\url{https://bookdown.org/yihui/rmarkdown/}
+\ei
+\end{frame}
+
+
+
+
+\end{document}

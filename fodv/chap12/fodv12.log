@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  30 APR 2023 08:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  30 APR 2023 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./fodv11.tex
-(fodv11.tex
+**./fodv12.tex
+(fodv12.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -963,8 +963,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count360
 \l__pdf_internal_box=\box94
-) (fodv11.aux)
-\openout1 = `fodv11.aux'.
+) (fodv12.aux)
+\openout1 = `fodv12.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -1046,9 +1046,9 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 74.
- (fodv11.out) (fodv11.out)
+ (fodv12.out) (fodv12.out)
 \@outlinefile=\write7
-\openout7 = `fodv11.out'.
+\openout7 = `fodv12.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
@@ -1128,12 +1128,12 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count367
- (fodv11.nav) [1
+ (fodv12.nav) [1
 
 {C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\openout4 = `fodv11.vrb'.
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
+ (fodv12.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1160,212 +1160,256 @@ thkerncmss.
 )) [2
 
 ]
-\openout4 = `fodv11.vrb'.
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb) [3
+ (fodv12.vrb) [3
 
 ]
-\openout4 = `fodv11.vrb'.
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-pie-wrong-1.png, id=95, 963.6pt x 674.52pt>
-File: bridges-pie-wrong-1.png Graphic file (type png)
-<use bridges-pie-wrong-1.png>
-Package pdftex.def Info: bridges-pie-wrong-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 172.07751pt.
-) [4
+ (fodv12.vrb) [4
 
- <./bridges-pie-wrong-1.png>]
-\openout4 = `fodv11.vrb'.
+]
+\openout4 = `fodv12.vrb'.
 
-
-(fodv11.vrb
-<bridges-bars-bad-1.png, id=123, 1156.32pt x 713.66624pt>
-File: bridges-bars-bad-1.png Graphic file (type png)
-<use bridges-bars-bad-1.png>
-Package pdftex.def Info: bridges-bars-bad-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv12.vrb
+<blue-jays-scatter-1.png, id=121, 963.6pt x 722.7pt>
+File: blue-jays-scatter-1.png Graphic file (type png)
+<use blue-jays-scatter-1.png>
+Package pdftex.def Info: blue-jays-scatter-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 184.36876pt.
 ) [5
 
- <./bridges-bars-bad-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./blue-jays-scatter-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-mosaic-1.png, id=150, 1156.32pt x 713.66624pt>
-File: bridges-mosaic-1.png Graphic file (type png)
-<use bridges-mosaic-1.png>
-Package pdftex.def Info: bridges-mosaic-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
+ (fodv12.vrb
+<snow-cholera-map.jpg, id=149, 1638.12pt x 1258.7025pt>
+File: snow-cholera-map.jpg Graphic file (type jpg)
+<use snow-cholera-map.jpg>
+Package pdftex.def Info: snow-cholera-map.jpg  used on input line 2.
+(pdftex.def)             Requested size: 276.559pt x 212.49771pt.
 ) [6
 
- <./bridges-mosaic-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./snow-cholera-map.jpg>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-File: bridges-mosaic-1.png Graphic file (type png)
-<use bridges-mosaic-1.png>
-Package pdftex.def Info: bridges-mosaic-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.71468pt.
-) [7
+ (fodv12.vrb
+<blue-jays-scatter-sex-1.png, id=175, 963.6pt x 770.88pt>
+File: blue-jays-scatter-sex-1.png Graphic file (type png)
+<use blue-jays-scatter-sex-1.png>
+Package pdftex.def Info: blue-jays-scatter-sex-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 196.66002pt.
+)
+[7
 
-]
-\openout4 = `fodv11.vrb'.
+ <./blue-jays-scatter-sex-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-treemap-1.png, id=205, 1156.32pt x 867.24pt>
-File: bridges-treemap-1.png Graphic file (type png)
-<use bridges-treemap-1.png>
-Package pdftex.def Info: bridges-treemap-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 184.36215pt.
+ (fodv12.vrb
+<blue-jays-scatter-bubbles-1.png, id=203, 1513.655pt x 605.26125pt>
+File: blue-jays-scatter-bubbles-1.png Graphic file (type png)
+<use blue-jays-scatter-bubbles-1.png>
+Package pdftex.def Info: blue-jays-scatter-bubbles-1.png  used on input line 2.
+
+(pdftex.def)             Requested size: 307.28987pt x 122.86949pt.
 ) [8
 
- <./bridges-treemap-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./blue-jays-scatter-bubbles-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<US-states-treemap-1.png, id=232, 1513.655pt x 935.495pt>
-File: US-states-treemap-1.png Graphic file (type png)
-<use US-states-treemap-1.png>
-Package pdftex.def Info: US-states-treemap-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.92334pt.
-) [9
+ (fodv12.vrb) [9
 
- <./US-states-treemap-1.png>]
-\openout4 = `fodv11.vrb'.
+]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-File: bridges-treemap-1.png Graphic file (type png)
-<use bridges-treemap-1.png>
-Package pdftex.def Info: bridges-treemap-1.png  used on input line 2.
-(pdftex.def)             Requested size: 215.10196pt x 161.3235pt.
+ (fodv12.vrb
+<blue-jays-scatter-all-1.png, id=255, 1376.14125pt x 1031.855pt>
+File: blue-jays-scatter-all-1.png Graphic file (type png)
+<use blue-jays-scatter-all-1.png>
+Package pdftex.def Info: blue-jays-scatter-all-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 230.40968pt.
 ) [10
 
-]
-\openout4 = `fodv11.vrb'.
+ <./blue-jays-scatter-all-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-nested-pie-1.png, id=286, 1156.32pt x 867.24pt>
-File: bridges-nested-pie-1.png Graphic file (type png)
-<use bridges-nested-pie-1.png>
-Package pdftex.def Info: bridges-nested-pie-1.png  used on input line 2.
-(pdftex.def)             Requested size: 215.10196pt x 161.3235pt.
+
+(fodv12.vrb
+<correlations-1.png, id=282, 1376.14125pt x 897.3525pt>
+File: correlations-1.png Graphic file (type png)
+<use correlations-1.png>
+Package pdftex.def Info: correlations-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 200.37573pt.
 ) [11
 
- <./bridges-nested-pie-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./correlations-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-nested-pie2-1.png, id=313, 1156.32pt x 867.24pt>
-File: bridges-nested-pie2-1.png Graphic file (type png)
-<use bridges-nested-pie2-1.png>
-Package pdftex.def Info: bridges-nested-pie2-1.png  used on input line 2.
-(pdftex.def)             Requested size: 215.10196pt x 161.3235pt.
-) [12
-
- <./bridges-nested-pie2-1.png>]
-\openout4 = `fodv11.vrb'.
-
- (fodv11.vrb
-File: bridges-treemap-1.png Graphic file (type png)
-<use bridges-treemap-1.png>
-Package pdftex.def Info: bridges-treemap-1.png  used on input line 5.
-(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
-File: bridges-nested-pie2-1.png Graphic file (type png)
-<use bridges-nested-pie2-1.png>
-Package pdftex.def Info: bridges-nested-pie2-1.png  used on input line 5.
-(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
-) [13
+ (fodv12.vrb) [12
 
 ]
-\openout4 = `fodv11.vrb'.
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-parallel-sets1-1.png, id=366, 1376.14125pt x 850.17625pt>
-File: bridges-parallel-sets1-1.png Graphic file (type png)
-<use bridges-parallel-sets1-1.png>
-Package pdftex.def Info: bridges-parallel-sets1-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.84143pt.
+ (fodv12.vrb)
+[13
+
+]
+\openout4 = `fodv12.vrb'.
+
+ (fodv12.vrb
+<forensic-correlations1-1.png, id=364, 770.88pt x 770.88pt>
+File: forensic-correlations1-1.png Graphic file (type png)
+<use forensic-correlations1-1.png>
+Package pdftex.def Info: forensic-correlations1-1.png  used on input line 2.
+(pdftex.def)             Requested size: 184.3758pt x 184.36803pt.
 ) [14
 
- <./bridges-parallel-sets1-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./forensic-correlations1-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-File: bridges-parallel-sets1-1.png Graphic file (type png)
-<use bridges-parallel-sets1-1.png>
-Package pdftex.def Info: bridges-parallel-sets1-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.87056pt.
+ (fodv12.vrb
+<forensic-correlations2-1.png, id=391, 770.88pt x 770.88pt>
+File: forensic-correlations2-1.png Graphic file (type png)
+<use forensic-correlations2-1.png>
+Package pdftex.def Info: forensic-correlations2-1.png  used on input line 2.
+(pdftex.def)             Requested size: 184.3758pt x 184.36803pt.
 ) [15
 
+ <./forensic-correlations2-1.png>]
+<unnamed-chunk-10-1.png, id=418, 578.16pt x 578.16pt>
+File: unnamed-chunk-10-1.png Graphic file (type png)
+<use unnamed-chunk-10-1.png>
+Package pdftex.def Info: unnamed-chunk-10-1.png  used on input line 199.
+(pdftex.def)             Requested size: 245.83282pt x 245.82501pt.
+ [16
+
+ <./unnamed-chunk-10-1.png (PNG copy)>]
+\openout4 = `fodv12.vrb'.
+
+
+(fodv12.vrb) [17
+
 ]
-\openout4 = `fodv11.vrb'.
+\openout4 = `fodv12.vrb'.
 
+ (fodv12.vrb
+<blue-jays-PCA-1.png, id=471, 1513.655pt x 528.97626pt>
+File: blue-jays-PCA-1.png Graphic file (type png)
+<use blue-jays-PCA-1.png>
+Package pdftex.def Info: blue-jays-PCA-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 107.38345pt.
+) [18
 
-(fodv11.vrb
-<bridges-parallel-sets2-1.png, id=418, 1376.14125pt x 850.17625pt>
-File: bridges-parallel-sets2-1.png Graphic file (type png)
-<use bridges-parallel-sets2-1.png>
-Package pdftex.def Info: bridges-parallel-sets2-1.png  used on input line 2.
+ <./blue-jays-PCA-1.png>]
+\openout4 = `fodv12.vrb'.
+
+ (fodv12.vrb
+File: blue-jays-PCA-1.png Graphic file (type png)
+<use blue-jays-PCA-1.png>
+Package pdftex.def Info: blue-jays-PCA-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 107.38345pt.
+)
+[19
+
+]
+\openout4 = `fodv12.vrb'.
+
+ (fodv12.vrb
+<forensic-PCA-rotation-1.png, id=525, 867.24pt x 867.24pt>
+File: forensic-PCA-rotation-1.png Graphic file (type png)
+<use forensic-PCA-rotation-1.png>
+Package pdftex.def Info: forensic-PCA-rotation-1.png  used on input line 2.
+(pdftex.def)             Requested size: 199.73653pt x 199.72566pt.
+) [20
+
+ <./forensic-PCA-rotation-1.png>]
+\openout4 = `fodv12.vrb'.
+
+ (fodv12.vrb
+<forensic-PCA-1.png, id=552, 1376.14125pt x 850.17625pt>
+File: forensic-PCA-1.png Graphic file (type png)
+<use forensic-PCA-1.png>
+Package pdftex.def Info: forensic-PCA-1.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 189.84143pt.
-) [16
+) [21
 
- <./bridges-parallel-sets2-1.png>]
-\openout4 = `fodv11.vrb'.
+ <./forensic-PCA-1.png>]
+\openout4 = `fodv12.vrb'.
 
- (fodv11.vrb
-<bridges-parallel-sets3-1.png, id=445, 1376.14125pt x 850.17625pt>
-File: bridges-parallel-sets3-1.png Graphic file (type png)
-<use bridges-parallel-sets3-1.png>
-Package pdftex.def Info: bridges-parallel-sets3-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.84143pt.
-) [17
+ (fodv12.vrb) [22
 
- <./bridges-parallel-sets3-1.png>]
-<0d9a779082f66a35443be831b31eb600.jpg, id=471, 602.25pt x 717.68124pt>
-File: 0d9a779082f66a35443be831b31eb600.jpg Graphic file (type jpg)
-<use 0d9a779082f66a35443be831b31eb600.jpg>
-Package pdftex.def Info: 0d9a779082f66a35443be831b31eb600.jpg  used on input li
-ne 235.
-(pdftex.def)             Requested size: 215.10196pt x 256.32817pt.
+]
+\openout4 = `fodv12.vrb'.
 
-Overfull \vbox (1.18153pt too high) detected at line 235
- []
+ (fodv12.vrb
+<CO2-paired-scatter-1.png, id=604, 963.6pt x 867.24pt>
+File: CO2-paired-scatter-1.png Graphic file (type png)
+<use CO2-paired-scatter-1.png>
+Package pdftex.def Info: CO2-paired-scatter-1.png  used on input line 2.
+(pdftex.def)             Requested size: 215.10196pt x 193.58556pt.
+) [23
 
-[18
+ <./CO2-paired-scatter-1.png>]
+\openout4 = `fodv12.vrb'.
 
- <./0d9a779082f66a35443be831b31eb600.jpg>]
+ (fodv12.vrb
+<CO2-slopegraph-1.png, id=631, 867.24pt x 867.24pt>
+File: CO2-slopegraph-1.png Graphic file (type png)
+<use CO2-slopegraph-1.png>
+Package pdftex.def Info: CO2-slopegraph-1.png  used on input line 2.
+(pdftex.def)             Requested size: 215.10196pt x 215.10242pt.
+) [24
+
+ <./CO2-slopegraph-1.png>]
+\openout4 = `fodv12.vrb'.
+
+ (fodv12.vrb
+<CO2-slopegraph-three-year-1.png, id=657, 867.24pt x 867.24pt>
+File: CO2-slopegraph-three-year-1.png Graphic file (type png)
+<use CO2-slopegraph-three-year-1.png>
+Package pdftex.def Info: CO2-slopegraph-three-year-1.png  used on input line 2.
+
+(pdftex.def)             Requested size: 215.10196pt x 215.10242pt.
+) [25
+
+ <./CO2-slopegraph-three-year-1.png>]
 \tf@nav=\write8
-\openout8 = `fodv11.nav'.
+\openout8 = `fodv12.nav'.
 
 \tf@toc=\write9
-\openout9 = `fodv11.toc'.
+\openout9 = `fodv12.toc'.
 
 \tf@snm=\write10
-\openout10 = `fodv11.snm'.
+\openout10 = `fodv12.snm'.
 
- (fodv11.aux)
-Package rerunfilecheck Info: File `fodv11.out' has not changed.
+ (fodv12.aux)
+Package rerunfilecheck Info: File `fodv12.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29221 strings out of 476406
- 597377 string characters out of 2789566
- 1860787 words of memory out of 3000000
- 48936 multiletter control sequences out of 15000+600000
- 523635 words of font info for 77 fonts, out of 8000000 for 9000
+ 29303 strings out of 476406
+ 598981 string characters out of 2789566
+ 1861787 words of memory out of 3000000
+ 48981 multiletter control sequences out of 15000+600000
+ 525915 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,432b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/thatm/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fodv11.pdf (18 pages, 1221090 bytes).
+cmex10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/thatm/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/thatm/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/tha
+tm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt8.pfb>
+Output written on fodv12.pdf (25 pages, 1604285 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 742 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
