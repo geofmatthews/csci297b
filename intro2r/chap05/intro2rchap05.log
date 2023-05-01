@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  26 APR 2023 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  1 MAY 2023 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1669,6 +1669,246 @@ Overfull \hbox (28.37816pt too wide) in paragraph at lines 12--12
  (./intro2rchap05.vrb) [42
 
 ]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (49.62297pt too wide) in paragraph at lines 5--5
+[]    \T1/cmtt/m/n/8 labs(y = "Density", x = "Number of Flowers", fill = "Nitro
+gen\nConcentration") +[] 
+ []
+
+<density-plot-1.png, id=1163, 1349.04pt x 963.6pt>
+File: density-plot-1.png Graphic file (type png)
+<use density-plot-1.png>
+Package pdftex.def Info: density-plot-1.png  used on input line 10.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [43
+
+ <./density-plot-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (62.36986pt too wide) in paragraph at lines 4--4
+[]    \T1/cmtt/m/n/8 geom_histogram(aes(x = flowers, fill = factor(block)), col
+our = "black", bins = 20,[] 
+ []
+
+
+Overfull \hbox (15.63127pt too wide) in paragraph at lines 6--6
+[]    \T1/cmtt/m/n/8 labs(y = "Count", x = "Number of Flowers", fill = "Greenho
+use\nBlock") +[] 
+ []
+
+<histogram-1.png, id=1191, 1349.04pt x 963.6pt>
+File: histogram-1.png Graphic file (type png)
+<use histogram-1.png>
+Package pdftex.def Info: histogram-1.png  used on input line 11.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [44
+
+ <./histogram-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (41.12505pt too wide) in paragraph at lines 4--4
+[]    \T1/cmtt/m/n/8 geom_freqpoly(aes(x = flowers, colour = factor(block)), si
+ze = 1, bins = 20) +[] 
+ []
+
+
+Overfull \hbox (24.1292pt too wide) in paragraph at lines 5--5
+[]    \T1/cmtt/m/n/8 labs(y = "Count", x = "Number of Flowers", colour = "Green
+house\nBlock") +[] 
+ []
+
+<freqpoly-1.png, id=1218, 1349.04pt x 963.6pt>
+File: freqpoly-1.png Graphic file (type png)
+<use freqpoly-1.png>
+Package pdftex.def Info: freqpoly-1.png  used on input line 10.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [45
+
+ <./freqpoly-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<boxplot-1.png, id=1245, 1349.04pt x 963.6pt>
+File: boxplot-1.png Graphic file (type png)
+<use boxplot-1.png>
+Package pdftex.def Info: boxplot-1.png  used on input line 8.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [46
+
+ <./boxplot-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+Overfull \hbox (11.38231pt too wide) in paragraph at lines 7--7
+[]  \T1/cmtt/m/n/8 geom_jitter(aes(y = flowers, x = nitrogen), colour = "black"
+, height = 0,[] 
+ []
+
+
+Overfull \hbox (36.87608pt too wide) in paragraph at lines 11--11
+[]    \T1/cmtt/m/n/8 labs(y = "Number of Flowers", x = "Nitrogen Concentration"
+) + scale_y_log10()[] 
+ []
+
+<violin-plot-1.png, id=1273, 1349.04pt x 963.6pt>
+File: violin-plot-1.png Graphic file (type png)
+<use violin-plot-1.png>
+Package pdftex.def Info: violin-plot-1.png  used on input line 13.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [47
+
+ <./violin-plot-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<barchart-1.png, id=1300, 1349.04pt x 963.6pt>
+File: barchart-1.png Graphic file (type png)
+<use barchart-1.png>
+Package pdftex.def Info: barchart-1.png  used on input line 10.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [48
+
+ <./barchart-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+<quantile-lines-1.png, id=1327, 1349.04pt x 963.6pt>
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 11.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [49
+
+ <./quantile-lines-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<heat-1.png, id=1355, 1349.04pt x 963.6pt>
+File: heat-1.png Graphic file (type png)
+<use heat-1.png>
+Package pdftex.def Info: heat-1.png  used on input line 9.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+)
+[50
+
+ <./heat-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<hex-1.png, id=1383, 1349.04pt x 963.6pt>
+File: hex-1.png Graphic file (type png)
+<use hex-1.png>
+Package pdftex.def Info: hex-1.png  used on input line 11.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [51
+
+ <./hex-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+
+(./intro2rchap05.vrb
+<contour-1.png, id=1410, 1349.04pt x 963.6pt>
+File: contour-1.png Graphic file (type png)
+<use contour-1.png>
+Package pdftex.def Info: contour-1.png  used on input line 9.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [52
+
+ <./contour-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<stat-contour-1.png, id=1437, 1349.04pt x 963.6pt>
+File: stat-contour-1.png Graphic file (type png)
+<use stat-contour-1.png>
+Package pdftex.def Info: stat-contour-1.png  used on input line 9.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [53
+
+ <./stat-contour-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+Overfull \hbox (15.63127pt too wide) in paragraph at lines 4--4
+[]    \T1/cmtt/m/n/8 geom_hline(aes(yintercept = as.numeric(rownames(flower))),
+ linetype = 2,[] 
+ []
+
+<dotpot-1.png, id=1464, 1349.04pt x 963.6pt>
+File: dotpot-1.png Graphic file (type png)
+<use dotpot-1.png>
+Package pdftex.def Info: dotpot-1.png  used on input line 10.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [54
+
+ <./dotpot-1.png>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+<pairs-plot-1.png, id=1492, 883.50075pt x 486.01575pt>
+File: pairs-plot-1.png Graphic file (type png)
+<use pairs-plot-1.png>
+Package pdftex.def Info: pairs-plot-1.png  used on input line 8.
+(pdftex.def)             Requested size: 338.02072pt x 185.94861pt.
+) [55
+
+ <./pairs-plot-1.png (PNG copy)>]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [56
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [57
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [58
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [59
+
+]
+\openout4 = `intro2rchap05.vrb'.
+
+ (./intro2rchap05.vrb
+File: quantile-lines-1.png Graphic file (type png)
+<use quantile-lines-1.png>
+Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
+(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
+) [60
+
+]
 \tf@nav=\write8
 \openout8 = `intro2rchap05.nav'.
 
@@ -1678,15 +1918,16 @@ Overfull \hbox (28.37816pt too wide) in paragraph at lines 12--12
 \tf@snm=\write10
 \openout10 = `intro2rchap05.snm'.
 
- (./intro2rchap05.aux)
+
+(./intro2rchap05.aux)
 Package rerunfilecheck Info: File `intro2rchap05.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29755 strings out of 475075
- 595729 string characters out of 5782996
+ 29954 strings out of 475075
+ 598755 string characters out of 5782996
  1064629 words of memory out of 5000000
- 50380 multiletter control sequences out of 15000+600000
+ 50494 multiletter control sequences out of 15000+600000
  482729 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,437b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1701,10 +1942,10 @@ er/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss109
 texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/20
 22/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2022/texmf-d
 ist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on intro2rchap05.pdf (42 pages, 2426881 bytes).
+Output written on intro2rchap05.pdf (60 pages, 3499972 bytes).
 PDF statistics:
- 1231 PDF objects out of 1440 (max. 8388607)
- 1085 compressed objects within 11 object streams
- 85 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1721 PDF objects out of 1728 (max. 8388607)
+ 1527 compressed objects within 16 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

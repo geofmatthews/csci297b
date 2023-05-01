@@ -588,4 +588,203 @@ ggsave(filename = "areashoot_weight_facet.pdf",
 \ei
 \end{frame}
 
+\bfr{Density plot}\scriptsize
+\begin{verbatim}
+ggplot(flower) +
+    geom_density(aes(x = flowers, fill = nitrogen), alpha = 0.5) +
+    labs(y = "Density", x = "Number of Flowers", fill = "Nitrogen\nConcentration") +
+    scale_fill_manual(labels = c("High", "Medium", "Low"),
+        values = c("#DB24BC", "#BCDB24", "#24BCDB")) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{density-plot-1.png}
+\end{frame}
+
+
+\bfr{Histogram}\scriptsize
+\begin{verbatim}
+ggplot(flower) +
+    geom_histogram(aes(x = flowers, fill = factor(block)), colour = "black", bins = 20,
+                 position = "dodge") +
+    labs(y = "Count", x = "Number of Flowers", fill = "Greenhouse\nBlock") +
+    scale_fill_manual(labels = c("1", "2"),
+          values = c("#8CD926", "#7326D9")) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{histogram-1.png}
+\end{frame}
+
+\bfr{Frequency polygons}\scriptsize
+\begin{verbatim}
+ggplot(flower) +
+    geom_freqpoly(aes(x = flowers, colour = factor(block)), size = 1, bins = 20) +
+    labs(y = "Count", x = "Number of Flowers", colour = "Greenhouse\nBlock") +
+    scale_colour_manual(labels = c("1", "2"),
+         values = c("#8CD926", "#7326D9")) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{freqpoly-1.png}
+\end{frame}
+
+\bfr{Boxplot}\scriptsize
+\begin{verbatim}
+ggplot(flower) +
+    geom_boxplot(aes(y = flowers, x = nitrogen)) +
+    labs(y = "Number of Flowers", x = "Nitrogen Concentration") +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{boxplot-1.png}
+\end{frame}
+
+\bfr{Violin plots}\scriptsize
+\vspace{-0.5cm}
+\begin{verbatim}
+ggplot(flower) +
+  geom_violin(aes(y = flowers, x = nitrogen, fill = nitrogen), 
+              draw_quantiles = c(0.25, 0.5, 0.75)) +
+  geom_jitter(aes(y = flowers, x = nitrogen), colour = "black", height = 0, 
+              width = 0.1, alpha = 0.5) +
+    scale_fill_manual(labels = c("High", "Medium", "Low"),
+         values = c("#5f7f5c", "#749770", "#9eb69b")) +
+    labs(y = "Number of Flowers", x = "Nitrogen Concentration") + scale_y_log10()
+\end{verbatim}
+\fig{0.7}{violin-plot-1.png}
+\end{frame}
+
+\bfr{Barchart}\scriptsize
+\begin{verbatim}
+ggplot(flower) +
+  geom_bar(aes(x = factor(block), fill = nitrogen)) +
+    scale_fill_manual(labels = c("High", "Medium", "Low"),
+         values = c("#2613EC", "#9313EC", "#EC13D9")) +
+    labs(y = "Count", x = "Block") +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{barchart-1.png}
+\end{frame}
+
+\bfr{Quantile lines}\scriptsize
+\begin{verbatim}
+library(quantreg)
+
+ggplot(aes(x = weight, y = shootarea), data = flower) +
+    geom_point(size = 0.5, alpha = 0.6) +
+    geom_quantile(colour = "darkgrey", size = 1) +
+    labs(y = "Shoot Area", x = "Weight") +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+\bfr{Heatmap}\scriptsize
+\begin{verbatim}
+ggplot(aes(x = leafarea, y = shootarea), data = flower) +
+    geom_bin2d() +
+    labs(y = "Shoot Area", x = "Leaf Area") +
+    coord_cartesian(xlim = c(5,25)) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{heat-1.png}
+\end{frame}
+
+\bfr{Hex map}\scriptsize
+\begin{verbatim}
+library(hexbin)
+
+ggplot(aes(x = leafarea, y = shootarea), data = flower) +
+    geom_hex() +
+    labs(y = "Shoot Area", x = "Leaf Area") +
+    coord_cartesian(xlim = c(5,25)) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{hex-1.png}
+\end{frame}
+
+\bfr{Contour map}\scriptsize
+\begin{verbatim}
+ggplot(aes(x = leafarea, y = shootarea), data = flower) +
+    geom_density2d() +
+    labs(y = "Shoot Area", x = "Leaf Area") +
+    coord_cartesian(xlim = c(5,25)) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{contour-1.png}
+\end{frame}
+
+\bfr{Contour map}\scriptsize
+\begin{verbatim}
+ggplot(aes(x = leafarea, y = shootarea), data = flower) +
+    stat_density_2d(aes(fill = stat(level)), geom = "polygon") +
+    labs(y = "Shoot Area", x = "Leaf Area") +
+    coord_cartesian(xlim = c(5,25)) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{stat-contour-1.png}
+\end{frame}
+
+\bfr{Cleveland dotplot}\scriptsize
+\begin{verbatim}
+ggplot(flower) + 
+    geom_hline(aes(yintercept = as.numeric(rownames(flower))), linetype = 2,
+             colour = "lightgrey") +
+  geom_point(aes(x = leafarea, y = as.numeric(rownames(flower)))) +
+  labs(y = "Order in Dataset", x = bquote("Area of leaf"~(cm^2))) +
+    theme_rbook()
+\end{verbatim}
+\fig{0.7}{dotpot-1.png}
+\end{frame}
+
+\bfr{Pairs plot}\scriptsize
+\vspace{-0.5cm}
+\begin{verbatim}
+library(GGally)
+flower$block <- factor(flower$block)
+ggpairs(flower, aes(colour = nitrogen))
+\end{verbatim}
+\fig{1.1}{pairs-plot-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{0.7}{quantile-lines-1.png}
+\end{frame}
+
+
+
 \end{document}

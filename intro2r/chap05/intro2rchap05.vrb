@@ -1,15 +1,5 @@
-\frametitle{ Saving ggplots }
+\frametitle{{  }}\scriptsize
 \begin{verbatim}
-ggsave(filename = "areashoot_weight_facet.pdf",
-       plot = rbook_figure,
-       device = "pdf",
-       path = "output",
-       width = 250,
-       height = 150,
-       units = "mm",
-       dpi = 500,
-       limitsize = TRUE)
+
 \end{verbatim}
-\bi
-\li If {\tt plot} is not specified, last thing plotted is saved.
-\ei
+\fig{0.7}{quantile-lines-1.png}
