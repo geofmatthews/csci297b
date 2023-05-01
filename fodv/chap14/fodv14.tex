@@ -67,7 +67,7 @@
 \ei
 \end{frame}
 
-\bfr{Smoothing}
+\bfr{Smoothing by moving average}
 \bi
 \li To generate a moving average, we take a time window, say the first 20 days in the time series.
 \li Calculate the average price over these 20 days. 
@@ -83,10 +83,180 @@
 \cola{0.3}
 \bi
 \li Financial analysts usually plot the smooth curve at the end point.
+~\\
+~\\
 \li Statisticians usually plot the smooth curve at the center of the window.
 \ei
 \colb{0.7}
 \fig{1.1}{dow-jones-moving-ave-1.png}
 \colc
 \end{frame}
+
+\bfr{Moving average}
+\bi
+\li Rresults in a  curve that is shorter than the original curve.
+\li Parts are missing at  the beginning or the end or both. 
+\li The more the  series is smoothed  the shorter the smoothed curve.
+\li It is not necessarily really very smooth.
+\li Wiggles are caused by individual data points that enter or exit the averaging window.
+\li Since all data points in the window are weighted equally, individual data points at the window boundaries can have visible impact on the average.
+\ei
+\end{frame}
+
+\bfr{LOESS smoothing}
+\fig{1}{dow-jones-loess-1.png}
+\bi
+\li Fit low-order polynomials to subsets of the data.
+\li Weight points by proximity to center of subset.
+\li Amount of smoothing controlled by parameters.
+\ei
+\end{frame}
+
+\bfr{LOESS can be used on non-time series}
+\fig{.8}{tank-capacity-loess-1.png}
+\bi
+\li Fit looks good to human eye.
+\li Fit comes from many separate regressions, can be slow.
+\ei
+\end{frame}
+
+\bfr{Splines}
+\cola{0.5}
+\fig{1}{CubicSpline_700.png}
+\colb{0.5}
+\bi
+\li
+A cubic spline is a spline constructed of piecewise third-order polynomials which pass through a set of $m$ control points, called the {\bf knots}.
+\li The second derivative of each polynomial is commonly set to zero at the endpoints, since this provides a boundary condition that completes the system of $m-2$ equations. 
+\ei
+\colc
+\vfill
+\tiny
+\url{https://mathworld.wolfram.com/CubicSpline.html}
+\end{frame}
+
+\bfr{Splines}
+\bi
+\li  A spline is a piecewise polynomial function that is highly flexible yet always looks smooth.
+\li The {\bf knots} in a spline are the endpoints of the individual spline segments.
+\li If we fit a spline with $k$ segments, we need to specify $k+1$ knots.
+\li Spline fitting is computationally efficient. 
+\li There is a bewildering array of different types of splines, including
+cubic splines, B-splines,  thin-plate splines,  Gaussian process splines, and many others. 
+\li The specific choice of the type of spline and number of knots used can result in widely different smoothing functions for the same data.
+\ei
+\end{frame}
+
+
+
+\bfr{Splines}
+\fig{.8}{tank-capacity-smoothers-1.png}
+\scriptsize
+(a)  LOESS smoother.\hfill (b) Cubic regression splines with 5 knots.
+
+(c) Thin-plate regression spline with 3 knots. \hfill (d) Gaussian process spline with 6 knots.
+
+\end{frame}
+
+\bfr{Smoothers}
+\bi
+\li Most data visualization software provides smoothing.
+\li Either a  LOESS or a  spline, or both.
+\li The smoothing method may be referred to as a GAM, a generalized additive model.
+\li The output of the smoothing feature is highly dependent on the model that is fit. 
+\li Unless you try out a number of different choices you may never realize to what extent the results you see depend on the  default choices made by your  software.
+\li\bf
+Be careful when interpreting the results from a smoothing function.
+\li\bf The same dataset can be smoothed in many different ways.
+\ei
+\end{frame}
+
+\bfr{Showing trends with a functional form}
+\bi
+\li General-purpose smoothers are somewhat unpredictable for any given dataset.
+\li These smoothers also do not provide parameter estimates that have a meaningful interpretation.
+\li Whenever possible, it is preferable to fit a curve with a specific functional form that is appropriate for the data and that uses parameters with clear meaning.
+\ei
+\end{frame}
+
+\bfr{$y = A - B\exp(-mx)$}
+\fig{.8}{tank-capacity-model-1.png}
+\bi
+\li Fitted parameters: $A=19.6$, $B=29.2$, $m=0.00015$
+\ei
+\end{frame}
+
+\bfr{$y = A + mx$}
+\fig{.8}{blue-jays-scatter-line-1.png}
+
+\bi
+\li Approximately linear relationships between two variables are surprisingly common in real-world datasets.
+\ei
+\end{frame}
+
+\bfr{Finding non-linear relationships}
+\fig{.8}{biorxiv-expfit-1.png}
+\[
+y = 60 \exp(0.77(x-2014))
+\]
+\bi\li Percentage growth each year = exponential growth\ei
+\end{frame}
+
+\bfr{Transform and look for linear relations}
+\fig{.8}{biorxiv-logscale-1.png}
+\[ y = 43\exp(0.88(x-2014))\]
+\vspace{-.5cm}
+\bi
+\li \bf It is usually better to fit a straight line to transformed data than to fit a nonlinear curve to untransformed data.
+\ei
+\end{frame}
+
+\bfr{Least squares regression}
+\fig{.8}{mth_bf1.jpg}
+\vfill
+\tiny
+\url{https://www.vectornav.com/resources/inertial-navigation-primer/math-fundamentals/math-leastsquares}
+\end{frame}
+
+\bfr{Residuals}\scriptsize
+\fig{1.1}{residuals}
+\begin{verbatim}
+x <- runif(20)*10
+y <- 1.2^x + runif(20)*x*0.1
+plot(y ~ x)
+mymodel <- lm(y~x)
+abline(mymodel$coefficients, lty="dashed", col="red")
+plot(mymodel$residuals ~ x)
+abline(h=0,lty="dashed", col="red")
+\end{verbatim}
+\end{frame}
+
+\bfr{Types of plots}
+\cola{0.6}
+\fig{1}{biorxiv-logscale-1.png}
+\colb{0.4}
+\begin{tabular}{rl}
+type & straightens \\\hline
+log-linear & $y \sim \exp(x)$ \\
+log-log & $y \sim x^\alpha $\\
+linear-log & $y \sim \log(x)$
+\end{tabular}
+\colc
+\end{frame}
+
+\bfr{Detrending}
+\fig{1}{hpi-trends-1.png}
+\bi
+\li Divide by the fit value
+\ei
+\end{frame}
+
+\bfr{Seasonal decomposition of Time series by LOESS}
+\fig{1}{keeling-curve-1.png}
+\end{frame}
+
+\begin{frame}
+\fig{.9}{keeling-curve-decomposition-1.png}
+\end{frame}
+
 \end{document}

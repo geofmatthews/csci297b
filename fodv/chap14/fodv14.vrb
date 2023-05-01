@@ -1,9 +1,2 @@
-\frametitle{ Smoothing }
-\bi
-\li To generate a moving average, we take a time window, say the first 20 days in the time series.
-\li Calculate the average price over these 20 days.
-\li Then move the time window by one day, so it now spans the 2nd to 21st day.
-\li Calculate the average over these 20 days.
-\li Move the time window again, and so on.
-\li The result is a new time series consisting of a sequence of averaged prices.
-\ei
+\frametitle{ Seasonal decomposition of Time series by LOESS }
+\fig{1}{keeling-curve-1.png}
