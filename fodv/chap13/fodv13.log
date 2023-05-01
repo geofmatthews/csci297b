@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  1 MAY 2023 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  1 MAY 2023 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fodv06.tex
-(./fodv06.tex
+**fodv13.tex
+(./fodv13.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-30>
 (c:/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
@@ -793,99 +793,32 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \EndVerbatimTokens=\toks50
 \Verbatim@Outfile=\write6
 \Verbatim@Infile=\read4
-) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
-
-(c:/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks51
-\verbatim@line=\toks52
-\verbatim@in@stream=\read5
-)
-(c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box84
-\tcb@upperbox=\box85
-\tcb@lowerbox=\box86
-\tcb@phantombox=\box87
-\c@tcbbreakpart=\count348
-\c@tcblayer=\count349
-\c@tcolorbox@number=\count350
-\tcb@temp=\box88
-\tcb@temp=\box89
-\tcb@temp=\box90
-\tcb@temp=\box91
-
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count351
-\lst@gtempboxa=\box92
-\lst@token=\toks53
-\lst@length=\count352
-\lst@currlwidth=\dimen306
-\lst@column=\count353
-\lst@pos=\count354
-\lst@lostspace=\dimen307
-\lst@width=\dimen308
-\lst@newlines=\count355
-\lst@lineno=\count356
-\lst@maxwidth=\dimen309
-
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count357
-\lst@skipnumbers=\count358
-\lst@framebox=\box93
-)
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-))
-\c@tcblisting=\count359
-)))
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
-\l__pdf_internal_box=\box94
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box84
 )
-(./fodv06.aux)
-\openout1 = `fodv06.aux'.
+(./fodv13.aux)
+\openout1 = `fodv13.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -923,17 +856,17 @@ LaTeX Font Info:    ... okay on input line 72.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen310
-\scratchbox=\box95
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen311
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count349
+\scratchdimen=\dimen306
+\scratchbox=\box85
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen307
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks52
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -943,64 +876,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 43.
 
-(./fodv06.out) (./fodv06.out)
+(./fodv13.out) (./fodv13.out)
 \@outlinefile=\write7
-\openout7 = `fodv06.out'.
+\openout7 = `fodv13.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 72.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 72.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 72.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 72.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-2.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 72.
+ut line 43.
 
 (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1025,14 +958,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-\c@lstlisting=\count367
- (./fodv06.nav) [1
+) (./fodv13.nav) [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout4 = `fodv06.vrb'.
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
+ (./fodv13.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1059,244 +990,182 @@ thkerncmss.
 [2
 
 ]
-\openout4 = `fodv06.vrb'.
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-6.
- (c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-<boxoffice-vertical-1.png, id=71, 1376.14125pt x 687.56876pt>
-File: boxoffice-vertical-1.png Graphic file (type png)
-<use boxoffice-vertical-1.png>
-Package pdftex.def Info: boxoffice-vertical-1.png  used on input line 13.
-(pdftex.def)             Requested size: 245.83282pt x 122.82329pt.
-)
-[3
+ (./fodv13.vrb
+<biorxiv-dots-1.png, id=72, 1156.32pt x 713.66624pt>
+File: biorxiv-dots-1.png Graphic file (type png)
+<use biorxiv-dots-1.png>
+Package pdftex.def Info: biorxiv-dots-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+) [3
 
- <./boxoffice-vertical-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./biorxiv-dots-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<boxoffice-rot-axis-tick-labels-1.png, id=100, 1156.32pt x 982.67125pt>
-File: boxoffice-rot-axis-tick-labels-1.png Graphic file (type png)
-<use boxoffice-rot-axis-tick-labels-1.png>
-Package pdftex.def Info: boxoffice-rot-axis-tick-labels-1.png  used on input li
-ne 2.
-(pdftex.def)             Requested size: 245.83282pt x 208.9011pt.
+ (./fodv13.vrb
+<biorxiv-dots-line-1.png, id=100, 1156.32pt x 713.66624pt>
+File: biorxiv-dots-line-1.png Graphic file (type png)
+<use biorxiv-dots-line-1.png>
+Package pdftex.def Info: biorxiv-dots-line-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [4
 
- <./boxoffice-rot-axis-tick-labels-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./biorxiv-dots-line-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<boxoffice-horizontal-1.png, id=127, 1156.32pt x 713.66624pt>
-File: boxoffice-horizontal-1.png Graphic file (type png)
-<use boxoffice-horizontal-1.png>
-Package pdftex.def Info: boxoffice-horizontal-1.png  used on input line 2.
+ (./fodv13.vrb) [5
+
+]
+\openout4 = `fodv13.vrb'.
+
+ (./fodv13.vrb
+<biorxiv-line-1.png, id=153, 1156.32pt x 713.66624pt>
+File: biorxiv-line-1.png Graphic file (type png)
+<use biorxiv-line-1.png>
+Package pdftex.def Info: biorxiv-line-1.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
-) [5
+) [6
 
- <./boxoffice-horizontal-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./biorxiv-line-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<boxoffice-horizontal-bad-order-1.png, id=155, 1156.32pt x 713.66624pt>
-File: boxoffice-horizontal-bad-order-1.png Graphic file (type png)
-<use boxoffice-horizontal-bad-order-1.png>
-Package pdftex.def Info: boxoffice-horizontal-bad-order-1.png  used on input li
-ne 3.
-(pdftex.def)             Requested size: 276.559pt x 170.68446pt.
-)
-[6
 
- <./boxoffice-horizontal-bad-order-1.png>]
-\openout4 = `fodv06.vrb'.
-
- (./fodv06.vrb
-<income-by-age-1.png, id=182, 1156.32pt x 713.66624pt>
-File: income-by-age-1.png Graphic file (type png)
-<use income-by-age-1.png>
-Package pdftex.def Info: income-by-age-1.png  used on input line 3.
+(./fodv13.vrb
+<biorxiv-line-area-1.png, id=180, 1156.32pt x 713.66624pt>
+File: biorxiv-line-area-1.png Graphic file (type png)
+<use biorxiv-line-area-1.png>
+Package pdftex.def Info: biorxiv-line-area-1.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [7
 
- <./income-by-age-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./biorxiv-line-area-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<income-by-age-sorted-1.png, id=210, 1156.32pt x 713.66624pt>
-File: income-by-age-sorted-1.png Graphic file (type png)
-<use income-by-age-sorted-1.png>
-Package pdftex.def Info: income-by-age-sorted-1.png  used on input line 3.
+ (./fodv13.vrb
+<bio-preprints-dots-1.png, id=208, 1156.32pt x 713.66624pt>
+File: bio-preprints-dots-1.png Graphic file (type png)
+<use bio-preprints-dots-1.png>
+Package pdftex.def Info: bio-preprints-dots-1.png  used on input line 2.
 (pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [8
 
- <./income-by-age-sorted-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./bio-preprints-dots-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<income-by-age-race-dodged-1.png, id=237, 1513.655pt x 756.8275pt>
-File: income-by-age-race-dodged-1.png Graphic file (type png)
-<use income-by-age-race-dodged-1.png>
-Package pdftex.def Info: income-by-age-race-dodged-1.png  used on input line 2.
+ (./fodv13.vrb
+<bio-preprints-lines-1.png, id=235, 1156.32pt x 713.66624pt>
+File: bio-preprints-lines-1.png Graphic file (type png)
+<use bio-preprints-lines-1.png>
+Package pdftex.def Info: bio-preprints-lines-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
+) [9
 
-(pdftex.def)             Requested size: 307.28987pt x 153.63782pt.
-)
-[9
+ <./bio-preprints-lines-1.png>]
+\openout4 = `fodv13.vrb'.
 
- <./income-by-age-race-dodged-1.png>]
-\openout4 = `fodv06.vrb'.
-
- (./fodv06.vrb
-<income-by-race-age-dodged-1.png, id=265, 1513.655pt x 605.26125pt>
-File: income-by-race-age-dodged-1.png Graphic file (type png)
-<use income-by-race-age-dodged-1.png>
-Package pdftex.def Info: income-by-race-age-dodged-1.png  used on input line 2.
-
-(pdftex.def)             Requested size: 307.28987pt x 122.86949pt.
+ (./fodv13.vrb
+<bio-preprints-direct-label-1.png, id=263, 1156.32pt x 713.66624pt>
+File: bio-preprints-direct-label-1.png Graphic file (type png)
+<use bio-preprints-direct-label-1.png>
+Package pdftex.def Info: bio-preprints-direct-label-1.png  used on input line 2
+.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [10
 
- <./income-by-race-age-dodged-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./bio-preprints-direct-label-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<income-by-age-race-faceted-1.png, id=292, 1513.655pt x 935.495pt>
-File: income-by-age-race-faceted-1.png Graphic file (type png)
-<use income-by-age-race-faceted-1.png>
-Package pdftex.def Info: income-by-age-race-faceted-1.png  used on input line 2
-.
-(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
+ (./fodv13.vrb
+<oats-yield-1.png, id=290, 1156.32pt x 713.66624pt>
+File: oats-yield-1.png Graphic file (type png)
+<use oats-yield-1.png>
+Package pdftex.def Info: oats-yield-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.65424pt.
 ) [11
 
- <./income-by-age-race-faceted-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./oats-yield-1.png>]
+\openout4 = `fodv13.vrb'.
 
-
-(./fodv06.vrb
-<titanic-passengers-by-class-sex-1.png, id=319, 1059.96pt x 654.445pt>
-File: titanic-passengers-by-class-sex-1.png Graphic file (type png)
-<use titanic-passengers-by-class-sex-1.png>
-Package pdftex.def Info: titanic-passengers-by-class-sex-1.png  used on input l
-ine 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.77742pt.
+ (./fodv13.vrb
+<house-price-unemploy-1.png, id=317, 1376.14125pt x 850.17625pt>
+File: house-price-unemploy-1.png Graphic file (type png)
+<use house-price-unemploy-1.png>
+Package pdftex.def Info: house-price-unemploy-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 189.84143pt.
 ) [12
 
- <./titanic-passengers-by-class-sex-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./house-price-unemploy-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-File: titanic-passengers-by-class-sex-1.png Graphic file (type png)
-<use titanic-passengers-by-class-sex-1.png>
-Package pdftex.def Info: titanic-passengers-by-class-sex-1.png  used on input l
-ine 2.
-(pdftex.def)             Requested size: 245.83282pt x 151.77742pt.
-)
-[13
+ (./fodv13.vrb
+<house-price-path-1.png, id=344, 1156.32pt x 867.24pt>
+File: house-price-path-1.png Graphic file (type png)
+<use house-price-path-1.png>
+Package pdftex.def Info: house-price-path-1.png  used on input line 2.
+(pdftex.def)             Requested size: 245.83282pt x 184.36215pt.
+) [13
 
-]
-\openout4 = `fodv06.vrb'.
+ <./house-price-path-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<Americas-life-expect-bars-1.png, id=374, 1156.32pt x 1039.885pt>
-File: Americas-life-expect-bars-1.png Graphic file (type png)
-<use Americas-life-expect-bars-1.png>
-Package pdftex.def Info: Americas-life-expect-bars-1.png  used on input line 3.
-
-(pdftex.def)             Requested size: 245.83282pt x 221.06387pt.
+ (./fodv13.vrb
+<house-price-path-bad-1.png, id=375, 1156.32pt x 867.24pt>
+File: house-price-path-bad-1.png Graphic file (type png)
+<use house-price-path-bad-1.png>
+Package pdftex.def Info: house-price-path-bad-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 230.46593pt.
 ) [14
 
- <./Americas-life-expect-bars-1.png>]
-\openout4 = `fodv06.vrb'.
+ <./house-price-path-bad-1.png>]
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<Americas-life-expect-1.png, id=401, 1156.32pt x 1039.885pt>
-File: Americas-life-expect-1.png Graphic file (type png)
-<use Americas-life-expect-1.png>
-Package pdftex.def Info: Americas-life-expect-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 221.06387pt.
-)
-[15
 
- <./Americas-life-expect-1.png>]
-\openout4 = `fodv06.vrb'.
-
- (./fodv06.vrb
-<Americas-life-expect-bad-1.png, id=428, 1156.32pt x 1039.885pt>
-File: Americas-life-expect-bad-1.png Graphic file (type png)
-<use Americas-life-expect-bad-1.png>
-Package pdftex.def Info: Americas-life-expect-bad-1.png  used on input line 2.
-(pdftex.def)             Requested size: 245.83282pt x 221.06387pt.
-) [16
-
- <./Americas-life-expect-bad-1.png>]
-\openout4 = `fodv06.vrb'.
-
- (./fodv06.vrb
-<internet-over-time-1.png, id=455, 1513.655pt x 935.495pt>
-File: internet-over-time-1.png Graphic file (type png)
-<use internet-over-time-1.png>
-Package pdftex.def Info: internet-over-time-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
-) [17
-
- <./internet-over-time-1.png>]
-\openout4 = `fodv06.vrb'.
-
- (./fodv06.vrb
-File: internet-over-time-1.png Graphic file (type png)
-<use internet-over-time-1.png>
-Package pdftex.def Info: internet-over-time-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
-)
-[18
+(./fodv13.vrb) [15
 
 ]
-\openout4 = `fodv06.vrb'.
+\openout4 = `fodv13.vrb'.
 
- (./fodv06.vrb
-<internet-over-time2-1.png, id=509, 1513.655pt x 935.495pt>
-File: internet-over-time2-1.png Graphic file (type png)
-<use internet-over-time2-1.png>
-Package pdftex.def Info: internet-over-time2-1.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 189.90775pt.
-) [19
+ (./fodv13.vrb
+<fred-md-PCA-1.png, id=426, 1376.14125pt x 1701.35625pt>
+File: fred-md-PCA-1.png Graphic file (type png)
+<use fred-md-PCA-1.png>
+Package pdftex.def Info: fred-md-PCA-1.png  used on input line 9.
+(pdftex.def)             Requested size: 199.73653pt x 246.93697pt.
+) [16
 
- <./internet-over-time2-1.png>]
+ <./fred-md-PCA-1.png>]
 \tf@nav=\write8
-\openout8 = `fodv06.nav'.
+\openout8 = `fodv13.nav'.
 
 \tf@toc=\write9
-\openout9 = `fodv06.toc'.
+\openout9 = `fodv13.toc'.
 
 \tf@snm=\write10
-\openout10 = `fodv06.snm'.
+\openout10 = `fodv13.snm'.
 
- (./fodv06.aux)
-Package rerunfilecheck Info: File `fodv06.out' has not changed.
+ (./fodv13.aux)
+Package rerunfilecheck Info: File `fodv13.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29263 strings out of 475075
- 590176 string characters out of 5782996
- 1058650 words of memory out of 5000000
- 50008 multiletter control sequences out of 15000+600000
- 480780 words of font info for 73 fonts, out of 8000000 for 9000
+ 25506 strings out of 475075
+ 506846 string characters out of 5782996
+ 807610 words of memory out of 5000000
+ 46311 multiletter control sequences out of 15000+600000
+ 478067 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,430b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss10
-00.pfb>
-Output written on fodv06.pdf (19 pages, 886471 bytes).
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb>
+Output written on fodv13.pdf (16 pages, 874013 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 39 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

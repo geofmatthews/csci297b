@@ -1,0 +1,92 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 14}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing Trends}
+\bi
+\li When making scatter plots  or time series, we are often more interested in the overarching trend of the data than in the specific detail. 
+\li By drawing the trend  we can create a visualization that helps the reader immediately see key features of the data.
+\li There are two fundamental approaches to determining a trend: 
+\bi
+\li We can  smooth the data by some method.
+\li We can fit a curve with a defined functional form. 
+\ei
+\li Once we have identified a trend we can look specifically at deviations from the trend.
+\li Or we can separate the data into multiple components, including the underlying trend, any existing cyclical components, and episodic components or random noise.
+\ei
+\end{frame}
+
+\bfr{Dow Jones for 2009}
+\fig{1}{dow-jones-1.png}
+\bi
+\li How can we show the dominant trends without the noise?
+\ei
+\end{frame}
+
+\bfr{Smoothing}
+\bi
+\li To generate a moving average, we take a time window, say the first 20 days in the time series.
+\li Calculate the average price over these 20 days. 
+\li Then move the time window by one day, so it now spans the 2nd to 21st day.
+\li Calculate the average over these 20 days.
+\li Move the time window again, and so on.
+\li The result is a new time series consisting of a sequence of averaged prices.
+\ei
+\end{frame}
+
+
+\begin{frame}
+\cola{0.3}
+\bi
+\li Financial analysts usually plot the smooth curve at the end point.
+\li Statisticians usually plot the smooth curve at the center of the window.
+\ei
+\colb{0.7}
+\fig{1.1}{dow-jones-moving-ave-1.png}
+\colc
+\end{frame}
+\end{document}

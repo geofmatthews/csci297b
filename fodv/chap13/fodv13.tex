@@ -1,0 +1,140 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 13}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Time series}
+\bi
+\li Time (and a few other variables) imposes additional structure on the data
+\li  The data points have an inherent order; we can arrange the points in order of increasing time and define a predecessor and successor for each data point.
+\li We use {\bf line graphs} to connect point in order.
+\li Can be used whenever one variable imposes a total order.
+\li A treatment can be purposefully set to a range of values, e.g.
+
+\ei
+\end{frame}
+
+\bfr{Monthly preprint submissions to bioRxiv, scatterplot}
+\fig{1}{biorxiv-dots-1.png}
+\end{frame}
+
+\bfr{Monthly preprint submissions to bioRxiv, line graph}
+\fig{1}{biorxiv-dots-line-1.png}
+\end{frame}
+
+\bfr{Line plots}
+\bi
+\li Since each point has unique left and right neighbors, lines can connect these.
+\li Some  object to drawing lines between points because the lines do not represent observed data.
+\li Had observations been made at intermediate times they would probably not have fallen exactly onto the lines shown.
+\li Tthe lines correspond to made-up data. 
+\li Yet they may help with perception when the points are spaced far apart or are unevenly spaced.
+\li Using lines to represent time series is generally accepted practice
+\ei
+\end{frame}
+
+\bfr{Omit the dots}
+\fig{1}{biorxiv-line-1.png}
+\end{frame}
+
+\bfr{Fill with color}
+\fig{1}{biorxiv-line-area-1.png}
+\end{frame}
+
+\bfr{Multiple time series need connecting lines}
+\fig{1}{bio-preprints-dots-1.png}
+\end{frame}
+
+\bfr{Multiple time series need connecting lines}
+\fig{1}{bio-preprints-lines-1.png}
+\end{frame}
+
+\bfr{Omit dots and legends when you can}
+\fig{1}{bio-preprints-direct-label-1.png}
+\end{frame}
+
+\bfr{Dose-response curves}
+\fig{1}{oats-yield-1.png}
+\end{frame}
+
+\bfr{Two time series compared}
+\fig{1}{house-price-unemploy-1.png}
+\end{frame}
+
+\bfr{Connected scatter plot}
+\fig{.8}{house-price-path-1.png}
+\scriptsize
+\bi
+\li positive and negative correlations obvious
+\ei
+\end{frame}
+
+\bfr{Need to show direction along path}
+\fig{1}{house-price-path-bad-1.png}
+\end{frame}
+
+\bfr{Connected scatter plot or two line graphs?}
+\bi
+\li Separate line graphs tend to be easier to read.
+\li Once people are used to connected scatter plots they may be able to extract certain patterns (such as cyclical behavior) that can be difficult to spot in line graphs.
+\li  Readers are more likely to confuse order and direction in a connected scatter plot than in line graphs and less likely to report correlation.
+\li Connected scatter plots seem to result in higher engagement, and thus such plots may be a effective tools to draw readers into a story.
+\ei
+\end{frame}
+
+\bfr{}
+\cola{0.45}{\bf CSP with PCA}
+
+
+ Recession vs. recovery
+
+
+\colb{0.65}
+\fig{1}{fred-md-PCA-1.png}
+\colc
+\end{frame}
+
+\end{document}
