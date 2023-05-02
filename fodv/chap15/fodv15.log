@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  2 MAY 2023 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  2 MAY 2023 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**rfds2e_chap03-09.tex
-(./rfds2e_chap03-09.tex
+**fodv15.tex
+(./fodv15.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-30>
 (c:/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
@@ -697,41 +697,11 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count334
 \cp@tempcnt=\count335
 )
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks45
-\inpenc@posthook=\toks46
-)
 (c:/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
-(c:/texlive/2022/texmf-dist/tex/generic/dirtree/dirtree.sty
-Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
-
-(c:/texlive/2022/texmf-dist/tex/generic/dirtree/dirtree.tex
-`dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen292
-\DT@width=\dimen293
-\DT@sep=\dimen294
-\DT@all=\dimen295
-\DT@rulewidth=\dimen296
-\DT@dotwidth=\dimen297
-\DTbaselineskip=\dimen298
-\DT@counti=\count336
-\DT@countii=\count337
-\DT@countiii=\count338
-\DT@countiv=\count339
-\DT@indent=\dimen299
-\DT@parskip=\dimen300
-\DT@baselineskip=\dimen301
-)
-File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 (c:/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -747,8 +717,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
 )
 (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -758,10 +728,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -769,33 +739,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count340
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count336
+\pgfplotmarksize=\dimen296
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
 \tikz@figbox=\box77
 \tikz@figbox@bg=\box78
 \tikz@tempbox=\box79
 \tikz@tempbox@bg=\box80
-\tikztreelevel=\count341
-\tikznumberofchildren=\count342
-\tikznumberofcurrentchild=\count343
-\tikz@fig@count=\count344
+\tikztreelevel=\count337
+\tikznumberofchildren=\count338
+\tikznumberofcurrentchild=\count339
+\tikz@fig@count=\count340
 
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count345
-\pgfmatrixcurrentcolumn=\count346
-\pgf@matrix@numberofcolumns=\count347
+\pgfmatrixcurrentrow=\count341
+\pgfmatrixcurrentcolumn=\count342
+\pgf@matrix@numberofcolumns=\count343
 )
-\tikz@expandcount=\count348
+\tikz@expandcount=\count344
 
 (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -803,11 +773,11 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (c:/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count349
+\FV@CodeLineNo=\count345
 \FV@InFile=\read3
 \FV@TabBox=\box81
-\c@FancyVerbLine=\count350
-\FV@StepNumber=\count351
+\c@FancyVerbLine=\count346
+\FV@StepNumber=\count347
 \FV@OutFile=\write5
 )
 (c:/texlive/2022/texmf-dist/tex/latex/fancybox/fancybox.sty
@@ -815,107 +785,40 @@ Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box82
-\shadowsize=\dimen315
+\shadowsize=\dimen305
 \@Sbox=\box83
-\do@VerbBox=\toks49
-\the@fancyput=\toks50
-\this@fancyput=\toks51
-\EndVerbatimTokens=\toks52
+\do@VerbBox=\toks47
+\the@fancyput=\toks48
+\this@fancyput=\toks49
+\EndVerbatimTokens=\toks50
 \Verbatim@Outfile=\write6
 \Verbatim@Infile=\read4
-) (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
-
-(c:/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks53
-\verbatim@line=\toks54
-\verbatim@in@stream=\read5
-)
-(c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box84
-\tcb@upperbox=\box85
-\tcb@lowerbox=\box86
-\tcb@phantombox=\box87
-\c@tcbbreakpart=\count352
-\c@tcblayer=\count353
-\c@tcolorbox@number=\count354
-\tcb@temp=\box88
-\tcb@temp=\box89
-\tcb@temp=\box90
-\tcb@temp=\box91
-
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count355
-\lst@gtempboxa=\box92
-\lst@token=\toks55
-\lst@length=\count356
-\lst@currlwidth=\dimen316
-\lst@column=\count357
-\lst@pos=\count358
-\lst@lostspace=\dimen317
-\lst@width=\dimen318
-\lst@newlines=\count359
-\lst@lineno=\count360
-\lst@maxwidth=\dimen319
-
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count361
-\lst@skipnumbers=\count362
-\lst@framebox=\box93
-)
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
-(c:/texlive/2022/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-))
-\c@tcblisting=\count363
-)))
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count364
-\l__pdf_internal_box=\box94
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box84
 )
-(./rfds2e_chap03-09.aux)
-\openout1 = `rfds2e_chap03-09.aux'.
+(./fodv15.aux)
+\openout1 = `fodv15.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -953,17 +856,17 @@ LaTeX Font Info:    ... okay on input line 76.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count365
-\scratchdimen=\dimen320
-\scratchbox=\box95
-\nofMPsegments=\count366
-\nofMParguments=\count367
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count368
-\MPscratchDim=\dimen321
-\MPnumerator=\count369
-\makeMPintoPDFobject=\count370
-\everyMPtoPDFconversion=\toks57
+\scratchcounter=\count349
+\scratchdimen=\dimen306
+\scratchbox=\box85
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen307
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks52
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -973,69 +876,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 43.
 
-(./rfds2e_chap03-09.out) (./rfds2e_chap03-09.out)
+(./fodv15.out) (./fodv15.out)
 \@outlinefile=\write7
-\openout7 = `rfds2e_chap03-09.out'.
+\openout7 = `fodv15.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 76.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 76.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 76.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 76.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 76.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 76.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 76.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 76
-.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 76
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 76.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 76
-.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 76.
+ut line 43.
 
 (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1060,42 +958,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 (c:/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-\c@lstlisting=\count371
- (./rfds2e_chap03-09.nav) [1
+) (./fodv15.nav) [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout4 = `rfds2e_chap03-09.vrb'.
+\openout4 = `fodv15.vrb'.
 
- (./rfds2e_chap03-09.vrb
-<whole-game.png, id=45, 362.3136pt x 122.3772pt>
-File: whole-game.png Graphic file (type png)
-<use whole-game.png>
-Package pdftex.def Info: whole-game.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 103.7914pt.
-) [2
-
- <./whole-game.png>]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
-
-(./rfds2e_chap03-09.vrb
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-.
- (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-))
-[3
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb) [4
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb
+ (./fodv15.vrb
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1119,377 +987,142 @@ ut line 3.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 ))
-[5
+[2
 
 ]
-\openout4 = `rfds2e_chap03-09.vrb'.
+\openout4 = `fodv15.vrb'.
 
- (./rfds2e_chap03-09.vrb) [6
+ (./fodv15.vrb
+<world-orthographic-1.png, id=71, 1059.96pt x 1059.96pt>
+File: world-orthographic-1.png Graphic file (type png)
+<use world-orthographic-1.png>
+Package pdftex.def Info: world-orthographic-1.png  used on input line 3.
+(pdftex.def)             Requested size: 184.3711pt x 184.36362pt.
+) [3
+
+ <./world-orthographic-1.png>]
+\openout4 = `fodv15.vrb'.
+
+ (./fodv15.vrb
+File: world-orthographic-1.png Graphic file (type png)
+<use world-orthographic-1.png>
+Package pdftex.def Info: world-orthographic-1.png  used on input line 3.
+(pdftex.def)             Requested size: 184.3711pt x 184.36362pt.
+) [4
 
 ]
-\openout4 = `rfds2e_chap03-09.vrb'.
+\openout4 = `fodv15.vrb'.
 
- (./rfds2e_chap03-09.vrb
-<rstudio-pipe-options.png, id=177, 618.31pt x 289.08pt>
-File: rstudio-pipe-options.png Graphic file (type png)
-<use rstudio-pipe-options.png>
-Package pdftex.def Info: rstudio-pipe-options.png  used on input line 2.
-(pdftex.def)             Requested size: 307.28987pt x 143.67067pt.
+
+(./fodv15.vrb) [5
+
+]
+\openout4 = `fodv15.vrb'.
+
+ (./fodv15.vrb
+<world-mercator-1.png, id=152, 963.6pt x 819.06pt>
+File: world-mercator-1.png Graphic file (type png)
+<use world-mercator-1.png>
+Package pdftex.def Info: world-mercator-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 261.19221pt.
+)
+Overfull \vbox (28.91908pt too high) detected at line 105
+ []
+
+[6
+
+ <./world-mercator-1.png>]
+\openout4 = `fodv15.vrb'.
+
+ (./fodv15.vrb
+<world-goode-1.png, id=178, 1376.14125pt x 619.31375pt>
+File: world-goode-1.png Graphic file (type png)
+<use world-goode-1.png>
+Package pdftex.def Info: world-goode-1.png  used on input line 2.
+(pdftex.def)             Requested size: 368.7469pt x 165.95065pt.
 ) [7
 
- <./rstudio-pipe-options.png>]
-\openout4 = `rfds2e_chap03-09.vrb'.
+ <./world-goode-1.png>]
+\openout4 = `fodv15.vrb'.
 
- (./rfds2e_chap03-09.vrb
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-6.
 
-(c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+(./fodv15.vrb
+<usa-orthographic-1.png, id=205, 1059.96pt x 1059.96pt>
+File: usa-orthographic-1.png Graphic file (type png)
+<use usa-orthographic-1.png>
+Package pdftex.def Info: usa-orthographic-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 307.28348pt.
 )
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 7--7
-[]\T1/cmtt/m/n/10.95 #>    year month   day dep_time sched_dep_time dep_delay a
-rr_time sched_arr_time[] 
+Overfull \vbox (75.01035pt too high) detected at line 113
  []
 
+[8
 
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 8--8
-[]\T1/cmtt/m/n/10.95 #>   <int> <int> <int>    <int>          <int>     <dbl>  
-  <int>          <int>[] 
- []
+ <./usa-orthographic-1.png>]
+\openout4 = `fodv15.vrb'.
 
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 9--9
-[]\T1/cmtt/m/n/10.95 #> 1  2013     1     1      848           1835       853  
-   1001           1950[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 10--10
-[]\T1/cmtt/m/n/10.95 #> 2  2013     1     1      957            733       144  
-   1056            853[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 11--11
-[]\T1/cmtt/m/n/10.95 #> 3  2013     1     1     1114            900       134  
-   1447           1222[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 12--12
-[]\T1/cmtt/m/n/10.95 #> 4  2013     1     1     1540           1338       122  
-   2020           1825[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 13--13
-[]\T1/cmtt/m/n/10.95 #> 5  2013     1     1     1815           1325       290  
-   2120           1542[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 14--14
-[]\T1/cmtt/m/n/10.95 #> 6  2013     1     1     1842           1422       260  
-   1958           1535[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 16--16
-[]\T1/cmtt/m/n/10.95 #> # i 11 more variables: arr_delay <dbl>, carrier <chr>, 
-flight <int>, ...[] 
- []
-
-) [8
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 7--7
-[]\T1/cmtt/m/n/10.95 #>    year month   day dep_time sched_dep_time dep_delay a
-rr_time sched_arr_time[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 8--8
-[]\T1/cmtt/m/n/10.95 #>   <int> <int> <int>    <int>          <int>     <dbl>  
-  <int>          <int>[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 9--9
-[]\T1/cmtt/m/n/10.95 #> 1  2013     1     1      517            515         2  
-    830            819[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 10--10
-[]\T1/cmtt/m/n/10.95 #> 2  2013     1     1      533            529         4  
-    850            830[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 11--11
-[]\T1/cmtt/m/n/10.95 #> 3  2013     1     1      542            540         2  
-    923            850[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 12--12
-[]\T1/cmtt/m/n/10.95 #> 4  2013     1     1      544            545        -1  
-   1004           1022[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 13--13
-[]\T1/cmtt/m/n/10.95 #> 5  2013     1     1      554            600        -6  
-    812            837[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 14--14
-[]\T1/cmtt/m/n/10.95 #> 6  2013     1     1      554            558        -4  
-    740            728[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 16--16
-[]\T1/cmtt/m/n/10.95 #> # i 11 more variables: arr_delay <dbl>, carrier <chr>, 
-flight <int>, ...[] 
- []
-
+ (./fodv15.vrb
+<usa-true-albers-1.png, id=232, 1156.32pt x 832.10875pt>
+File: usa-true-albers-1.png Graphic file (type png)
+<use usa-true-albers-1.png>
+Package pdftex.def Info: usa-true-albers-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 221.12991pt.
 ) [9
 
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb) [10
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb) [11
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
-
-(./rfds2e_chap03-09.vrb) [12
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 10--10
-[]\T1/cmtt/m/n/10.95 #>    gain speed  year month   day dep_time sched_dep_time
- dep_delay arr_time[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 11--11
-[]\T1/cmtt/m/n/10.95 #>   <dbl> <dbl> <int> <int> <int>    <int>          <int>
-     <dbl>    <int>[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 12--12
-[]\T1/cmtt/m/n/10.95 #> 1    -9  370.  2013     1     1      517            515
-         2      830[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 13--13
-[]\T1/cmtt/m/n/10.95 #> 2   -16  374.  2013     1     1      533            529
-         4      850[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 14--14
-[]\T1/cmtt/m/n/10.95 #> 3   -31  408.  2013     1     1      542            540
-         2      923[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 15--15
-[]\T1/cmtt/m/n/10.95 #> 4    17  517.  2013     1     1      544            545
-        -1     1004[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 16--16
-[]\T1/cmtt/m/n/10.95 #> 5    19  394.  2013     1     1      554            600
-        -6      812[] 
- []
-
-
-Overfull \hbox (128.4047pt too wide) in paragraph at lines 17--17
-[]\T1/cmtt/m/n/10.95 #> 6   -16  288.  2013     1     1      554            558
-        -4      740[] 
- []
-
-
-Overfull \hbox (77.47935pt too wide) in paragraph at lines 19--19
-[]\T1/cmtt/m/n/10.95 #> # i 12 more variables: sched_arr_time <int>, arr_delay 
-<dbl>, ...[] 
- []
-
-)
-Overfull \vbox (8.6622pt too high) detected at line 265
- []
-
-[13
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb) [14
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 6--6
-[]\T1/cmtt/m/n/10.95 #>    year month   day dep_time sched_dep_time dep_delay a
-rr_time sched_arr_time[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 7--7
-[]\T1/cmtt/m/n/10.95 #>   <int> <int> <int>    <int>          <int>     <dbl>  
-  <int>          <int>[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 8--8
-[]\T1/cmtt/m/n/10.95 #> 1  2013     1     1      517            515         2  
-    830            819[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 9--9
-[]\T1/cmtt/m/n/10.95 #> 2  2013     1     1      533            529         4  
-    850            830[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 10--10
-[]\T1/cmtt/m/n/10.95 #> 3  2013     1     1      542            540         2  
-    923            850[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 11--11
-[]\T1/cmtt/m/n/10.95 #> 4  2013     1     1      544            545        -1  
-   1004           1022[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 12--12
-[]\T1/cmtt/m/n/10.95 #> 5  2013     1     1      554            600        -6  
-    812            837[] 
- []
-
-
-Overfull \hbox (145.3798pt too wide) in paragraph at lines 13--13
-[]\T1/cmtt/m/n/10.95 #> 6  2013     1     1      554            558        -4  
-    740            728[] 
- []
-
-) [15
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 6--6
-[]\T1/cmtt/m/n/10.95 #>   time_hour           air_time  year month   day dep_ti
-me sched_dep_time[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 7--7
-[]\T1/cmtt/m/n/10.95 #>   <dttm>                 <dbl> <int> <int> <int>    <in
-t>          <int>[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 8--8
-[]\T1/cmtt/m/n/10.95 #> 1 2013-01-01 05:00:00      227  2013     1     1      5
-17            515[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 9--9
-[]\T1/cmtt/m/n/10.95 #> 2 2013-01-01 05:00:00      227  2013     1     1      5
-33            529[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 10--10
-[]\T1/cmtt/m/n/10.95 #> 3 2013-01-01 05:00:00      160  2013     1     1      5
-42            540[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 11--11
-[]\T1/cmtt/m/n/10.95 #> 4 2013-01-01 05:00:00      183  2013     1     1      5
-44            545[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 12--12
-[]\T1/cmtt/m/n/10.95 #> 5 2013-01-01 06:00:00      116  2013     1     1      5
-54            600[] 
- []
-
-
-Overfull \hbox (117.08795pt too wide) in paragraph at lines 13--13
-[]\T1/cmtt/m/n/10.95 #> 6 2013-01-01 05:00:00      150  2013     1     1      5
-54            558[] 
- []
-
-) [16
-
-]
-\openout4 = `rfds2e_chap03-09.vrb'.
-
- (./rfds2e_chap03-09.vrb) [17
-
-]
+ <./usa-true-albers-1.png>]
+\openout4 = `fodv15.vrb'.
+
+
+(./fodv15.vrb
+<usa-albers-1.png, id=260, 1156.32pt x 750.805pt>
+File: usa-albers-1.png Graphic file (type png)
+<use usa-albers-1.png>
+Package pdftex.def Info: usa-albers-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 199.52373pt.
+) [10
+
+ <./usa-albers-1.png>]
+\openout4 = `fodv15.vrb'.
+
+ (./fodv15.vrb
+<usa-albers-revised-1.png, id=287, 1156.32pt x 867.24pt>
+File: usa-albers-revised-1.png Graphic file (type png)
+<use usa-albers-revised-1.png>
+Package pdftex.def Info: usa-albers-revised-1.png  used on input line 2.
+(pdftex.def)             Requested size: 307.28987pt x 230.46593pt.
+) [11
+
+ <./usa-albers-revised-1.png>]
 \tf@nav=\write8
-\openout8 = `rfds2e_chap03-09.nav'.
+\openout8 = `fodv15.nav'.
 
 \tf@toc=\write9
-\openout9 = `rfds2e_chap03-09.toc'.
+\openout9 = `fodv15.toc'.
 
 \tf@snm=\write10
-\openout10 = `rfds2e_chap03-09.snm'.
+\openout10 = `fodv15.snm'.
 
- (./rfds2e_chap03-09.aux)
-Package rerunfilecheck Info: File `rfds2e_chap03-09.out' has not changed.
+ (./fodv15.aux)
+Package rerunfilecheck Info: File `fodv15.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29485 strings out of 475075
- 591658 string characters out of 5782996
- 1070137 words of memory out of 5000000
- 50226 multiletter control sequences out of 15000+600000
- 487227 words of font info for 82 fonts, out of 8000000 for 9000
+ 25481 strings out of 475075
+ 506707 string characters out of 5782996
+ 808608 words of memory out of 5000000
+ 46310 multiletter control sequences out of 15000+600000
+ 480733 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,440b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/tex
-live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/cm-super/sfss1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/
-sftt0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on rfds2e_chap03-09.pdf (17 pages, 284438 bytes).
+ 128i,15n,122p,430b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on fodv15.pdf (11 pages, 1315980 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

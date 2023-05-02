@@ -1,0 +1,128 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 14}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing geospatial data}
+\bi
+\li Many datasets contain information linked to locations:
+\bi
+\li where specific plants or animals have been found 
+\li  where people with specific attributes (such as income, age, or educational attainment) live
+\li where man-made objects (e.g., bridges, roads, buildings) have been constructed 
+\ei
+\li
+Maps tend to be intuitive to readers but they can be challenging to design. 
+\li The choropleth map represents data values as differently colored spatial areas.
+\li  Cartograms purposefully distort map areas or represent them in stylized form, for example as equal-sized squares.
+\ei
+\end{frame}
+
+\bfr{World coordinates}
+\cola{0.4}
+\fig{1.5}{world-orthographic-1.png}
+\colb{0.6}
+\bi
+\li To specify a place:\\ latitude, longitude, altitude
+\li A reference system for these is called a {\bf datum}
+\li One widely used datum is the World Geodetic System (WGS) 84, which is used by the Global Positioning System (GPS).
+\ei
+\colc
+\end{frame}
+
+\bfr{World coordinates}
+\cola{0.4}
+\fig{1.5}{world-orthographic-1.png}
+\colb{0.6}
+\bi
+\li Frequently altitude is not recorded.
+\li Lines of equal longitude are {\bf meridians}
+\li Lines of equal latitude are called {\bf parallels}
+\li The {\bf prime meridian} is at $0^\circ$ longitude
+\li The {\bf equator} is at $0^\circ$ latitude
+\ei
+\colc
+\end{frame}
+
+\bfr{Projections}
+\bi
+\li In map-making we need to take the spherical surface of the earth and flatten it out.
+\li This  projection  introduces distortions.
+\li The projection can preserve either angles or areas. 
+\li A projection that preserves angles is called {\bf conformal}.
+\li A projection that preserves areas is called {\bf equal-area}.
+\li  Other projections may  instead preserve other quantities of interest, such as distances to some reference point or line. 
+\li Some projections attempt to strike a compromise between preserving angles and areas.
+\li These compromise projections are frequently used to display the entire world in an aesthetically pleasing manner.
+\ei
+\end{frame}
+
+\bfr{Mercator: a conformal projection}
+\fig{1}{world-mercator-1.png}
+\end{frame}
+
+\bfr{Goode homolosine: an equal-area projection}
+\fig{1.2}{world-goode-1.png}
+\end{frame}
+
+\bfr{A challenge: the USA}
+\fig{1}{usa-orthographic-1.png}
+\end{frame}
+
+\bfr{Equal-area Albers projection}
+\fig{1}{usa-true-albers-1.png}
+\end{frame}
+
+\bfr{Common practice}
+\fig{1}{usa-albers-1.png}
+\end{frame}
+
+\bfr{Preserving areas}
+\fig{1}{usa-albers-revised-1.png}
+\end{frame}
+
+
+\end{document}

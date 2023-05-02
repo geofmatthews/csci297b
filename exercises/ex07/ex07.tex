@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 6\\dplyr
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+For this project, use the {\tt dplyr} library and pipes.
+
+\begin{enumerate}
+
+\item Open
+\verb|project_03_yourname|.  
+
+
+\item Open a new R markdown file in the project called \verb|exercise07.Rmd|
+
+\item Load the {\tt nycflights13} dataset
+
+\item  Compare \verb|dep_time|, 
+\verb|sched_dep_time|, and 
+\verb|dep_delay|. How would you expect those three numbers to be related?
+
+\item
+Brainstorm as many ways as possible to select \verb|dep_time|, 
+\verb|dep_delay|, \verb|arr_time|, and \verb|arr_delay| from flights.
+
+\item
+
+What happens if you specify the name of the same variable multiple times in a 
+\verb|select()| call?
+
+\item
+What does the \verb|any_of()| function do? Why might it be helpful in conjunction with this vector?
+\begin{verbatim}
+variables <- c("year", "month", "day", "dep_delay", "arr_delay")
+\end{verbatim}
+
+\item
+Does the result of running the following code surprise you? How do the \verb|select|
+helpers deal with upper and lower case by default? How can you change that default?
+
+\begin{verbatim}
+flights |> select(contains("TIME"))
+\end{verbatim}
+
+\item
+Rename \verb|air_time| to \verb|air_time_min| to indicate units of measurement and move it to the beginning of the data frame.
+
+\item
+
+Why doesn’t the following work, and what does the error mean?
+\begin{verbatim}
+flights |> 
+  select(tailnum) |> 
+  arrange(arr_delay)
+#> Error in `arrange()`:
+#> i In argument: `..1 = arr_delay`.
+#> Caused by error:
+#> ! object 'arr_delay' not found
+\end{verbatim}
+
+\end{enumerate}
+\end{document}

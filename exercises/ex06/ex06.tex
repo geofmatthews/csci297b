@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 6\\dplyr
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+For this project, use the {\tt dplyr} library and pipes.
+
+\begin{enumerate}
+
+\item Start a new project for this series of exercises and call it 
+\verb|project_03_yourname|.  Share it with your
+instructor, \verb|gmatthews@wlu.edu|
+
+
+\item Open a new R markdown file in the project called \verb|exercise06.Rmd|
+
+\item Load the {\tt nycflights13} dataset
+
+\item
+In a single pipeline, find all flights that meet all of the following conditions:
+
+\bi
+\li
+Had an arrival delay of two or more hours
+\li
+Flew to Houston (IAH or HOU)
+\li
+Were operated by United, American, or Delta
+\li
+Departed in summer (July, August, and September)
+\li
+Arrived more than two hours late, but didn’t leave late
+\li
+Were delayed by at least an hour, but made up over 30 minutes in flight
+\ei
+\item
+Sort flights to find the flights with longest departure delays. Find the flights that left earliest in the morning.
+\item
+Sort flights to find the fastest flights. (Hint: Try including a math calculation inside of your function.)
+\item
+Was there a flight on every day of 2013?
+\item
+Which flights traveled the farthest distance? Which traveled the least distance?
+\item
+Does it matter what order you used filter() and arrange() if you’re using both? Why/why not? Think about the results and how much work the functions would have to do.
+
+\end{enumerate}
+\end{document}
