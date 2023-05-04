@@ -1,2 +1,7 @@
-\frametitle{ Preserving areas }
-\fig{1}{usa-albers-revised-1.png}
+\frametitle{{ Cartogram heatmap }}\scriptsize
+\fig{.8}{unemployment-geofacet-1.png}
+\bi
+\li Works better than alphabetical order.
+\li Easier to find states.
+\li States in similar areas similar.
+\ei

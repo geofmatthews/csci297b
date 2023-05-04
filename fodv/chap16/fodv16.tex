@@ -1,0 +1,262 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 16}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualizing uncertainty}
+\bi
+\li Error bars and confidence bands are traditional.
+\li Difficult to interpret correctly.
+\li Precise and space efficient.
+\li For lay audience, other approaches may be preferable.
+\ei
+\end{frame}
+
+\bfr{Probability interpretations}
+\bi
+\li Physical, objective, or frequentist
+\bi
+\li associated with random variables: roulette wheels, coin flips, physical measurements.
+\li relative frequency
+\li propensity
+\ei
+\li Evidential, or Bayesian
+\bi
+\li associated with any statement whatever
+\li degree to which it is supported by the evidence
+\li disposition to gamble at certain odds
+\ei
+\ei
+\end{frame}
+
+\bfr{Hard to visualize}
+\fig{.7}{dieprobability}
+\bi
+\li Plotting probabilities as numbers.
+\li General public has difficulty interpreting this number.
+\ei
+\end{frame}
+
+\bfr{Discrete outcome visualization}
+\fig{1}{probability-waffle-1.png}
+\bi
+\li Frequency framing
+\ei
+\end{frame}
+
+\bfr{Election predictions}
+\fig{1}{election-prediction-1.png}
+\scriptsize
+\bi
+\li Blue party is predicted to have a one percentage point advantage over the yellow party, with a margin of error (95\%) of 1.76 percentage points.
+
+\li What are the probabilities of blue and yellow winning? 
+\li Probability of blue winning is area under the curve, 87.1\%
+\ei
+\end{frame}
+
+\bfr{Quantile dotplot}
+\fig{.8}{election-quantile-dot-1.png}
+\bi
+\li Humans are much better at counting than judging area.
+\li Don't use too many dots.
+\ei
+\end{frame}
+
+
+\bfr{Statistical sampling}
+\fig{.9}{sampling-schematic-1.png}
+\end{frame}
+
+\bfr{Five different error bars}
+\fig{1}{cocoa-data-vs-CI-1.png}
+\bi
+\li \bf Whenever you visualize uncertainty with error bars, you must specify what quantity and/or confidence level the error bars represent.
+\ei
+\end{frame}
+
+\bfr{Sample size determines standard error}
+\fig{1}{cocoa-CI-vs-n-1.png}
+\bi
+\li Graded error bars
+\li Shading important to indicate this is a probability
+\li Single error bar easily misinterpreted as min and max possible.
+\li This is a {\em deterministic construal error.}
+\ei
+\end{frame}
+
+\bfr{Error bars in scientific publications}
+\fig{1}{mean-chocolate-ratings-1.png}
+\bi
+\li Difficult to judge {\em significant differences}.
+\ei
+\end{frame}
+\bfr{Confidence intervals for the difference in means}
+\fig{1}{chocolate-ratings-contrasts-1.png}
+\scriptsize
+\bi
+\li Only Canada is significantly different from the US.
+\li Switzerland is  significantly different at the 95\% level, but not at the 99\% level from the US.
+\li There is no evidence at all that Austria or Belgium is significantly different from the US.
+\ei
+\end{frame}
+
+\bfr{Types of error bars}
+\fig{1}{confidence-visualizations-1.png}
+\end{frame}
+
+\bfr{Error bars on bar plots}
+\fig{1}{butterfat-bars-1.png}
+\end{frame}
+
+\bfr{Two dimensional error bars}
+\fig{1}{median-age-income-1.png}
+\end{frame}
+
+\bfr{Bayesians vs. Frequentists}
+\bi
+\li Frequentists asses uncertainty with {\bf confidence intervals.}
+\li Bayesians calculate {\bf posterior distributions} and {\bf credible intervals}.
+\li The credible interval indicates a range of values in which the parameter value is expected with a given probability, as calculated from the posterior distribution.
+\li For example, a 95\% credible interval corresponds to the center 95\% of the posterior distribution.
+\li The true parameter value has a 95\% chance of lying in the 95\% credible interval.
+\ei
+\end{frame}
+
+\bfr{Bayesians vs. Frequentists}
+\bi
+\li Bayesians calculate where a parameter is.
+\li Frequentists calculate where a parameter is not.
+\ei
+\end{frame}
+
+\bfr{Bayesians vs. Frequentists}
+\bi
+\li Under the Bayesian approach, you use the data and your prior knowledge about the system under study (called the prior) to calculate a probability distribution (the posterior) that tells you where you can expect the true parameter value to lie.
+\ei
+\end{frame}
+
+\bfr{Bayesians vs. Frequentists}
+\bi
+\li By contrast, under the frequentist approach, you first make an assumption that you intend to disprove. 
+\li This assumption is called the null hypothesis, and it is often simply the assumption that the parameter equals zero (e.g., there is no difference between two conditions). 
+\li You then calculate the probability that random sampling would generate data similar to what was observed if the null hypothesis were true.
+\li The confidence interval is a representation of this probability.
+\li If a given confidence interval excludes the parameter value under the null hypothesis (i.e., the value zero), then you can reject the null hypothesis at that confidence level.
+\ei
+\end{frame}
+
+\begin{frame}
+\fig{.8}{ci-frequentist-expl-1.png}
+\end{frame}
+
+
+\bfr{Bayesians vs. Frequentists}
+\bi
+\li A Bayesian credible interval makes a statement about the true parameter value and a frequentist confidence interval makes a statement about the null hypothesis.
+\li In practice, there is little difference.
+\li The Bayesian approach  emphasizes thinking about the magnitude of an effect
+\li The frequentist approach emphasizes a binary perspective of an effect either existing or not.
+
+\ei
+\end{frame}
+
+\bfr{Bayesians vs. Frequentists in practice}
+\fig{1}{bayes-vs-ols-1.png}
+\end{frame}
+
+
+\bfr{Bayesians vs. Frequentists}
+
+\bi
+\li A {\bf Bayesian credible interval} answers the question:\\ “Where do we expect the true parameter value to lie?” 
+\bigskip
+\li A {\bf frequentist confidence interval} answers the question:\\ “How certain are we that the true parameter value is not zero?”
+\ei
+\end{frame}
+
+\bfr{Bayesians posterior distributions}\scriptsize
+\fig{1}{bayes-ridgeline-1.png}
+\bi
+\li Bayesians infer an entire distribution, not just a confidence interval.
+\li All the approaches to visualizing distributions are available.
+\ei
+\end{frame}
+
+\bfr{Curve fit uncertainty}\scriptsize
+\fig{.8}{blue-jays-male-conf-band-1.png}
+\bi
+\li 95\% confident the true line lies in the gray area
+\ei
+\end{frame}
+
+\bfr{Random lines from the posterior distribution}
+\fig{.8}{blue-jays-male-fitted-draws-1.png}
+\bi
+\li Uncertainty comes from slope and intercept
+\ei
+\end{frame}
+
+\bfr{Multiple confidence intervals}
+\fig{.8}{blue-jays-male-graded-conf-band-1.png}
+\end{frame}
+
+\bfr{Non-linear model fits}
+\fig{1}{mpg-uncertain-1.png}
+\bi
+\li Uncertainty comes from wiggliness as well.
+\ei
+\end{frame}
+
+\bfr{Animating uncertainty}
+\bi
+\li
+\url{https://clauswilke.com/dataviz/visualizing-uncertainty.html}
+\ei
+\end{frame}
+
+
+\end{document}

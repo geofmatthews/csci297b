@@ -38,7 +38,7 @@
 
 
 \author{Fundamentals of Data Visualization}
-\title{Chapter 14}
+\title{Chapter 15}
 
 \begin{document}
 
@@ -124,5 +124,77 @@ Maps tend to be intuitive to readers but they can be challenging to design.
 \fig{1}{usa-albers-revised-1.png}
 \end{frame}
 
+\bfr{Layers}
+\fig{1}{sfbay-overview-1.png}
+\end{frame}
 
+\bfr{Layers}
+\fig{1}{sfbay-layers-1.png}
+\end{frame}
+
+\bfr{Mapping to aesthetics}
+\fig{1}{shiloh-map-1.png}
+\end{frame}
+
+
+\bfr{Choropleth mapping}
+\fig{.8}{population-density-counties-1.png}
+\bi
+\li Work best for {\bf density}.
+\li Darker colors generally mean higher density.
+\ei
+\end{frame}
+
+
+
+\bfr{Choropleth mapping}\scriptsize
+\fig{.8}{population-density-counties2-1.png}
+\bi
+\li Sometimes light colors ``shine out'' from the background.
+\li Keep colors in the red-yellow spectrum for this purpose.
+\li Generally, darker colors look better on white paper.
+\ei
+\end{frame}
+
+
+
+\bfr{Discrete colors}\scriptsize
+\fig{.8}{median-income-counties-binned-1.png}
+\bi
+\li Humans are bad at specific colors.
+\li Binning the data makes colors contrast more.
+\li Counties are approximately equal in size.
+\ei
+\end{frame}
+
+\bfr{Areas not representational}\scriptsize
+\fig{.8}{median-income-states-1.png}
+\bi
+\li Alaska dominates, but with very sparse population.
+\ei
+\end{frame}
+
+\bfr{Cartograms}\scriptsize
+\fig{.8}{median-income-cartogram-1.png}
+\bi
+\li Change areas to be proportional to population.
+\ei
+\end{frame}
+
+\bfr{Cartogram heatmap}\scriptsize
+\fig{.8}{median-income-statebins-1.png}
+\bi
+\li Areas not proportional, but states don't stand out based 
+on area.
+\ei
+\end{frame}
+
+\bfr{Cartogram heatmap}\scriptsize
+\fig{.8}{unemployment-geofacet-1.png}
+\bi
+\li Works better than alphabetical order.
+\li Easier to find states.
+\li States in similar areas similar.
+\ei
+\end{frame}
 \end{document}
