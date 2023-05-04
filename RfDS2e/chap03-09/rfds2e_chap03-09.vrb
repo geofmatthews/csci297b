@@ -1,20 +1,10 @@
-\frametitle{ Finding the best batters }
-{\scriptsize
+\frametitle{{ pivot\_longer() }}\scriptsize
 \begin{verbatim}
-batters |>
-  arrange(desc(performance))
-#> # A tibble: 20,166 × 3
-#>   playerID  performance     n
-#>   <chr>           <dbl> <int>
-#> 1 abramge01           1     1
-#> 2 alberan01           1     1
-#> 3 banisje01           1     1
-#> 4 bartocl01           1     1
-#> 5 bassdo01            1     1
-#> 6 birasst01           1     2
+df |>
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
 \end{verbatim}
-}
-\bi
-\li \url{http://varianceexplained.org/r/empirical_bayes_baseball/}
-\li \url{https://www.evanmiller.org/how-not-to-sort-by-average-rating.html}
-\ei
+\fig{1}{cell-values.png}

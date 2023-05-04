@@ -303,8 +303,6 @@ flights |>
 #> 5  2013     1     1      554            600        -6      812            837
 #> 6  2013     1     1      554            558        -4      740            728
 \end{verbatim}
-
-
 \end{frame}
 
 \bfr{relocate}
@@ -574,5 +572,182 @@ batters |>
 \li \url{https://www.evanmiller.org/how-not-to-sort-by-average-rating.html}
 \ei
 \end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+billboard
+#> # A tibble: 317 × 79
+#>   artist       track               date.entered   wk1   wk2   wk3   wk4   wk5
+#>   <chr>        <chr>               <date>       <dbl> <dbl> <dbl> <dbl> <dbl>
+#> 1 2 Pac        Baby Don't Cry (Ke… 2000-02-26      87    82    72    77    87
+#> 2 2Ge+her      The Hardest Part O… 2000-09-02      91    87    92    NA    NA
+#> 3 3 Doors Down Kryptonite          2000-04-08      81    70    68    67    66
+#> 4 3 Doors Down Loser               2000-10-21      76    76    72    69    67
+#> 5 504 Boyz     Wobble Wobble       2000-04-15      57    34    25    17    17
+#> 6 98^0         Give Me Just One N… 2000-08-19      51    39    34    26    26
+#> # i 311 more rows
+#> # i 71 more variables: wk6 <dbl>, wk7 <dbl>, wk8 <dbl>, wk9 <dbl>, …
+\end{verbatim}
+\end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+billboard |> 
+  pivot_longer(
+    cols = starts_with("wk"), 
+    names_to = "week", 
+    values_to = "rank"
+  )
+#> # A tibble: 24,092 × 5
+#>    artist track                   date.entered week   rank
+#>    <chr>  <chr>                   <date>       <chr> <dbl>
+#>  1 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk1      87
+#>  2 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk2      82
+#>  3 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk3      72
+#>  4 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk4      77
+#>  5 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk5      87
+#>  6 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk6      94
+#>  7 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk7      99
+#>  8 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk8      NA
+#>  9 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk9      NA
+#> 10 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk10     NA
+#> # i 24,082 more rows
+\end{verbatim}
+
+
+\end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+billboard |> 
+  pivot_longer(
+    cols = starts_with("wk"), 
+    names_to = "week", 
+    values_to = "rank",
+    values_drop_na = TRUE
+  )
+#> # A tibble: 5,307 × 5
+#>   artist track                   date.entered week   rank
+#>   <chr>  <chr>                   <date>       <chr> <dbl>
+#> 1 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk1      87
+#> 2 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk2      82
+#> 3 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk3      72
+#> 4 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk4      77
+#> 5 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk5      87
+#> 6 2 Pac  Baby Don't Cry (Keep... 2000-02-26   wk6      94
+#> # i 5,301 more rows
+\end{verbatim}
+
+
+\end{frame}
+
+
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+billboard_longer <- billboard |> 
+  pivot_longer(
+    cols = starts_with("wk"), 
+    names_to = "week", 
+    values_to = "rank",
+    values_drop_na = TRUE
+  ) |> 
+  mutate(
+    week = parse_number(week)
+  )
+billboard_longer
+#> # A tibble: 5,307 × 5
+#>   artist track                   date.entered  week  rank
+#>   <chr>  <chr>                   <date>       <dbl> <dbl>
+#> 1 2 Pac  Baby Don't Cry (Keep... 2000-02-26       1    87
+#> 2 2 Pac  Baby Don't Cry (Keep... 2000-02-26       2    82
+#> 3 2 Pac  Baby Don't Cry (Keep... 2000-02-26       3    72
+#> 4 2 Pac  Baby Don't Cry (Keep... 2000-02-26       4    77
+#> 5 2 Pac  Baby Don't Cry (Keep... 2000-02-26       5    87
+#> 6 2 Pac  Baby Don't Cry (Keep... 2000-02-26       6    94
+#> # i 5,301 more rows
+\end{verbatim}
+
+
+\end{frame}
+
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+billboard_longer |> 
+  ggplot(aes(x = week, y = rank, group = track)) + 
+  geom_line(alpha = 0.25) + 
+  scale_y_reverse()
+\end{verbatim}
+
+\fig{.9}{fig-billboard-ranks-1.png}
+
+\end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+df <- tribble(
+  ~id,  ~bp1, ~bp2,
+   "A",  100,  120,
+   "B",  140,  115,
+   "C",  120,  125
+)
+df |> 
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
+#> # A tibble: 6 × 3
+#>   id    measurement value
+#>   <chr> <chr>       <dbl>
+#> 1 A     bp1           100
+#> 2 A     bp2           120
+#> 3 B     bp1           140
+#> 4 B     bp2           115
+#> 5 C     bp1           120
+#> 6 C     bp2           125
+\end{verbatim}
+
+\end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+df |> 
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
+\end{verbatim}
+
+\fig{1}{variables.png}
+\end{frame}
+
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+df |> 
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
+\end{verbatim}
+\fig{1}{column-names.png}
+\end{frame}
+
+\bfr{pivot\_longer()}\scriptsize
+\begin{verbatim}
+df |> 
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
+\end{verbatim}
+\fig{1}{cell-values.png}
+\end{frame}
+
 
 \end{document}
