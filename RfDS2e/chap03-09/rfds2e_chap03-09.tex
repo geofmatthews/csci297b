@@ -10,39 +10,6 @@
 \usepackage{fancyvrb}
 %\usepackage{hyperref}
 \usepackage{fancybox}
-\usepackage[listings]{tcolorbox}
-
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-    language=Python,
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\normalsize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2,
-    escapechar=|,
-    frame=single
-}
-
-\lstset{style=mystyle}
-\lstset{extendedchars=\true}
-
-
 
 \newcommand{\bi}{\begin{itemize}}
 \newcommand{\li}{\item}
@@ -240,7 +207,7 @@ flights |>
 \end{frame}
 
 
-\bfr{mutate}
+\bfr{mutate}\scriptsize
 \begin{verbatim}
 flights |> 
   mutate(
@@ -264,7 +231,7 @@ flights |>
 
 \end{frame}
 
-\bfr{select}
+\bfr{select}\scriptsize
 \begin{verbatim}
 flights |> 
   select(year, month, day)
@@ -289,7 +256,7 @@ flights |>
 \end{frame}
 
 
-\bfr{rename}
+\bfr{rename}\scriptsize
 \begin{verbatim}
 flights |> 
   rename(tail_num = tailnum)
@@ -305,7 +272,7 @@ flights |>
 \end{verbatim}
 \end{frame}
 
-\bfr{relocate}
+\bfr{relocate}\scriptsize
 \begin{verbatim}
 flights |> 
   relocate(time_hour, air_time)
@@ -749,5 +716,232 @@ df |>
 \fig{1}{cell-values.png}
 \end{frame}
 
+\bfr{Many variables in column names}\scriptsize
+\begin{verbatim}
+who2
+#> # A tibble: 7,240 × 58
+#>   country      year sp_m_014 sp_m_1524 sp_m_2534 sp_m_3544 sp_m_4554
+#>   <chr>       <dbl>    <dbl>     <dbl>     <dbl>     <dbl>     <dbl>
+#> 1 Afghanistan  1980       NA        NA        NA        NA        NA
+#> 2 Afghanistan  1981       NA        NA        NA        NA        NA
+#> 3 Afghanistan  1982       NA        NA        NA        NA        NA
+#> 4 Afghanistan  1983       NA        NA        NA        NA        NA
+#> 5 Afghanistan  1984       NA        NA        NA        NA        NA
+#> 6 Afghanistan  1985       NA        NA        NA        NA        NA
+#> # i 7,234 more rows
+#> # i 51 more variables: sp_m_5564 <dbl>, sp_m_65 <dbl>, sp_f_014 <dbl>, …
+\end{verbatim}
+\centerline{Tuberculosis diagnoses}
+\vfill
+\bi
+\li {\tt sp/rel/ep}  describes the method used for the diagnosis
+\li {\tt m/f} is the gender (coded as a binary variable in this dataset)
+\li {\tt 014/1524/2534/3544/4554/5564/65} is the age range (014 represents 0-14, for example)
+\ei
+\end{frame}
+
+\bfr{{\tt names\_to} {\tt names\_sep} {\tt values\_to}}\scriptsize
+\begin{verbatim}
+who2 |> 
+  pivot_longer(
+    cols = !(country:year),
+    names_to = c("diagnosis", "gender", "age"), 
+    names_sep = "_",
+    values_to = "count"
+  )
+#> # A tibble: 405,440 × 6
+#>   country      year diagnosis gender age   count
+#>   <chr>       <dbl> <chr>     <chr>  <chr> <dbl>
+#> 1 Afghanistan  1980 sp        m      014      NA
+#> 2 Afghanistan  1980 sp        m      1524     NA
+#> 3 Afghanistan  1980 sp        m      2534     NA
+#> 4 Afghanistan  1980 sp        m      3544     NA
+#> 5 Afghanistan  1980 sp        m      4554     NA
+#> 6 Afghanistan  1980 sp        m      5564     NA
+#> # i 405,434 more rows
+\end{verbatim}
+\end{frame}
+
+\bfr{Data in column names}
+\fig{1}{multiple-names.png}
+\end{frame}
+
+
+\bfr{Data and variable names in column header}\scriptsize
+\begin{verbatim}
+household
+#> # A tibble: 5 × 5
+#>   family dob_child1 dob_child2 name_child1 name_child2
+#>    <int> <date>     <date>     <chr>       <chr>      
+#> 1      1 1998-11-26 2000-01-29 Susan       Jose       
+#> 2      2 1996-06-22 NA         Mark        <NA>       
+#> 3      3 2002-07-11 2004-04-05 Sam         Seth       
+#> 4      4 2004-10-10 2009-08-27 Craig       Khai       
+#> 5      5 2000-12-05 2005-02-28 Parker      Gracie
+\end{verbatim}
+\end{frame}
+
+
+\bfr{\tt .value}\scriptsize
+\begin{verbatim}
+household |> 
+  pivot_longer(
+    cols = !family, 
+    names_to = c(".value", "child"), 
+    names_sep = "_", 
+    values_drop_na = TRUE
+  )
+#> # A tibble: 9 × 4
+#>   family child  dob        name 
+#>    <int> <chr>  <date>     <chr>
+#> 1      1 child1 1998-11-26 Susan
+#> 2      1 child2 2000-01-29 Jose 
+#> 3      2 child1 1996-06-22 Mark 
+#> 4      3 child1 2002-07-11 Sam  
+#> 5      3 child2 2004-04-05 Seth 
+#> 6      4 child1 2004-10-10 Craig
+#> # i 3 more rows
+\end{verbatim}
+\end{frame}
+
+\bfr{Data and variable names in header}
+\fig{1}{names-and-values.png}
+\end{frame}
+
+
+\bfr{Widening data}\scriptsize
+\begin{verbatim}
+cms_patient_experience
+#> # A tibble: 500 × 5
+#>   org_pac_id org_nm                     measure_cd   measure_title   prf_rate
+#>   <chr>      <chr>                      <chr>        <chr>              <dbl>
+#> 1 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_1  CAHPS for MIPS…       63
+#> 2 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_2  CAHPS for MIPS…       87
+#> 3 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_3  CAHPS for MIPS…       86
+#> 4 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_5  CAHPS for MIPS…       57
+#> 5 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_8  CAHPS for MIPS…       85
+#> 6 0446157747 USC CARE MEDICAL GROUP INC CAHPS_GRP_12 CAHPS for MIPS…       24
+#> # i 494 more rows
+\end{verbatim}
+\bi
+\li Each organization is spread over six rows.
+\ei
+\end{frame}
+
+\bfr{Widening data}\scriptsize
+\begin{verbatim}
+cms_patient_experience |> 
+  distinct(measure_cd, measure_title)
+#> # A tibble: 6 × 2
+#>   measure_cd   measure_title                                                 
+#>   <chr>        <chr>                                                         
+#> 1 CAHPS_GRP_1  CAHPS for MIPS SSM: Getting Timely Care, Appointments, and In…
+#> 2 CAHPS_GRP_2  CAHPS for MIPS SSM: How Well Providers Communicate            
+#> 3 CAHPS_GRP_3  CAHPS for MIPS SSM: Patient's Rating of Provider              
+#> 4 CAHPS_GRP_5  CAHPS for MIPS SSM: Health Promotion and Education            
+#> 5 CAHPS_GRP_8  CAHPS for MIPS SSM: Courteous and Helpful Office Staff        
+#> 6 CAHPS_GRP_12 CAHPS for MIPS SSM: Stewardship of Patient Resources
+\end{verbatim}
+\bi
+\li There are only six unique cd/title combinations
+\ei
+\end{frame}
+
+\bfr{Widening data}\scriptsize
+\begin{verbatim}
+cms_patient_experience |> 
+  pivot_wider(
+    names_from = measure_cd,
+    values_from = prf_rate
+  )
+#> # A tibble: 500 × 9
+#>   org_pac_id org_nm                   measure_title   CAHPS_GRP_1 CAHPS_GRP_2
+#>   <chr>      <chr>                    <chr>                 <dbl>       <dbl>
+#> 1 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          63          NA
+#> 2 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          NA          87
+#> 3 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          NA          NA
+#> 4 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          NA          NA
+#> 5 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          NA          NA
+#> 6 0446157747 USC CARE MEDICAL GROUP … CAHPS for MIPS…          NA          NA
+#> # i 494 more rows
+#> # i 4 more variables: CAHPS_GRP_3 <dbl>, CAHPS_GRP_5 <dbl>, …
+\end{verbatim}
+\bi
+\li We still have multiple rows for each organization.
+\li We need to say which columns have values that
+uniquely identify each row.
+\ei
+\end{frame}
+
+\bfr{Widening data}\scriptsize
+\begin{verbatim}
+cms_patient_experience |> 
+  pivot_wider(
+    id_cols = starts_with("org"),
+    names_from = measure_cd,
+    values_from = prf_rate
+  )
+#> # A tibble: 95 × 8
+#>   org_pac_id org_nm           CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3 CAHPS_GRP_5
+#>   <chr>      <chr>                  <dbl>       <dbl>       <dbl>       <dbl>
+#> 1 0446157747 USC CARE MEDICA…          63          87          86          57
+#> 2 0446162697 ASSOCIATION OF …          59          85          83          63
+#> 3 0547164295 BEAVER MEDICAL …          49          NA          75          44
+#> 4 0749333730 CAPE PHYSICIANS…          67          84          85          65
+#> 5 0840104360 ALLIANCE PHYSIC…          66          87          87          64
+#> 6 0840109864 REX HOSPITAL INC          73          87          84          67
+#> # i 89 more rows
+#> # i 2 more variables: CAHPS_GRP_8 <dbl>, CAHPS_GRP_12 <dbl>
+\end{verbatim}
+
+\end{frame}
+
+\bfr{\tt pivot\_wider}\scriptsize
+\begin{verbatim}
+df <- tribble(
+  ~id, ~measurement, ~value,
+  "A",        "bp1",    100,
+  "B",        "bp1",    140,
+  "B",        "bp2",    115, 
+  "A",        "bp2",    120,
+  "A",        "bp3",    105
+)
+
+df |> 
+  pivot_wider(
+    names_from = measurement,
+    values_from = value
+  )
+#> # A tibble: 2 × 4
+#>   id      bp1   bp2   bp3
+#>   <chr> <dbl> <dbl> <dbl>
+#> 1 A       100   120   105
+#> 2 B       140   115    NA
+\end{verbatim}
+
+\end{frame}
+
+\bfr{{\tt pivot\_wider} with duplicate rows}\scriptsize
+\begin{verbatim}
+df <- tribble(
+  ~id, ~measurement, ~value,
+  "A",        "bp1",    100,
+  "A",        "bp1",    102,
+  "A",        "bp2",    120,
+  "B",        "bp1",    140, 
+  "B",        "bp2",    115
+)
+
+df |>
+  pivot_wider(
+    names_from = measurement,
+    values_from = value
+  )
+#> Warning: Values from `value` are not uniquely identified; output will contain
+#> list-cols.
+....
+\end{verbatim}
+
+\end{frame}
 
 \end{document}

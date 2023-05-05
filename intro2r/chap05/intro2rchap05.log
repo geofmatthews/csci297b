@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  1 MAY 2023 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.9)  5 MAY 2023 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1859,56 +1859,6 @@ Package pdftex.def Info: pairs-plot-1.png  used on input line 8.
 ) [55
 
  <./pairs-plot-1.png (PNG copy)>]
-\openout4 = `intro2rchap05.vrb'.
-
- (./intro2rchap05.vrb
-File: quantile-lines-1.png Graphic file (type png)
-<use quantile-lines-1.png>
-Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
-(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
-) [56
-
-]
-\openout4 = `intro2rchap05.vrb'.
-
- (./intro2rchap05.vrb
-File: quantile-lines-1.png Graphic file (type png)
-<use quantile-lines-1.png>
-Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
-(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
-) [57
-
-]
-\openout4 = `intro2rchap05.vrb'.
-
- (./intro2rchap05.vrb
-File: quantile-lines-1.png Graphic file (type png)
-<use quantile-lines-1.png>
-Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
-(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
-) [58
-
-]
-\openout4 = `intro2rchap05.vrb'.
-
- (./intro2rchap05.vrb
-File: quantile-lines-1.png Graphic file (type png)
-<use quantile-lines-1.png>
-Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
-(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
-) [59
-
-]
-\openout4 = `intro2rchap05.vrb'.
-
- (./intro2rchap05.vrb
-File: quantile-lines-1.png Graphic file (type png)
-<use quantile-lines-1.png>
-Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
-(pdftex.def)             Requested size: 215.10196pt x 153.63512pt.
-) [60
-
-]
 \tf@nav=\write8
 \openout8 = `intro2rchap05.nav'.
 
@@ -1918,34 +1868,41 @@ Package pdftex.def Info: quantile-lines-1.png  used on input line 5.
 \tf@snm=\write10
 \openout10 = `intro2rchap05.snm'.
 
-
-(./intro2rchap05.aux)
+ (./intro2rchap05.aux)
 Package rerunfilecheck Info: File `intro2rchap05.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29954 strings out of 475075
- 598755 string characters out of 5782996
+ 29936 strings out of 475075
+ 598504 string characters out of 5782996
  1064629 words of memory out of 5000000
  50494 multiletter control sequences out of 15000+600000
  482729 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,437b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
-ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-sup
-er/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss109
-5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/20
-22/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on intro2rchap05.pdf (60 pages, 3499972 bytes).
+
+pdfTeX warning (dest): name{Navigation56} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation60} has been referenced but does not exis
+t, replaced by a fixed one
+
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super
+/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1095.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/te
+xlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2022/texmf-dis
+t/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on intro2rchap05.pdf (55 pages, 3494080 bytes).
 PDF statistics:
- 1721 PDF objects out of 1728 (max. 8388607)
- 1527 compressed objects within 16 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 1595 PDF objects out of 1728 (max. 8388607)
+ 1407 compressed objects within 15 object streams
+ 113 named destinations out of 1000 (max. 500000)
  269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,10 +1,21 @@
-\frametitle{{ pivot\_longer() }}\scriptsize
+\frametitle{{ {\tt pivot\_wider} with duplicate rows }}\scriptsize
 \begin{verbatim}
+df <- tribble(
+  ~id, ~measurement, ~value,
+  "A",        "bp1",    100,
+  "A",        "bp1",    102,
+  "A",        "bp2",    120,
+  "B",        "bp1",    140,
+  "B",        "bp2",    115
+)
+
 df |>
-  pivot_longer(
-    cols = bp1:bp2,
-    names_to = "measurement",
-    values_to = "value"
+  pivot_wider(
+    names_from = measurement,
+    values_from = value
   )
+#> Warning: Values from `value` are not uniquely identified; output will contain
+#> list-cols.
+....
 \end{verbatim}
-\fig{1}{cell-values.png}
+

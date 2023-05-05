@@ -1,5 +1,8 @@
-\frametitle{{  }}\scriptsize
+\frametitle{{ Pairs plot }}\scriptsize
+\vspace{-0.5cm}
 \begin{verbatim}
-
+library(GGally)
+flower$block <- factor(flower$block)
+ggpairs(flower, aes(colour = nitrogen))
 \end{verbatim}
-\fig{0.7}{quantile-lines-1.png}
+\fig{1.1}{pairs-plot-1.png}
