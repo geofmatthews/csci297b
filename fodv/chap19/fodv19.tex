@@ -1,0 +1,108 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 19}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\cola{0.6}
+\fig{1}{popgrowth-vs-popsize-colored-1.png}
+\colb{0.4}
+\bi
+\li Pitfalls of color use:  \li too much information.
+\ei
+\colc
+\end{frame}
+
+\bfr{Direct labelling}
+\fig{1}{popgrowth-vs-popsize-bw-1.png}
+\bi
+\li Use direct labeling instead of colors when you need to distinguish between more than about eight categorical items.
+\ei
+\end{frame}
+
+\begin{frame}
+\cola{0.6}
+\fig{1}{popgrowth-US-rainbow-1.png}
+\colb{0.4}
+\bi
+\li Pitfalls of color use:  \bi\li color with no purpose.\ei
+\li Avoid large filled areas of overly saturated colors. They make it difficult for your reader to carefully inspect your figure.
+\ei
+\colc
+\end{frame}
+
+\bfr{Non-monotonic color scales}
+\fig{1}{rainbow-desaturated-1.png}
+\bi
+\li Colors at two ends are the same.
+\li Areas where colors change rapidly.
+\li Areas where colors change slowly.
+\li Grayscale shows the brightness changes randomly.
+\ei
+\end{frame}
+
+\bfr{Rainbow scale}
+\fig{.8}{map-Texas-rainbow-1.png}
+\bi
+\li Painful to look at for a long time.
+\li Highlights some things, obscures others.
+\ei
+\end{frame}
+
+\bfr{Color blindness}
+\bi
+\li  deuteranomaly/deuteranopia: difficulty seeing green 
+\li  protanomaly/protanopia: difficulty seeing red
+\li tritanomaly/tritanopia: difficulty seeing blue 
+\li  anomaly:  some impairment in the perception 
+\li anopia: complete absence of perception of that color
+\li Approximately 8\% of males and 0.\% of females suffer from some sort of color-vision deficiency
+\li red/green deuteranomoly is most common form
+\ei
+\end{frame}
+
+
+\end{document}
