@@ -1,0 +1,168 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 23\\ Balance the data and the context}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Two parts of a graph}
+\bi
+\li Parts that represent data
+\bi \li bars \li dots \li lines \li shaded areas \ei
+\li Parts that don't
+\bi \li axes \li titles \li labels\li legends \li annotations \ei
+\ei
+
+\bigskip
+\Show{Maximize the data–ink ratio, within reason.}
+\end{frame}
+
+\bfr{Too much non-data ink}
+\fig{1}{Aus-athletes-grid-bad-1.png}
+\end{frame}
+
+\bfr{Too little non-data ink}
+\fig{1}{Aus-athletes-min-bad-1.png}
+\end{frame}
+
+\bfr{Goldilocks non-data ink}
+\fig{1}{Aus-athletes-grid-good-1.png}
+\end{frame}
+
+
+\bfr{Frame is optional}
+\fig{1}{Aus-athletes-grid-good-frame-1.png}
+\end{frame}
+
+\bfr{Background grids}
+\cola{0.5}
+\fig{1}{titanic-survival-by-gender-class-bad-1.png}
+\colb{0.5}
+\fig{1}{titanic-survival-by-gender-class-1.png}
+\colc
+\end{frame}
+
+\bfr{Background grids}
+\fig{0.8}{price-plot-ggplot-default-1.png}\scriptsize
+\bi
+\li a little busy and distracting
+\li  helps the plot to be perceived as a single visual entity 
+\li prevents the plot to appear as a white box in surrounding dark text 
+\li really depends on the formatting of the text and the design of the figure
+\ei
+\end{frame}
+
+\bfr{Background grids}
+\fig{0.8}{price-plot-no-grid-1.png}
+\bi
+\li   data lines not sufficiently anchored
+\ei
+\end{frame}
+
+
+
+\bfr{Data normalized to $y=100$}
+\fig{0.8}{price-plot-refline-1.png}
+
+\end{frame}
+
+
+\bfr{Better set of reference lines}
+\fig{0.8}{price-plot-hgrid-1.png}
+
+\end{frame}
+
+\bfr{Reference lines perpendicular to data}
+\fig{0.8}{price-increase-1.png}
+\bi\li Grid lines that run perpendicular to the key variable of interest tend to be the most useful.\ei
+\end{frame}
+
+\bfr{Grid lines on the bars}
+\fig{0.8}{price-increase-tufte-1.png}
+\bi
+\li helps the reader to perceive bar lengths
+\li the bars look like they are falling apart and don’t form a clear visual unit
+\li  have to move the percentage values outside the bars
+\ei
+\end{frame}
+
+\bfr{Paired data}
+\cola{.5}
+\fig{1}{gene-expression-1.png}
+\colb{.5}
+\fig{1}{gene-expression-bad-1.png}
+\colc
+\bigskip
+
+\centerline{ $45^\circ$ line better than grid}
+\end{frame}
+
+\bfr{Paired data}
+\fig{.7}{gene-expression-ugly-1.png}
+
+\centerline{Too busy?}
+\end{frame}
+
+\bfr{The right amount of context}
+
+\bi
+\li Both overloading a figure with non-data ink and excessively erasing non-data ink can result in poor figure design.
+\li We need to find a healthy medium:
+\bi
+\li the data points are the main emphasis of the figure
+\li   sufficient context is provided about what data is shown
+\ei
+\ei
+\end{frame}
+
+\bfr{Background grids}
+\bi
+\li Think carefully about which specific grid or guide lines are most informative for the plot you are making, and then only show those. 
+\li Minimal, light grids on a white background recommended
+\li A shaded background can help the plot appear as a single visual entity
+\ei
+\end{frame}
+
+
+\end{document}

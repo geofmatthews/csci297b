@@ -1,0 +1,6 @@
+\frametitle{ Caption placement figures vs. tables }
+\bi
+\li  For figures, it is customary to place the caption underneath, whereas for tables it is customary to place it above.
+\li For figures, readers tend to first look at the graphical display and then read the caption for context, hence the caption makes sense below the figure.
+\li By contrast, tables tend to be processed like text, from top to bottom, and reading the table contents before reading the caption will frequently not be useful. Hence, captions are placed above the table.
+\ei

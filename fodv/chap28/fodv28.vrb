@@ -1,0 +1,6 @@
+\frametitle{ Separation of content and design }
+\fig{.8}{unemploy-themes-1.png}
+\bi
+
+\li {\tt ggplot2} is designed to facilitate this.
+\ei

@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 25\\Avoid line drawings}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Avoid line drawings}
+\fig{1}{titanic-ages-lines-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{titanic-ages-filled-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{iris-densities-lines-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{iris-densities-colored-lines-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{iris-densities-filled-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{mpg-linespoints-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{mpg-filledpoints-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{lincoln-weather-box-empty-1.png}
+\end{frame}
+\bfr{Avoid line drawings}
+\fig{1}{lincoln-weather-box-filled-1.png}
+\end{frame}
+
+\end{document}

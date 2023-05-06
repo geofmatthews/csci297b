@@ -1,0 +1,12 @@
+\frametitle{ Converting between image formats }
+\bi
+\li Can lose information
+\bi
+\li vector to bitmap
+\li lossless to lossy
+\ei
+\li Always store the original image in the format that maintains maximum resolution, accuracy, and flexibility
+\li PDF for data visualizations, or source code
+\li Store bitmaps in as high a resolution as possible, losslessly
+\li Convert these as necessary
+\ei

@@ -38,7 +38,7 @@
 
 
 \author{Fundamentals of Data Visualization}
-\title{Chapter 19}
+\title{Chapter 19\\Common pitfalls of color use}
 
 \begin{document}
 
@@ -99,10 +99,73 @@
 \li tritanomaly/tritanopia: difficulty seeing blue 
 \li  anomaly:  some impairment in the perception 
 \li anopia: complete absence of perception of that color
-\li Approximately 8\% of males and 0.\% of females suffer from some sort of color-vision deficiency
+\li Approximately 8\% of males and 0.5\% of females suffer from some sort of color-vision deficiency
 \li red/green deuteranomoly is most common form
 \ei
 \end{frame}
+
+\bfr{Three fundamental types of color scales}
+\bi
+\li sequential scales
+\li diverging scales
+\li qualitative scales
+\ei
+\end{frame}
+
+\bfr{Sequential scales}
+\fig{1}{heat-cvd-sim-1.png}
+\bi
+\li Clear gradient from dark to light with all deficiencies.
+\li Safe to use
+\ei
+\end{frame}
+
+\bfr{Diverging scales: red-green}
+\fig{1}{red-green-cvd-sim-1.png}
+\bi
+\li Not safe for deutans and protans.
+\ei
+\end{frame}
+
+\bfr{Diverging scales: blue-green}
+\fig{1}{blue-green-cvd-sim-1.png}
+\bi
+\li Not safe for tritans.
+\ei
+\end{frame}
+
+\bfr{Diverging scales: pink to yellow-green}
+\fig{1}{PiYG-cvd-sim-1.png}
+\bi
+\li ColorBrewer PiYG (pink to yellow-green) scale.
+\li Looks red/green to normal color vision.
+\li Still distinguishable for people with cvd.
+\ei
+\end{frame}
+
+\bfr{Qualitative scales: difficult challenge}
+
+\fig{1}{palette-Okabe-Ito-1.png}
+\bi
+\li Okabe-Ito works well for all cvd
+\li You should not be using more than 8 qualitative colors anyway.
+\ei
+
+\vfill
+\url{http://jfly.iam.u-tokyo.ac.jp/color/}
+
+\end{frame}
+
+\bfr{Colors don't work well with thin lines and small dots}
+\fig{1}{colors-thin-lines-1.png}
+\end{frame}
+
+\bfr{Use a cvd simulator}
+\bi
+\li \url{https://www.color-blindness.com/coblis-color-blindness-simulator/}
+\ei
+\end{frame}
+
 
 
 \end{document}

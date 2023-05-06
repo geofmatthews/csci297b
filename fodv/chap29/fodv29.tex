@@ -1,0 +1,197 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 29\\Telling a story}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Telling a story}
+\bi
+\li Most data visualization is done for the purpose of communication.
+\li We have an insight about a dataset, and we have a potential audience, and we would like to convey our insight to our audience.
+\li To communicate our insight successfully, we will have to present the audience with a clear and exciting {\bf story.} 
+\ei
+\end{frame}
+
+\bfr{Telling a story}
+
+\bi
+\li The need for a story may seem disturbing to scientists and engineers, we are:
+\bi
+\li making things up, 
+\li putting a spin on things, 
+\li  overselling results.
+\ei
+\li However, this perspective misses the important role that stories play in reasoning and memory.
+\li We get excited when we hear a good story, and we get bored when the story is bad or when there is none. 
+\ei
+\end{frame}
+\bfr{Telling a story}
+\bi
+\li Moreover, any communication creates a story in the audience’s minds.
+\li If we don’t provide a clear story ourselves, then our audience will make one up.
+\li In the best-case scenario, the story they make up is reasonably close to our own view of the material presented.
+\li However, it can be and often is much worse. 
+\li The made-up story could be “this is boring,” “the author is wrong,” or “the author is incompetent.”
+\ei
+\end{frame}
+
+\bfr{Example of a story}
+
+\begin{quotation}
+Let me tell you a story about the theoretical physicist Stephen Hawking. He was diagnosed with motor neuron disease at age 21—one year into his PhD—and was given two years to live. Hawking did not accept this predicament and started pouring all his energy into doing science. Hawking ended up living to be 76, became one of the most influential physicists of his time, and did all of his seminal work while being severely disabled. 
+\end{quotation}
+\end{frame}
+
+\bfr{What is a story?}
+\bi
+\li A story is
+\bi
+\li a set of observations, facts, or events, true or invented,
+\li that are presented in a specific order 
+\li such that they create an emotional reaction in the audience.
+\ei
+\li The emotional reaction is created up the build-up of tension
+followed by resolution.
+\li The flow from tension to resolution is called the {\bf story arc}.
+\ei
+\end{frame}
+
+\bfr{Story patterns}
+\bi
+\li Opening–Challenge–Action–Resolution
+\li Lead–Development–Resolution
+\li Lead–Development
+\li Action–Background–Development–Climax–Ending
+
+\ei
+\end{frame}
+
+\bfr{Example visualization story}
+\fig{1}{q-bio-monthly-growth-1.png}
+\bi
+\li What happened in 2013?
+\ei
+\end{frame}
+
+
+\bfr{Example visualization story}
+\fig{1}{q-bio-bioRxiv-monthly-growth-1.png}
+\bi
+\li bioRxiv went live in November 2013
+\ei
+\end{frame}
+\bfr{Make a figure for the generals}
+\Show{Never assume your audience can rapidly process complex visual displays.}
+\end{frame}
+
+\bfr{Avoid overly complex visualizations}
+\fig{.8}{arrival-delay-vs-distance-1.png}
+\bi
+\li American and Delta have the shortest arrival delays.
+\ei
+\end{frame}
+
+
+\bfr{Avoid overly complex visualizations}
+\fig{.8}{mean-arrival-delay-nyc-1.png}
+\bi
+\li American and Delta have the shortest arrival delays.
+\ei
+\end{frame}
+
+
+\bfr{Avoid overly complex visualizations}
+\fig{.8}{number-of-flights-nyc-1.png}
+\bi
+\li American and Delta have the shortest arrival delays.
+\ei
+\end{frame}
+
+
+
+\bfr{Avoid overly complex visualizations}
+\Show{When you’re trying to show too much data at once you may end up not showing anything.}
+\end{frame}
+
+\bfr{Build up towards complex figures}
+\cola{0.65}
+\bi 
+\li Small multiples are easier to digest if
+you've seen one of the plots first
+\ei
+\colb{.35}
+\fig{1}{united-departures-weekdays-1.png}
+\colc
+\fig{1}{all-departures-weekdays-1.png}
+\end{frame}
+
+\bfr{Make your figures memorable: isotype plots}
+\fig{.8}{petownership-bar-1.png}
+\fig{.8}{petownership-isotype-1.png}
+\end{frame}
+
+\bfr{Be consistent but don’t be repetitive}
+\fig{1}{athletes-composite-repetitive-1.png}
+\end{frame}
+
+\bfr{Be consistent but don’t be repetitive}
+\fig{1}{athletes-composite-good-1.png}
+\end{frame}
+
+\bfr{Be consistent but don’t be repetitive}
+\Show{When preparing a presentation or report, aim to use a different type of visualization for each distinct analysis.}
+\end{frame}
+
+\bfr{Be consistent but don’t be repetitive}
+\fig{.8}{tech-stocks-repetitive-1.png}
+\end{frame}
+
+\bfr{Be consistent but don’t be repetitive}
+\fig{.8}{tech-stocks-diverse-1.png}
+\end{frame}
+
+
+
+\end{document}

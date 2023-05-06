@@ -1,0 +1,133 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 28\\Choosing the right visualization software}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Visualization Software}
+\Show{The best visualization software is the one that allows you to make the figures you need.}
+\end{frame}
+
+\bfr{Reproducibility and repeatability}
+\bi
+\li Scientific work is repeatable if the finding of the work will remain unchanged
+if a different research group performs the same type of study.
+\li Work is reproducible if very similar or identical measurements
+can be obtained by the same person repeating the same procedure on
+the same equipment.
+\ei
+
+\end{frame}
+
+\bfr{Reproducibility and repeatability}
+\bi
+\li  A visualization is reproducible if the plotted data are available and any data transformations that may have been applied are exactly specified.
+\bi
+\li For example, if you make a figure and then send me the exact data that you plotted, then I can prepare a figure that looks substantially similar.\ei
+\li  A visualization is repeatable, on the other hand, if it is possible to recreate the exact same visual appearance, down to the last pixel, from the raw data.
+\ei
+
+\end{frame}
+
+\bfr{Reproducibility and repeatability}
+\fig{1}{lincoln-repro-1.png}
+\bi
+\li Results on left are reproduced (not repeated) on the right.
+\li Using interactive software (not R scripts) often produces irreproducible visualziations.
+\ei
+\end{frame}
+
+\bfr{Data exploration versus data presentation}
+\bi
+\li In the exploration stage, whether the figures you make look appealing is secondary. It’s fine if the axis labels are missing, the legend is messed up, or the symbols are too small, as long as you can evaluate the various patterns in the data. 
+\li What is critical, however, is how easy it is for you to change how the data are shown.
+\li You should be able to rapidly move from a scatter plot to overlapping density distribution plots to boxplots to a heatmap.
+\li {\tt ggplot2} is designed to facilitate this.
+\ei 
+
+\end{frame}
+
+\bfr{Data exploration versus data presentation}
+\bi
+\li Once we have determined how  we want to visualize our data, what data transformations we want to make, and what type of plot to use, we will  want to prepare a high-quality figure for publication.
+\li We have several different avenues we can pursue:
+\bi
+\li First, we can finalize the figure using same software platform we used for initial exploration.
+\li Second, we can switch platform to one that provides us finer control, even if that  makes it harder to explore. 
+\li Third, we can produce a draft figure with a visualization software and then manually post-process with an image manipulation   program such as Photoshop.
+\li Fourth, we can manually redraw the entire figure from scratch, either with pen and paper or using an illustration program.
+\ei 
+\ei 
+\end{frame}
+
+\bfr{Manually touching up visualizations is dangerous}
+\bi
+\li We rarely make a figure just once.
+\li Over the course of a study, we may redo experiments, expand the original dataset, or repeat an experiment several times with slightly altered conditions.
+\li Many times we end up introducing a small modification to how we analyze our data, and consequently all figures have to be redrawn.
+\li Sometimes a decision is made not to redo the analysis or not to redraw the figures, either due to the effort involved or because the people who had made the original figure have moved on and aren’t available anymore. 
+\li An unnecessarily complicated and non-reproducible data visualization pipeline interferes with producing the best possible science.
+\ei
+\end{frame}
+
+\bfr{On the other hand...}
+\fig{.8}{sequencing_costs.png}
+\bi
+\li Hand drawn figures are making a comeback.
+\li There's nothing inherently wrong with sprucing up a visualization.
+\ei
+\end{frame}
+
+\bfr{Separation of content and design}
+\fig{.8}{unemploy-themes-1.png}
+\bi
+
+\li {\tt ggplot2} is designed to facilitate this.
+\ei
+\end{frame}
+
+
+
+\end{document}

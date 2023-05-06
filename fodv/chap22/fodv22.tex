@@ -1,0 +1,148 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 22\\Titles, captions, and tables}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Title in caption}
+\fig{.8}{corruption-development-1.png}
+\scriptsize
+Figure 22.1: Corruption and human development: The most developed countries experience the least corruption. This figure was inspired by a posting in The Economist online (2011). Data sources: Transparency International \& UN Human Development Report
+
+\end{frame}
+\bfr{Title incorporated in figure}
+\fig{.8}{corruption-development-infographic-1.png}
+\scriptsize
+\bi\li This figure could be posted on the web as is or otherwise used without separate caption block.\ei
+
+\end{frame}
+
+\bfr{Caption blocks}
+\Show{If your document layout uses caption blocks underneath each figure, then place the figure titles as the first element of each caption block, not on top of the figures.}
+
+\bi
+\li  The first part of the caption is always the title, not a description of the contents of the figure:
+\bi
+\li Corruption and human development.
+\li {\bf Not:} This figure shows how corruption is related to human development.
+\ei
+\ei
+\end{frame}
+
+
+\bfr{Axis and legend titles}
+\fig{.8}{blue-jays-scatter-bubbles2-1.png}
+\bi
+\li Always include the units for numerical variables.
+\li Variable can be omitted if obvious (sex, country names, movie titles, years, etc.)
+\ei
+\end{frame}
+
+\bfr{Omitting axis titles}
+\fig{1}{tech-stocks-minimal-labeling-1.png}
+\bi
+\li year and company need no title
+\ei
+\end{frame}
+
+\bfr{Omitting too many axis titles}
+\fig{1}{tech-stocks-minimal-labeling-bad-1.png}
+\end{frame}
+
+\bfr{Axis titles with too much information}
+\fig{1}{tech-stocks-labeling-ugly-1.png}
+\bi
+\li Put it in the caption
+\ei
+\end{frame}
+
+\bfr{Tables}
+\fig{1.1}{table01}
+\end{frame}
+\bfr{Tables}
+\fig{1.1}{table02}
+\end{frame}
+\bfr{Tables}
+\fig{1.1}{table03}
+\end{frame}
+
+\bfr{Microsoft Word}
+\bi
+\li Has 105 pre-defined table layouts.
+\li Over 70 of them violate some of the {\bf  Table Rules}.
+\li The default layout is very poor.
+\ei
+\end{frame}
+
+\bfr{The Table Rules}
+\begin{enumerate}
+\li
+Do not use vertical lines.
+\li
+Do not use horizontal lines between data rows. (Horizontal lines as separator between the title row and the first data row or as frame for the entire table are fine.)
+\li
+Text columns should be left aligned.
+\li
+Number columns should be right aligned and should use the same number of decimal digits throughout.
+\li
+Columns containing single characters are centered.
+\li
+The header fields are aligned with their data, i.e., the heading for a text column will be left aligned and the heading for a number column will be right aligned.
+\end{enumerate}
+\end{frame}
+
+\bfr{Good and bad tables}
+\fig{1}{table-examples-1.png}
+\end{frame}
+
+\bfr{Caption placement figures vs. tables}
+\bi
+\li  For figures, it is customary to place the caption underneath, whereas for tables it is customary to place it above. 
+\li For figures, readers tend to first look at the graphical display and then read the caption for context, hence the caption makes sense below the figure.
+\li By contrast, tables tend to be processed like text, from top to bottom, and reading the table contents before reading the caption will frequently not be useful. Hence, captions are placed above the table.
+\ei
+\end{frame}
+
+\end{document}

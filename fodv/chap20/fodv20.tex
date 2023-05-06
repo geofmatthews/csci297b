@@ -1,0 +1,118 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 20\\Redundant coding}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Color has problems}
+\bi
+\li It will be difficult to match the colors in the plot to the colors in the legend 
+\li even if we only need to distinguish two to three different items, color may fail if the colored items are very small
+\li colors look similar for people suffering from color-vision deficiency 
+\ei
+\end{frame}
+
+\bfr{Blue and green look similar}
+\fig{1}{iris-scatter-one-shape-1.png}
+\end{frame}
+
+
+\bfr{Blue and green contrast {\bf more} with cvd}
+\fig{1}{iris-scatter-one-shape-cvd-1.png}
+\end{frame}
+
+\bfr{Redundant coding}
+\fig{1}{iris-scatter-three-shapes-1.png}
+\end{frame}
+
+
+
+\bfr{Redundant coding}
+\fig{1}{iris-scatter-three-shapes-cvd-1.png}
+\end{frame}
+
+
+\bfr{Redundant coding}
+\fig{1}{tech-stocks-bad-legend-1.png}
+\end{frame}
+
+
+\bfr{Redundant coding}
+\fig{1}{tech-stocks-good-legend-1.png}
+\bi
+\li If there is a clear visual ordering in your data, make sure to match it in the legend.
+\ei
+\end{frame}
+
+\bfr{Redundant coding}
+\fig{1}{tech-stocks-good-legend-cvd-1.png}
+
+\end{frame}
+
+\bfr{Designing figures without legends}
+\fig{1}{tech-stocks-good-no-legend-1.png}
+\bi
+\li Whenever possible, design your figures so they don’t need a legend.
+\ei
+\end{frame}
+
+\bfr{Designing figures without legends}
+\fig{.8}{iris-scatter-with-ellipses-1.png}
+\end{frame}
+
+\bfr{Designing figures without legends}
+\fig{1}{iris-densities-direct-label-1.png}
+\end{frame}
+
+\bfr{Designing figures without legends}
+\fig{.8}{iris-scatter-dens-1.png}
+\end{frame}
+
+\bfr{Designing figures without legends}
+\fig{1}{temp-ridgeline-colorbar-1.png}
+\end{frame}
+
+
+\end{document}

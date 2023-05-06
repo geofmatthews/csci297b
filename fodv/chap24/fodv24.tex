@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 24\\Use larger axis labels}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Axis labels too small}
+\fig{.8}{Aus-athletes-small-1.png}
+\end{frame}
+
+\bfr{Still too small}
+\fig{.8}{Aus-athletes-ugly-1.png}
+\end{frame}
+
+\bfr{Good sized axis labels}
+\fig{.8}{Aus-athletes-good-1.png}
+\end{frame}
+
+\bfr{Axis labels too big}
+\fig{.8}{Aus-athletes-big-ugly-1.png}
+\end{frame}
+
+\bfr{Axis labels and points resized for small reproductions}
+\fig{.6}{Aus-athletes-big-good-1.png}
+\bigskip
+\Show{Always look at scaled-down versions of your figures to make sure the axis labels are appropriately sized.}
+\end{frame}
+
+
+\end{document}

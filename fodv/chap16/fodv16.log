@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  4 MAY 2023 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  6 MAY 2023 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,7 +1332,7 @@ ine 2.
 
 
 (fodv16.vrb
-<mpg-uncertain-1.png, id=739, 1513.655pt x 567.11874pt>
+<mpg-uncertain-1.png, id=740, 1513.655pt x 567.11874pt>
 File: mpg-uncertain-1.png Graphic file (type png)
 <use mpg-uncertain-1.png>
 Package pdftex.def Info: mpg-uncertain-1.png  used on input line 2.
@@ -1359,10 +1359,10 @@ Package rerunfilecheck Info: File `fodv16.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25691 strings out of 476406
- 519750 string characters out of 2789566
+ 25693 strings out of 476406
+ 519766 string characters out of 2789566
  1859787 words of memory out of 3000000
- 45395 multiletter control sequences out of 15000+600000
+ 45397 multiletter control sequences out of 15000+600000
  524285 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,432b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1375,7 +1375,7 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/thatm/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/tha
 tm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fodv16.pdf (29 pages, 1319153 bytes).
+Output written on fodv16.pdf (29 pages, 1319397 bytes).
 PDF statistics:
  841 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)

@@ -1,10 +1,4 @@
-\frametitle{ Color blindness }
+\frametitle{ Use a cvd simulator }
 \bi
-\li  deuteranomaly/deuteranopia: difficulty seeing green
-\li  protanomaly/protanopia: difficulty seeing red
-\li tritanomaly/tritanopia: difficulty seeing blue
-\li  anomaly:  some impairment in the perception
-\li anopia: complete absence of perception of that color
-\li Approximately 8\% of males and 0.\% of females suffer from some sort of color-vision deficiency
-\li red/green deuteranomoly is most common form
+\li \url{https://www.color-blindness.com/coblis-color-blindness-simulator/}
 \ei

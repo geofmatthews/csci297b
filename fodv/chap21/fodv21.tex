@@ -1,0 +1,126 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          \bf #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\author{Fundamentals of Data Visualization}
+\title{Chapter 21\\Multi-panel figures}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{Multiple views of the data}
+\bi
+\li {\bf Small multiples}  or {\bf trellis plots}
+are plots consisting of multiple panels in a 
+regular grid.
+\bi
+\li Each panel shows a different subset of the data but all panels use the same type of visualization.
+\ei
+\li  {\bf Compound figures} consist of separate figure panels assembled in an arbitrary arrangement.
+\bi
+\li  Each panel shows entirely different visualizations, or possibly even different datasets.
+\ei\ei
+\end{frame}
+
+\bfr{Trellis plot}
+\fig{.8}{titanic-passenger-breakdown-1.png}
+\centerline{Titanic passengers}
+\end{frame}
+
+\begin{frame}
+\fig{.8}{movie-rankings-1.png}
+\end{frame}
+
+\begin{frame}
+\fig{1}{BA-degrees-variable-y-lims-1.png}
+\end{frame}
+
+\begin{frame}
+\fig{1}{BA-degrees-fixed-y-lims-1.png}
+\end{frame}
+
+\bfr{Arrange panels logically}
+\Show{Always arrange the panels in a small multiples plot in a meaningful and logical order.}
+\bigskip
+\bi
+\li In the Titanic plot the rows go from the highest class (1st class) to the lowest class (3rd class).
+\li In the movie plot the panels go by increasing years from the top left to the bottom right.
+\li  In the college majors plot  the panels go by decreasing average degree popularity, such that the most popular degrees are in the top row and/or to the left and the least popular degrees are in the bottom row and/or to the right.
+\ei
+\end{frame}
+
+\bfr{Compound figures}
+\fig{1}{BA-degrees-compound-1.png}
+\bi
+\li Always label panels (a, b, etc.)
+\li Pay attention to how the panels fit together.
+\ei
+\end{frame}
+
+\bfr{Bad labels}
+\fig{1}{BA-degrees-compound-bad-1.png}
+\bi
+\li Labels too large and black
+\li Labels are wrong font
+\li Labelling needs to be consistent throughout a document
+\ei
+\end{frame}
+
+\bfr{Use a consistent visual language}
+\fig{.9}{athletes-composite-inconsistent-1.png}
+\scriptsize
+\bi\li Colors and left/right for male/female change randomly \ei
+\end{frame}
+
+
+\bfr{Use a consistent visual language}
+\fig{.9}{athletes-composite-good-1.png}
+\scriptsize
+\bi\li Colors and left/right for male/female consistent \ei
+\end{frame}
+
+
+\bfr{Align axes}
+\fig{.9}{athletes-composite-misaligned-1.png}
+
+\end{frame}
+
+\end{document}
