@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref,graphicx}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 11\\stats
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+\bi
+\li
+For this project, use the {\tt tidyverse} library, which includes the {\tt mpg} dataset.
+\li
+For this project, you will turn in a single R markdown file, called \verb|exercise10.Rmd|
+
+\ei
+\begin{enumerate}
+\item
+
+What does \verb|geom_col()| do? How is it different from \verb|geom_bar()|?
+\item
+What variables does \verb|stat_smooth()| compute? What arguments control its behavior?
+\item
+In our proportion bar chart, we need to set \verb|group = 1|. Why? In other words, what is the problem with these two graphs?
+\begin{verbatim}
+ggplot(diamonds, aes(x = cut, y = after_stat(prop))) + 
+  geom_bar()
+ggplot(diamonds, aes(x = cut, fill = color, y = after_stat(prop))) + 
+  geom_bar()
+\end{verbatim}
+\end{enumerate}
+\end{document}

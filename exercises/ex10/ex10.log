@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./ex07.tex
-(ex07.tex
+**./ex10.tex
+(ex10.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -259,13 +259,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box53
-) (ex07.aux)
-\openout1 = `ex07.aux'.
+) (ex10.aux)
+\openout1 = `ex10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -321,35 +342,62 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 21.
-(ex07.out) (ex07.out)
+(ex10.out) (ex10.out)
 \@outlinefile=\write3
-\openout3 = `ex07.out'.
+\openout3 = `ex10.out'.
 
 
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen164
+\scratchbox=\box54
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen165
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks24
+)
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 
 LaTeX Warning: No \author given.
 
 [1
 
-{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (ex07.aux)
-Package rerunfilecheck Info: File `ex07.out' has not changed.
+{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+(ex10.aux)
+Package rerunfilecheck Info: File `ex10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8480 strings out of 476406
- 135020 string characters out of 2789566
- 1861787 words of memory out of 3000000
- 28768 multiletter control sequences out of 15000+600000
- 514417 words of font info for 40 fonts, out of 8000000 for 9000
+ 9304 strings out of 476406
+ 147904 string characters out of 2789566
+ 1860787 words of memory out of 3000000
+ 29563 multiletter control sequences out of 15000+600000
+ 514754 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,232b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmtt12.pfb>
-Output written on ex07.pdf (1 page, 44605 bytes).
+ 72i,6n,77p,259b,665s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ex10.pdf (2 pages, 43140 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./ex07.tex
-(ex07.tex
+**./ex08.tex
+(ex08.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -264,8 +264,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box53
-) (ex07.aux)
-\openout1 = `ex07.aux'.
+) (ex08.aux)
+\openout1 = `ex08.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -321,9 +321,9 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 21.
-(ex07.out) (ex07.out)
+(ex08.out) (ex08.out)
 \@outlinefile=\write3
-\openout3 = `ex07.out'.
+\openout3 = `ex08.out'.
 
 
 
@@ -331,25 +331,26 @@ LaTeX Warning: No \author given.
 
 [1
 
-{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (ex07.aux)
-Package rerunfilecheck Info: File `ex07.out' has not changed.
+{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (ex08.aux)
+Package rerunfilecheck Info: File `ex08.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8480 strings out of 476406
- 135020 string characters out of 2789566
- 1861787 words of memory out of 3000000
- 28768 multiletter control sequences out of 15000+600000
- 514417 words of font info for 40 fonts, out of 8000000 for 9000
+ 8477 strings out of 476406
+ 135019 string characters out of 2789566
+ 1855787 words of memory out of 3000000
+ 28770 multiletter control sequences out of 15000+600000
+ 514754 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,77p,232b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmtt12.pfb>
-Output written on ex07.pdf (1 page, 44605 bytes).
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ex08.pdf (1 page, 41530 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 35 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

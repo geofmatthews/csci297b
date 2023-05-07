@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 8\\ggplot2
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+\bi
+\li
+For this project, use the {\tt tidyverse} library, which includes the {\tt mpg} dataset.
+\li
+For this project, you will turn in a single R markdown file, called \verb|exercise08.Rmd|
+
+\ei
+\begin{enumerate}
+
+\item Create a scatterplot of \verb|hwy| vs. \verb|displ| where the points are pink filled in triangles.
+
+\item Why did the following code not result in a plot with blue points?
+\begin{verbatim}
+ggplot(mpg) + 
+  geom_point(aes(x = displ, y = hwy, color = "blue"))
+\end{verbatim}
+\item
+What does the \verb|stroke| aesthetic do? What shapes does it work with? (Hint: use \verb|?geom_point|)
+\item
+What happens if you map an aesthetic to something other than a variable name, like 
+\verb|aes(color = displ < 5)|? Note, you’ll also need to specify x and y.
+\end{enumerate}
+\end{document}

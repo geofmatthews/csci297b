@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref,graphicx}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 9\\ggplot2
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+\bi
+\li
+For this project, use the {\tt tidyverse} library, which includes the {\tt mpg} dataset.
+\li
+For this project, you will turn in a single R markdown file, called \verb|exercise09.Rmd|
+
+\ei
+\begin{enumerate}
+\item
+What \verb|geom| would you use to draw a line chart? A boxplot? A histogram? An area chart?
+\item
+Earlier in this chapter we used \verb|show.legend| without explaining it:
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_smooth(aes(color = drv), show.legend = FALSE)
+\end{verbatim}
+What does \verb|show.legend = FALSE| do here? What happens if you remove it? Why do you think we used it earlier?
+\item
+What does the \verb|se| argument to \verb|geom_smooth()| do?
+\item
+Recreate the R code necessary to generate the following graphs. Note that wherever a categorical variable is used in the plot, it’s drv.
+\end{enumerate}
+\figg{0.33}{unnamed-chunk-19-1.png}%
+\figg{0.33}{unnamed-chunk-19-2.png}%
+\figg{0.33}{unnamed-chunk-19-3.png}
+
+\figg{0.33}{unnamed-chunk-19-4.png}%
+\figg{0.33}{unnamed-chunk-19-5.png}%
+\figg{0.33}{unnamed-chunk-19-6.png}
+\end{document}

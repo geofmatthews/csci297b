@@ -1,0 +1,565 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://r4ds.hadley.nz/} Chapter 10\\Layers}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\bfr{Aesthetic mappings}
+
+\begin{quotation}
+“The greatest value of a picture is when it forces us to notice what we never expected to see.” — John Tukey
+\end{quotation}
+\end{frame}
+\begin{frame}
+\maketitle
+\end{frame}
+
+\bfr{tidyverse}
+
+\begin{verbatim}
+library(tidyverse}
+\end{verbatim}
+\end{frame}
+
+
+
+\bfr{The {\tt mpg} dataset}\scriptsize
+\begin{verbatim}
+mpg
+#> # A tibble: 234 × 11
+#>   manufacturer model displ  year   cyl trans      drv     cty   hwy fl   
+#>   <chr>        <chr> <dbl> <int> <int> <chr>      <chr> <int> <int> <chr>
+#> 1 audi         a4      1.8  1999     4 auto(l5)   f        18    29 p    
+#> 2 audi         a4      1.8  1999     4 manual(m5) f        21    29 p    
+#> 3 audi         a4      2    2008     4 manual(m6) f        20    31 p    
+#> 4 audi         a4      2    2008     4 auto(av)   f        21    30 p    
+#> 5 audi         a4      2.8  1999     6 auto(l5)   f        16    26 p    
+#> 6 audi         a4      2.8  1999     6 manual(m5) f        18    26 p    
+#> # i 228 more rows
+#> # i 1 more variable: class <chr>
+\end{verbatim}
+\bi
+\li displ: A car’s engine size, in liters. A numerical variable.
+\li
+hwy: A car’s fuel efficiency on the highway, in miles per gallon (mpg). A car with a low fuel efficiency consumes more fuel than a car with a high fuel efficiency when they travel the same distance. A numerical variable.
+\li
+class: Type of car. A categorical variable.
+\ei
+\end{frame}
+
+\bfr{Groups can go unplotted}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = displ, y = hwy, color = class)) +
+  geom_point()
+
+# Right
+ggplot(mpg, aes(x = displ, y = hwy, shape = class)) +
+  geom_point()
+#> Warning: The shape palette can deal with a maximum of 6 discrete values
+#> because more than 6 becomes difficult to discriminate; you have 7.
+#> Consider specifying shapes manually if you must have them.
+#> Warning: Removed 62 rows containing missing values (`geom_point()`).
+\end{verbatim}
+\figg{.5}{unnamed-chunk-4-1.png}\figg{.5}{unnamed-chunk-4-2.png}
+\end{frame}
+
+\bfr{not advised}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = displ, y = hwy, size = class)) +  geom_point()
+#> Warning: Using size for a discrete variable is not advised.
+
+# Right
+ggplot(mpg, aes(x = displ, y = hwy, alpha = class)) +  geom_point()
+#> Warning: Using alpha for a discrete variable is not advised.
+\end{verbatim}
+\figg{.5}{unnamed-chunk-5-1.png}\figg{.5}{unnamed-chunk-5-2.png}
+
+\bi
+\li Implies an order that does not exist.
+\ei
+\end{frame}
+
+\bfr{ggplot2 defaults}
+\bi
+\li  It selects a reasonable scale to use with the aesthetic.
+\li It constructs a legend that explains the mapping between levels and values. 
+\li For x and y aesthetics, ggplot2 does not create a legend.
+\li But it creates an axis line with tick marks and a label. 
+\li The axis line provides the same information as a legend.
+\li It explains the mapping between locations and values.
+\ei
+\end{frame}
+
+\bfr{Set visual properties manually}
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point(color = "blue")
+
+\end{verbatim}
+\fig{.8}{unnamed-chunk-6-1.png}
+\end{frame}
+
+\bfr{Properties of points}
+\cola{0.7}
+\bi
+\li Color as character string,\\ e.g. {\tt color = "blue"}
+\li Size in mm, e.g. {\tt size = 1}
+\li Shape as integer, e.g. {\tt shape = 1}
+\ei
+\colb{0.3}
+\hspace{-.5in}\fig{1.5}{pointshapes}
+\colc
+\scriptsize
+\bi
+\li
+R has 25 built-in shapes that are identified by numbers. 
+\li There are some seeming duplicates: for example, 0, 15, and 22 are all squares. 
+\li The difference comes from the interaction of the {\tt color} and {\tt fill} aesthetics.
+\li The hollow shapes (0–14) have a border determined by {\tt color}
+\li The solid shapes (15–20) are filled with {\tt color}
+\li The filled shapes (21–24) have a border of {\tt color} and are filled with {\tt fill}.
+\ei
+
+\vfill
+\url{https://ggplot2.tidyverse.org/articles/ggplot2-specs.html}
+
+\end{frame}
+
+\bfr{Do exercise 8}
+\end{frame}
+
+\bfr{How are these plots similar?}
+\figg{0.5}{unnamed-chunk-9-1.png}\figg{0.5}{unnamed-chunk-9-2.png}
+\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point()
+
+# Right
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_smooth()
+#> `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+\end{verbatim}
+\end{frame}
+
+\bfr{Mapping arguments}
+\bi
+\li Every geom function in \verb|ggplot2| takes a mapping argument.
+\li It is either defined locally in the geom layer or globally in the \verb|ggplot()| layer.
+\li Not every aesthetic works with every geom. 
+\li You could set the shape of a point, but you couldn’t set the “shape” of a line. 
+\li If you try, \verb|ggplot2| will silently ignore that aesthetic mapping.
+\li On the other hand, you could set the linetype of a line. 
+\li \verb|geom_smooth()| will draw a different line, with a different linetype, for each unique value of the variable that you map to linetype.
+\ei
+\end{frame}
+
+\bfr{Mapping arguments}
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = displ, y = hwy, shape = drv)) + 
+  geom_smooth()
+
+# Right
+ggplot(mpg, aes(x = displ, y = hwy, linetype = drv)) + 
+  geom_smooth()
+\end{verbatim}
+\figg{0.5}{unnamed-chunk-11-1.png}\figg{0.5}{unnamed-chunk-11-2.png}
+\end{frame}
+
+\bfr{Mapping arguments}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy, color = drv)) + 
+  geom_point() +
+  geom_smooth(aes(linetype = drv))
+\end{verbatim}
+\fig{.8}{unnamed-chunk-12-1.png}
+
+\end{frame}
+
+\bfr{{\tt group} aesthetic}
+\bi
+\li Many geoms, like \verb|geom_smooth()|, use a single geometric object to display multiple rows of data. 
+\li For these geoms, you can set the group aesthetic to a categorical variable to draw multiple objects.
+\li \verb|ggplot2| will draw a separate object for each unique value of the grouping variable.
+\li In practice, \verb|ggplot2| will automatically group the data for these geoms whenever you map an aesthetic to a discrete variable (as in the linetype example).
+\li It is convenient to rely on this feature because the group aesthetic by itself does not add a legend or distinguishing features to the geoms.
+\ei
+\end{frame}
+
+\bfr{{\tt group} aesthetic}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_smooth()
+
+# Middle
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_smooth(aes(group = drv))
+
+# Right
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_smooth(aes(color = drv), show.legend = FALSE)
+\end{verbatim}
+\figg{0.33}{unnamed-chunk-13-1.png}\figg{0.33}{unnamed-chunk-13-2.png}\figg{0.33}{unnamed-chunk-13-3.png}
+\end{frame}
+
+\bfr{Different aesthetics in different layers}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point(aes(color = class)) + 
+  geom_smooth()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-14-1.png}
+
+\end{frame}
+
+\bfr{Different data in different layers}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point() + 
+  geom_point(
+    data = mpg |> filter(class == "2seater"), 
+    color = "red"
+  ) +
+  geom_point(
+    data = mpg |> filter(class == "2seater"), 
+    shape = "circle open", size = 3, color = "red"
+  )
+\end{verbatim}
+\fig{.65}{unnamed-chunk-15-1.png}
+
+\end{frame}
+
+
+\bfr{{\tt geom}s change everything}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = hwy)) +
+  geom_histogram(binwidth = 2)
+
+# Middle
+ggplot(mpg, aes(x = hwy)) +
+  geom_density()
+
+# Right
+ggplot(mpg, aes(x = hwy)) +
+  geom_boxplot()
+\end{verbatim}
+\figg{0.33}{unnamed-chunk-16-1.png}\figg{0.33}{unnamed-chunk-16-2.png}\figg{0.33}{unnamed-chunk-16-3.png}
+\end{frame}
+
+\bfr{Extension packages}
+\bi
+\li \verb|ggplot2| provides more than 40 geoms.
+\li But these don’t cover all possible plots one could make.
+\li If you need a different geom, we recommend looking into extension packages first to see if someone else has already implemented it.
+\li \url{https://exts.ggplot2.tidyverse.org/gallery/}
+\li For example, the \verb|ggridges| package \url{https://wilkelab.org/ggridges} is useful for making ridgeline plots, which can be useful for visualizing the density of a numerical variable for different levels of a categorical variable.
+\ei
+\end{frame}
+
+\bfr{Ridges example}\scriptsize
+\begin{verbatim}
+library(ggridges)
+
+ggplot(mpg, aes(x = hwy, y = drv, fill = drv, color = drv)) +
+  geom_density_ridges(alpha = 0.5, show.legend = FALSE)
+#> Picking joint bandwidth of 1.28
+\end{verbatim}
+\fig{1}{unnamed-chunk-17-1.png}
+\end{frame}
+
+\bfr{The {\tt tidyverse} reference}
+
+\large\url{https://ggplot2.tidyverse.org/reference}
+\end{frame}
+
+\bfr{Do exercise 9}
+\end{frame}
+
+\bfr{\tt facet\_wrap}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point() + 
+  facet_wrap(~cyl)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-20-1.png}
+\end{frame}
+
+\bfr{\tt facet\_grid}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point() + 
+  facet_grid(drv ~ cyl)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-21-1.png}
+\end{frame}
+
+
+\bfr{Free the scales!}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point() + 
+  facet_grid(drv ~ cyl, scales = "free_y")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-22-1.png}
+\end{frame}
+
+\bfr{Do exercise 10}
+\end{frame}
+
+\bfr{{\tt diamonds} dataset}
+\bi
+\li The diamonds dataset is in the\verb| ggplot2| package.
+\li It contains information on 
+$\approx 54,000$ diamonds.
+\li It includes  carat, color, clarity, and cut of each diamond. 
+\ei
+\end{frame}
+
+\bfr{Bar chart}
+\begin{verbatim}
+ggplot(diamonds, aes(x = cut)) + 
+  geom_bar()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-28-1.png}
+\bi
+\li \verb|count| is not in the dataset!
+\ei
+\end{frame}
+
+\bfr{Statistical transformations}
+\bi
+\li  Many graphs, like scatterplots, plot the raw values of your dataset.
+\li Other graphs, like bar charts, calculate new values to plot:
+\bi
+\li
+Bar charts, histograms, and frequency polygons bin your data and then plot bin counts, the number of points that fall in each bin.
+\li
+Smoothers fit a model to your data and then plot predictions from the model.
+\li
+Boxplots compute the five-number summary of the distribution and then display that summary as a specially formatted box.
+\ei
+\li
+The algorithm used to calculate new values for a graph is called a {\bf stat}, short for statistical transformation.
+\ei
+\end{frame}
+
+\bfr{Computing stats}
+\fig{1.25}{visualization-stat-bar.png}
+\end{frame}
+
+\bfr{Stats}
+\bi
+\li You can learn which stat a geom uses by inspecting the default value for the \verb|stat| argument.
+\li For example, \verb|?geom_bar| shows that the default value for stat is “count”, which means that \verb|geom_bar()| uses \verb|stat_count()|.
+\li  \verb|stat_count()| is documented on the same page as \verb|geom_bar()|.
+\li If you scroll down, the section called “Computed variables” explains that it computes two new variables: \verb|count| and \verb|prop|.
+\ei
+\end{frame}
+
+\bfr{Stats}
+\bi
+\li Every geom has a default stat; and every stat has a default geom. 
+\li This means that you can typically use geoms without worrying about the underlying statistical transformation.
+\li However, there are  reasons why you might need to use a stat explicitly.
+
+\ei
+\end{frame}
+
+
+\bfr{We might already have the value computed}
+\begin{verbatim}
+> diamonds |>
++   count(cut) 
+# A tibble: 5 × 2
+  cut           n
+  <ord>     <int>
+1 Fair       1610
+2 Good       4906
+3 Very Good 12082
+4 Premium   13791
+5 Ideal     21551
+\end{verbatim}
+\end{frame}
+
+
+
+\bfr{We might already have the value computed}\scriptsize
+\begin{verbatim}
+diamonds |>
+  count(cut) |>
+  ggplot(aes(x = cut, y = n)) +
+  geom_bar(stat = "identity")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-30-1.png}
+\end{frame}
+
+
+
+\bfr{We might want to show proportion instead of count}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = cut, y = after_stat(prop), group = 1)) + 
+  geom_bar()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-31-1.png}
+\end{frame}
+
+
+
+\bfr{We might want to use {\tt stat\_summary}}\scriptsize
+\begin{verbatim}
+ggplot(diamonds) + 
+  stat_summary(
+    aes(x = cut, y = depth),
+    fun.min = min,
+    fun.max = max,
+    fun = median
+  )
+\end{verbatim}
+\fig{.8}{unnamed-chunk-32-1.png}
+\end{frame}
+
+\bfr{Do exercise 11}
+\end{frame}
+
+
+\bfr{Bar charts can use either {\tt color} or {\tt fill}}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = drv, color = drv)) + 
+  geom_bar()
+
+# Right
+ggplot(mpg, aes(x = drv, fill = drv)) + 
+  geom_bar()
+\end{verbatim}
+\figg{.5}{unnamed-chunk-34-1.png}\figg{.5}{unnamed-chunk-34-2.png}
+\end{frame}
+
+
+
+\bfr{Map {\tt fill} to another variable}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = drv, fill = class)) + 
+  geom_bar()
+\end{verbatim}
+\fig{.7}{unnamed-chunk-35-1.png}
+\bi
+\li The stacking is performed automatically using the {\bf position adjustment} specified by the 
+\verb|position| argument.
+\li Can be "identity", "dodge", or "fill".
+\ei
+\end{frame}
+
+
+\bfr{{\tt identity} not useful for bars}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = drv, fill = class)) + 
+  geom_bar(alpha = 1/5, position = "identity")
+
+# Right
+ggplot(mpg, aes(x = drv, color = class)) + 
+  geom_bar(fill = NA, position = "identity")
+\end{verbatim}
+\figg{.5}{unnamed-chunk-36-1.png}\figg{.5}{unnamed-chunk-36-2.png}
+\end{frame}
+
+
+\bfr{{\tt fill} and {\tt dodge}}\scriptsize
+\begin{verbatim}
+# Left
+ggplot(mpg, aes(x = drv, fill = class)) + 
+  geom_bar(position = "fill")
+
+# Right
+ggplot(mpg, aes(x = drv, fill = class)) + 
+  geom_bar(position = "dodge")
+\end{verbatim}
+\figg{.5}{unnamed-chunk-37-1.png}\figg{.5}{unnamed-chunk-37-2.png}
+\end{frame}
+
+
+\bfr{{\tt position = jitter} useful for scatterplots}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point(position = "jitter")
+\end{verbatim}
+\fig{.8}{unnamed-chunk-39-1.png}
+\bi
+\li \verb|geom_jitter()| is shorthand for \verb|geom_point(position = "jitter")|
+\ei
+\end{frame}
+
+\bfr{Do exercise 12}
+\end{frame}
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{.7}{unnamed-chunk-35-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{.7}{unnamed-chunk-35-1.png}
+\end{frame}
+
+
+\bfr{}\scriptsize
+\begin{verbatim}
+
+\end{verbatim}
+\fig{.7}{unnamed-chunk-35-1.png}
+\end{frame}
+
+
+
+\end{document}

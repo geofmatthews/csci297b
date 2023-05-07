@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+%\UseRawInputEncoding
+\usepackage{amsmath,hyperref,graphicx}
+
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+\newcommand{\lst}[1]{\lstinline{#1}}
+
+\title{csci297b Exercise 12\\stats
+  }
+\date{}
+\sloppy
+
+\begin{document}
+\maketitle
+
+\bi
+\li
+For this project, use the {\tt tidyverse} library, which includes the {\tt mpg} dataset.
+\li
+For this project, you will turn in a single R markdown file, called \verb|exercise10.Rmd|
+
+\ei
+\begin{enumerate}
+\item
+What is the problem with the following plot? How could you improve it?
+\begin{verbatim}
+ggplot(mpg, aes(x = cty, y = hwy)) + 
+  geom_point()
+\end{verbatim}
+\item
+What, if anything, is the difference between the two plots? Why?
+\begin{verbatim}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point()
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point(position = "identity")
+\end{verbatim}
+\item
+What parameters to \verb|geom_jitter()| control the amount of jittering?
+\item
+Compare and contrast \verb|geom_jitter()| with \verb|geom_count()|.
+\item
+What’s the default position adjustment for \verb|geom_boxplot()|? Create a visualization of the 
+\verb|mpg| dataset that demonstrates it.
+
+\end{enumerate}
+\end{document}
