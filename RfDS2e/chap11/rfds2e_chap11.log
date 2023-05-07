@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.30)  7 MAY 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./rfds2e_chap10.tex
-(rfds2e_chap10.tex
+**./rfds2e_chap11.tex
+(rfds2e_chap11.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17>
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
@@ -922,8 +922,8 @@ tex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count352
 \l__pdf_internal_box=\box84
-) (rfds2e_chap10.aux)
-\openout1 = `rfds2e_chap10.aux'.
+) (rfds2e_chap11.aux)
+\openout1 = `rfds2e_chap11.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -1005,9 +1005,9 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 43.
- (rfds2e_chap10.out) (rfds2e_chap10.out)
+ (rfds2e_chap11.out) (rfds2e_chap11.out)
 \@outlinefile=\write7
-\openout7 = `rfds2e_chap10.out'.
+\openout7 = `rfds2e_chap11.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
@@ -1090,606 +1090,291 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (rfds2e_chap10.nav)
-\openout4 = `rfds2e_chap10.vrb'.
+) (rfds2e_chap11.nav)
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb)
-[1
-
-{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-.
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-))
-[3
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-15.
-
-(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
-File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-Overfull \hbox (2.88438pt too wide) in paragraph at lines 15--15
-[]\T1/cmtt/m/n/8 #>   manufacturer model displ  year   cyl trans      drv     c
-ty   hwy fl[] 
- []
-
-
-Overfull \hbox (15.63127pt too wide) in paragraph at lines 15--15
-[]\T1/cmtt/m/n/8 #>   <chr>        <chr> <dbl> <int> <int> <chr>      <chr> <in
-t> <int> <chr>[] 
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+ (rfds2e_chap11.vrb
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 17
-.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
+
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 17.
+ut line 4.
 
 (C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)) [4
+)) [1
+
+{C:/Users/thatm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb) [2
 
 ]
-\openout4 = `rfds2e_chap10.vrb'.
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-Overfull \hbox (7.13335pt too wide) in paragraph at lines 14--14
-[]\T1/cmtt/m/n/8 #> Warning: The shape palette can deal with a maximum of 6 dis
-crete values[] 
- []
+ (rfds2e_chap11.vrb) [3
 
-<unnamed-chunk-4-1.png, id=126, 289.08pt x 192.72pt>
+]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb) [4
+
+]
+\openout4 = `rfds2e_chap11.vrb'.
+
+
+(rfds2e_chap11.vrb
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+.
+
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+<unnamed-chunk-3-1.png, id=121, 433.62pt x 289.08pt>
+File: unnamed-chunk-3-1.png Graphic file (type png)
+<use unnamed-chunk-3-1.png>
+Package pdftex.def Info: unnamed-chunk-3-1.png  used on input line 6.
+(pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
+)
+[5
+
+ <./unnamed-chunk-3-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb
+<unnamed-chunk-4-1.png, id=152, 433.62pt x 289.08pt>
 File: unnamed-chunk-4-1.png Graphic file (type png)
 <use unnamed-chunk-4-1.png>
-Package pdftex.def Info: unnamed-chunk-4-1.png  used on input line 15.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-<unnamed-chunk-4-2.png, id=127, 289.08pt x 192.72pt>
-File: unnamed-chunk-4-2.png Graphic file (type png)
-<use unnamed-chunk-4-2.png>
-Package pdftex.def Info: unnamed-chunk-4-2.png  used on input line 15.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-) [5
-
- <./unnamed-chunk-4-1.png (PNG copy)> <./unnamed-chunk-4-2.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<unnamed-chunk-5-1.png, id=154, 289.08pt x 192.72pt>
-File: unnamed-chunk-5-1.png Graphic file (type png)
-<use unnamed-chunk-5-1.png>
-Package pdftex.def Info: unnamed-chunk-5-1.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-<unnamed-chunk-5-2.png, id=155, 289.08pt x 192.72pt>
-File: unnamed-chunk-5-2.png Graphic file (type png)
-<use unnamed-chunk-5-2.png>
-Package pdftex.def Info: unnamed-chunk-5-2.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
+Package pdftex.def Info: unnamed-chunk-4-1.png  used on input line 9.
+(pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
 ) [6
 
- <./unnamed-chunk-5-1.png> <./unnamed-chunk-5-2.png>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-4-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
-
-(rfds2e_chap10.vrb) [7
+(rfds2e_chap11.vrb) [7
 
 ]
-\openout4 = `rfds2e_chap10.vrb'.
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-6-1.png, id=210, 433.62pt x 289.08pt>
+ (rfds2e_chap11.vrb
+<unnamed-chunk-5-1.png, id=205, 433.62pt x 289.08pt>
+File: unnamed-chunk-5-1.png Graphic file (type png)
+<use unnamed-chunk-5-1.png>
+Package pdftex.def Info: unnamed-chunk-5-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
+) [8
+
+ <./unnamed-chunk-5-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
+
+
+(rfds2e_chap11.vrb
+<unnamed-chunk-6-1.png, id=232, 433.62pt x 289.08pt>
 File: unnamed-chunk-6-1.png Graphic file (type png)
 <use unnamed-chunk-6-1.png>
 Package pdftex.def Info: unnamed-chunk-6-1.png  used on input line 7.
 (pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [8
-
- <./unnamed-chunk-6-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<pointshapes.png, id=236, 578.16pt x 519.9425pt>
-File: pointshapes.png Graphic file (type png)
-<use pointshapes.png>
-Package pdftex.def Info: pointshapes.png  used on input line 9.
-(pdftex.def)             Requested size: 138.28185pt x 124.35239pt.
 ) [9
 
- <./pointshapes.png>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-6-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb) [10
+ (rfds2e_chap11.vrb
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+20.
 
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<unnamed-chunk-9-1.png, id=290, 216.81pt x 144.54pt>
-File: unnamed-chunk-9-1.png Graphic file (type png)
-<use unnamed-chunk-9-1.png>
-Package pdftex.def Info: unnamed-chunk-9-1.png  used on input line 2.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
-<unnamed-chunk-9-2.png, id=291, 216.81pt x 144.54pt>
-File: unnamed-chunk-9-2.png Graphic file (type png)
-<use unnamed-chunk-9-2.png>
-Package pdftex.def Info: unnamed-chunk-9-2.png  used on input line 2.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
-) [11
-
- <./unnamed-chunk-9-1.png> <./unnamed-chunk-9-2.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [12
+(C:\Users\thatm\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+))
+[10
 
 ]
-\openout4 = `rfds2e_chap10.vrb'.
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-11-1.png, id=343, 216.81pt x 144.54pt>
-File: unnamed-chunk-11-1.png Graphic file (type png)
-<use unnamed-chunk-11-1.png>
-Package pdftex.def Info: unnamed-chunk-11-1.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
-<unnamed-chunk-11-2.png, id=344, 216.81pt x 144.54pt>
-File: unnamed-chunk-11-2.png Graphic file (type png)
-<use unnamed-chunk-11-2.png>
-Package pdftex.def Info: unnamed-chunk-11-2.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
+ (rfds2e_chap11.vrb) [11
+
+]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb
+<unnamed-chunk-15-1.png, id=311, 433.62pt x 289.08pt>
+File: unnamed-chunk-15-1.png Graphic file (type png)
+<use unnamed-chunk-15-1.png>
+Package pdftex.def Info: unnamed-chunk-15-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
+) [12
+
+ <./unnamed-chunk-15-1.png (PNG copy)>]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb
+<unnamed-chunk-16-1.png, id=337, 433.62pt x 289.08pt>
+File: unnamed-chunk-16-1.png Graphic file (type png)
+<use unnamed-chunk-16-1.png>
+Package pdftex.def Info: unnamed-chunk-16-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 ) [13
 
- <./unnamed-chunk-11-1.png (PNG copy)> <./unnamed-chunk-11-2.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-16-1.png (PNG copy)>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-12-1.png, id=371, 433.62pt x 289.08pt>
-File: unnamed-chunk-12-1.png Graphic file (type png)
-<use unnamed-chunk-12-1.png>
-Package pdftex.def Info: unnamed-chunk-12-1.png  used on input line 7.
+
+(rfds2e_chap11.vrb
+<unnamed-chunk-18-1.png, id=364, 433.62pt x 289.08pt>
+File: unnamed-chunk-18-1.png Graphic file (type png)
+<use unnamed-chunk-18-1.png>
+Package pdftex.def Info: unnamed-chunk-18-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
+) [14
+
+ <./unnamed-chunk-18-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
+
+ (rfds2e_chap11.vrb
+<unnamed-chunk-19-1.png, id=391, 433.62pt x 289.08pt>
+File: unnamed-chunk-19-1.png Graphic file (type png)
+<use unnamed-chunk-19-1.png>
+Package pdftex.def Info: unnamed-chunk-19-1.png  used on input line 6.
 (pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 )
-[14
+[15
 
- <./unnamed-chunk-12-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-19-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb) [15
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<unnamed-chunk-13-1.png, id=422, 216.81pt x 216.81pt>
-File: unnamed-chunk-13-1.png Graphic file (type png)
-<use unnamed-chunk-13-1.png>
-Package pdftex.def Info: unnamed-chunk-13-1.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 101.40778pt.
-<unnamed-chunk-13-2.png, id=423, 216.81pt x 216.81pt>
-File: unnamed-chunk-13-2.png Graphic file (type png)
-<use unnamed-chunk-13-2.png>
-Package pdftex.def Info: unnamed-chunk-13-2.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 101.40778pt.
-<unnamed-chunk-13-3.png, id=424, 216.81pt x 216.81pt>
-File: unnamed-chunk-13-3.png Graphic file (type png)
-<use unnamed-chunk-13-3.png>
-Package pdftex.def Info: unnamed-chunk-13-3.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 101.40778pt.
+ (rfds2e_chap11.vrb
+<unnamed-chunk-20-1.png, id=418, 433.62pt x 289.08pt>
+File: unnamed-chunk-20-1.png Graphic file (type png)
+<use unnamed-chunk-20-1.png>
+Package pdftex.def Info: unnamed-chunk-20-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 ) [16
 
- <./unnamed-chunk-13-1.png (PNG copy)> <./unnamed-chunk-13-2.png (PNG copy)> <.
-/unnamed-chunk-13-3.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-20-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-14-1.png, id=450, 433.62pt x 289.08pt>
-File: unnamed-chunk-14-1.png Graphic file (type png)
-<use unnamed-chunk-14-1.png>
-Package pdftex.def Info: unnamed-chunk-14-1.png  used on input line 7.
+ (rfds2e_chap11.vrb
+<unnamed-chunk-21-1.png, id=445, 433.62pt x 289.08pt>
+File: unnamed-chunk-21-1.png Graphic file (type png)
+<use unnamed-chunk-21-1.png>
+Package pdftex.def Info: unnamed-chunk-21-1.png  used on input line 6.
 (pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 ) [17
 
- <./unnamed-chunk-14-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-21-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-15-1.png, id=476, 433.62pt x 289.08pt>
-File: unnamed-chunk-15-1.png Graphic file (type png)
-<use unnamed-chunk-15-1.png>
-Package pdftex.def Info: unnamed-chunk-15-1.png  used on input line 14.
-(pdftex.def)             Requested size: 199.73653pt x 133.15926pt.
-)
-Overfull \vbox (4.85513pt too high) detected at line 273
+ (rfds2e_chap11.vrb
+Overfull \hbox (25.79962pt too wide) in paragraph at lines 21--21
+[]  \T1/cmtt/m/n/8 ggplot(aes(x = color, y = cut)) +[] 
  []
 
-[18
+<unnamed-chunk-23-1.png, id=472, 433.62pt x 289.08pt>
+File: unnamed-chunk-23-1.png Graphic file (type png)
+<use unnamed-chunk-23-1.png>
+Package pdftex.def Info: unnamed-chunk-23-1.png  used on input line 23.
+(pdftex.def)             Requested size: 202.81448pt x 135.21037pt.
+) [18
 
- <./unnamed-chunk-15-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-23-1.png (PNG copy)>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb
-<unnamed-chunk-16-1.png, id=502, 216.81pt x 144.54pt>
-File: unnamed-chunk-16-1.png Graphic file (type png)
-<use unnamed-chunk-16-1.png>
-Package pdftex.def Info: unnamed-chunk-16-1.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 67.60518pt.
-<unnamed-chunk-16-2.png, id=503, 216.81pt x 144.54pt>
-File: unnamed-chunk-16-2.png Graphic file (type png)
-<use unnamed-chunk-16-2.png>
-Package pdftex.def Info: unnamed-chunk-16-2.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 67.60518pt.
-<unnamed-chunk-16-3.png, id=504, 216.81pt x 144.54pt>
-File: unnamed-chunk-16-3.png Graphic file (type png)
-<use unnamed-chunk-16-3.png>
-Package pdftex.def Info: unnamed-chunk-16-3.png  used on input line 15.
-(pdftex.def)             Requested size: 101.40622pt x 67.60518pt.
+ (rfds2e_chap11.vrb
+<unnamed-chunk-24-1.png, id=498, 433.62pt x 289.08pt>
+File: unnamed-chunk-24-1.png Graphic file (type png)
+<use unnamed-chunk-24-1.png>
+Package pdftex.def Info: unnamed-chunk-24-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 ) [19
 
- <./unnamed-chunk-16-1.png> <./unnamed-chunk-16-2.png> <./unnamed-chunk-16-3.pn
-g>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-24-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
+ (rfds2e_chap11.vrb
+<unnamed-chunk-26-1.png, id=526, 216.81pt x 144.54pt>
+File: unnamed-chunk-26-1.png Graphic file (type png)
+<use unnamed-chunk-26-1.png>
+Package pdftex.def Info: unnamed-chunk-26-1.png  used on input line 10.
+(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
+<unnamed-chunk-26-2.png, id=527, 216.81pt x 144.54pt>
+File: unnamed-chunk-26-2.png Graphic file (type png)
+<use unnamed-chunk-26-2.png>
+Package pdftex.def Info: unnamed-chunk-26-2.png  used on input line 10.
+(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
+) [20
 
-(rfds2e_chap10.vrb) [20
+ <./unnamed-chunk-26-1.png (PNG copy)> <./unnamed-chunk-26-2.png (PNG copy)>]
+\openout4 = `rfds2e_chap11.vrb'.
 
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-17-1.png, id=561, 433.62pt x 143.03438pt>
-File: unnamed-chunk-17-1.png Graphic file (type png)
-<use unnamed-chunk-17-1.png>
-Package pdftex.def Info: unnamed-chunk-17-1.png  used on input line 9.
-(pdftex.def)             Requested size: 307.28987pt x 101.3674pt.
+ (rfds2e_chap11.vrb
+<unnamed-chunk-27-1.png, id=553, 433.62pt x 289.08pt>
+File: unnamed-chunk-27-1.png Graphic file (type png)
+<use unnamed-chunk-27-1.png>
+Package pdftex.def Info: unnamed-chunk-27-1.png  used on input line 6.
+(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
 ) [21
 
- <./unnamed-chunk-17-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
+ <./unnamed-chunk-27-1.png>]
+\openout4 = `rfds2e_chap11.vrb'.
 
- (rfds2e_chap10.vrb) [22
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [23
+ (rfds2e_chap11.vrb) [22
 
 ]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-20-1.png, id=639, 433.62pt x 289.08pt>
-File: unnamed-chunk-20-1.png Graphic file (type png)
-<use unnamed-chunk-20-1.png>
-Package pdftex.def Info: unnamed-chunk-20-1.png  used on input line 7.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-)
-[24
-
- <./unnamed-chunk-20-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-21-1.png, id=666, 433.62pt x 289.08pt>
-File: unnamed-chunk-21-1.png Graphic file (type png)
-<use unnamed-chunk-21-1.png>
-Package pdftex.def Info: unnamed-chunk-21-1.png  used on input line 7.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [25
-
- <./unnamed-chunk-21-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-22-1.png, id=694, 433.62pt x 289.08pt>
-File: unnamed-chunk-22-1.png Graphic file (type png)
-<use unnamed-chunk-22-1.png>
-Package pdftex.def Info: unnamed-chunk-22-1.png  used on input line 7.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [26
-
- <./unnamed-chunk-22-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb)
-[27
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [28
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-28-1.png, id=772, 433.62pt x 289.08pt>
-File: unnamed-chunk-28-1.png Graphic file (type png)
-<use unnamed-chunk-28-1.png>
-Package pdftex.def Info: unnamed-chunk-28-1.png  used on input line 6.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [29
-
- <./unnamed-chunk-28-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [30
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<visualization-stat-bar.png, id=826, 349.305pt x 144.54pt>
-File: visualization-stat-bar.png Graphic file (type png)
-<use visualization-stat-bar.png>
-Package pdftex.def Info: visualization-stat-bar.png  used on input line 2.
-(pdftex.def)             Requested size: 384.11234pt x 158.95256pt.
-) [31
-
- <./visualization-stat-bar.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [32
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [33
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb)
-[34
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-30-1.png, id=930, 433.62pt x 289.08pt>
-File: unnamed-chunk-30-1.png Graphic file (type png)
-<use unnamed-chunk-30-1.png>
-Package pdftex.def Info: unnamed-chunk-30-1.png  used on input line 8.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [35
-
- <./unnamed-chunk-30-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-31-1.png, id=957, 433.62pt x 289.08pt>
-File: unnamed-chunk-31-1.png Graphic file (type png)
-<use unnamed-chunk-31-1.png>
-Package pdftex.def Info: unnamed-chunk-31-1.png  used on input line 6.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-)
-[36
-
- <./unnamed-chunk-31-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-32-1.png, id=984, 433.62pt x 289.08pt>
-File: unnamed-chunk-32-1.png Graphic file (type png)
-<use unnamed-chunk-32-1.png>
-Package pdftex.def Info: unnamed-chunk-32-1.png  used on input line 11.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-)
-Overfull \vbox (7.08656pt too high) detected at line 463
- []
-
-[37
-
- <./unnamed-chunk-32-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [38
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-34-1.png, id=1037, 289.08pt x 192.72pt>
-File: unnamed-chunk-34-1.png Graphic file (type png)
-<use unnamed-chunk-34-1.png>
-Package pdftex.def Info: unnamed-chunk-34-1.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-<unnamed-chunk-34-2.png, id=1038, 289.08pt x 192.72pt>
-File: unnamed-chunk-34-2.png Graphic file (type png)
-<use unnamed-chunk-34-2.png>
-Package pdftex.def Info: unnamed-chunk-34-2.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-)
-[39
-
- <./unnamed-chunk-34-1.png (PNG copy)> <./unnamed-chunk-34-2.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<unnamed-chunk-35-1.png, id=1065, 433.62pt x 289.08pt>
-File: unnamed-chunk-35-1.png Graphic file (type png)
-<use unnamed-chunk-35-1.png>
-Package pdftex.def Info: unnamed-chunk-35-1.png  used on input line 6.
-(pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
-) [40
-
- <./unnamed-chunk-35-1.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<unnamed-chunk-36-1.png, id=1092, 289.08pt x 192.72pt>
-File: unnamed-chunk-36-1.png Graphic file (type png)
-<use unnamed-chunk-36-1.png>
-Package pdftex.def Info: unnamed-chunk-36-1.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-<unnamed-chunk-36-2.png, id=1093, 289.08pt x 192.72pt>
-File: unnamed-chunk-36-2.png Graphic file (type png)
-<use unnamed-chunk-36-2.png>
-Package pdftex.def Info: unnamed-chunk-36-2.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-) [41
-
- <./unnamed-chunk-36-1.png (PNG copy)> <./unnamed-chunk-36-2.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-37-1.png, id=1119, 289.08pt x 192.72pt>
-File: unnamed-chunk-37-1.png Graphic file (type png)
-<use unnamed-chunk-37-1.png>
-Package pdftex.def Info: unnamed-chunk-37-1.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-<unnamed-chunk-37-2.png, id=1120, 289.08pt x 192.72pt>
-File: unnamed-chunk-37-2.png Graphic file (type png)
-<use unnamed-chunk-37-2.png>
-Package pdftex.def Info: unnamed-chunk-37-2.png  used on input line 11.
-(pdftex.def)             Requested size: 153.64493pt x 102.42929pt.
-) [42
-
- <./unnamed-chunk-37-1.png (PNG copy)> <./unnamed-chunk-37-2.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-39-1.png, id=1146, 433.62pt x 289.08pt>
-File: unnamed-chunk-39-1.png Graphic file (type png)
-<use unnamed-chunk-39-1.png>
-Package pdftex.def Info: unnamed-chunk-39-1.png  used on input line 6.
-(pdftex.def)             Requested size: 245.83282pt x 163.89069pt.
-) [43
-
- <./unnamed-chunk-39-1.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb) [44
-
-]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-42-1.png, id=1199, 216.81pt x 144.54pt>
-File: unnamed-chunk-42-1.png Graphic file (type png)
-<use unnamed-chunk-42-1.png>
-Package pdftex.def Info: unnamed-chunk-42-1.png  used on input line 12.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
-<unnamed-chunk-42-2.png, id=1200, 216.81pt x 144.54pt>
-File: unnamed-chunk-42-2.png Graphic file (type png)
-<use unnamed-chunk-42-2.png>
-Package pdftex.def Info: unnamed-chunk-42-2.png  used on input line 12.
-(pdftex.def)             Requested size: 153.64493pt x 102.43442pt.
-) [45
-
- <./unnamed-chunk-42-1.png> <./unnamed-chunk-42-2.png>]
-\openout4 = `rfds2e_chap10.vrb'.
-
- (rfds2e_chap10.vrb
-<unnamed-chunk-43-1.png, id=1229, 216.81pt x 216.81pt>
-File: unnamed-chunk-43-1.png Graphic file (type png)
-<use unnamed-chunk-43-1.png>
-Package pdftex.def Info: unnamed-chunk-43-1.png  used on input line 13.
-(pdftex.def)             Requested size: 138.2795pt x 138.28484pt.
-<unnamed-chunk-43-2.png, id=1230, 216.81pt x 216.81pt>
-File: unnamed-chunk-43-2.png Graphic file (type png)
-<use unnamed-chunk-43-2.png>
-Package pdftex.def Info: unnamed-chunk-43-2.png  used on input line 13.
-(pdftex.def)             Requested size: 138.2795pt x 138.28484pt.
-)
-Overfull \vbox (1.59155pt too high) detected at line 570
- []
-
-[46
-
- <./unnamed-chunk-43-1.png> <./unnamed-chunk-43-2.png (PNG copy)>]
-\openout4 = `rfds2e_chap10.vrb'.
-
-
-(rfds2e_chap10.vrb
-<visualization-grammar.png, id=1257, 320.75835pt x 99.9735pt>
-File: visualization-grammar.png Graphic file (type png)
-<use visualization-grammar.png>
-Package pdftex.def Info: visualization-grammar.png  used on input line 12.
-(pdftex.def)             Requested size: 338.02072pt x 105.35509pt.
-) [47
-
- <./visualization-grammar.png>]
 \tf@nav=\write8
-\openout8 = `rfds2e_chap10.nav'.
+\openout8 = `rfds2e_chap11.nav'.
 
 \tf@toc=\write9
-\openout9 = `rfds2e_chap10.toc'.
+\openout9 = `rfds2e_chap11.toc'.
 
 \tf@snm=\write10
-\openout10 = `rfds2e_chap10.snm'.
+\openout10 = `rfds2e_chap11.snm'.
 
- (rfds2e_chap10.aux)
-Package rerunfilecheck Info: File `rfds2e_chap10.out' has not changed.
+ (rfds2e_chap11.aux)
+Package rerunfilecheck Info: File `rfds2e_chap11.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26337 strings out of 476406
- 532184 string characters out of 2789566
- 1867787 words of memory out of 3000000
- 45908 multiletter control sequences out of 15000+600000
- 536075 words of font info for 100 fonts, out of 8000000 for 9000
+ 25866 strings out of 476406
+ 521409 string characters out of 2789566
+ 1864787 words of memory out of 3000000
+ 45572 multiletter control sequences out of 15000+600000
+ 526881 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,439b,558s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,122p,439b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-pdfTeX warning (dest): name{Navigation48} has been referenced but does not exis
+pdfTeX warning (dest): name{Navigation23} has been referenced but does not exis
 t, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{Navigation50} has been referenced but does not exis
-t, replaced by a fixed one
-
- <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx08
-00.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tctt1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecsx1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecss1000.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ectt1200.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\tctt0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\thatm\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\thatm\AppData\
-Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\thatm\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\th
-atm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Us
-ers\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk><
-C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/thatm/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb>
-Output written on rfds2e_chap10.pdf (47 pages, 1725974 bytes).
+ <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt10
+95.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tctt0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecss0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ectt0800.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ectt1440.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\thatm\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk><C:/Users/thatm/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/thatm/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on rfds2e_chap11.pdf (22 pages, 610049 bytes).
 PDF statistics:
- 1763 PDF objects out of 2073 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,16 @@
-\frametitle{{  }}\scriptsize
+\frametitle{{ ggplot2 template }}\scriptsize
 \begin{verbatim}
-
+ggplot(data = <DATA>) +
+  <GEOM_FUNCTION>(
+     mapping = aes(<MAPPINGS>),
+     stat = <STAT>,
+     position = <POSITION>
+  ) +
+  <COORDINATE_FUNCTION> +
+  <FACET_FUNCTION>
 \end{verbatim}
-\fig{.7}{unnamed-chunk-35-1.png}
+\fig{1.1}{visualization-grammar.png}
+\bi
+\li Any graph can be made with these seven parameters.
+\li \url{https://vita.had.co.nz/papers/layered-grammar.pdf}
+\ei

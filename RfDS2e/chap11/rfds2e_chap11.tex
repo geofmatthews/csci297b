@@ -1,0 +1,344 @@
+\documentclass{beamer}
+\usetheme{Singapore}
+\usepackage{changepage}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{amssymb,latexsym,dirtree}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+%\usepackage{hyperref}
+\usepackage{fancybox}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\li}{\item}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Show}[1]{
+\begin{center}
+\shadowbox{\begin{minipage}{0.8\textwidth}
+          #1
+          \end{minipage}}
+\end{center}
+}
+\newcommand{\arrow}{\ensuremath{\rightarrow}}
+
+\newcommand{\uparr}{\ensuremath{\uparrow}}
+
+
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\figg}[2]{\includegraphics[width=#1\textwidth]{#2}}
+
+\newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
+\newcommand{\efr}{\end{frame}}
+
+\newcommand{\cola}[1]{\begin{columns}\begin{column}{#1\textwidth}}
+\newcommand{\colb}[1]{\end{column}\begin{column}{#1\textwidth}}
+\newcommand{\colc}{\end{column}\end{columns}}
+
+
+\title{{https://r4ds.hadley.nz/} Chapter 10\\Layers}
+\author{CSCI 297b, Spring 2023}
+
+\begin{document}
+
+\bfr{Exploratory data analysis}
+
+\bi
+\li Generate questions about your data.
+\li
+Search for answers by visualizing, transforming, and modelling your data.
+\li
+Use what you learn to refine your questions and/or generate new questions.
+\ei
+\end{frame}
+
+\bfr{Exploratory data analysis}
+\begin{quotation}
+“There are no routine statistical questions, only questionable statistical routines.”\\\hfill — Sir David Cox
+\end{quotation}
+\bigskip
+
+\begin{quotation}
+“Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise.” \\\hfill— John Tukey
+\end{quotation}
+
+\end{frame}
+
+\bfr{Exploratory data analysis}
+\Show{The key to asking {\em quality} questions is to generate a large {\em quantity} of questions.}
+\end{frame}
+
+\bfr{The basic questions}
+\bi
+\li
+What type of variation occurs within my variables?
+\li
+What type of covariation occurs between my variables?
+\ei
+\end{frame}
+
+\bfr{\tt diamonds}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = carat)) +
+  geom_histogram(binwidth = 0.5)
+\end{verbatim}
+\fig{.7}{unnamed-chunk-3-1.png}
+\bi
+\li Which values are the most common? Why?
+\li
+Which values are rare? Why? Does that match your expectations?
+\li
+Can you see any unusual patterns? What might explain them?
+\ei
+\end{frame}
+
+
+\bfr{\tt diamonds}\scriptsize
+\begin{verbatim}
+smaller <- diamonds |> 
+  filter(carat < 3)
+
+ggplot(smaller, aes(x = carat)) +
+  geom_histogram(binwidth = 0.01)
+\end{verbatim}
+\fig{.7}{unnamed-chunk-4-1.png}
+\bi
+\li Why are there more diamonds at whole carats and common fractions of carats?
+\li
+Why are there more diamonds slightly to the right of each peak than there are slightly to the left of each peak?
+\ei
+\end{frame}
+
+\bfr{Understand subgroups}
+\bi
+\li How are the observations within each subgroup similar to each other?
+\li
+How are the observations in separate clusters different from each other?
+\li
+How can you explain or describe the clusters?
+\li
+Why might the appearance of clusters be misleading?
+\ei
+
+\bigskip
+Some of these questions can be answered with the data while some will require domain expertise about the data.
+\end{frame}
+
+
+\bfr{Outliers}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = y)) + 
+  geom_histogram(binwidth = 0.5)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-5-1.png}
+\end{frame}
+
+
+\bfr{Zoom in to see small boxes}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = y)) + 
+  geom_histogram(binwidth = 0.5) +
+  coord_cartesian(ylim = c(0, 50))
+\end{verbatim}
+\fig{.8}{unnamed-chunk-6-1.png}
+\end{frame}
+
+
+\bfr{Examine the outlier data}\scriptsize
+\begin{verbatim}
+unusual <- diamonds |> 
+  filter(y < 3 | y > 20) |> 
+  select(price, x, y, z) |>
+  arrange(y)
+unusual
+#> # A tibble: 9 × 4
+#>   price     x     y     z
+#>   <int> <dbl> <dbl> <dbl>
+#> 1  5139  0      0    0   
+#> 2  6381  0      0    0   
+#> 3 12800  0      0    0   
+#> 4 15686  0      0    0   
+#> 5 18034  0      0    0   
+#> 6  2130  0      0    0   
+#> 7  2130  0      0    0   
+#> 8  2075  5.15  31.8  5.12
+#> 9 12210  8.09  58.9  8.06
+\end{verbatim}
+\bi
+\li We know dimensions can't be zero.
+\li 31.8 and 58.9 are highly suspicious.
+\li We might want to replace all these with NAs.
+\ei
+\end{frame}
+
+
+\bfr{Options for suspicious data}
+\bi
+\li Drop the entire row
+\begin{verbatim}
+diamonds2 <- diamonds |> 
+  filter(between(y, 3, 20))
+\end{verbatim}
+\li Replace with NAs
+\begin{verbatim}
+diamonds2 <- diamonds |> 
+  mutate(y = if_else(y < 3 | y > 20, NA, y))
+\end{verbatim}
+\ei
+\end{frame}
+
+
+
+
+
+\bfr{Covariation between categorical and a numerical variable}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = price)) + 
+  geom_freqpoly(aes(color = cut), binwidth = 500, linewidth = 0.75)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-15-1.png}
+\end{frame}
+
+
+
+\bfr{Covariation between categorical and a numerical variable}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = price, y = after_stat(density))) + 
+  geom_freqpoly(aes(color = cut), binwidth = 500, linewidth = 0.75)
+\end{verbatim}
+\fig{.8}{unnamed-chunk-16-1.png}
+\end{frame}
+
+
+
+
+
+\bfr{Reorder factors}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = class, y = hwy)) +
+  geom_boxplot()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-18-1.png}
+\end{frame}
+
+
+
+\bfr{Reorder factors}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = fct_reorder(class, hwy, median), y = hwy)) +
+  geom_boxplot()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-19-1.png}
+\end{frame}
+
+
+
+
+
+\bfr{Long names}\scriptsize
+\begin{verbatim}
+ggplot(mpg, aes(x = hwy, y = fct_reorder(class, hwy, median))) +
+  geom_boxplot()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-20-1.png}
+\end{frame}
+
+
+
+
+
+\bfr{Two categorical variables}\scriptsize
+\begin{verbatim}
+ggplot(diamonds, aes(x = cut, y = color)) +
+  geom_count()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-21-1.png}
+\end{frame}
+
+
+
+
+
+\bfr{\tt count}\scriptsize
+\cola{0.4}
+\begin{verbatim}
+diamonds |> 
+  count(color, cut)
+#> # A tibble: 35 × 3
+#>   color cut           n
+#>   <ord> <ord>     <int>
+#> 1 D     Fair        163
+#> 2 D     Good        662
+#> 3 D     Very Good  1513
+#> 4 D     Premium    1603
+#> 5 D     Ideal      2834
+#> 6 E     Fair        224
+#> # i 29 more rows
+
+diamonds |> 
+  count(color, cut) |>  
+  ggplot(aes(x = color, y = cut)) +
+  geom_tile(aes(fill = n))
+\end{verbatim}
+\colb{.6}
+\fig{1.1}{unnamed-chunk-23-1.png}
+\colc
+\end{frame}
+
+
+
+\bfr{Two numerical variables}\scriptsize
+\begin{verbatim}
+ggplot(smaller, aes(x = carat, y = price)) +
+  geom_point()
+\end{verbatim}
+\fig{.8}{unnamed-chunk-24-1.png}
+\end{frame}
+
+
+
+\bfr{{\tt geom\_bin2d} and {\tt geom\_hex}}\scriptsize
+\begin{verbatim}
+ggplot(smaller, aes(x = carat, y = price)) +
+  geom_bin2d()
+
+# install.packages("hexbin")
+ggplot(smaller, aes(x = carat, y = price)) +
+  geom_hex()
+\end{verbatim}
+\figg{.5}{unnamed-chunk-26-1.png}\figg{.5}{unnamed-chunk-26-2.png}
+\end{frame}
+
+
+
+\bfr{Bin one continuous variable}\scriptsize
+\begin{verbatim}
+ggplot(smaller, aes(x = carat, y = price)) + 
+  geom_boxplot(aes(group = cut_width(carat, 0.1)))
+\end{verbatim}
+\fig{.8}{unnamed-chunk-27-1.png}
+\end{frame}
+
+\bfr{Patterns in data}
+\bi
+\li Could this pattern be due to coincidence (i.e. random chance)?
+\li
+How can you describe the relationship implied by the pattern?
+\li
+How strong is the relationship implied by the pattern?
+\li
+What other variables might affect the relationship?
+\li
+Does the relationship change if you look at individual subgroups of the data?
+\ei
+\end{frame}
+
+
+
+
+
+
+
+
+\end{document}
