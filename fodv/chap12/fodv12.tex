@@ -198,6 +198,10 @@ Standard deviation:
 \url{https://janhove.github.io/teaching/2016/11/21/what-correlations-look-like}
 \end{frame}
 
+\bfr{Principal components}
+\url{https://builtin.com/data-science/step-step-explanation-principal-component-analysis}
+\end{frame}
+
 \bfr{Dimensionality reduction}
 \bi
 \li Many variables are correlated:
@@ -223,6 +227,17 @@ the second most, {\em etc.}
 \ei
 \end{frame}
 
+\bfr{Correlation with normalized variables}
+\begin{align*}
+r &= \frac{\sum_i (x_i - x)(y_i - y)}{\sqrt{\sum_i(x_i-x)^2}\sqrt{\sum_i(y_i-y)^2}}\\
+&= \frac{\sum_i (x_i )(y_i )}{\sqrt{\sum_i(x_i)^2}\sqrt{\sum_i(y_i)^2}}\\
+&= \frac{\sum_i (x_i )(y_i )}{1\cdot 1}\\
+&= {\sum_i (x_i )(y_i )}\\
+&= \vec{x} \cdot \vec{y}\\
+&= \vec x^T \vec y\\
+\end{align*}
+\end{frame}
+
 \bfr{Principal components}
 \fig{1}{blue-jays-PCA-1.png}
 \bi
@@ -245,6 +260,19 @@ the first two or three components.
 
 \bfr{Project points onto the components}
 \fig{1}{forensic-PCA-1.png}
+\end{frame}
+
+\bfr{Principal components}
+\bi
+\li Sometimes the dominant trend is known:
+\bi
+\li Summer-winter
+\li Time
+\li Treatment 
+\ei
+\li Verify that PC1 captures this trend.
+\li Look for other trends in PC2, PC3, etc.
+\ei
 \end{frame}
 
 \bfr{Paired data}
