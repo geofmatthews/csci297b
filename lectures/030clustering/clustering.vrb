@@ -1,0 +1,7 @@
+\frametitle{ Clustering and Ordination }
+\begin{description}
+\li[Ordination:]  put things in a line\\
+ \url{https://en.wikipedia.org/wiki/Principal_component_analysis}
+\li[Clustering:] put things in groups:\\
+\url{https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm}
+\end{description}
