@@ -25,7 +25,9 @@
 \newcommand{\uparr}{\ensuremath{\uparrow}}
 
 
-\newcommand{\fig}[2]{{\includegraphics[width=#1\textwidth]{#2}}}
+\newcommand{\fig}[2]{\centerline{\includegraphics[width=#1\textwidth]{#2}}}
+
+\newcommand{\figg}[2]{{\includegraphics[width=#1\textwidth]{#2}}}
 
 \newcommand{\bfr}[1]{\begin{frame}[fragile]\frametitle{{ #1 }}}
 \newcommand{\efr}{\end{frame}}
@@ -35,7 +37,7 @@
 \newcommand{\colc}{\end{column}\end{columns}}
 
 
-\title{Clustering}
+\title{Clustering and Ordination}
 \author{CSCI 297b, Spring 2023}
 
 \begin{document}
@@ -45,16 +47,46 @@
 \end{frame}
 
 \bfr{Supervised vs. Unsupervised Algorithms}
-iris data vs. faithful data
+\bi
+\li Supervised algorithms answer questions based on known groups or trends:
+\bi
+\li Is treatment different from control?
+\li Are males different from females?
+\ei
+\li Unsupervised algorithms attempt to find unknown groups or trends:
+\bi
+\li What is the main trend in the data?
+\li What are the two or three dominant groups in the data?
+\ei
+\ei
+\end{frame}
+
+\bfr{Supervised vs. Unsupervised Algorithms}
+\fig{.8}{irisdata}
+\centerline{data(iris)}
+\end{frame}
+\bfr{Supervised vs. Unsupervised Algorithms}
+	\fig{.8}{faithfuldata}
+	\centerline{data(faithful)}
 \end{frame}
 
 \bfr{Clustering and Ordination}
-\begin{description}
-\li[Ordination:]  put things in a line\\
+\bi
+\li Ordination:  put things in a line.  Principal components:
+\bi
+\li Explanation:\\
  \url{https://en.wikipedia.org/wiki/Principal_component_analysis}
-\li[Clustering:] put things in groups:\\
+\li R Implementation:\\
+\url{https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/prcomp}
+\ei
+\li Clustering: put things in groups. EM Gaussian mixture:
+\bi
+\li Explanation:\\
 \url{https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm}
-\end{description}
+\li R implementation:\\
+\url{https://cran.r-project.org/web/packages/mclust/vignettes/mclust.html}
+\ei
+\ei
 \end{frame}
 
 \end{document}
