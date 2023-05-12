@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage{alltt}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-0.5in}
+
+\newcommand{\li}{\item}
+\newcommand{\myitem}[1]{\item[#1]}
+
+\begin{document}
+\sloppy
+
+\begin{center}
+{\Large Final Report Specifications}
+{\large Syllabus, CSCI297b, Scientific Visualization, Winter 2023}
+\end{center}
+
+Your final report will be an R project in its own folder.  All datasets you need for your
+report should be in a \verb|data| folder within the project.  Export this project folder
+and submit the resulting \verb|zip| file to canvas.  After uploading this
+file to RStudio Workbench, I should be able to \verb|knit| the R markdown
+document without any further resources.
+
+The project should include an R markdown document
+that is the final report, called \verb|final_report.Rmd|  It should consist of at
+least the following sections:
+\begin{description}
+\item[Abstract]  An executive summary of your project, its goals, 
+and what you accomplished.  Don't hide anything (teasers), but
+outline quickly the major results of your research.
+\item[Introduction] A discussion of the problem you have selected
+to examine.  Why is this important?  What are our preconceptions?
+\item[Data] A discussion of the data you are going to use.  Where was it obtained?
+What processing (wrangling) did you have to do to make it tidy?
+Did you have to merge more than one dataset to get the results you wanted?
+\item[Graphs and discussion] At least five graphs of at least three types.
+You should discuss the rationale for creating these graphs, 
+the expected results and the unexpected results,
+and why a particular graph type is good (or bad) for 
+answering your questions with a visualization.
+\item[Conclusion] A summing up of what you have learned,
+both about the subject matter (climate, inequity, {\em etc.}),
+and also about what you have learned about visualization
+by doing this project.
+\end{description}
+\end{document}
