@@ -1,0 +1,17 @@
+\frametitle{ Clustering and Ordination }
+\bi
+\li Ordination:  put things in a line.  Principal components:
+\bi
+\li Explanation:\\
+ \url{https://en.wikipedia.org/wiki/Principal_component_analysis}
+\li R Implementation:\\
+\url{https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/prcomp}
+\ei
+\li Clustering: put things in groups. EM Gaussian mixture:
+\bi
+\li Explanation:\\
+\url{https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm}
+\li R implementation:\\
+\url{https://cran.r-project.org/web/packages/mclust/vignettes/mclust.html}
+\ei
+\ei
