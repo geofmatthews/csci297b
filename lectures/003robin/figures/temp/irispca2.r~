@@ -1,0 +1,64 @@
+############################################
+# PRCOMP VERSION - SCALED AND CENTERED
+#
+# updated to pdf in 2016
+############################################
+
+iris = read.table("irisabbrev.dat", T)
+attach(iris)
+
+##### PRINCOMP VERSION - UNTRANSFORMED
+iris.prcomp = prcomp(iris[, c(1:4)], scale=T, center=T)
+print(iris.prcomp)
+summary(iris.prcomp)
+
+### rotation = variable loadings (loadings in princomp)
+### center/scale same as in princomp
+### x = scores (scores in princomp)
+
+##########################
+# COMPARISON OF SCALED 
+# AND UNSCALED PRCOMP
+##########################
+iris.prcomp = prcomp(iris[, c(1:4)], scale=T, center=T)
+iris.prcomp2 = prcomp(iris[, c(1:4)], scale=F, center=F)
+
+op = par(mfrow=c(2,1))
+plot(iris.prcomp$x, type="n", 
+   xlab="PC I",
+   ylab="PC II",
+   main="PRCOMP Sampling Loading (scale=T, center=T)")
+text(iris.prcomp$x, levels(Species)[Species])
+
+plot(iris.prcomp2$x, type="n", 
+   xlab="PC I",
+   ylab="PC II",
+   main="PRCOMP Sampling Loading (scale=F, center=F)")
+text(iris.prcomp2$x, levels(Species)[Species])
+
+dev.copy2pdf(file="irisPRCOMP.pdf")
+par(op)
+
+
+############################################
+# PRCOMP VERSION - SCALED AND CENTERED;
+# advanced plotting example
+############################################
+op=par(mfrow=c(1,1))
+
+data(iris); attach(iris)
+iris.prcomp = prcomp(iris[, c(1:4)], scale=T, center=T)
+
+plot(iris.prcomp$x,
+     main="Principal Components Ordination of Iris Samples",
+     pch=c(21,22,24)[unclass(iris$Species)],
+     bg=c("pink", "violet", "purple")[unclass(iris$Species)],
+     cex=1.5)
+
+abline(h=0); abline(v=0)
+
+legend(x="topright", c("I. setosa", "I. versicolor", "I. virginica"),
+     pch=c(21, 22, 24), pt.bg=c("pink", "violet", "purple"),
+     bty="n", cex=1)
+
+dev.copy2pdf(file="irisPRCOMP2.pdf")

@@ -1,0 +1,1044 @@
+lake,county,key,month,day,year,chl,alk
+Armstrong,Snohomish,ARM,8,31,2009,5.1,28.3
+Armstrong,Snohomish,ARM,6,23,2010,3.3,21.1
+Armstrong,Snohomish,ARM,7,25,2011,9.2,22.3
+Armstrong,Snohomish,ARM,7,31,2012,3,22.8
+Armstrong,Snohomish,ARM,7,15,2013,4.7,24.5
+Armstrong,Snohomish,ARM,7,28,2014,2.1,24.8
+Armstrong,Snohomish,ARM,7,18,2016,3.1,24.7
+Armstrong,Snohomish,ARM,7,19,2017,2.5,23.8
+Armstrong,Snohomish,ARM,7,18,2018,2.9,22.3
+Armstrong,Snohomish,ARM,7,29,2019,2.3,21.8
+Armstrong,Snohomish,ARM,8,3,2020,3.9,21
+Armstrong,Snohomish,ARM,7,26,2021,1.3,19.1
+Baker,Skagit/Whatcom,BAK,8,31,2011,1.4,7.5
+Baker,Skagit/Whatcom,BAK,8,7,2013,0.2,5.3
+Baker,Skagit/Whatcom,BAK,9,15,2014,0.8,5.1
+Baker,Skagit/Whatcom,BAK,8,4,2015,0.4,6.4
+Baker,Skagit/Whatcom,BAK,7,14,2021,1.1,6.1
+Bear,Snohomish,BEAR,8,21,2012,1,1
+Bear,Snohomish,BEAR,8,14,2013,1.8,1.5
+Bear,Snohomish,BEAR,7,30,2014,1.6,0.8
+Bear,Snohomish,BEAR,7,11,2016,1.7,1.4
+Bear,Snohomish,BEAR,7,24,2017,1.1,1.2
+Bear,Snohomish,BEAR,8,8,2018,1.5,1.2
+Bear,Snohomish,BEAR,7,31,2019,0.5,3.1
+Bear,Snohomish,BEAR,8,11,2020,1.1,1.8
+Bear,Snohomish,BEAR,7,12,2021,7.2,1.4
+Bear ,Snohomish,BEAR,8,4,2021,0.4,2.1
+Beaver,Skagit,BEA,9,14,2009,66,55.5
+Beaver,Skagit,BEA,7,12,2010,8.6,43.7
+Beaver,Skagit,BEA,7,27,2011,4.8,46.6
+Beaver,Skagit,BEA,8,15,2012,5,45.7
+Beaver,Skagit,BEA,6,26,2013,39.9,43.8
+Beaver,Skagit,BEA,9,10,2014,42.7,50.9
+Beaver,Skagit,BEA,7,13,2016,41.7,47
+Beaver,Skagit,BEA,7,12,2017,25.3,42.8
+Beaver,Skagit,BEA,7,9,2018,22.2,43.8
+Beaver,Skagit,BEA,7,15,2019,50.7,46.4
+Beaver,Skagit,BEA,7,22,2020,9.3,43.3
+Beaver,Skagit,BEA,7,21,2021,117.9,48.8
+Beaver Pond,Whatcom,BEApond,7,11,2012,12.8,12.9
+Beaver Pond,Whatcom,BEApond,7,14,2014,6.4,17.3
+Beaver Pond,Whatcom,BEApond,7,7,2015,109.5,19
+Beaver Pond,Whatcom,BEApond,6,29,2016,40.6,16.1
+Beaver Pond,Whatcom,BEApond,6,28,2017,4.4,15.5
+Beaver Pond,Whatcom,BEApond,7,11,2018,2.6,19.5
+Beaver Pond,Whatcom,BEApond,7,17,2019,44.7,15.5
+Beaver Pond,Whatcom,BEApond,7,27,2020,14.4,12.9
+Beaver Pond,Whatcom,BEApond,7,6,2021,37.4,13.6
+Big,Skagit,BIG,4,17,2007,7.5,25.6
+Big,Skagit,BIG,8,22,2007,27.8,37.8
+Big,Skagit,BIG,4,24,2008,15,26.2
+Big,Skagit,BIG,8,20,2008,16,38.9
+Big,Skagit,BIG,5,21,2009,1.9,28.7
+Big,Skagit,BIG,9,14,2009,21.3,38.3
+Big,Skagit,BIG,7,12,2010,10.3,39.9
+Big,Skagit,BIG,7,27,2011,5.1,29.6
+Big,Skagit,BIG,8,15,2012,4.7,34.8
+Big,Skagit,BIG,6,26,2013,6.6,29.4
+Big,Skagit,BIG,9,10,2014,55.6,38.2
+Big,Skagit,BIG,7,13,2016,9.5,32.8
+Big,Skagit,BIG,7,12,2017,2.8,33.6
+Big,Skagit,BIG,7,9,2018,8.4,31.9
+Big,Skagit,BIG,7,15,2019,7.8,37.7
+Big,Skagit,BIG,7,22,2020,5.8,30.1
+Big ,Skagit,BIG,8,12,2021,4,32.4
+Blackmans ,Snohomish,BLKMN,8,2,2021,2.1,27.9
+Boardman,Snohomish,BDMN,7,12,2021,0.9,1.9
+Boardman ,Snohomish,BDMN,8,4,2021,0.4,3.2
+Bosworth ,Snohomish,BOS,8,2,2021,1.1,13.3
+Bug,Whatcom,BUG,4,9,2007,9.6,48
+Bug,Whatcom,BUG,8,15,2007,4.3,68.5
+Bug,Whatcom,BUG,5,1,2008,12.4,56.8
+Bug,Whatcom,BUG,8,18,2008,25.8,49.6
+Bug,Whatcom,BUG,4,20,2009,44.4,54.9
+Bug,Whatcom,BUG,8,18,2009,5.7,53
+Bug,Whatcom,BUG,6,28,2010,3.8,60.1
+Bug,Whatcom,BUG,6,27,2011,6,59.9
+Bug,Whatcom,BUG,3,29,2012,7.2,42.4
+Bug,Whatcom,BUG,6,19,2012,2.8,62.2
+Bug,Whatcom,BUG,6,19,2013,6.2,59.2
+Bug,Whatcom,BUG,7,9,2014,3.9,70.7
+Bug,Whatcom,BUG,6,29,2015,26.4,34.2
+Bug,Whatcom,BUG,6,27,2016,2.6,79.2
+Bug,Whatcom,BUG,6,26,2017,2.4,80.2
+Bug,Whatcom,BUG,7,16,2018,3.6,85.5
+Bug,Whatcom,BUG,7,22,2019,8.9,73.6
+Bullard,Whatcom,BUL,7,25,2013,580.5,66.4
+Cain,Whatcom,CAI,4,19,2007,3.1,12.8
+Cain,Whatcom,CAI,8,23,2007,6.1,17.9
+Cain,Whatcom,CAI,4,17,2008,2.4,13.8
+Cain,Whatcom,CAI,8,13,2008,2.7,18.3
+Cain,Whatcom,CAI,5,26,2009,2.7,15.4
+Cain,Whatcom,CAI,8,10,2009,3,18.3
+Cain,Whatcom,CAI,6,16,2010,8.4,16.4
+Cain,Whatcom,CAI,7,11,2011,12.5,16.1
+Cain,Whatcom,CAI,4,19,2012,18.3,13.2
+Cain,Whatcom,CAI,7,11,2012,3.5,16.9
+Cain,Whatcom,CAI,6,24,2013,3,16.3
+Cain,Whatcom,CAI,7,14,2014,3.7,17.8
+Cain,Whatcom,CAI,6,29,2016,4.1,16.9
+Cain,Whatcom,CAI,6,28,2017,4.3,16
+Cain,Whatcom,CAI,7,11,2018,4.5,18.8
+Cain,Whatcom,CAI,7,17,2019,6.7,18.3
+Cain,Whatcom,CAI,7,27,2020,2.5,19.2
+Cain,Whatcom,CAI,7,6,2021,2.7,16.5
+Campbell,Skagit,CAM,3,27,2007,5.7,64.7
+Campbell,Skagit,CAM,8,14,2007,45.3,74.6
+Campbell,Skagit,CAM,5,27,2008,1.2,92.8
+Campbell,Skagit,CAM,8,27,2008,87.9,88.5
+Campbell,Skagit,CAM,5,14,2009,10.3,74.1
+Campbell,Skagit,CAM,8,24,2009,26.6,92.3
+Campbell,Skagit,CAM,7,7,2010,7.5,83.3
+Campbell,Skagit,CAM,7,20,2011,9.8,74.1
+Campbell,Skagit,CAM,7,24,2012,18.6,72
+Campbell,Skagit,CAM,7,31,2013,27,89.4
+Campbell,Skagit,CAM,9,3,2014,7.7,91.5
+Campbell,Skagit,CAM,7,13,2015,60.7,91.1
+Campbell,Skagit,CAM,7,6,2016,20.1,74.1
+Campbell,Skagit,CAM,8,2,2017,38.2,85
+Campbell,Skagit,CAM,7,23,2018,16.2,85.7
+Campbell,Skagit,CAM,8,19,2019,14.3,81.7
+Campbell,Skagit,CAM,8,31,2020,169.5,83.2
+Canyon,Whatcom,CAY,8,26,2008,3.2,6.9
+Canyon,Whatcom,CAY,8,26,2014,1.4,9.6
+Canyon,Whatcom,CAY,8,10,2015,4.6,11.7
+Canyon,Whatcom,CAY,8,16,2017,2,9.6
+Canyon,Whatcom,CAY,8,20,2018,1.4,9.7
+Canyon,Whatcom,CAY,8,26,2019,1.1,10.5
+Canyon ,Whatcom,CAY,8,25,2021,1.6,9.6
+Cassidy ,Snohomish,CASS,8,2,2021,5.2,16.3
+Cavanaugh,Skagit,CAV,4,17,2007,3.2,8.1
+Cavanaugh,Skagit,CAV,8,22,2007,5.6,9.2
+Cavanaugh,Skagit,CAV,4,24,2008,2,8
+Cavanaugh,Skagit,CAV,8,20,2008,3,9.4
+Cavanaugh,Skagit,CAV,5,21,2009,1.4,8.7
+Cavanaugh,Skagit,CAV,9,14,2009,1.9,10.3
+Cavanaugh,Skagit,CAV,7,12,2010,2.5,10.2
+Cavanaugh,Skagit,CAV,7,27,2011,3.9,9
+Cavanaugh,Skagit,CAV,8,15,2012,2.3,9.5
+Cavanaugh,Skagit,CAV,6,26,2013,3.4,8.7
+Cavanaugh,Skagit,CAV,9,10,2014,1.1,9.3
+Cavanaugh,Skagit,CAV,7,13,2016,0.4,9.9
+Cavanaugh,Skagit,CAV,7,12,2017,0.7,8.9
+Cavanaugh,Skagit,CAV,7,9,2018,0.5,10.2
+Cavanaugh,Skagit,CAV,7,15,2019,1.1,9.6
+Cavanaugh,Skagit,CAV,7,22,2020,1.9,9.7
+Cavanaugh,Skagit,CAV,7,21,2021,2.1,9.6
+Cedar,Whatcom,CED,8,14,2008,1.4,14.6
+Clear,Skagit,CLE,4,17,2007,5.9,29
+Clear,Skagit,CLE,8,22,2007,7,32.4
+Clear,Skagit,CLE,4,24,2008,6.5,31.3
+Clear,Skagit,CLE,8,20,2008,3.9,32
+Clear,Skagit,CLE,5,21,2009,4,29.8
+Clear,Skagit,CLE,9,14,2009,5,32.9
+Clear,Skagit,CLE,7,12,2010,3.2,30.1
+Clear,Skagit,CLE,7,27,2011,3.4,32.1
+Clear,Skagit,CLE,8,15,2012,2.5,34.6
+Clear,Skagit,CLE,6,26,2013,3.7,32.8
+Clear,Skagit,CLE,9,10,2014,5.7,35
+Clear,Skagit,CLE,7,13,2016,0.1,31.9
+Clear,Skagit,CLE,7,12,2017,14,32.2
+Clear,Skagit,CLE,7,9,2018,6.3,33.4
+Clear,Skagit,CLE,7,15,2019,2.4,34.6
+Clear,Skagit,CLE,7,22,2020,1.6,35.7
+Clear,Skagit,CLE,7,21,2021,1.3,30.3
+Coal,Snohomish,COAL,8,28,2013,0.7,23.8
+Coal,Snohomish,COAL,7,30,2014,0.6,25.3
+Coal,Snohomish,COAL,7,11,2016,0.2,46.7
+Coal,Snohomish,COAL,7,24,2017,0.7,23.6
+Coal,Snohomish,COAL,8,8,2018,0.9,25.4
+Coal,Snohomish,COAL,7,31,2019,0.9,28.1
+Crabapple,Snohomish,CRB,9,21,2009,4.2,10.8
+Crabapple,Snohomish,CRB,6,21,2010,9.5,9.3
+Crabapple,Snohomish,CRB,7,25,2011,6.1,10.1
+Crabapple,Snohomish,CRB,8,6,2012,2.9,11.1
+Crabapple,Snohomish,CRB,7,10,2013,6.3,11
+Crabapple,Snohomish,CRB,7,21,2014,5.6,11.7
+Crabapple,Snohomish,CRB,7,26,2017,4.2,12.1
+Crabapple,Snohomish,CRB,8,6,2018,4.7,12.6
+Crabapple,Snohomish,CRB,8,12,2019,0.8,12.4
+Crabapple,Snohomish,CRB,8,26,2020,4.9,13.2
+Cranberry,Island,CRA,3,27,2007,8,56
+Cranberry,Island,CRA,8,14,2007,29.5,65
+Cranberry,Island,CRA,5,27,2008,10,58.9
+Cranberry,Island,CRA,8,27,2008,7.1,35.4
+Cranberry,Island,CRA,5,14,2009,17.6,58
+Cranberry,Island,CRA,8,24,2009,13.6,65.7
+Cranberry,Island,CRA,7,7,2010,43.8,61.2
+Cranberry,Island,CRA,7,20,2011,14.6,63.6
+Cranberry,Island,CRA,7,24,2012,8.2,57.8
+Cranberry,Island,CRA,7,31,2013,11.6,62.2
+Cranberry,Island,CRA,9,3,2014,15.7,65
+Cranberry,Island,CRA,7,13,2015,6.4,59.8
+Cranberry,Island,CRA,7,6,2016,1.9,57.8
+Cranberry,Island,CRA,7,10,2017,3.8,54.4
+Cranberry,Island,CRA,7,23,2018,41.5,61.4
+Cranberry,Island,CRA,8,19,2019,46.6,68.5
+Cranberry,Island,CRA,8,31,2020,26.7,63.1
+Deer,Island,DEE,4,29,2008,6.6,19.4
+Deer,Island,DEE,8,27,2008,1.9,21
+Deer,Island,DEE,8,24,2009,2.4,21.4
+Deer,Island,DEE,9,29,2009,2.6,22
+Deer,Island,DEE,7,14,2010,2.4,20.3
+Deer,Island,DEE,7,18,2011,2.8,21.4
+Deer,Island,DEE,4,16,2012,3.5,20.3
+Deer,Island,DEE,7,16,2012,2,22.1
+Deer,Island,DEE,7,22,2013,2.3,21.4
+Deer,Island,DEE,8,4,2014,1.9,22.7
+Deer,Island,DEE,8,2,2017,2.4,23.4
+Deer,Island,DEE,8,1,2018,2.2,23.1
+Deer,Island,DEE,8,7,2019,1.5,23.2
+Deer,Island,DEE,8,24,2020,1.7,23.5
+Erie,Skagit,ERI,3,27,2007,24.6,59.6
+Erie,Skagit,ERI,8,14,2007,12.2,77.1
+Erie,Skagit,ERI,5,27,2008,5,72.6
+Erie,Skagit,ERI,8,27,2008,3.8,70.1
+Erie,Skagit,ERI,5,14,2009,0.9,45.7
+Erie,Skagit,ERI,8,24,2009,10.3,69.9
+Erie,Skagit,ERI,7,7,2010,28.4,68.2
+Erie,Skagit,ERI,7,20,2011,8,64.9
+Erie,Skagit,ERI,7,24,2012,1.6,70.6
+Erie,Skagit,ERI,7,31,2013,28.8,88
+Erie,Skagit,ERI,9,3,2014,16.7,80.8
+Erie,Skagit,ERI,7,13,2015,14,77.1
+Erie,Skagit,ERI,7,6,2016,15.9,70.2
+Erie,Skagit,ERI,8,2,2017,163.9,91
+Erie,Skagit,ERI,7,23,2018,54.5,81.1
+Erie,Skagit,ERI,8,19,2019,12.6,81.8
+Erie,Skagit,ERI,8,31,2020,9.1,77
+Evan,Snohomish,EVAN,8,21,2012,4.9,1.9
+Evan,Snohomish,EVAN,7,30,2014,2,2
+Evan,Snohomish,EVAN,7,11,2016,3.7,1.8
+Evan,Snohomish,EVAN,7,24,2017,2.7,1.8
+Evan,Snohomish,EVAN,8,8,2018,3.8,2.1
+Evan,Snohomish,EVAN,7,31,2019,2.1,4.6
+Evan,Snohomish,EVAN,8,11,2020,2.2,2.5
+Evan,Snohomish,EVAN,7,12,2021,0.7,1.8
+Evan ,Snohomish,EVAN,8,4,2021,5.6,3.1
+Everett,Skagit,EVT,8,31,2011,6.8,65.8
+Everett,Skagit,EVT,8,7,2013,3,64.2
+Everett,Skagit,EVT,9,15,2014,11.1,64.7
+Everett,Skagit,EVT,8,4,2015,4.9,67.4
+Everett,Skagit,EVT,7,31,2017,5.2,64
+Everett,Skagit,EVT,8,22,2018,1.8,67
+Everett,Skagit,EVT,8,21,2019,9.4,69.9
+Everett,Skagit,EVT,9,2,2020,3.4,65.4
+Everett,Skagit,EVT,7,14,2021,1.4,62.1
+Fazon,Whatcom,FAZ,4,11,2007,63.6,42.5
+Fazon,Whatcom,FAZ,8,15,2007,10.2,51.6
+Fazon,Whatcom,FAZ,4,22,2008,14.4,42.3
+Fazon,Whatcom,FAZ,8,11,2008,35.9,52.1
+Fazon,Whatcom,FAZ,5,4,2009,10.1,43.7
+Fazon,Whatcom,FAZ,8,18,2009,4561,55.4
+Fazon,Whatcom,FAZ,6,28,2010,9.4,48.6
+Fazon,Whatcom,FAZ,9,21,2010,11.6,53.9
+Fazon,Whatcom,FAZ,6,29,2011,44.1,52.7
+Fazon,Whatcom,FAZ,3,29,2012,3.1,40.3
+Fazon,Whatcom,FAZ,6,26,2012,16.3,48.1
+Fazon,Whatcom,FAZ,6,18,2013,6.5,48.6
+Fazon,Whatcom,FAZ,8,21,2013,9,53.8
+Fazon,Whatcom,FAZ,7,7,2014,11,49.4
+Fazon,Whatcom,FAZ,6,23,2015,4.5,51.3
+Fazon,Whatcom,FAZ,6,22,2016,35.9,46.4
+Fazon,Whatcom,FAZ,6,21,2017,17.8,46.8
+Fazon,Whatcom,FAZ,6,27,2018,46.1,45.7
+Fazon,Whatcom,FAZ,7,10,2019,17.6,48.9
+Fazon,Whatcom,FAZ,7,15,2020,33.8,48.2
+Fazon,Whatcom,FAZ,6,21,2021,10.3,44.6
+Flowing ,Snohomish,FLOW,8,9,2021,2.5,12.6
+Gardner ,Snohomish,GARD,8,2,2021,1.2,47.1
+Geneva,Whatcom,GEN,7,11,2011,59.8,15.2
+Geneva,Whatcom,GEN,4,19,2012,34.5,14.6
+Geneva,Whatcom,GEN,7,14,2014,130.5,16
+Geneva,Whatcom,GEN,7,7,2015,96.3,19.2
+Geneva,Whatcom,GEN,6,29,2016,7.9,14
+Geneva,Whatcom,GEN,6,28,2017,6.4,13.9
+Geneva,Whatcom,GEN,7,11,2018,13.1,16
+Geneva,Whatcom,GEN,7,17,2019,79,15.5
+Geneva,Whatcom,GEN,7,27,2020,153,19.6
+Geneva,Whatcom,GEN,7,6,2021,90,16.8
+Gold Basin Pond,Whatcom,GOLD,7,11,2016,5.4,4.7
+Gold Basin Pond,Whatcom,GOLD,7,24,2017,1.7,7.6
+Gold Basin Pond,Whatcom,GOLD,8,8,2018,3.3,8.2
+Gold Basin Pond,Whatcom,GOLD,7,31,2019,0.9,8.6
+Gold Basin Pond,Whatcom,GOLD,8,11,2020,3.5,7.6
+Gold Basin Pond,Whatcom,GOLD,7,12,2021,1.6,6.5
+Goodwin,Snohomish,GOO,9,21,2009,2.5,33.9
+Goodwin,Snohomish,GOO,6,21,2010,4.8,39.7
+Goodwin,Snohomish,GOO,7,25,2011,2.4,28.7
+Goodwin,Snohomish,GOO,8,6,2012,2.1,28.3
+Goodwin,Snohomish,GOO,7,10,2013,2.5,27.4
+Goodwin,Snohomish,GOO,7,21,2014,2,28.7
+Goodwin,Snohomish,GOO,7,26,2017,1.9,29.2
+Goodwin,Snohomish,GOO,8,6,2018,1.7,28.7
+Goodwin,Snohomish,GOO,8,12,2019,0.6,32.1
+Goodwin,Snohomish,GOO,8,26,2020,1.8,32.9
+Goss,Island,GOS,4,29,2008,1.9,30
+Goss,Island,GOS,8,27,2008,2,33.2
+Goss,Island,GOS,8,24,2009,1.9,34.4
+Goss,Island,GOS,7,14,2010,1.5,31.5
+Goss,Island,GOS,7,18,2011,2.5,31
+Goss,Island,GOS,4,16,2012,2,29.3
+Goss,Island,GOS,7,16,2012,1.4,29.9
+Goss,Island,GOS,7,22,2013,2.8,33.2
+Goss,Island,GOS,8,4,2014,4,35
+Goss,Island,GOS,8,2,2017,3.6,38.6
+Goss,Island,GOS,8,1,2018,2.6,37.2
+Goss,Island,GOS,8,7,2019,12.9,39
+Goss,Island,GOS,8,24,2020,2.1,36.9
+Grandy,Skagit,GRA,9,8,2009,8.5,64.8
+Grandy,Skagit,GRA,9,13,2010,5.3,70.1
+Grandy,Skagit,GRA,8,31,2011,4.6,69
+Grandy,Skagit,GRA,7,31,2012,2.5,53.6
+Grandy,Skagit,GRA,8,7,2013,2.5,60.2
+Grandy,Skagit,GRA,9,15,2014,2.3,66.4
+Grandy,Skagit,GRA,8,4,2015,5,68.6
+Grandy,Skagit,GRA,7,20,2016,1.4,56.7
+Grandy,Skagit,GRA,7,31,2017,7.4,62
+Grandy,Skagit,GRA,8,22,2018,7.5,74.2
+Grandy,Skagit,GRA,8,21,2019,4.2,74.8
+Grandy,Skagit,GRA,9,2,2020,4,67.3
+Grandy,Skagit,GRA,7,14,2021,4.6,66.5
+Heart,Skagit,HEA,3,27,2007,8.4,62.3
+Heart,Skagit,HEA,8,14,2007,13.2,73.8
+Heart,Skagit,HEA,5,27,2008,2.1,67.6
+Heart,Skagit,HEA,8,27,2008,17.7,75.1
+Heart,Skagit,HEA,5,14,2009,2.4,61.5
+Heart,Skagit,HEA,8,24,2009,13.4,74.9
+Heart,Skagit,HEA,7,7,2010,28.3,67.3
+Heart,Skagit,HEA,7,20,2011,28.6,67.6
+Heart,Skagit,HEA,7,24,2012,19.2,53.3
+Heart,Skagit,HEA,7,31,2013,31.9,63.1
+Heart,Skagit,HEA,8,26,2013,18,62.8
+Heart,Skagit,HEA,9,3,2014,15.9,73.5
+Heart,Skagit,HEA,7,13,2015,16.7,66.7
+Heart,Skagit,HEA,7,6,2016,17.9,64.6
+Heart,Skagit,HEA,7,10,2017,5.3,63.8
+Heart,Skagit,HEA,7,23,2018,7.1,72.3
+Heart,Skagit,HEA,8,19,2019,3.5,77.1
+Heart,Skagit,HEA,8,31,2020,3.5,65.7
+Heather Meadows,Whatcom,HMP,8,28,2012,0.3,1.2
+Heather Meadows,Whatcom,HMP,8,19,2013,0.5,1.2
+Heather Meadows,Whatcom,HMP,9,17,2014,1.8,1.1
+Heather Meadows,Whatcom,HMP,8,11,2015,1.3,1.8
+Heather Meadows,Whatcom,HMP,8,10,2016,1.6,1.7
+Heather Meadows,Whatcom,HMP,8,15,2018,1,1.1
+Heather Meadows,Whatcom,HMP,7,19,2021,0.3,0.7
+Heather Meadows,Whatcom,HMP,8,16,2021,0.7,1.2
+Highwood,Whatcom,HIG,9,15,2010,1.3,2.8
+Highwood,Whatcom,HIG,8,29,2011,1.3,2.7
+Highwood,Whatcom,HIG,8,28,2012,0.4,2.4
+Highwood,Whatcom,HIG,8,19,2013,1.7,2.7
+Highwood,Whatcom,HIG,9,17,2014,1.2,2.9
+Highwood,Whatcom,HIG,8,11,2015,1.9,3.8
+Highwood,Whatcom,HIG,8,10,2016,2,3.5
+Highwood,Whatcom,HIG,8,14,2017,1.4,3.1
+Highwood,Whatcom,HIG,8,15,2018,1.6,5.5
+Highwood,Whatcom,HIG,8,5,2019,1,6.9
+Highwood,Whatcom,HIG,8,18,2020,1.1,6
+Highwood,Whatcom,HIG,7,19,2021,0.6,4.1
+Highwood ,Whatcom,HIG,8,16,2021,0.6,4.4
+Hoag Pond,Whatcom,HOAG,6,28,2017,28.8,60.8
+Hoag Pond,Whatcom,HOAG,6,25,2018,26.7,65.2
+Hoag Pond,Whatcom,HOAG,7,8,2019,13.5,69
+Hoag Pond,Whatcom,HOAG,7,22,2019,31.1,73.6
+Hoag Pond,Whatcom,HOAG,9,8,2020,61.7,101.8
+Hoag Pond,Whatcom,HOAG,6,21,2021,153.3,61.7
+Hoag Pond,Whatcom,HOAG,7,6,2021,34.7,73.2
+Honeymoon,Island,HON,8,24,2009,5.1,79.5
+Honeymoon,Island,HON,7,18,2011,2.8,51.7
+Honeymoon,Island,HON,4,16,2012,9.3,23.5
+Honeymoon,Island,HON,7,22,2013,169.3,64.7
+Honeymoon,Island,HON,8,4,2014,20.2,74
+Honeymoon,Island,HON,8,2,2017,104.6,68.3
+Honeymoon,Island,HON,8,1,2018,190.3,64.2
+Honeymoon,Island,HON,8,7,2019,10.9,81.6
+Honeymoon,Island,HON,8,24,2020,33.8,71.6
+Howard,Snohomish,HOW,9,21,2009,2.5,46.6
+Howard,Snohomish,HOW,6,21,2010,4.3,43.7
+Howard,Snohomish,HOW,7,25,2011,4.1,43.3
+Howard,Snohomish,HOW,8,6,2012,1.3,43.9
+Howard,Snohomish,HOW,7,10,2013,1.5,45.1
+Howard,Snohomish,HOW,7,21,2014,2.1,46.2
+Howard,Snohomish,HOW,7,26,2017,3.3,46.4
+Howard,Snohomish,HOW,8,6,2018,1.8,46.6
+Howard,Snohomish,HOW,8,12,2019,1.2,49.8
+Howard,Snohomish,HOW,8,26,2020,1.4,47.6
+Ice Pond,Snohomish,ICP,7,12,2021,0.2,14.8
+Ice Pond,Snohomish,ICP,8,4,2021,0.4,16.6
+Ketchum,Snohomish,KET,8,31,2009,323,47.1
+Ketchum,Snohomish,KET,6,23,2010,1.2,42.1
+Ketchum,Snohomish,KET,7,31,2012,3.5,35.7
+Ketchum,Snohomish,KET,7,15,2013,54.9,37.4
+Ketchum,Snohomish,KET,7,28,2014,30.6,41.4
+Ketchum,Snohomish,KET,7,18,2016,3.5,40.8
+Ketchum,Snohomish,KET,7,19,2017,12.9,43.1
+Ketchum,Snohomish,KET,7,18,2018,4.3,42.3
+Ketchum,Snohomish,KET,7,29,2019,1.4,43.5
+Ketchum,Snohomish,KET,8,3,2020,4.1,41.3
+Ketchum,Snohomish,KET,7,26,2021,1.6,42
+Ki,Snohomish,KI,9,21,2009,1.5,9.3
+Ki,Snohomish,KI,6,21,2010,2.8,9.4
+Ki,Snohomish,KI,7,25,2011,4.7,9.7
+Ki,Snohomish,KI,8,6,2012,1.1,10
+Ki,Snohomish,KI,7,10,2013,3.2,10.1
+Ki,Snohomish,KI,7,21,2014,2.4,10.2
+Ki,Snohomish,KI,7,26,2017,3.6,11.5
+Ki,Snohomish,KI,8,6,2018,2.6,11.6
+Ki,Snohomish,KI,8,12,2019,1.6,11.3
+Ki,Snohomish,KI,8,26,2020,1,11.4
+Kwan 1,Whatcom,KWAN1,8,21,2007,58.6,165.4
+Kwan 1,Whatcom,KWAN1,10,25,2007,81.6,178.4
+Kwan 1,Whatcom,KWAN1,12,11,2007,42.8,165.5
+Kwan 1,Whatcom,KWAN1,2,28,2008,32.4,180.6
+Kwan 1,Whatcom,KWAN1,4,17,2008,12,186.6
+Kwan 1,Whatcom,KWAN1,6,12,2008,5.1,174.6
+Kwan 1,Whatcom,KWAN1,2,19,2009,38.2,176.2
+Kwan 1,Whatcom,KWAN1,4,24,2009,10.4,187
+Kwan 1,Whatcom,KWAN1,6,16,2009,24,194.4
+Kwan 1,Whatcom,KWAN1,8,21,2009,137.9,178.4
+Kwan 1,Whatcom,KWAN1,7,14,2010,22.4,195
+Kwan 1,Whatcom,KWAN1,8,11,2010,19.3,196.5
+Kwan 1,Whatcom,KWAN1,9,16,2010,18.6,205.1
+Kwan 1,Whatcom,KWAN1,11,17,2010,9.1,194.2
+Kwan 1,Whatcom,KWAN1,3,10,2011,25.7,175.1
+Kwan 1,Whatcom,KWAN1,4,14,2011,11.2,177.9
+Kwan 1,Whatcom,KWAN1,6,28,2011,14.3,190.6
+Kwan 1,Whatcom,KWAN1,9,22,2011,4.6,205.2
+Kwan 1,Whatcom,KWAN1,4,30,2012,5.2,182
+Kwan 1,Whatcom,KWAN1,7,31,2012,7.6,194.9
+Kwan 1,Whatcom,KWAN1,4,22,2013,16.5,178.2
+Kwan 1,Whatcom,KWAN1,7,17,2013,27.7,194.3
+Kwan 2,Whatcom,KWAN2,8,21,2007,74.4,165.8
+Kwan 2,Whatcom,KWAN2,10,25,2007,80.3,177.8
+Kwan 2,Whatcom,KWAN2,12,11,2007,46.9,166.7
+Kwan 2,Whatcom,KWAN2,2,28,2008,24.4,181.3
+Kwan 2,Whatcom,KWAN2,4,17,2008,11.8,185.9
+Kwan 2,Whatcom,KWAN2,6,12,2008,4.1,175.2
+Kwan 2,Whatcom,KWAN2,2,19,2009,32.5,176.2
+Kwan 2,Whatcom,KWAN2,4,24,2009,12.1,186
+Kwan 2,Whatcom,KWAN2,6,16,2009,20.2,194.8
+Kwan 2,Whatcom,KWAN2,8,21,2009,49,177.8
+Kwan 2,Whatcom,KWAN2,7,14,2010,17.3,198
+Kwan 2,Whatcom,KWAN2,8,11,2010,20,195.8
+Kwan 2,Whatcom,KWAN2,9,16,2010,25.1,203.3
+Kwan 2,Whatcom,KWAN2,11,17,2010,9.5,190
+Kwan 2,Whatcom,KWAN2,3,10,2011,23.2,176.5
+Kwan 2,Whatcom,KWAN2,4,14,2011,10.2,178.7
+Kwan 2,Whatcom,KWAN2,6,28,2011,7.4,180.1
+Kwan 2,Whatcom,KWAN2,9,22,2011,8.3,204.6
+Kwan 2,Whatcom,KWAN2,4,30,2012,6.2,181.4
+Kwan 2,Whatcom,KWAN2,7,31,2012,7.3,193.9
+Kwan 2,Whatcom,KWAN2,4,22,2013,15.2,177.3
+Kwan 2,Whatcom,KWAN2,7,17,2013,69.7,194.4
+Loma,Snohomish,LOM,9,21,2009,8.3,9.4
+Loma,Snohomish,LOM,6,21,2010,11.3,8.1
+Loma,Snohomish,LOM,7,25,2011,30.5,9.1
+Loma,Snohomish,LOM,8,6,2012,3.1,8.9
+Loma,Snohomish,LOM,7,10,2013,5,8.7
+Loma,Snohomish,LOM,7,21,2014,74.8,10.3
+Loma,Snohomish,LOM,7,26,2017,6.7,9.6
+Loma,Snohomish,LOM,8,6,2018,11.8,10
+Loma,Snohomish,LOM,8,12,2019,3.9,10.9
+Loma,Snohomish,LOM,8,26,2020,2.8,12
+Lone,Island,LON,4,29,2008,7.7,53.2
+Lone,Island,LON,8,27,2008,32.4,68.8
+Lone,Island,LON,8,24,2009,596,67.1
+Lone,Island,LON,9,29,2009,257.6,66.8
+Lone,Island,LON,7,14,2010,41.1,57.7
+Lone,Island,LON,7,18,2011,10.5,56.9
+Lone,Island,LON,4,16,2012,6.2,52.7
+Lone,Island,LON,7,22,2013,58.6,60.5
+Lone,Island,LON,8,4,2014,774,65
+Lone,Island,LON,8,2,2017,33.3,58.5
+Lone,Island,LON,8,1,2018,30.1,62.1
+Lone,Island,LON,8,7,2019,31.9,69.8
+Lone,Island,LON,8,24,2020,8.4,69.1
+Louise,Whatcom,LOU,4,19,2007,4.2,17.4
+Louise,Whatcom,LOU,8,23,2007,10.9,23.3
+Louise,Whatcom,LOU,4,17,2008,3.2,18.3
+Louise,Whatcom,LOU,8,13,2008,4.1,24.3
+Louise,Whatcom,LOU,5,26,2009,6,20.1
+Louise,Whatcom,LOU,8,10,2009,3.2,23.1
+Louise,Whatcom,LOU,6,16,2010,5.1,21.2
+Louise,Whatcom,LOU,7,11,2011,3.4,19.4
+Louise,Whatcom,LOU,4,19,2012,3.2,18.3
+Louise,Whatcom,LOU,7,11,2012,2.8,21.6
+Louise,Whatcom,LOU,6,24,2013,5.2,21.1
+Louise,Whatcom,LOU,7,14,2014,2.7,21.5
+Louise,Whatcom,LOU,7,7,2015,5.3,21.8
+Louise,Whatcom,LOU,6,29,2016,2.2,21.1
+Louise,Whatcom,LOU,6,28,2017,3.6,19.4
+Louise,Whatcom,LOU,7,11,2018,2.9,21.2
+Louise,Whatcom,LOU,7,17,2019,2.8,21.3
+Louise,Whatcom,LOU,7,27,2020,1.1,21.9
+Louise,Whatcom,LOU,7,6,2021,1.6,20.5
+Lower Bagley,Whatcom,BAGL,8,19,2007,0.6,5.6
+Lower Bagley,Whatcom,BAGL,8,25,2008,0.9,4.6
+Lower Bagley,Whatcom,BAGL,9,15,2010,5.7,6.5
+Lower Bagley,Whatcom,BAGL,8,29,2011,0.2,3.7
+Lower Bagley,Whatcom,BAGL,8,28,2012,0.5,5.1
+Lower Bagley,Whatcom,BAGL,8,5,2013,0.1,5.3
+Lower Bagley,Whatcom,BAGL,8,11,2015,0.6,6.9
+Lower Bagley,Whatcom,BAGL,8,10,2016,1.7,6.7
+Lower Bagley,Whatcom,BAGL,8,14,2017,0.3,5
+Lower Bagley,Whatcom,BAGL,8,15,2018,0.4,6.5
+Lower Bagley,Whatcom,BAGL,8,5,2019,0.2,7
+Lower Bagley,Whatcom,BAGL,8,18,2020,0.4,6
+Lower Bagley,Whatcom,BAGL,7,19,2021,0.1,5.1
+Lower Bagley,Whatcom,BAGL,8,16,2021,0.3,6.1
+Lower Twin,Whatcom,TWINL,8,26,2008,0.5,24.4
+Lower Twin,Whatcom,TWINL,8,10,2015,0.4,25
+Lower Twin,Whatcom,TWINL,8,15,2016,0.8,26.9
+Lower Twin,Whatcom,TWINL,8,16,2017,0.4,24.5
+Lower Twin,Whatcom,TWINL,8,20,2018,0.5,24
+Lower Twin,Whatcom,TWINL,8,26,2019,0.4,23.9
+Martha,Snohomish,MAR,9,21,2009,4.2,32.6
+Martha,Snohomish,MAR,6,21,2010,6.6,28.8
+Martha,Snohomish,MAR,7,25,2011,3.5,31.5
+Martha,Snohomish,MAR,8,6,2012,2,29.3
+Martha,Snohomish,MAR,7,10,2013,2.6,28.9
+Martha,Snohomish,MAR,7,21,2014,4.7,34.5
+Martha,Snohomish,MAR,7,26,2017,2.1,32.6
+Martha,Snohomish,MAR,8,6,2018,2.1,32.2
+Martha,Snohomish,MAR,8,12,2019,2.4,32.4
+Martha,Snohomish,MAR,8,26,2020,2,30
+McMurray,Skagit,MCM,4,17,2007,16.3,27.4
+McMurray,Skagit,MCM,8,22,2007,12.4,33.2
+McMurray,Skagit,MCM,4,24,2008,7.7,28.6
+McMurray,Skagit,MCM,8,20,2008,4.7,33.3
+McMurray,Skagit,MCM,5,21,2009,2.7,29.2
+McMurray,Skagit,MCM,9,14,2009,3.8,33.7
+McMurray,Skagit,MCM,7,12,2010,4.4,31.2
+McMurray,Skagit,MCM,7,27,2011,2.5,29.7
+McMurray,Skagit,MCM,8,15,2012,4.2,29.6
+McMurray,Skagit,MCM,6,26,2013,10.4,27.1
+McMurray,Skagit,MCM,9,10,2014,4.4,30
+McMurray,Skagit,MCM,7,13,2016,1.9,29.2
+McMurray,Skagit,MCM,7,12,2017,5.1,29.2
+McMurray,Skagit,MCM,7,9,2018,5.1,27.8
+McMurray,Skagit,MCM,7,15,2019,1.6,32.6
+McMurray,Skagit,MCM,7,22,2020,2.6,30.5
+McMurray,Skagit,MCM,7,21,2021,4.5,29.3
+Mirror,Whatcom,MIR,4,19,2007,2.7,17.2
+Mirror,Whatcom,MIR,8,23,2007,7.8,16.4
+Mirror,Whatcom,MIR,4,17,2008,2.5,19.3
+Mirror,Whatcom,MIR,8,13,2008,0.9,13.6
+Mirror,Whatcom,MIR,8,10,2009,3.5,21.8
+Mirror,Whatcom,MIR,6,16,2010,0.9,18.4
+Mirror,Whatcom,MIR,7,11,2011,1.7,14.3
+Mirror,Whatcom,MIR,4,19,2012,6.6,18.2
+Mirror,Whatcom,MIR,7,11,2012,1.8,12.8
+Mirror,Whatcom,MIR,6,24,2013,3,17.3
+Mirror,Whatcom,MIR,7,14,2014,0.2,11.3
+Mirror,Whatcom,MIR,7,7,2015,3.3,22.2
+Mirror,Whatcom,MIR,6,29,2016,2.5,19.2
+Mirror,Whatcom,MIR,6,28,2017,4.3,18.1
+Mirror,Whatcom,MIR,7,11,2018,2.1,19.3
+Mirror,Whatcom,MIR,7,17,2019,1.9,16
+Mirror,Whatcom,MIR,7,27,2020,1.5,20
+Mirror,Whatcom,MIR,7,6,2021,2.3,17.4
+Monte Cristo,Snohomish,MON,8,21,2012,0.4,10.1
+Monte Cristo,Snohomish,MON,8,14,2013,0.1,10.5
+Monte Cristo,Snohomish,MON,7,30,2014,0.5,9.5
+Monte Cristo,Snohomish,MON,7,11,2016,3,11.7
+Monte Cristo,Snohomish,MON,7,24,2017,0.8,26
+Monte Cristo,Snohomish,MON,8,8,2018,2.4,28.7
+Monte Cristo,Snohomish,MON,7,31,2019,0.6,16.2
+Monte Cristo,Snohomish,MON,8,11,2020,12.5,26
+Myrtle,Snohomish,MYR,8,21,2012,7.7,11.6
+Myrtle,Snohomish,MYR,8,14,2013,5.3,12.4
+Myrtle,Snohomish,MYR,7,30,2014,4.8,11.4
+Myrtle,Snohomish,MYR,7,11,2016,1.8,10.5
+Myrtle,Snohomish,MYR,8,8,2018,4.7,10.4
+Myrtle,Snohomish,MYR,7,31,2019,1.8,12.8
+Myrtle,Snohomish,MYR,8,11,2020,1.5,12
+Myrtle,Snohomish,MYR,7,12,2021,2.2,11.6
+Myrtle ,Snohomish,MYR,8,4,2021,3,11.5
+Padden,Whatcom,PAD,4,9,2007,3,23
+Padden,Whatcom,PAD,4,9,2007,3,21.1
+Padden,Whatcom,PAD,8,23,2007,4.8,27.1
+Padden,Whatcom,PAD,5,1,2008,8.4,26.6
+Padden,Whatcom,PAD,8,18,2008,4.4,30.9
+Padden,Whatcom,PAD,4,20,2009,2.7,25.3
+Padden,Whatcom,PAD,8,10,2009,4.8,28.8
+Padden,Whatcom,PAD,6,16,2010,10.6,28.3
+Padden,Whatcom,PAD,6,27,2011,5.1,28
+Padden,Whatcom,PAD,7,25,2013,2.5,29.4
+Padden,Whatcom,PAD,7,16,2014,2.8,31.5
+Padden,Whatcom,PAD,6,29,2015,3.2,70
+Padden,Whatcom,PAD,6,27,2016,8.1,26.5
+Padden,Whatcom,PAD,6,26,2017,6.7,24.4
+Padden,Whatcom,PAD,6,25,2018,3.8,25.9
+Padden,Whatcom,PAD,7,8,2019,6.5,26.7
+Padden,Whatcom,PAD,9,8,2020,3.5,27.8
+Padden,Whatcom,PAD,6,21,2021,2.1,26.4
+Panther ,Snohomish,PNT,8,9,2021,1.7,15.3
+Pass,Skagit,PAS,3,27,2007,9,73.3
+Pass,Skagit,PAS,8,14,2007,41.2,79.6
+Pass,Skagit,PAS,5,27,2008,1.7,73
+Pass,Skagit,PAS,8,27,2008,9.9,76.3
+Pass,Skagit,PAS,5,14,2009,1.4,70.1
+Pass,Skagit,PAS,8,24,2009,11.2,77.4
+Pass,Skagit,PAS,7,7,2010,6.5,75
+Pass,Skagit,PAS,7,20,2011,5.9,73.6
+Pass,Skagit,PAS,7,24,2012,6.2,72.4
+Pass,Skagit,PAS,7,31,2013,16.6,76.3
+Pass,Skagit,PAS,9,3,2014,19.7,79.4
+Pass,Skagit,PAS,7,13,2015,14.1,76.5
+Pass,Skagit,PAS,7,6,2016,0.1,73.9
+Pass,Skagit,PAS,7,10,2017,5.3,64.8
+Pass,Skagit,PAS,7,23,2018,13.5,69.5
+Pass,Skagit,PAS,8,19,2019,33.2,76
+Pass,Skagit,PAS,8,31,2020,73.5,75.4
+Picture,Whatcom,PIC,8,19,2007,3.9,3.4
+Picture,Whatcom,PIC,8,25,2008,2.4,3.3
+Picture,Whatcom,PIC,9,8,2009,1,3.6
+Picture,Whatcom,PIC,9,15,2010,2.1,3.4
+Picture,Whatcom,PIC,8,29,2011,1.4,2.5
+Picture,Whatcom,PIC,8,28,2012,0.9,2.5
+Picture,Whatcom,PIC,8,5,2013,2.5,2.7
+Picture,Whatcom,PIC,8,19,2013,1.2,2.8
+Picture,Whatcom,PIC,9,17,2014,1.7,3.6
+Picture,Whatcom,PIC,8,11,2015,5.1,4.9
+Picture,Whatcom,PIC,8,10,2016,2.9,4.8
+Picture,Whatcom,PIC,8,14,2017,1.2,3.6
+Picture,Whatcom,PIC,8,15,2018,1.3,5.3
+Picture,Whatcom,PIC,8,5,2019,0.7,6.9
+Picture,Whatcom,PIC,8,18,2020,1.4,7.3
+Picture,Whatcom,PIC,7,19,2021,1.3,4
+Picture,Whatcom,PIC,8,16,2021,1.5,4
+Pine,Whatcom,PIN,8,14,2008,1.3,9.8
+Reed,Whatcom,REE,4,19,2007,3.3,15.6
+Reed,Whatcom,REE,8,23,2007,2.5,18.9
+Reed,Whatcom,REE,4,17,2008,3,13.7
+Reed,Whatcom,REE,8,13,2008,3.3,16.3
+Reed,Whatcom,REE,5,26,2009,15.2,18
+Reed,Whatcom,REE,8,10,2009,2.8,15.5
+Reed,Whatcom,REE,6,16,2010,4,15.8
+Reed,Whatcom,REE,7,11,2011,11.6,16.3
+Reed,Whatcom,REE,4,19,2012,2.6,13.9
+Reed,Whatcom,REE,7,11,2012,24,17.3
+Reed,Whatcom,REE,6,24,2013,4.1,19.3
+Reed,Whatcom,REE,7,14,2014,9.4,20.3
+Reed,Whatcom,REE,7,7,2015,13.3,22.2
+Reed,Whatcom,REE,6,29,2016,8.9,20.4
+Reed,Whatcom,REE,6,28,2017,2.5,19.3
+Reed,Whatcom,REE,7,11,2018,2,22.7
+Reed,Whatcom,REE,7,17,2019,3.8,24
+Reed,Whatcom,REE,7,27,2020,5.4,24.3
+Reed,Whatcom,REE,7,6,2021,3.1,20.5
+Riley ,Snohomish,RLY,8,9,2021,9.8,9.2
+Roesiger ,Snohomish,ROES,8,2,2021,1.4,12.6
+Samish,Whatcom,SAM,8,26,2013,4.4,19.3
+Samish,Whatcom,SAM,6,28,2017,2.5,17.7
+Samish,Whatcom,SAM,8,7,2017,4.9,20.4
+Samish,Whatcom,SAM,7,11,2018,1.7,20.5
+Samish,Whatcom,SAM,7,17,2019,5.7,19.3
+Samish,Whatcom,SAM,7,27,2020,1.8,16.4
+Samish 1,Whatcom,SAM1,9,20,2005,3.2,19.4
+Samish 1,Whatcom,SAM1,1,22,2006,0.9,15.6
+Samish 1,Whatcom,SAM1,2,26,2006,0.7,23
+Samish 1,Whatcom,SAM1,11,15,2007,3.9,18.5
+Samish 1,Whatcom,SAM1,12,20,2007,3.5,20
+Samish 1,Whatcom,SAM1,1,29,2008,1.4,16.7
+Samish 1,Whatcom,SAM1,3,25,2008,1.7,15.6
+Samish 1,Whatcom,SAM1,4,21,2008,1.5,15.9
+Samish 1,Whatcom,SAM1,5,15,2008,1.7,16.6
+Samish 1,Whatcom,SAM1,6,10,2008,6,18.3
+Samish 1,Whatcom,SAM1,7,22,2008,2.5,18.8
+Samish 1,Whatcom,SAM1,10,23,2008,7.4,20.7
+Samish 1,Whatcom,SAM1,1,25,2009,1,14.9
+Samish 1,Whatcom,SAM1,4,27,2009,2.2,16.1
+Samish 1,Whatcom,SAM1,7,1,2009,1.7,18.3
+Samish 1,Whatcom,SAM1,10,20,2009,2.3,20.2
+Samish 1,Whatcom,SAM1,1,26,2010,2.7,15.6
+Samish 1,Whatcom,SAM1,2,17,2010,4.1,16
+Samish 1,Whatcom,SAM1,4,22,2010,2.5,16.1
+Samish 1,Whatcom,SAM1,7,15,2010,1.3,18.5
+Samish 1,Whatcom,SAM1,10,19,2010,2.9,19
+Samish 1,Whatcom,SAM1,1,26,2011,1.5,14.8
+Samish 1,Whatcom,SAM1,3,23,2011,1.4,14.9
+Samish 1,Whatcom,SAM1,8,30,2011,3.3,20
+Samish 2,Whatcom,SAM2,1,22,2006,1.9,17.5
+Samish 2,Whatcom,SAM2,10,22,2006,6.1,20.7
+Samish 2,Whatcom,SAM2,11,15,2007,4.7,20.4
+Samish 2,Whatcom,SAM2,12,20,2007,11.1,19.3
+Samish 2,Whatcom,SAM2,1,29,2008,6.7,18.5
+Samish 2,Whatcom,SAM2,3,25,2008,1.7,17.5
+Samish 2,Whatcom,SAM2,4,21,2008,0.7,17.7
+Samish 2,Whatcom,SAM2,5,15,2008,1.1,17.4
+Samish 2,Whatcom,SAM2,6,10,2008,6.3,18.8
+Samish 2,Whatcom,SAM2,7,22,2008,3.7,19.4
+Samish 2,Whatcom,SAM2,10,23,2008,4.8,20.9
+Samish 2,Whatcom,SAM2,1,25,2009,1.5,17.4
+Samish 2,Whatcom,SAM2,4,27,2009,1.2,17.1
+Samish 2,Whatcom,SAM2,7,1,2009,2.4,18.9
+Samish 2,Whatcom,SAM2,10,20,2009,3.3,20.7
+Samish 2,Whatcom,SAM2,1,26,2010,5.3,18.3
+Samish 2,Whatcom,SAM2,2,17,2010,3.8,18.2
+Samish 2,Whatcom,SAM2,4,22,2010,6.2,17.8
+Samish 2,Whatcom,SAM2,7,15,2010,2.1,19.2
+Samish 2,Whatcom,SAM2,10,19,2010,4.3,19.6
+Samish 2,Whatcom,SAM2,1,26,2011,1.4,16.2
+Samish 2,Whatcom,SAM2,3,23,2011,2.1,16.2
+Samish 2,Whatcom,SAM2,8,30,2011,7.2,18.2
+Samish 3,Whatcom,SAM3,10,16,2005,5.3,20.5
+Samish 3,Whatcom,SAM3,12,20,2007,12.1,20.2
+Samish 3,Whatcom,SAM3,3,25,2008,2.2,17.5
+Samish 3,Whatcom,SAM3,6,10,2008,6.6,18
+Samish 3,Whatcom,SAM3,1,25,2009,1.7,17.3
+Samish 3,Whatcom,SAM3,4,27,2009,1.6,17.3
+Samish 3,Whatcom,SAM3,7,1,2009,2.8,17.7
+Samish 3,Whatcom,SAM3,10,20,2009,3.8,20.6
+Samish 3,Whatcom,SAM3,2,17,2010,5,18.2
+Samish 3,Whatcom,SAM3,4,22,2010,5.1,17.8
+Samish 3,Whatcom,SAM3,7,15,2010,2.2,19
+Samish 3,Whatcom,SAM3,10,19,2010,3.1,20.3
+Samish 3,Whatcom,SAM3,3,23,2011,2.3,16.4
+Samish 3,Whatcom,SAM3,8,30,2011,6.6,18.4
+Samish 4,Whatcom,SAM4,1,22,2006,2,18.1
+Samish 4,Whatcom,SAM4,12,20,2007,10.6,19.8
+Samish 4,Whatcom,SAM4,3,25,2008,1.8,17.5
+Samish 4,Whatcom,SAM4,6,10,2008,6.4,18.3
+Samish 4,Whatcom,SAM4,1,25,2009,1.6,17.3
+Samish 4,Whatcom,SAM4,4,27,2009,1.6,17.3
+Samish 4,Whatcom,SAM4,7,1,2009,2.5,18.9
+Samish 4,Whatcom,SAM4,10,20,2009,3.3,20.4
+Samish 4,Whatcom,SAM4,2,17,2010,4.5,18.2
+Samish 4,Whatcom,SAM4,4,22,2010,5.4,18.4
+Samish 4,Whatcom,SAM4,7,15,2010,1.9,19
+Samish 4,Whatcom,SAM4,10,19,2010,2.5,20.3
+Samish 4,Whatcom,SAM4,3,23,2011,2.6,16.6
+Samish 4,Whatcom,SAM4,8,30,2011,6.4,18.8
+Serene ,Serene,SRN,8,9,2021,2.9,28.6
+Shannon,Skagit/Whatcom,SHA,9,13,2010,1,13.1
+Shannon,Skagit/Whatcom,SHA,8,31,2011,2.1,12.7
+Shannon,Skagit/Whatcom,SHA,9,15,2014,1.1,15.4
+Shannon,Skagit/Whatcom,SHA,8,4,2015,1.3,20.3
+Shannon,Skagit/Whatcom,SHA,7,31,2017,1.3,13.7
+Shannon,Skagit/Whatcom,SHA,8,22,2018,1.9,14.8
+Shannon,Skagit/Whatcom,SHA,8,21,2019,0.6,15
+Shannon,Skagit/Whatcom,SHA,9,2,2020,1.1,15.8
+Shannon,Skagit/Whatcom,SHA,7,14,2021,3.1,14.7
+Shoecraft,Snohomish,SHO,9,21,2009,2.2,41
+Shoecraft,Snohomish,SHO,6,21,2010,4.9,35.9
+Shoecraft,Snohomish,SHO,7,25,2011,3.4,36.7
+Shoecraft,Snohomish,SHO,8,6,2012,3.5,33.8
+Shoecraft,Snohomish,SHO,7,10,2013,2.6,32.9
+Shoecraft,Snohomish,SHO,7,21,2014,3.3,34.4
+Shoecraft,Snohomish,SHO,7,26,2017,2,34.6
+Shoecraft,Snohomish,SHO,8,6,2018,2.5,34.5
+Shoecraft,Snohomish,SHO,8,12,2019,2.2,37.1
+Shoecraft,Snohomish,SHO,8,26,2020,2.7,30.8
+Silver,Whatcom,SIL,8,19,2007,5.2,55.3
+Silver,Whatcom,SIL,8,25,2008,3.8,53.7
+Silver,Whatcom,SIL,9,8,2009,1.3,51.1
+Silver,Whatcom,SIL,9,15,2010,11.6,50.6
+Silver,Whatcom,SIL,8,29,2011,4.8,58.5
+Silver,Whatcom,SIL,8,28,2012,1.3,56.3
+Silver,Whatcom,SIL,8,5,2013,2.5,52.8
+Silver,Whatcom,SIL,8,5,2014,19.7,55.1
+Silver,Whatcom,SIL,8,11,2015,2.9,55.9
+Silver,Whatcom,SIL,8,10,2016,2.5,50
+Silver,Whatcom,SIL,8,14,2017,2.1,51.8
+Silver,Whatcom,SIL,8,15,2018,5.4,53.3
+Silver,Whatcom,SIL,8,5,2019,3.1,49
+Silver,Whatcom,SIL,8,18,2020,3.5,49.9
+Sixteen,Skagit,SIX,9,14,2009,3.1,32.4
+Sixteen,Skagit,SIX,7,12,2010,4,29.9
+Sixteen,Skagit,SIX,7,27,2011,1.9,31.4
+Sixteen,Skagit,SIX,8,15,2012,2.2,34.3
+Sixteen,Skagit,SIX,6,26,2013,5.5,31.9
+Sixteen,Skagit,SIX,9,10,2014,5.8,33.3
+Sixteen,Skagit,SIX,7,13,2016,1.2,28.3
+Sixteen,Skagit,SIX,7,12,2017,4.7,24.8
+Sixteen,Skagit,SIX,7,9,2018,1.7,27.9
+Sixteen,Skagit,SIX,7,15,2019,2.3,31.8
+Sixteen,Skagit,SIX,7,22,2020,2.7,34.1
+Sixteen,Skagit,SIX,7,21,2021,2.4,20.2
+Squalicum,Whatcom,SQA,4,9,2007,4.9,20.4
+Squalicum,Whatcom,SQA,8,15,2007,6.3,26.7
+Squalicum,Whatcom,SQA,5,1,2008,12.9,25.7
+Squalicum,Whatcom,SQA,8,18,2008,1.8,29.8
+Squalicum,Whatcom,SQA,4,20,2009,10.3,25.7
+Squalicum,Whatcom,SQA,8,18,2009,6.5,25.8
+Squalicum,Whatcom,SQA,6,28,2010,9.5,39.9
+Squalicum,Whatcom,SQA,8,29,2011,2.4,27.5
+Squalicum,Whatcom,SQA,3,27,2012,8.4,19.2
+Squalicum,Whatcom,SQA,6,19,2012,117.9,26.5
+Squalicum,Whatcom,SQA,6,19,2013,6.1,29.5
+Squalicum,Whatcom,SQA,7,9,2014,2.6,29.4
+Squalicum,Whatcom,SQA,6,29,2015,1.1,34
+Squalicum,Whatcom,SQA,6,27,2016,2.7,26.8
+Squalicum,Whatcom,SQA,6,26,2017,3.8,25.5
+Squalicum,Whatcom,SQA,7,16,2018,2.8,25.9
+Squalicum,Whatcom,SQA,7,22,2019,8.6,25.2
+Squalicum,Whatcom,SQA,7,29,2020,5.2,33.4
+Squalicum,Whatcom,SQA,6,23,2021,1.2,28
+Squires,Whatcom,SQI,4,19,2007,2.9,13.6
+Squires,Whatcom,SQI,8,23,2007,15.7,15.5
+Squires,Whatcom,SQI,4,17,2008,8,15.3
+Squires,Whatcom,SQI,8,13,2008,54.6,16.8
+Squires,Whatcom,SQI,5,26,2009,2.3,15.8
+Squires,Whatcom,SQI,8,10,2009,4.1,17.7
+Squires,Whatcom,SQI,6,16,2010,4.2,16.2
+Squires,Whatcom,SQI,6,27,2011,2.3,16.1
+Squires,Whatcom,SQI,4,19,2012,6.5,13.8
+Squires,Whatcom,SQI,7,11,2012,3.6,17
+Squires,Whatcom,SQI,6,24,2013,4.8,16
+Squires,Whatcom,SQI,7,14,2014,2.6,15.9
+Squires,Whatcom,SQI,7,7,2015,2.9,20.3
+Squires,Whatcom,SQI,6,29,2016,5.5,17.5
+Squires,Whatcom,SQI,6,28,2017,4.9,16.4
+Squires,Whatcom,SQI,7,11,2018,4,18.4
+Squires,Whatcom,SQI,7,17,2019,8.1,16.8
+Squires,Whatcom,SQI,7,27,2020,2.6,16.3
+Squires,Whatcom,SQI,7,6,2021,1.6,16.3
+Stevens ,Snohomish,STEV,8,2,2021,0.7,32.5
+Stickney ,Snohomish,STICK,8,9,2021,4.5,48.4
+Storm ,Snohomish,STORM,8,9,2021,4,8.3
+Summer,Skagit,SUM,9,14,2009,8.2,10.3
+Summer,Skagit,SUM,7,12,2010,3.1,30
+Summer,Skagit,SUM,7,27,2011,6.6,9
+Summer,Skagit,SUM,8,15,2012,3.1,11.7
+Summer,Skagit,SUM,6,26,2013,10.5,10.2
+Summer,Skagit,SUM,9,10,2014,3.9,9.7
+Summer,Skagit,SUM,7,13,2016,30,15.5
+Summer,Skagit,SUM,7,12,2017,4.7,10.3
+Summer,Skagit,SUM,7,9,2018,16.2,11.2
+Summer,Skagit,SUM,7,15,2019,5.4,9.5
+Summer,Skagit,SUM,7,22,2020,6.2,11.6
+Summer,Skagit,SUM,7,21,2021,4.6,12.9
+Summer ,Skagit,SUM,8,12,2021,3,13.1
+Sunday,Snohomish,SDY,8,31,2009,5.7,27.2
+Sunday,Snohomish,SDY,6,23,2010,4.7,24.2
+Sunday,Snohomish,SDY,7,25,2011,5.7,24.7
+Sunday,Snohomish,SDY,7,31,2012,3.4,24.2
+Sunday,Snohomish,SDY,7,15,2013,2.8,23
+Sunday,Snohomish,SDY,7,28,2014,3,25.6
+Sunday,Snohomish,SDY,7,18,2016,1.7,24.6
+Sunday,Snohomish,SDY,7,19,2017,4.3,22.4
+Sunday,Snohomish,SDY,7,18,2018,2.5,21.4
+Sunday,Snohomish,SDY,7,29,2019,2.8,21.6
+Sunday,Snohomish,SDY,8,3,2020,16.5,23.6
+Sunday,Snohomish,SDY,7,26,2021,2.4,20.7
+Sunrise,Whatcom,SRZ,8,28,2012,0.7,4.1
+Sunrise,Whatcom,SRZ,8,19,2013,6.4,5.2
+Sunrise,Whatcom,SRZ,9,17,2014,3.1,7.2
+Sunrise,Whatcom,SRZ,8,11,2015,4.9,9.9
+Sunrise,Whatcom,SRZ,8,10,2016,7.2,9.2
+Sunrise,Whatcom,SRZ,8,14,2017,7.2,5.4
+Sunrise,Whatcom,SRZ,8,15,2018,6.8,18.2
+Sunrise,Whatcom,SRZ,8,5,2019,2.5,19.5
+Sunrise,Whatcom,SRZ,8,18,2020,2.3,13.7
+Sunrise,Whatcom,SRZ,7,19,2021,1.1,6.5
+Sunrise ,Whatcom,SRZ,8,16,2021,1.6,8.6
+Sunset,Whatcom,SUN,4,9,2007,28.5,47.1
+Sunset,Whatcom,SUN,8,15,2007,44.6,80
+Sunset,Whatcom,SUN,5,1,2008,9.3,55.9
+Sunset,Whatcom,SUN,8,18,2008,9.6,64
+Sunset,Whatcom,SUN,4,20,2009,6.4,54.6
+Sunset,Whatcom,SUN,8,18,2009,11.6,66.8
+Sunset,Whatcom,SUN,6,28,2010,10.1,61.1
+Sunset,Whatcom,SUN,6,27,2011,5,65.8
+Sunset,Whatcom,SUN,3,27,2012,3.7,41.5
+Sunset,Whatcom,SUN,6,19,2012,3.1,60.7
+Sunset,Whatcom,SUN,6,19,2013,4.6,62.8
+Sunset,Whatcom,SUN,6,29,2015,9.8,81.5
+Sunset,Whatcom,SUN,6,27,2016,9.1,53.9
+Sunset,Whatcom,SUN,6,26,2017,5.9,53.2
+Sunset,Whatcom,SUN,7,16,2018,2.3,57.9
+Sunset,Whatcom,SUN,7,22,2019,2.8,58.1
+Sunset,Whatcom,SUN,7,29,2020,1.5,59.7
+Sunset,Whatcom,SUN,6,23,2021,2.9,64.1
+Tbird 1,Whatcom,TBIRD1,8,21,2007,74.1,155.8
+Tbird 1,Whatcom,TBIRD1,10,25,2007,85.4,161.3
+Tbird 1,Whatcom,TBIRD1,12,11,2007,22.8,129.9
+Tbird 1,Whatcom,TBIRD1,2,28,2008,123.1,129.4
+Tbird 1,Whatcom,TBIRD1,4,17,2008,21.1,143.3
+Tbird 1,Whatcom,TBIRD1,6,12,2008,5.9,148.7
+Tbird 1,Whatcom,TBIRD1,2,19,2009,49.5,125.7
+Tbird 1,Whatcom,TBIRD1,4,24,2009,32,142.8
+Tbird 1,Whatcom,TBIRD1,6,16,2009,4.8,143.9
+Tbird 1,Whatcom,TBIRD1,8,21,2009,25,164.7
+Tbird 1,Whatcom,TBIRD1,7,14,2010,10.2,154
+Tbird 1,Whatcom,TBIRD1,8,11,2010,24.3,167.5
+Tbird 1,Whatcom,TBIRD1,9,16,2010,75.4,166
+Tbird 1,Whatcom,TBIRD1,11,17,2010,3.5,143.6
+Tbird 1,Whatcom,TBIRD1,3,10,2011,23.9,115.4
+Tbird 1,Whatcom,TBIRD1,4,14,2011,18.3,118
+Tbird 1,Whatcom,TBIRD1,6,28,2011,6.2,140.3
+Tbird 1,Whatcom,TBIRD1,9,22,2011,2.4,165.8
+Tbird 1,Whatcom,TBIRD1,4,30,2012,1.5,129
+Tbird 1,Whatcom,TBIRD1,7,31,2012,2.7,162.2
+Tbird 1,Whatcom,TBIRD1,4,22,2013,8.6,118.7
+Tbird 1,Whatcom,TBIRD1,7,17,2013,13.4,154.1
+Tbird 2,Whatcom,TBIRD2,8,21,2007,82.5,155.6
+Tbird 2,Whatcom,TBIRD2,10,25,2007,85.4,161.4
+Tbird 2,Whatcom,TBIRD2,12,11,2007,22,132.2
+Tbird 2,Whatcom,TBIRD2,2,28,2008,110,129.5
+Tbird 2,Whatcom,TBIRD2,4,17,2008,12.8,143.4
+Tbird 2,Whatcom,TBIRD2,6,12,2008,8.5,149
+Tbird 2,Whatcom,TBIRD2,2,19,2009,43.8,125.9
+Tbird 2,Whatcom,TBIRD2,4,24,2009,29.2,143
+Tbird 2,Whatcom,TBIRD2,6,16,2009,3.8,144.2
+Tbird 2,Whatcom,TBIRD2,8,21,2009,19.8,163.7
+Tbird 2,Whatcom,TBIRD2,7,14,2010,11.1,154
+Tbird 2,Whatcom,TBIRD2,8,11,2010,26.5,165.6
+Tbird 2,Whatcom,TBIRD2,9,16,2010,117.4,167
+Tbird 2,Whatcom,TBIRD2,11,17,2010,2.9,145.8
+Tbird 2,Whatcom,TBIRD2,3,10,2011,19.1,116.2
+Tbird 2,Whatcom,TBIRD2,4,14,2011,24.6,118.3
+Tbird 2,Whatcom,TBIRD2,6,28,2011,2.7,140.7
+Tbird 2,Whatcom,TBIRD2,9,22,2011,6.5,166.3
+Tbird 2,Whatcom,TBIRD2,4,30,2012,1.6,129.1
+Tbird 2,Whatcom,TBIRD2,7,31,2012,2.2,163.1
+Tbird 2,Whatcom,TBIRD2,4,22,2013,10.4,118.4
+Tbird 2,Whatcom,TBIRD2,7,17,2013,13.8,153.7
+Tennant,Whatcom,TEN,4,11,2007,7.3,51.5
+Tennant,Whatcom,TEN,8,15,2007,21.4,50.4
+Tennant,Whatcom,TEN,4,22,2008,3.9,56.4
+Tennant,Whatcom,TEN,8,11,2008,2.1,50.4
+Tennant,Whatcom,TEN,5,4,2009,1.9,56.5
+Tennant,Whatcom,TEN,6,28,2010,3.2,54.9
+Tennant,Whatcom,TEN,9,21,2010,3.3,56.3
+Tennant,Whatcom,TEN,6,29,2011,10.3,53.2
+Tennant,Whatcom,TEN,6,26,2012,7.5,55.7
+Tennant,Whatcom,TEN,7,29,2013,7.2,57
+Tennant,Whatcom,TEN,7,16,2014,46.1,52.3
+Tennant,Whatcom,TEN,6,23,2015,4.2,50.9
+Tennant,Whatcom,TEN,6,22,2016,203.8,45.7
+Tennant,Whatcom,TEN,6,21,2017,4.4,42.2
+Tennant,Whatcom,TEN,6,27,2018,50.5,47.1
+Tennant,Whatcom,TEN,7,8,2019,11.5,79.8
+Tennant,Whatcom,TEN,9,8,2020,30.4,88.3
+Terminal,Whatcom,TERM,9,17,2014,2.2,3.2
+Terminal,Whatcom,TERM,8,10,2016,3,2.6
+Terminal,Whatcom,TERM,8,14,2017,1.2,1.6
+Terminal,Whatcom,TERM,8,5,2019,0.8,2.1
+Terminal,Whatcom,TERM,8,18,2020,1.6,2.3
+Terminal,Whatcom,TERM,7,19,2021,0.3,1.3
+Terminal ,Whatcom,TERM,8,16,2021,1.3,1.2
+Terrell,Whatcom,TER,4,11,2007,13.4,22.4
+Terrell,Whatcom,TER,8,15,2007,35.5,31.8
+Terrell,Whatcom,TER,4,22,2008,20,27.9
+Terrell,Whatcom,TER,8,11,2008,1.7,29.5
+Terrell,Whatcom,TER,5,4,2009,8.7,28.7
+Terrell,Whatcom,TER,6,28,2010,3.8,34.8
+Terrell,Whatcom,TER,9,21,2010,9.9,39.2
+Terrell,Whatcom,TER,6,29,2011,7.2,27.6
+Terrell,Whatcom,TER,3,29,2012,19.6,27.4
+Terrell,Whatcom,TER,6,26,2012,17.2,33.1
+Terrell,Whatcom,TER,7,29,2013,5.1,29.9
+Terrell,Whatcom,TER,8,21,2013,5.9,32.8
+Terrell,Whatcom,TER,7,16,2014,7.9,33.7
+Terrell,Whatcom,TER,6,23,2015,9.3,33.7
+Terrell,Whatcom,TER,6,22,2016,7.7,34.8
+Terrell,Whatcom,TER,6,20,2017,22.5,31.9
+Terrell,Whatcom,TER,6,27,2018,145.1,35.4
+Terrell,Whatcom,TER,7,10,2019,6.9,36.3
+Terrell,Whatcom,TER,9,8,2020,12.6,36.8
+Terrell,Whatcom,TER,6,23,2021,11.5,32.5
+Toad,Whatcom,TOA,4,9,2007,9.2,40.2
+Toad,Whatcom,TOA,8,22,2007,15.9,45
+Toad,Whatcom,TOA,5,1,2008,6.1,44.4
+Toad,Whatcom,TOA,8,18,2008,4.7,47
+Toad,Whatcom,TOA,4,20,2009,4.6,40.3
+Toad,Whatcom,TOA,8,18,2009,5.9,47.3
+Toad,Whatcom,TOA,6,28,2010,5.7,43.4
+Toad,Whatcom,TOA,6,27,2011,2.5,40.9
+Toad,Whatcom,TOA,3,27,2012,5.1,40.6
+Toad,Whatcom,TOA,6,19,2012,5.2,41
+Toad,Whatcom,TOA,6,19,2013,2.5,39
+Toad,Whatcom,TOA,7,9,2014,2.9,44.6
+Toad,Whatcom,TOA,6,29,2015,1.9,47.9
+Toad,Whatcom,TOA,6,27,2016,2.6,46.1
+Toad,Whatcom,TOA,6,26,2017,1.5,40.9
+Toad,Whatcom,TOA,7,16,2018,4.8,45.2
+Toad,Whatcom,TOA,7,22,2019,1.7,50.7
+Toad,Whatcom,TOA,7,29,2020,2.2,49.7
+Toad,Whatcom,TOA,6,23,2021,7.5,48.4
+Upper Bagley,Whatcom,BAGU,8,19,2007,0.2,5.1
+Upper Bagley,Whatcom,BAGU,8,25,2008,1,4.7
+Upper Bagley,Whatcom,BAGU,9,15,2010,1.3,5.7
+Upper Bagley,Whatcom,BAGU,8,29,2011,0.1,5
+Upper Bagley,Whatcom,BAGU,8,5,2013,0.1,4.8
+Upper Bagley,Whatcom,BAGU,8,5,2014,0.3,5.2
+Upper Bagley,Whatcom,BAGU,8,11,2015,1.8,7
+Upper Bagley,Whatcom,BAGU,8,10,2016,0.4,6
+Upper Bagley,Whatcom,BAGU,8,14,2017,0.4,5.7
+Upper Bagley,Whatcom,BAGU,8,15,2018,0.5,6.3
+Upper Bagley,Whatcom,BAGU,8,5,2019,0.2,6.9
+Upper Bagley,Whatcom,BAGU,8,18,2020,0.3,6.9
+Upper Bagley,Whatcom,BAGU,7,19,2021,0.1,4.9
+Upper Bagley,Whatcom,BAGU,8,16,2021,0.6,6
+Upper Twin,Whatcom,TWINU,8,26,2008,0.7,34.6
+Upper Twin,Whatcom,TWINU,8,10,2015,0.3,36.7
+Upper Twin,Whatcom,TWINU,8,15,2016,0.3,35.5
+Upper Twin,Whatcom,TWINU,8,16,2017,0.4,35.4
+Upper Twin,Whatcom,TWINU,8,20,2018,0.3,24
+Upper Twin,Whatcom,TWINU,8,26,2019,0.5,35.4
+Vogler,Skagit,VOG,9,8,2009,1.6,9.8
+Vogler,Skagit,VOG,9,13,2010,5.2,3.2
+Vogler,Skagit,VOG,8,31,2011,8.1,2.7
+Vogler,Skagit,VOG,7,31,2012,3.5,3.3
+Vogler,Skagit,VOG,8,7,2013,6.7,3.3
+Vogler,Skagit,VOG,8,4,2015,7.3,3.7
+Vogler,Skagit,VOG,7,20,2016,12.2,4
+Vogler,Skagit,VOG,7,31,2017,6.2,3.2
+Vogler,Skagit,VOG,8,22,2018,5.6,3.4
+Vogler,Skagit,VOG,8,21,2019,5.2,3.1
+Vogler,Skagit,VOG,9,2,2020,5.2,3.5
+Vogler,Skagit,VOG,7,14,2021,2.7,3.3
+Vogler ,Skagit,VOG,8,12,2021,7.6,93.2
+Whistle,Skagit,WHI,9,20,2010,1.9,48.2
+Whistle,Skagit,WHI,7,20,2011,2.2,47.8
+Whistle,Skagit,WHI,7,24,2012,3.8,47.7
+Whistle,Skagit,WHI,7,31,2013,1.4,49.5
+Whistle,Skagit,WHI,9,3,2014,2.3,50.2
+Whistle,Skagit,WHI,7,13,2015,1.5,51.5
+Whistle,Skagit,WHI,7,6,2016,3.7,46.6
+Whistle,Skagit,WHI,7,10,2017,1.8,48
+Whistle,Skagit,WHI,7,23,2018,4.6,47.1
+Whistle,Skagit,WHI,8,19,2019,1.9,50.5
+Whistle,Skagit,WHI,8,31,2020,2.6,48.6
+Wiser,Whatcom,WIS,4,11,2007,76.6,42.4
+Wiser,Whatcom,WIS,8,15,2007,64.6,82.2
+Wiser,Whatcom,WIS,4,22,2008,28,52.4
+Wiser,Whatcom,WIS,8,11,2008,6.4,80.7
+Wiser,Whatcom,WIS,5,4,2009,2.5,56.8
+Wiser,Whatcom,WIS,8,18,2009,3700,78.7
+Wiser,Whatcom,WIS,6,28,2010,210.4,64
+Wiser,Whatcom,WIS,6,29,2011,120.9,68.4
+Wiser,Whatcom,WIS,3,29,2012,46.1,56.9
+Wiser,Whatcom,WIS,6,26,2012,99.5,65.7
+Wiser,Whatcom,WIS,6,18,2013,58.7,67.6
+Wiser,Whatcom,WIS,6,23,2015,402.8,78.3
+Wiser,Whatcom,WIS,6,22,2016,284.3,75.9
+Wiser,Whatcom,WIS,6,21,2017,153.3,61.5
+Wiser,Whatcom,WIS,6,27,2018,42,71.4
+Wiser,Whatcom,WIS,7,10,2019,42.4,83.7
+Wiser,Whatcom,WIS,7,15,2020,63.2,64.3

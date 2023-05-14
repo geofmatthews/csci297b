@@ -1,0 +1,6 @@
+\frametitle{Clustering on Principal Components} \framesubtitle {Plotting the Samples by PC Scores} 
+
+\hspace*{-0.5in}
+\resizebox{5in}{!}{
+	\includegraphics{./figures/chair_fig3.pdf}}
+

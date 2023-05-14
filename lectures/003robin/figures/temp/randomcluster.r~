@@ -1,0 +1,82 @@
+### Don't recreate random data unless you want different results
+### Don't re-run clustering unless you want different results
+##### Randomization Testing - part !
+##### Create a Randomized Data File:
+##### for (i in 2:5) {iris[,i] = sample(iris[,i])}
+##### write.table(iris, file="randomiris.dat", quote=FALSE, row.names=FALSE)
+
+op=par(mfrow=c(1,2))
+riris = read.table("randomiris.dat", T)
+attach(riris)
+boxplot(Sepal.Length ~ Species, boxwex=0.5, col="violet", 
+   main="Randomized Iris Data", ylab="Sepal Length (cm)")
+
+attach(iris)
+boxplot(Sepal.Length ~ Species, boxwex=0.5, col="violet", 
+   main="Nonrandom Iris Data", ylab="Sepal Length (cm)")
+dev.print(postscript, "random_boxplot.ps", horizontal=F, paper="letter")
+
+
+#### HIERARCHICAL CLUSTERING USING RANDOM IRIS DATA
+op=par(mfrow=c(1,1))
+riris = read.table("randomiris.dat", T)
+attach(riris)
+edistance = dist(riris[, c(1:4)], method="euclidean")
+hierarch.riris = hclust(edistance, method="average")
+plot(hierarch.riris, labels=riris[, 5], cex=0.5, ann=F)
+### ADD RECTANGLES:
+rect.hclust(hierarch.riris, 3)
+dev.print(postscript, "cluster3d.ps", horizontal=F, paper="letter")
+
+### ASSOCIATION ANALYSIS:
+ririsgroup = cutree(hierarch.riris, 3) # form 3 groups from cluster results
+table(ririsgroup, riris$Species)       # show cluster groups vs species
+chisq.test(riris$Species, ririsgroup)  # test association significance
+
+
+
+##### KMEANS ON RANDOM IRIS DATA
+kmeans.riris = kmeans(riris[, c(1:4)], 3)
+table(riris$Species, kmeans.riris$cluster)
+chisq.test(riris$Species, kmeans.riris$cluster)
+
+plot(Petal.Length, Petal.Width, col=kmeans.riris$cluster,
+     pch=unclass(riris$Species), cex=1,
+     ylim=c(0, 3))
+legend(x="topleft", c("Setosa", "Versicolor", "Virginica"),
+     pch=c(1,2,3), bty="n")
+legend(x="topright", c("Kmeans 1", "Kmeans 2", "Kmeans 3"),
+     fill=c(1,2,3), bty="n")
+#dev.print(postscript, "cluster3e.ps", horizontal=F, paper="letter")
+
+
+
+##### NONMETRIC CLUSTERING ON RANDOM IRIS DATA
+source("riffle.r") # Read the Riffle source file
+random.riffle.iris = riffle(riris[, c(1:4)], 3, 4)
+table(riris$Species, random.riffle.iris$cluster)
+chisq.test(riris$Species, random.riffle.iris$cluster)
+
+plot(Petal.Length, Petal.Width, col=random.riffle.iris$cluster,
+     pch=unclass(riris$Species), cex=1,
+     ylim=c(0, 3))
+legend(x="topleft", c("Setosa", "Versicolor", "Virginica"),
+     pch=c(1,2,3), bty="n")
+legend(x="topright", c("Riffle 1", "Riffle 2", "Riffle 3"),
+     fill=c(1,2,3), bty="n")
+#dev.print(postscript, "cluster3f.ps", horizontal=F, paper="letter")
+
+
+##### Use this to generate 10 X-squared results:
+##### repeat 10x for new random sets
+### data(iris)
+### attach(iris)
+#### source("riffle.r")
+#### riffle.iris = riffle(iris[, c(1:4)], 3, 4)
+#### chisq.test(iris$Species, riffle.iris$cluster)
+
+### for (i in 2:5) {iris[,i] = sample(iris[,i])}
+### random.riffle.iris = riffle(iris[, c(1:4)], 3, 4)
+### chisq.test(iris$Species, random.riffle.iris$cluster)
+
+

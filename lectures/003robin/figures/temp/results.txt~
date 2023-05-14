@@ -1,0 +1,13 @@
+ ###EDITED ASSOCIATION ANALYSIS OUTPUT:
+1 2 3
+setosa
+12 16 22
+versicolor 14 14 22
+virginica 11 21 18
+X-squared = 2.4239, df = 4, p-value = 0.6583
+
+X-squared = 0.36209, df = 4, p-value = 0.9855
+X-squared = 9.349, df = 4, p-value = 0.05294
+X-squared = 3.1156, df = 4, p-value = 0.5387
+X-squared = 11.453, df = 4, p-value = 0.02192
+X-squared = 1.9406, df = 4, p-value = 0.7467

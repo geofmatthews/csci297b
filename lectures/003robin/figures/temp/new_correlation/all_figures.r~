@@ -1,0 +1,61 @@
+######## CORRELATION PLOT (LAKE DATA; ALK/PH)
+lakes <- read.csv("lakes.csv", T)
+attach(lakes)
+
+################################
+# CORRELATION PLOT
+################################
+cor.pearson <- cor.test(alk, log10(chl))
+cor.spearman <- cor.test(alk, log10(chl), method="spearman")
+cor.kendall  <- cor.test(alk, log10(chl), method="kendall")
+
+op=par(mfrow=c(1,1))
+pdf (file="correlation1.pdf", width=9, height=6)
+plot(alk, log10(chl), 
+     xlab="Alkalinity (mg/L)", 
+     ylab=(expression("Chlorophyll " ("log10 " * mu * "g/L"))),
+     pch=21, bg="skyblue", cex=2)
+
+legend(x="topleft",
+   c("Pearson's r = 0.469", 
+     "Spearman's rho = 0.547",
+     "Kendall's tau = 0.382",
+     "P-values, all <0.0001"),   bty="n")
+dev.off()
+
+################################
+# REGRESSION PLOT
+################################
+
+alkchl.lm = lm(log10(chl) ~alk)
+alk.sort = sort(unique(alk))
+pred.chl = predict(alkchl.lm, 
+    newdata = data.frame(alk = alk.sort), int="pred")
+
+## predicting chl at median alk
+median.alklog10chl = predict(alkchl.lm, list(alk=median(alk)))
+chl.est = 10^(median.alklog10chl)
+
+op=par(mfrow=c(1,1))
+pdf (file="regression1.pdf", width=9, height=6)
+plot(alk, log10(chl), 
+     xlab="Alkalinity (mg/L)", 
+     ylab=(expression("Chlorophyll " ("log10 " * mu * "g/L"))),
+     pch=21, bg="skyblue", cex=2)
+abline(alkchl.lm, col="red", lty=2, lwd=2)
+abline(v=median(alk), col="blue", lty=1, lwd=2)
+
+lines(alk.sort, pred.chl[,2], lty=2) #lower CI
+lines(alk.sort, pred.chl[,3], lty=2) #upper CI
+
+text(x=20, y=2.75, "median", col="blue")
+legend(x="bottomright", c("median alk = 28.7", "chl at median alk = 3.9"),
+       text.col="blue", bty="n")
+legend(x="topright", 
+   c(paste("Log10 Chl =", round(alkchl.lm$coef[2],4), 
+     "* Alk + ", round(alkchl.lm$coeff[1],4)),
+    paste("Adj.R-squared =", round(summary(alkchl.lm)$adj.r.squared, 4)),
+    paste("P-value <0.0001")),
+    bty="n", cex=1) 
+dev.off()
+
